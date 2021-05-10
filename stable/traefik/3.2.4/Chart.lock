@@ -6,4 +6,4 @@ dependencies:
   repository: https://helm.traefik.io/traefik
   version: 9.19.0
 digest: sha256:71b17b90f24d30c5554b53fd38ca745da769a2b9908218b97dd25d0eab62caca
-generated: "2021-05-09T18:46:52.101908891Z"
+generated: "2021-05-10T12:22:41.984190108Z"
