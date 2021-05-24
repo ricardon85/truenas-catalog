@@ -1,0 +1,33 @@
+apiVersion: v2
+appVersion: auto
+dependencies:
+- name: common
+  repository: https://truecharts.org/
+  version: 5.0.0
+deprecated: false
+description: Fully configurable Zwave to MQTT gateway and Control Panel using NodeJS
+  and Vue
+home: https://github.com/truecharts/apps/tree/master/stable/zwavejs2mqtt
+icon: https://raw.githubusercontent.com/zwave-js/zwavejs2mqtt/master/static/logo.png
+keywords:
+- zwavejs2mqtt
+- zwave-js
+- z-wave
+- zwave
+kubeVersion: '>=1.16.0-0'
+maintainers:
+- email: info@truecharts.org
+  name: TrueCharts
+  url: truecharts.org
+- email: 35702532+tprelog@users.noreply.github.com
+  name: tprelog
+  url: truecharts.org
+name: zwavejs2mqtt
+sources:
+- https://github.com/truecharts/apps/tree/master/stable/zwavejs2mqtt
+- https://github.com/k8s-at-home/charts/tree/master/charts/zwavejs2mqtt
+- https://github.com/zwave-js/zwavejs2mqtt
+- https://hub.docker.com/r/zwavejs/zwavejs2mqtt
+type: application
+upstream_version: 1.1.0
+version: 5.0.1
