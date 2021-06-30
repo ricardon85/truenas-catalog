@@ -6,4 +6,4 @@ dependencies:
   repository: https://charts.bitnami.com/bitnami
   version: 10.5.1
 digest: sha256:465e7b131ee731b148c277a3ef6895af062a39143161e9035a7f8b0841b06e85
-generated: "2021-06-30T18:34:36.603701231Z"
+generated: "2021-06-30T18:59:36.870393517Z"
