@@ -1,0 +1,12 @@
+dependencies:
+- name: common
+  repository: https://truecharts.org/
+  version: 6.6.1
+- name: postgresql
+  repository: https://charts.bitnami.com/bitnami
+  version: 10.5.2
+- name: redis
+  repository: https://charts.bitnami.com/bitnami
+  version: 14.6.5
+digest: sha256:02bf281f1a59e232c47b909cb653074d801417ed8f5e528ec7b57d45c4c44691
+generated: "2021-07-06T21:18:54.132614722Z"
