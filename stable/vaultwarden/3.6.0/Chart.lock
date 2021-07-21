@@ -1,9 +1,0 @@
-dependencies:
-- name: common
-  repository: https://truecharts.org/
-  version: 6.6.1
-- name: postgresql
-  repository: https://charts.bitnami.com/bitnami
-  version: 10.6.0
-digest: sha256:fa3e9887daa1ece0a1046559ddcdf6631b7568a3b7961c97f2d6892a91a0b349
-generated: "2021-07-20T15:21:56.536092133Z"
