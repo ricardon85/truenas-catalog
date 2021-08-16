@@ -1,0 +1,47 @@
+image:
+  repository: postgres
+  pullPolicy: IfNotPresent
+  tag: "13.3"
+
+strategy:
+  type: Recreate
+
+
+service:
+  main:
+    enabled: true
+    ports:
+      main:
+        port: 5432
+
+persistence:
+  db:
+    enabled: true
+    mountPath: "/var/lib/postgresql/data"
+    type: pvc
+    accessMode: ReadWriteOnce
+    size: "100Gi"
+  dbbackups:
+    enabled: true
+    mountPath: "/dbbackups"
+    type: pvc
+    accessMode: ReadWriteOnce
+    size: "100Gi"
+
+postgresqlPassword: "testpass"
+postgresqlUsername: "test"
+postgresqlDatabase: "test"
+# existingSecret: ""
+
+
+envValueFrom:
+  POSTGRES_PASSWORD:
+    secretKeyRef:
+      name: '{{ .Values.existingSecret | default ( include "common.names.fullname" . ) }}'
+      key: "postgresql-password"
+
+envTpl:
+  POSTGRES_USER: "{{ .Values.postgresqlUsername }}"
+  POSTGRES_DB: "{{ .Values.postgresqlDatabase }}"
+# POSTGRESQL_POSTGRES_PASSWORD: "{{ .Values.postgrespassword }}"
+# POSTGRESQL_PASSWORD: "{{ .Values.password }}"
