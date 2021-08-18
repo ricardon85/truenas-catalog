@@ -1,1 +1,0 @@
-Community developed LDAP software
