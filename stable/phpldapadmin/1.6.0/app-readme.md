@@ -1,4 +1,0 @@
-Web-based LDAP browser to manage your LDAP server
-
-This App is supplied by TrueCharts, for more information please visit https://truecharts.org
-Web-based LDAP browser to manage your LDAP server
