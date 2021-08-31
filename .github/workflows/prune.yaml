@@ -6,7 +6,7 @@ on:
     branches:
     - main
     paths:
-    - ".github/workflows/housekeeping.yaml"
+    - ".github/workflows/prune.yaml"
   schedule:
   - cron: "0 5 * * *"
 
