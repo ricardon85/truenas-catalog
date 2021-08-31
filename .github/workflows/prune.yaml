@@ -11,9 +11,9 @@ on:
   - cron: "0 5 * * *"
 
 jobs:
-  housekeeping:
+  Prune:
     runs-on: ubuntu-latest
-    name: "Housekeeping"
+    name: "Pruning"
     steps:
       - name: Checkout branch
         uses: actions/checkout@v2
@@ -21,7 +21,7 @@ jobs:
           fetch-depth: 0
           token: ${{ secrets.BOT_TOKEN }}
 
-      - name: Containers - Fetch new application versions
+      - name: Prune App Versions
         run: |
           for train in stable incubator
           do
@@ -47,7 +47,7 @@ jobs:
             done
           done
 
-      - name: Commit and Push Housekeeping
+      - name: Commit and Push Pruned catalog
         run: |
           git config user.name "TrueCharts-Bot"
           git config user.email "bot@truecharts.org"
