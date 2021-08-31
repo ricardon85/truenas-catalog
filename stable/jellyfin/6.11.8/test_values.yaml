@@ -1,0 +1,31 @@
+# Default values for jellyfin.
+
+image:
+  repository: jellyfin/jellyfin
+  pullPolicy: IfNotPresent
+  tag: 10.7.6
+
+strategy:
+  type: Recreate
+
+# 44=video 107=render
+podSecurityContext:
+  runAsNonRoot: true
+  runAsUser: 568
+  runAsGroup: 568
+  fsGroup: 568
+  supplementalGroups: [44, 107]
+
+service:
+  main:
+    ports:
+      main:
+        port: 8096
+
+persistence:
+  config:
+    enabled: true
+    mountPath: "/config"
+    type: pvc
+    accessMode: ReadWriteOnce
+    size: "100Gi"
