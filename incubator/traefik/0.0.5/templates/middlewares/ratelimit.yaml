@@ -1,0 +1,16 @@
+{{- $values := $values }}
+{{- $namespace := {{ if or ( not $values.ingressClass.enabled ) ( and ( $values.ingressClass.enabled ) ( $values.ingressClass.isDefaultClass ) ) }}traefikmiddlewares{{ else }}ix-{{ .Release.Name }}{{ end }} }}
+{{ range $index, $middlewareData := .Values.middlewares.rateLimit }}
+
+---
+# Declaring the user list
+apiVersion: traefik.containo.us/v1alpha1
+kind: Middleware
+metadata:
+  name: {{ $middlewareData.name }}
+  namespace: {{ $namespace }}
+spec:
+  rateLimit:
+    average: {{ $middlewareData.average }}
+    burst: {{ $middlewareData.burst }}
+{{ end }}

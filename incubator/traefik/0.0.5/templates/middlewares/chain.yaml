@@ -1,0 +1,18 @@
+{{- $values := $values }}
+{{- $namespace := {{ if or ( not $values.ingressClass.enabled ) ( and ( $values.ingressClass.enabled ) ( $values.ingressClass.isDefaultClass ) ) }}traefikmiddlewares{{ else }}ix-{{ .Release.Name }}{{ end }} }}
+{{ range $index, $middlewareData := .Values.middlewares.chain }}
+
+---
+# Declaring the user list
+apiVersion: traefik.containo.us/v1alpha1
+kind: Middleware
+metadata:
+  name: {{ $middlewareData.name }}
+  namespace: {{ $namespace }}
+spec:
+  chain:
+    middlewares:
+      {{ range $index, $chainData := . }}
+      - name: {{ printf "%v-%v@%v" $namespace $chainData.name "kubernetescrd" }}
+      {{ end }}
+{{ end }}
