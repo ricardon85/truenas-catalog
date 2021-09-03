@@ -1,0 +1,29 @@
+{{ range $index, $middlewareData := .Values.middlewares.basicAuth }}
+---
+{{- $users := list }}
+{{ range $index, $userdata := $middlewareData.users }}
+    {{ $users = append $users ( htpasswd $userdata.username $userdata.password ) }}
+{{ end }}
+
+apiVersion: v1
+kind: Secret
+metadata:
+  name: {{printf "%v-%v" $middlewareData.name "secret" }}
+  namespace: {{ if or ( not .Values.ingressClass.enabled ) ( and ( .Values.ingressClass.enabled ) ( .Values.ingressClass.isDefaultClass ) ) }}traefikmiddlewares{{ else }}ix-{{ .Release.Name }}{{ end }}
+type: Opaque
+stringData:
+  users: |
+    {{- range $index, $user := $users }}
+    {{ printf "%s" $user }}
+    {{- end }}
+---
+# Declaring the user list
+apiVersion: traefik.containo.us/v1alpha1
+kind: Middleware
+metadata:
+  name: {{ $middlewareData.name }}
+  namespace: {{ if or ( not .Values.ingressClass.enabled ) ( and ( .Values.ingressClass.enabled ) ( .Values.ingressClass.isDefaultClass ) ) }}traefikmiddlewares{{ else }}ix-{{ .Release.Name }}{{ end }}
+spec:
+  basicAuth:
+    secret: {{printf "%v-%v" $middlewareData.name "secret" }}
+{{ end }}
