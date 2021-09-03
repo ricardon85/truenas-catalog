@@ -1,0 +1,10 @@
+{{- if or ( not .Values.ingressClass.enabled ) ( and ( .Values.ingressClass.enabled ) ( .Values.ingressClass.isDefaultClass ) ) }}
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: traefikmiddlewares
+  namespace: traefikmiddlewares
+  annotations:
+    "helm.sh/hook": pre-install
+    "helm.sh/hook-delete-policy": before-hook-creation,hook-failed
+{{- end }}
