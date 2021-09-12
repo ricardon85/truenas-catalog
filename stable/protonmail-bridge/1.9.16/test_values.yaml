@@ -9,9 +9,22 @@ image:
   # -- image repository
   repository: shenxn/protonmail-bridge
   # -- image tag
-  tag: 1.8.7-1
+  tag: 1.8.7-1@sha256:acf31af7c111e6558f3a93bebada2b0bb8af3dcc72929bd6ae3907e65bee3ca4
   # -- image pull policy
   pullPolicy: IfNotPresent
+
+securityContext:
+  privileged: false
+  readOnlyRootFilesystem: false
+  allowPrivilegeEscalation: true
+  runAsNonRoot: false
+
+podSecurityContext:
+  runAsUser: 0
+  runAsGroup: 0
+  fsGroup: 0
+  supplementalGroups: []
+  fsGroupChangePolicy: "OnRootMismatch"
 
 # -- environment variables.
 # @default -- See below
