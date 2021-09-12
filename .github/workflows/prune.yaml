@@ -2,13 +2,6 @@ name: "Housekeeping"
 
 on:
   workflow_dispatch:
-  push:
-    branches:
-    - main
-    paths:
-    - ".github/workflows/prune.yaml"
-  schedule:
-  - cron: "0 5 * * *"
 
 jobs:
   Prune:
