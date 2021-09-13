@@ -17,6 +17,10 @@ groups:
     description: "Configure security context and permissions"
   - name: "Resources and Devices"
     description: "Specify resources/devices to be allocated to workload"
+  - name: "Middlewares"
+    description: "Traefik Middlewares"
+  - name: "Addons"
+    description: "Addon Configuration"
   - name: "Advanced"
     description: "Advanced Configuration"
 questions:
@@ -76,99 +80,70 @@ questions:
                 description: "RollingUpdate: Create new pods and then kill old ones"
               - value: "OnDelete"
                 description: "(Legacy) OnDelete: ignore .spec.template changes"
-        - variable: labelsList
-          label: "Controller Labels"
+        - variable: advanced
+          label: "Show Expert Configuration Options"
           schema:
-            type: list
-            default: []
-            items:
-              - variable: labelItem
-                label: "Label"
+            type: boolean
+            default: false
+            show_subquestions_if: true
+            subquestions:
+              - variable: extraArgs
+                label: "Extra Args"
                 schema:
-                  type: dict
-                  attrs:
-                    - variable: name
-                      label: "Name"
+                  type: list
+                  default: []
+                  items:
+                    - variable: argItem
+                      label: "Arg"
                       schema:
-                        type: string
-                    - variable: value
-                      label: "Value"
+                        type: dict
+                        attrs:
+                          - variable: name
+                            label: "Name"
+                            schema:
+                              type: string
+                          - variable: value
+                            label: "Value"
+                            schema:
+                              type: string
+              - variable: labelsList
+                label: "Controller Labels"
+                schema:
+                  type: list
+                  default: []
+                  items:
+                    - variable: labelItem
+                      label: "Label"
                       schema:
-                        type: string
-        - variable: annotationsList
-          label: " Controller Annotations"
-          schema:
-            type: list
-            default: []
-            items:
-              - variable: annotationItem
-                label: "Label"
+                        type: dict
+                        attrs:
+                          - variable: name
+                            label: "Name"
+                            schema:
+                              type: string
+                          - variable: value
+                            label: "Value"
+                            schema:
+                              type: string
+              - variable: annotationsList
+                label: " Controller Annotations"
                 schema:
-                  type: dict
-                  attrs:
-                    - variable: name
-                      label: "Name"
+                  type: list
+                  default: []
+                  items:
+                    - variable: annotationItem
+                      label: "Label"
                       schema:
-                        type: string
-                    - variable: value
-                      label: "Value"
-                      schema:
-                        type: string
-
-
-  - variable: podLabelsList
-    group: "Container Configuration"
-    label: "Pod Labels"
-    schema:
-      type: list
-      default: []
-      items:
-        - variable: podLabelItem
-          label: "Label"
-          schema:
-            type: dict
-            attrs:
-              - variable: name
-                label: "Name"
-                schema:
-                  type: string
-              - variable: value
-                label: "Value"
-                schema:
-                  type: string
-
-  - variable: podAnnotationsList
-    group: "Container Configuration"
-    label: "Pod Annotations"
-    schema:
-      type: list
-      default: []
-      items:
-        - variable: podAnnotationItem
-          label: "Label"
-          schema:
-            type: dict
-            attrs:
-              - variable: name
-                label: "Name"
-                schema:
-                  type: string
-              - variable: value
-                label: "Value"
-                schema:
-                  type: string
-
-  - variable: termination
-    group: "Container Configuration"
-    label: "Termination settings"
-    schema:
-      type: dict
-      attrs:
-        - variable: gracePeriodSeconds
-          label: "Grace Period Seconds"
-          schema:
-            type: int
-            default: 10
+                        type: dict
+                        attrs:
+                          - variable: name
+                            label: "Name"
+                            schema:
+                              type: string
+                          - variable: value
+                            label: "Value"
+                            schema:
+                              type: string
 
   - variable: env
     group: "Container Configuration"
@@ -184,7 +159,6 @@ questions:
             $ref:
               - "definitions/timezone"
 
-  # Configure Enviroment Variables
   - variable: envList
     label: "Image environment"
     group: "Container Configuration"
@@ -205,6 +179,67 @@ questions:
                 label: "Value"
                 schema:
                   type: string
+
+  - variable: expertpodconf
+    group: "Container Configuration"
+    label: "Show Expert Config"
+    schema:
+      type: boolean
+      default: false
+      show_subquestions_if: true
+      subquestions:
+        - variable: termination
+          group: "Container Configuration"
+          label: "Termination settings"
+          schema:
+            type: dict
+            attrs:
+              - variable: gracePeriodSeconds
+                label: "Grace Period Seconds"
+                schema:
+                  type: int
+                  default: 10
+        - variable: podLabelsList
+          group: "Container Configuration"
+          label: "Pod Labels"
+          schema:
+            type: list
+            default: []
+            items:
+              - variable: podLabelItem
+                label: "Label"
+                schema:
+                  type: dict
+                  attrs:
+                    - variable: name
+                      label: "Name"
+                      schema:
+                        type: string
+                    - variable: value
+                      label: "Value"
+                      schema:
+                        type: string
+
+        - variable: podAnnotationsList
+          group: "Container Configuration"
+          label: "Pod Annotations"
+          schema:
+            type: list
+            default: []
+            items:
+              - variable: podAnnotationItem
+                label: "Label"
+                schema:
+                  type: dict
+                  attrs:
+                    - variable: name
+                      label: "Name"
+                      schema:
+                        type: string
+                    - variable: value
+                      label: "Value"
+                      schema:
+                        type: string
 
   - variable: postgresqlDatabase
     group: "App Configuration"
@@ -340,115 +375,115 @@ questions:
                               default: 36009
 
 
-  - variable: serviceList
-    label: "Additional Services"
-    group: "Networking and Services"
-    schema:
-      type: list
-      default: []
-      items:
-        - variable: serviceListEntry
-          label: "Custom Service"
+        - variable: serviceList
+          label: "Add Manual Custom Services"
+          group: "Networking and Services"
           schema:
-            type: dict
-            attrs:
-              - variable: enabled
-                label: "Enable the service"
+            type: list
+            default: []
+            items:
+              - variable: serviceListEntry
+                label: "Custom Service"
                 schema:
-                  type: boolean
-                  default: true
-                  hidden: true
-              - variable: name
-                label: "Name"
-                schema:
-                  type: string
-                  default: ""
-              - variable: type
-                label: "Service Type"
-                description: "ClusterIP's are only internally available, nodePorts expose the container to the host node System, Loadbalancer exposes the service using the system loadbalancer"
-                schema:
-                  type: string
-                  default: "NodePort"
-                  enum:
-                    - value: "NodePort"
-                      description: "NodePort"
-                    - value: "ClusterIP"
-                      description: "ClusterIP"
-                    - value: "LoadBalancer"
-                      description: "LoadBalancer"
-              - variable: loadBalancerIP
-                label: "LoadBalancer IP"
-                description: "LoadBalancerIP"
-                schema:
-                  show_if: [["type", "=", "LoadBalancer"]]
-                  type: string
-                  default: ""
-              - variable: externalIPs
-                label: "External IP's"
-                description: "External IP's"
-                schema:
-                  show_if: [["type", "=", "LoadBalancer"]]
-                  type: list
-                  default: []
-                  items:
-                    - variable: externalIP
-                      label: "External IP"
+                  type: dict
+                  attrs:
+                    - variable: enabled
+                      label: "Enable the service"
+                      schema:
+                        type: boolean
+                        default: true
+                        hidden: true
+                    - variable: name
+                      label: "Name"
                       schema:
                         type: string
-              - variable: portsList
-                label: "Additional Service Ports"
-                schema:
-                  type: list
-                  default: []
-                  items:
-                    - variable: portsListEntry
-                      label: "Custom ports"
+                        default: ""
+                    - variable: type
+                      label: "Service Type"
+                      description: "ClusterIP's are only internally available, nodePorts expose the container to the host node System, Loadbalancer exposes the service using the system loadbalancer"
                       schema:
-                        type: dict
-                        attrs:
-                          - variable: enabled
-                            label: "Enable the port"
-                            schema:
-                              type: boolean
-                              default: true
-                              hidden: true
-                          - variable: name
-                            label: "Port Name"
+                        type: string
+                        default: "NodePort"
+                        enum:
+                          - value: "NodePort"
+                            description: "NodePort"
+                          - value: "ClusterIP"
+                            description: "ClusterIP"
+                          - value: "LoadBalancer"
+                            description: "LoadBalancer"
+                    - variable: loadBalancerIP
+                      label: "LoadBalancer IP"
+                      description: "LoadBalancerIP"
+                      schema:
+                        show_if: [["type", "=", "LoadBalancer"]]
+                        type: string
+                        default: ""
+                    - variable: externalIPs
+                      label: "External IP's"
+                      description: "External IP's"
+                      schema:
+                        show_if: [["type", "=", "LoadBalancer"]]
+                        type: list
+                        default: []
+                        items:
+                          - variable: externalIP
+                            label: "External IP"
                             schema:
                               type: string
-                              default: ""
-                          - variable: protocol
-                            label: "Port Type"
+                    - variable: portsList
+                      label: "Additional Service Ports"
+                      schema:
+                        type: list
+                        default: []
+                        items:
+                          - variable: portsListEntry
+                            label: "Custom ports"
                             schema:
-                              type: string
-                              default: "TCP"
-                              enum:
-                                - value: HTTP
-                                  description: "HTTP"
-                                - value: "HTTPS"
-                                  description: "HTTPS"
-                                - value: TCP
-                                  description: "TCP"
-                                - value: "UDP"
-                                  description: "UDP"
-                          - variable: targetPort
-                            label: "Target Port"
-                            description: "This port exposes the container port on the service"
-                            schema:
-                              type: int
-                              required: true
-                          - variable: port
-                            label: "Container Port"
-                            schema:
-                              type: int
-                              required: true
-                          - variable: nodePort
-                            label: "Node Port (Optional)"
-                            description: "This port gets exposed to the node. Only considered when service type is NodePort"
-                            schema:
-                              type: int
-                              min: 9000
-                              max: 65535
+                              type: dict
+                              attrs:
+                                - variable: enabled
+                                  label: "Enable the port"
+                                  schema:
+                                    type: boolean
+                                    default: true
+                                    hidden: true
+                                - variable: name
+                                  label: "Port Name"
+                                  schema:
+                                    type: string
+                                    default: ""
+                                - variable: protocol
+                                  label: "Port Type"
+                                  schema:
+                                    type: string
+                                    default: "TCP"
+                                    enum:
+                                      - value: HTTP
+                                        description: "HTTP"
+                                      - value: "HTTPS"
+                                        description: "HTTPS"
+                                      - value: TCP
+                                        description: "TCP"
+                                      - value: "UDP"
+                                        description: "UDP"
+                                - variable: targetPort
+                                  label: "Target Port"
+                                  description: "This port exposes the container port on the service"
+                                  schema:
+                                    type: int
+                                    required: true
+                                - variable: port
+                                  label: "Container Port"
+                                  schema:
+                                    type: int
+                                    required: true
+                                - variable: nodePort
+                                  label: "Node Port (Optional)"
+                                  description: "This port gets exposed to the node. Only considered when service type is NodePort"
+                                  schema:
+                                    type: int
+                                    min: 9000
+                                    max: 65535
 
   - variable: persistence
     label: "Integrated Persistent Storage"
@@ -806,6 +841,52 @@ questions:
                 schema:
                   type: boolean
                   default: true
+                  hidden: true
+              - variable: advanced
+                label: "Show Advanced Options"
+                schema:
+                  type: boolean
+                  default: false
+                  show_subquestions_if: true
+                  subquestions:
+                    - variable: labelsList
+                      label: "Labels"
+                      schema:
+                        type: list
+                        default: []
+                        items:
+                          - variable: labelItem
+                            label: "Label"
+                            schema:
+                              type: dict
+                              attrs:
+                                - variable: name
+                                  label: "Name"
+                                  schema:
+                                    type: string
+                                - variable: value
+                                  label: "Value"
+                                  schema:
+                                    type: string
+                    - variable: annotationsList
+                      label: "Annotations"
+                      schema:
+                        type: list
+                        default: []
+                        items:
+                          - variable: annotationItem
+                            label: "Label"
+                            schema:
+                              type: dict
+                              attrs:
+                                - variable: name
+                                  label: "Name"
+                                  schema:
+                                    type: string
+                                - variable: value
+                                  label: "Value"
+                                  schema:
+                                    type: string
               - variable: type
                 label: "(Advanced) Type of Storage"
                 description: "Sets the persistence type"
@@ -821,7 +902,7 @@ questions:
                       description: "hostPath"
               - variable: storageClass
                 label: "(Advanced) storageClass"
-                description: " Warning: Anything other than SCALE-ZFS will break rollback!"
+                description: "Warning: Anything other than SCALE-ZFS will break rollback!"
                 schema:
                   show_if: [["type", "=", "pvc"]]
                   type: string
@@ -845,7 +926,7 @@ questions:
                   show_if: [["type", "=", "hostPath"]]
                   type: hostpath
               - variable: hostPathType
-                label: "hostPath Type"
+                label: "(Advanced) hostPath Type"
                 schema:
                   show_if: [["type", "=", "hostPath"]]
                   type: string
@@ -872,8 +953,8 @@ questions:
                 description: "Path inside the container the storage is mounted"
                 schema:
                   type: string
-                  required: true
                   default: ""
+                  required: true
               - variable: medium
                 label: "EmptyDir Medium"
                 schema:
@@ -886,8 +967,8 @@ questions:
                     - value: "Memory"
                       description: "Memory"
               - variable: accessMode
-                label: "Access Mode (Advanced)"
-                description: "Allow or disallow multiple PVC's writhing to the same PVC"
+                label: "(Advanced) Access Mode"
+                description: "Allow or disallow multiple PVC's writhing to the same PV"
                 schema:
                   show_if: [["type", "=", "pvc"]]
                   type: string
@@ -908,7 +989,7 @@ questions:
 
 
   - variable: ingressList
-    label: "Additional Ingress"
+    label: "Add Manual Custom Ingresses"
     group: "Ingress"
     schema:
       type: list
@@ -1077,7 +1158,6 @@ questions:
                         default: ""
                         required: true
 
-
   - variable: securityContext
     group: "Security and Permissions"
     label: "Security Context"
@@ -1193,7 +1273,7 @@ questions:
 
   - variable: autoscaling
     group: "Resources and Devices"
-    label: "Horizontal Pod Autoscaler"
+    label: "(Advanced) Horizontal Pod Autoscaler"
     schema:
       type: dict
       attrs:
@@ -1230,3 +1310,125 @@ questions:
                 schema:
                   type: int
                   default: 80
+
+
+  - variable: addons
+    group: "Addons"
+    label: ""
+    schema:
+      type: dict
+      attrs:
+        - variable: vpn
+          label: "VPN"
+          schema:
+            type: dict
+            attrs:
+              - variable: type
+                label: "Type"
+                schema:
+                  type: string
+                  default: "disabled"
+                  enum:
+                    - value: "disabled"
+                      description: "disabled"
+                    - value: "openvpn"
+                      description: "OpenVPN"
+                    - value: "wireguard"
+                      description: "Wireguard"
+              - variable: openvpn
+                label: "OpenVPN Settings"
+                schema:
+                  type: dict
+                  show_if: [["type", "=", "openvpn"]]
+                  attrs:
+                    - variable: auth
+                      label: "auth"
+                      schema:
+                        type: string
+                        default: ""
+                    - variable: authSecret
+                      label: "authSecret"
+                      schema:
+                        type: string
+                        default: ""
+              - variable: wireguard
+                label: "Wireguard Settings"
+                schema:
+                  type: dict
+                  show_if: [["type", "=", "wireguard"]]
+                  attrs:
+                    - variable: KILLSWITCH
+                      label: "Enable killswitch"
+                      schema:
+                        type: boolean
+                        default: false
+                    - variable: KILLSWITCH_EXCLUDEDNETWORKS_IPV4
+                      label: "Killswitch Excluded IPv4 networks"
+                      description: "list of killswitch excluded ipv4 addresses seperated by ;"
+                      schema:
+                        type: string
+                        default: "172.16.0.0/12"
+                    - variable: KILLSWITCH_EXCLUDEDNETWORKS_IPV6
+                      label: "Killswitch Excluded IPv6 networks"
+                      description: "list of killswitch excluded ipv4 addresses seperated by ;"
+                      schema:
+                        type: string
+                        default: ""
+              - variable: configFile
+                label: "VPN Config File Location"
+                schema:
+                  type: dict
+                  show_if: [["type", "!=", "disabled"]]
+                  attrs:
+                    - variable: enabled
+                      label: "enabled"
+                      schema:
+                        type: boolean
+                        default: true
+                        hidden: true
+                    - variable: type
+                      label: "type"
+                      schema:
+                        type: string
+                        default: "hostPath"
+                        hidden: true
+                    - variable: hostPathType
+                      label: "hostPathType"
+                      schema:
+                        type: string
+                        default: "File"
+                        hidden: true
+                    - variable: noMount
+                      label: "noMount"
+                      schema:
+                        type: boolean
+                        default: true
+                        hidden: true
+                    - variable: hostPath
+                      label: "Full path to file"
+                      schema:
+                        type: string
+                        default: "/mnt/tank/config/YourVPN-Config.conf"
+                        required: true
+              - variable: envList
+                label: "VPN environment Variables"
+                schema:
+                  type: list
+                  show_if: [["type", "!=", "disabled"]]
+                  default: []
+                  items:
+                    - variable: envItem
+                      label: "Environment Variable"
+                      schema:
+                        type: dict
+                        attrs:
+                          - variable: name
+                            label: "Name"
+                            schema:
+                              type: string
+                              required: true
+                          - variable: value
+                            label: "Value"
+                            schema:
+                              type: string
+                              required: true
