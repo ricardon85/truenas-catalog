@@ -1,0 +1,25 @@
+# Default values for grocy.
+
+image:
+  repository: ghcr.io/linuxserver/grocy
+  tag: version-v3.1.1@sha256:26537103c844e83316d64c4c42f11ea2225f878930c590d1c9048b49ad902188
+  pullPolicy: IfNotPresent
+
+service:
+  main:
+    ports:
+      main:
+        port: 80
+
+env: {}
+  # TZ:
+  # PUID:
+  # PGID:
+
+persistence:
+  config:
+    enabled: true
+    mountPath: "/config"
+    type: pvc
+    accessMode: ReadWriteOnce
+    size: "100Gi"
