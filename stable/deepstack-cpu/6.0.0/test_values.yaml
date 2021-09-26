@@ -1,0 +1,38 @@
+# Default values for Jackett.
+
+image:
+  repository: deepquestai/deepstack
+  pullPolicy: IfNotPresent
+  tag: cpu-2021.02.1@sha256:db1876e7a5c73111e0cd18e26b2401c20997afdea3f8f9f9116ef951b49ba5be
+
+service:
+  main:
+    enabled: true
+    ports:
+      main:
+        port: 5000
+
+envTpl:
+  # Permissions Settings
+  USER_ID: "{{ .Values.env.PUID }}"
+  GROUP_ID: "{{ .Values.env.PGID }}"
+
+env:
+  PUID: "568"
+  PGID: "568"
+  # TZ: UTC
+  VISION-FACE: "True"
+  VISION-DETECTION: "True"
+  VISION-SCENE: "True"
+  # Path to custom models (needs to be on documentation)
+  MODELSTORE-DETECTION: "/modelstore/detection"
+  # High|Medium|Low
+  MODE: "High"
+
+persistence:
+  config:
+    enabled: true
+    mountPath: "/datastore"
+    type: pvc
+    accessMode: ReadWriteOnce
+    size: "100Gi"
