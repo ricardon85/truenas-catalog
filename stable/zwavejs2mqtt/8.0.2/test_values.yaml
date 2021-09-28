@@ -1,0 +1,92 @@
+# Default values for zwavejs2mqtt.
+# This chart inherits from our common library chart. You can check the default values/options here:
+# https://github.com/k8s-at-home/charts/tree/master/charts/common
+
+image:
+  repository: ghcr.io/truecharts/zwavejs2mqtt
+  pullPolicy: IfNotPresent
+  tag: v5.7.1@sha256:66b338d1494ab0e7359af73748481c65b6f10235c0c694c1c80bec64e26a6b8a
+
+securityContext:
+  readOnlyRootFilesystem: false
+
+# # See more environment variables in the zwavejs2mqtt documentation
+# https://zwave-js.github.io/zwavejs2mqtt/#/guide/env-vars
+env: {}
+  # OZW_NETWORK_KEY:
+
+probes:
+  liveness:
+    enabled: true
+    # custom: true
+    # spec:
+    #   failureThreshold: 5
+    #   httpGet:
+    #     path: /health
+    #     port: http
+    #     httpHeaders:
+    #       - name: Accept
+    #         value: text/plain
+    #   initialDelaySeconds: 30
+    #   periodSeconds: 10
+    #   timeoutSeconds: 10
+  readiness:
+    enabled: true
+    # custom: true
+    # spec:
+    #   failureThreshold: 5
+    #   httpGet:
+    #     path: /health
+    #     port: http
+    #     httpHeaders:
+    #       - name: Accept
+    #         value: text/plain
+    #   initialDelaySeconds: 30
+    #   periodSeconds: 10
+    #   timeoutSeconds: 10
+  startup:
+    enabled: false
+    # custom: true
+    # spec:
+    #   failureThreshold: 5
+    #   httpGet:
+    #     path: /health
+    #     port: http
+    #     httpHeaders:
+    #       - name: Accept
+    #         value: text/plain
+    #   initialDelaySeconds: 30
+    #   periodSeconds: 10
+    #   timeoutSeconds: 10
+
+service:
+  main:
+    ports:
+      main:
+        port: 8091
+  ws:
+    enabled: true
+    type: ClusterIP
+    ports:
+      ws:
+        enabled: true
+        port: 3000
+        protocol: TCP
+
+persistence:
+  config:
+    enabled: true
+    mountPath: "/config"
+    type: pvc
+    accessMode: ReadWriteOnce
+    size: "100Gi"
+
+# affinity:
+#   nodeAffinity:
+#     requiredDuringSchedulingIgnoredDuringExecution:
+#       nodeSelectorTerms:
+#       - matchExpressions:
+#         - key: app
+#           operator: In
+#           values:
+#           - zwave-controller

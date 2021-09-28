@@ -1,0 +1,15 @@
+##
+# This file contains Values.yaml content that gets added to the output of questions.yaml
+# It's ONLY meant for content that the user is NOT expected to change.
+# Example: Everything under "image" is not included in questions.yaml but is included here.
+##
+
+image:
+  repository: ghcr.io/truecharts/komga
+  pullPolicy: IfNotPresent
+  tag: v0.130.0@sha256:98447ce3b1bc244aed902e1944493f9929aefc9dabc0b4020aceae74b83bfd82
+
+##
+# Most other defaults are set in questions.yaml
+# For other options please refer to the wiki, default_values.yaml or the common library chart
+##

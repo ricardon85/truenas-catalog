@@ -1,0 +1,39 @@
+#
+# IMPORTANT NOTE
+#
+# This chart inherits from our common library chart. You can check the default values/options here:
+# https://github.com/k8s-at-home/library-charts/tree/main/charts/stable/common/values.yaml
+#
+
+image:
+  # -- image repository
+  repository: ghcr.io/truecharts/komga
+  # -- image tag
+  tag: v0.130.0@sha256:98447ce3b1bc244aed902e1944493f9929aefc9dabc0b4020aceae74b83bfd82
+  # -- image pull policy
+  pullPolicy: IfNotPresent
+
+# -- environment variables. See more environment variables in the [komga documentation](https://komga.org/installation/configuration.html#optional-configuration).
+# @default -- See below
+env: {}
+
+# -- Configures service settings for the chart.
+# @default -- See values.yaml
+service:
+  main:
+    ports:
+      main:
+        port: 8080
+
+# -- Configure persistence settings for the chart under this key.
+# @default -- See values.yaml
+persistence:
+  config:
+    enabled: true
+    type: pvc
+    accessMode: ReadWriteOnce
+    size: "100Gi"
+    mountPath: /config
+  data:
+    enabled: false
+    mountPath: /data
