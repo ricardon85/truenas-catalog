@@ -165,24 +165,20 @@ questions:
             default: "Etc/UTC"
             $ref:
               - "definitions/timezone"
-        - variable: PUID
-          label: "PUID"
-          description: "Sets the userID inside the container"
-          schema:
-            type: string
-            default: "568"
-        - variable: PGID
-          label: "PGID"
-          description: "Sets the GroupID inside the container"
-          schema:
-            type: string
-            default: "568"
         - variable: UMASK
           label: "UMASK"
           description: "Sets the UMASK env var for LinuxServer.io (compatible) containers"
           schema:
             type: string
             default: "002"
+        - variable: PUID
+          label: "PUID"
+          description: "Sets the userID inside the container"
+          schema:
+            type: string
+            default: "568"
+
+
         - variable: PHOTOPRISM_STORAGE_PATH
           label: "PHOTOPRISM_STORAGE_PATH"
           description: "Photoprism storage path"
@@ -967,6 +963,12 @@ questions:
                   default: false
                   show_subquestions_if: true
                   subquestions:
+                    - variable: enableFixedMiddlewares
+                      description: "These middlewares enforce a number of best practices."
+                      label: "Enable Default Middlewares"
+                      schema:
+                        type: boolean
+                        default: true
                     - variable: ingressClassName
                       label: "IngressClass Name"
                       schema:
@@ -1253,6 +1255,17 @@ questions:
               - value: "Always"
                 description: "Always"
 
+
+  # Specify GPU configuration
+  - variable: scaleGPU
+    label: "GPU Configuration"
+    group: "Resources and Devices"
+    schema:
+      type: dict
+      $ref:
+        - "definitions/gpuConfiguration"
+      attrs: []
+
   - variable: resources
     group: "Resources and Devices"
     label: ""
@@ -1269,13 +1282,13 @@ questions:
                 schema:
                   type: string
                   default: "4000m"
-                  valid_chars: '^([0-9]+)(\.[0-9]?|m?)$'
+                  valid_chars: '^(?!^0(\.0|m|)$)([0-9]+)(\.[0-9]|m?)$'
               - variable: memory
                 label: "Memory RAM"
                 schema:
                   type: string
                   default: "8Gi"
-                  valid_chars: '^([0-9.]+)([EPTGMK]i?|[EPTGMK]?|e[0-9]+)$'
+                  valid_chars: '^(?!^0(e[0-9]|[EPTGMK]i?|)$)([0-9]+)(|[EPTGMK]i?|e[0-9]+)$'
         - variable: requests
           label: "Advanced Request minimum resources required"
           schema:
@@ -1286,16 +1299,57 @@ questions:
                 schema:
                   type: string
                   default: "10m"
-                  valid_chars: '^([0-9]+)(\.[0-9]?|m?)$'
+                  valid_chars: '^(?!^0(\.0|m|)$)([0-9]+)(\.[0-9]|m?)$'
               - variable: memory
                 label: "Memory RAM"
                 schema:
                   type: string
                   default: "50Mi"
-                  valid_chars: '^([0-9.]+)([EPTGMK]i?|[EPTGMK]?|e[0-9]+)$'
+                  valid_chars: '^(?!^0(e[0-9]|[EPTGMK]i?|)$)([0-9]+)(|[EPTGMK]i?|e[0-9]+)$'
+
+  - variable: deviceList
+    label: "Mount USB devices"
+    group: "Resources and Devices"
+    schema:
+      type: list
+      default: []
+      items:
+        - variable: deviceListEntry
+          label: "Device"
+          schema:
+            type: dict
+            attrs:
+              - variable: enabled
+                label: "Enable the storage"
+                schema:
+                  type: boolean
+                  default: true
+              - variable: type
+                label: "(Advanced) Type of Storage"
+                description: "Sets the persistence type"
+                schema:
+                  type: string
+                  default: "hostPath"
+                  hidden: true
+              - variable: readOnly
+                label: "readOnly"
+                schema:
+                  type: boolean
+                  default: false
+              - variable: hostPath
+                label: "Host Device Path"
+                description: "Path to the device on the host system"
+                schema:
+                  type: path
+              - variable: mountPath
+                label: "Container Device Path"
+                description: "Path inside the container the device is mounted"
+                schema:
+                  type: string
+                  default: "/dev/ttyACM0"
 
   - variable: autoscaling
-    group: "Resources and Devices"
+    group: "Advanced"
     label: "(Advanced) Horizontal Pod Autoscaler"
     schema:
       type: dict
