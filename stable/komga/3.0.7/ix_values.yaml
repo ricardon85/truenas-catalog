@@ -5,13 +5,9 @@
 ##
 
 image:
-  # -- image repository
-  repository: ghcr.io/k8s-at-home/prowlarr
-  # -- image tag
-  tag: v0.1.1.966@sha256:67b1189b6bd3f811c4ffe4246e3822f2be5d91884d5075669f608b1e562c6846
-  # -- image pull policy
+  repository: ghcr.io/truecharts/komga
   pullPolicy: IfNotPresent
-
+  tag: v0.131.0@sha256:be0a97e7047c2afd5e65a22f1e230e01630a4fe38044ecfbff615e71d8ede2b2
 
 ##
 # Most other defaults are set in questions.yaml

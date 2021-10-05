@@ -1,13 +1,23 @@
-##
-# This file contains Values.yaml content that gets added to the output of questions.yaml
-# It's ONLY meant for content that the user is NOT expected to change.
-# Example: Everything under "image" is not included in questions.yaml but is included here.
-##
+# Default values for nzbhydra.
 
 image:
   repository: ghcr.io/k8s-at-home/nzbhydra2
   pullPolicy: IfNotPresent
-  tag: v3.17.0@sha256:fed0dd54c480c595c36877b241ea996797a1bac5ef03877e8bede40cd18533b5
+  tag: v3.17.3@sha256:9c1a08356359e75051b03ec614b4df5f6f24558a183de6feacb3a5c2ff232b77
+
+securityContext:
+  readOnlyRootFilesystem: false
+
+service:
+  main:
+    ports:
+      main:
+        port: 5076
+
+env: {}
+  # TZ: UTC
+  # PUID: 1001
+
 
 probes:
   liveness:
@@ -44,8 +54,10 @@ probes:
       periodSeconds: 10
       timeoutSeconds: 10
 
-
-##
-# Most other defaults are set in questions.yaml
-# For other options please refer to the wiki, default_values.yaml or the common library chart
-##
+persistence:
+  config:
+    enabled: true
+    mountPath: "/config"
+    type: pvc
+    accessMode: ReadWriteOnce
+    size: "100Gi"
