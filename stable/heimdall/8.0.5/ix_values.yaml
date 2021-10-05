@@ -1,0 +1,16 @@
+##
+# This file contains Values.yaml content that gets added to the output of questions.yaml
+# It's ONLY meant for content that the user is NOT expected to change.
+# Example: Everything under "image" is not included in questions.yaml but is included here.
+##
+
+image:
+  repository: ghcr.io/linuxserver/heimdall
+  tag: version-2.2.2@sha256:362ba6d3034e7dba0d53ede9b6beb413fa588e91b92161a5ad434f723f9f52f1
+  pullPolicy: IfNotPresent
+
+
+##
+# Most other defaults are set in questions.yaml
+# For other options please refer to the wiki, default_values.yaml or the common library chart
+##
