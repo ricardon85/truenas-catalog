@@ -1,0 +1,79 @@
+# Default values for Home Assistant
+
+image:
+  repository: ghcr.io/truecharts/home-assistant
+  pullPolicy: IfNotPresent
+  tag: v2021.10.3@sha256:ddc4b06d0712263614bd4a2e05cd65fdc2f710ffce4ed0a1ab59ed62361fde5a
+
+env: {}
+    # TZ:
+
+service:
+  main:
+    ports:
+      main:
+        port: 8123
+
+# # Enable devices to be discoverable
+# hostNetwork: true
+
+# # When hostNetwork is true set dnsPolicy to ClusterFirstWithHostNet
+# dnsPolicy: ClusterFirstWithHostNet
+
+# Allow access a Git repository by passing in a private SSH key
+git:
+  # Raw SSH private key
+  deployKey: ""
+  # Base64-encoded SSH private key. When both variables are set, the raw SSH key takes precedence.
+  deployKeyBase64: ""
+
+# Enable a prometheus-operator servicemonitor
+prometheus:
+  serviceMonitor:
+    enabled: false
+    # interval: 1m
+    # additionalLabels: {}
+
+persistence:
+  config:
+    enabled: true
+    mountPath: "/config"
+    type: pvc
+    accessMode: ReadWriteOnce
+    size: "100Gi"
+  varrun:
+    enabled: true
+
+# # Path to your Z-Wave / Zigbee device in the container
+# additionalVolumeMounts:
+#   - name: zwave-usb
+#     mountPath: /dev/serial/by-id/usb-0658_0200-if00
+
+# # Path to your Z-Wave / Zigbee device on the host
+# additionalVolumes:
+#   - name: zwave-usb
+#     hostPath:
+#       path: /dev/serial/by-id/usb-0658_0200-if00
+
+# Enabled postgres
+# ... for more options see https://github.com/bitnami/charts/tree/master/bitnami/postgresql
+postgresql:
+  enabled: false
+  postgresqlUsername: home-assistant
+  postgresqlPassword: home-assistant-pass
+  postgresqlDatabase: home-assistant
+  persistence:
+    enabled: false
+    # storageClass: ""
+
+# Enable influxdb
+# ... for more options see https://github.com/bitnami/charts/tree/master/bitnami/influxdb
+influxdb:
+  enabled: false
+  architecture: standalone
+  database: home_assistant
+  authEnabled: false
+  persistence:
+    enabled: false
+    # storageClass: ""
+    # size: 8Gi

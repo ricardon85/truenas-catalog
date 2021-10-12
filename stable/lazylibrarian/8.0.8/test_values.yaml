@@ -1,0 +1,34 @@
+# Default values for LazyLibrarian.
+
+image:
+  repository: ghcr.io/linuxserver/lazylibrarian
+  pullPolicy: IfNotPresent
+  tag: latest@sha256:447a29e213ed3e19bcadbf3b1334692014f8cf8d3103bc92642c3daf05619682
+
+securityContext:
+  runAsNonRoot: false
+
+podSecurityContext:
+  runAsUser: 0
+  runAsGroup: 0
+
+service:
+  main:
+    ports:
+      main:
+        port: 5299
+
+env: {}
+  # TZ: UTC
+  # PUID: 1001
+
+
+persistence:
+  config:
+    enabled: true
+    mountPath: "/config"
+    type: pvc
+    accessMode: ReadWriteOnce
+    size: "100Gi"
+  varrun:
+    enabled: true
