@@ -1,0 +1,23 @@
+# Default values for Plex.
+
+image:
+  repository: ghcr.io/k8s-at-home/plex
+  pullPolicy: IfNotPresent
+  tag: v1.24.4.5081-e362dc1ee@sha256:76cf477469c9ba3951917188d662234032212f8e02f0a17f27036040cde509fc
+
+service:
+  main:
+    ports:
+      main:
+        port: 32400
+
+persistence:
+  config:
+    enabled: true
+    mountPath: "/config"
+    type: pvc
+    accessMode: ReadWriteOnce
+    size: "100Gi"
+
+env:
+  ALLOWED_NETWORKS: "172.16.0.0/16"
