@@ -173,11 +173,35 @@ questions:
             default: "002"
         - variable: PUID
           label: "PUID"
-          description: "Sets the User ID the Logitech Server Application should use."
+          description: "Sets the userID inside the container"
           schema:
-            type: int
-            default: 568
+            type: string
+            default: "568"
 
+        - variable: UMASK_SET
+          label: "UMASK"
+          description: "Sets the UMASK env var for LinuxServer.io (compatible) containers"
+          schema:
+            type: string
+            default: "002"
+        - variable: GUAC_USER
+          label: "GUAC_USER"
+          description: "Username for the calibre gui"
+          schema:
+            type: string
+            default: ""
+        - variable: GUAC_PASS
+          label: "GUAC_PASS"
+          description: "Password's md5 hash for the calibre gui"
+          schema:
+            type: string
+            default: ""
+        - variable: CLI_ARGS
+          label: "CLI_ARGS"
+          description: "Optionally pass cli start arguments to calibre"
+          schema:
+            type: string
+            default: "002"
   - variable: envList
     label: "Image environment"
     group: "Container Configuration"
@@ -268,7 +292,7 @@ questions:
       attrs:
         - variable: main
           label: "Main Service"
-          description: "Logitech Media Web UI and music streaming"
+          description: "The Primary service on which the healthcheck runs, often the webUI"
           schema:
             type: dict
             attrs:
@@ -283,7 +307,7 @@ questions:
                 description: "ClusterIP's are only internally available, nodePorts expose the container to the host node System, Loadbalancer exposes the service using the system loadbalancer"
                 schema:
                   type: string
-                  default: "LoadBalancer"
+                  default: "NodePort"
                   enum:
                     - value: "NodePort"
                       description: "NodePort"
@@ -316,7 +340,7 @@ questions:
                   type: dict
                   attrs:
                     - variable: main
-                      label: "Web Interface and music streaming port"
+                      label: "Main Service Port Configuration"
                       schema:
                         type: dict
                         attrs:
@@ -330,7 +354,7 @@ questions:
                             label: "Port Type"
                             schema:
                               type: string
-                              default: "TCP"
+                              default: "HTTP"
                               enum:
                                 - value: HTTP
                                   description: "HTTP"
@@ -340,11 +364,19 @@ questions:
                                   description: "TCP"
                                 - value: "UDP"
                                   description: "UDP"
+                          - variable: targetPort
+                            label: "Target Port"
+                            description: "This port exposes the container port on the service"
+                            schema:
+                              type: int
+                              default: 8080
+                              editable: false
+                              hidden: true
                           - variable: port
                             label: "Container Port"
                             schema:
                               type: int
-                              default: 7000
+                              default: 8080
                               editable: true
                               required: true
                           - variable: nodePort
@@ -353,10 +385,11 @@ questions:
                             schema:
                               type: int
                               min: 9000
-                              max: 65535                   
-        - variable: cli
-          label: "CLI Service"
-          description: "Logitech Media Server Telnet Command Line Interface"
+                              max: 65535
+                              default: 36053
+        - variable: webserver
+          label: "webserver Service"
+          description: "The webserver service"
           schema:
             type: dict
             attrs:
@@ -371,7 +404,7 @@ questions:
                 description: "ClusterIP's are only internally available, nodePorts expose the container to the host node System, Loadbalancer exposes the service using the system loadbalancer"
                 schema:
                   type: string
-                  default: "LoadBalancer"
+                  default: "ClusterIP"
                   enum:
                     - value: "NodePort"
                       description: "NodePort"
@@ -403,8 +436,8 @@ questions:
                 schema:
                   type: dict
                   attrs:
-                    - variable: cli
-                      label: "Port used for remote control using the Telnet Command Line interface"
+                    - variable: webserver
+                      label: "webserver Service Port Configuration"
                       schema:
                         type: dict
                         attrs:
@@ -418,7 +451,7 @@ questions:
                             label: "Port Type"
                             schema:
                               type: string
-                              default: "TCP"
+                              default: "HTTP"
                               enum:
                                 - value: HTTP
                                   description: "HTTP"
@@ -428,99 +461,19 @@ questions:
                                   description: "TCP"
                                 - value: "UDP"
                                   description: "UDP"
-                          - variable: port
-                            label: "Container Port"
+                          - variable: targetPort
+                            label: "Target Port"
+                            description: "This port exposes the container port on the service"
                             schema:
                               type: int
-                              default: 9090
-                              editable: true
-                              required: true
-                          - variable: nodePort
-                            label: "Node Port (Optional)"
-                            description: "This port gets exposed to the node. Only considered when service type is NodePort"
-                            schema:
-                              type: int
-                              min: 9000
-                              max: 65535                   
-        - variable: playertcp
-          label: "Logitech Media Server Player TCP Communcation"
-          description: "Logitech Media Server Player Service for TCP communication"
-          schema:
-            type: dict
-            attrs:
-              - variable: enabled
-                label: "Enable the service"
-                schema:
-                  type: boolean
-                  default: true
-                  hidden: true
-              - variable: type
-                label: "Service Type"
-                description: "ClusterIP's are only internally available, nodePorts expose the container to the host node System, Loadbalancer exposes the service using the system loadbalancer"
-                schema:
-                  type: string
-                  default: "LoadBalancer"
-                  enum:
-                    - value: "NodePort"
-                      description: "NodePort"
-                    - value: "ClusterIP"
-                      description: "ClusterIP"
-                    - value: "LoadBalancer"
-                      description: "LoadBalancer"
-              - variable: loadBalancerIP
-                label: "LoadBalancer IP"
-                description: "LoadBalancerIP"
-                schema:
-                  show_if: [["type", "=", "LoadBalancer"]]
-                  type: string
-                  default: ""
-              - variable: externalIPs
-                label: "External IP's"
-                description: "External IP's"
-                schema:
-                  show_if: [["type", "=", "LoadBalancer"]]
-                  type: list
-                  default: []
-                  items:
-                    - variable: externalIP
-                      label: "External IP"
-                      schema:
-                        type: string
-              - variable: ports
-                label: "Service's Port(s) Configuration"
-                schema:
-                  type: dict
-                  attrs:                    
-                    - variable: slimprotoudp
-                      label: "Player to server UDP communication"
-                      schema:
-                        type: dict
-                        attrs:
-                          - variable: enabled
-                            label: "Enable the port"
-                            schema:
-                              type: boolean
-                              default: true
+                              default: 8081
+                              editable: false
                               hidden: true
-                          - variable: protocol
-                            label: "Port Type"
-                            schema:
-                              type: string
-                              default: "TCP"
-                              enum:
-                                - value: HTTP
-                                  description: "HTTP"
-                                - value: "HTTPS"
-                                  description: "HTTPS"
-                                - value: TCP
-                                  description: "TCP"
-                                - value: "UDP"
-                                  description: "UDP"
                           - variable: port
                             label: "Container Port"
                             schema:
                               type: int
-                              default: 3483
+                              default: 8081
                               editable: true
                               required: true
                           - variable: nodePort
@@ -530,95 +483,8 @@ questions:
                               type: int
                               min: 9000
                               max: 65535
-        - variable: playerUdp
-          label: "Logitech Media Server Player Communcation"
-          description: "Logitech Media Server Player Service for UDP communication"
-          schema:
-            type: dict
-            attrs:
-              - variable: enabled
-                label: "Enable the service"
-                schema:
-                  type: boolean
-                  default: true
-                  hidden: true
-              - variable: type
-                label: "Service Type"
-                description: "ClusterIP's are only internally available, nodePorts expose the container to the host node System, Loadbalancer exposes the service using the system loadbalancer"
-                schema:
-                  type: string
-                  default: "LoadBalancer"
-                  enum:
-                    - value: "NodePort"
-                      description: "NodePort"
-                    - value: "ClusterIP"
-                      description: "ClusterIP"
-                    - value: "LoadBalancer"
-                      description: "LoadBalancer"
-              - variable: loadBalancerIP
-                label: "LoadBalancer IP"
-                description: "LoadBalancerIP"
-                schema:
-                  show_if: [["type", "=", "LoadBalancer"]]
-                  type: string
-                  default: ""
-              - variable: externalIPs
-                label: "External IP's"
-                description: "External IP's"
-                schema:
-                  show_if: [["type", "=", "LoadBalancer"]]
-                  type: list
-                  default: []
-                  items:
-                    - variable: externalIP
-                      label: "External IP"
-                      schema:
-                        type: string
-              - variable: ports
-                label: "Service's Port(s) Configuration"
-                schema:
-                  type: dict
-                  attrs:                    
-                    - variable: slimprotoudp
-                      label: "Player to server UDP communication"
-                      schema:
-                        type: dict
-                        attrs:
-                          - variable: enabled
-                            label: "Enable the port"
-                            schema:
-                              type: boolean
-                              default: true
-                              hidden: true
-                          - variable: protocol
-                            label: "Port Type"
-                            schema:
-                              type: string
-                              default: "UDP"
-                              enum:
-                                - value: HTTP
-                                  description: "HTTP"
-                                - value: "HTTPS"
-                                  description: "HTTPS"
-                                - value: TCP
-                                  description: "TCP"
-                                - value: "UDP"
-                                  description: "UDP"
-                          - variable: port
-                            label: "Container Port"
-                            schema:
-                              type: int
-                              default: 3483
-                              editable: true
-                              required: true
-                          - variable: nodePort
-                            label: "Node Port (Optional)"
-                            description: "This port gets exposed to the node. Only considered when service type is NodePort"
-                            schema:
-                              type: int
-                              min: 9000
-                              max: 65535
-        
+                              default: 36054
+
   - variable: serviceexpert
     group: "Networking and Services"
     label: "Show Expert Config"
@@ -800,11 +666,22 @@ questions:
 
   - variable: persistence
     label: "Integrated Persistent Storage"
-    description: "Integrated Persistent Storage"
     group: "Storage and Persistence"
     schema:
       type: dict
       attrs:
+        - variable: varrun
+          label: "varrun override for S6 Readonly Root"
+          schema:
+            type: dict
+            hidden: true
+            attrs:
+              - variable: enabled
+                label: ""
+                schema:
+                  type: boolean
+                  default: true
+                  hidden: true
         - variable: config
           label: "App Config Storage"
           description: "Stores the Application Configuration."
@@ -915,7 +792,6 @@ questions:
                   show_if: [["type", "=", "pvc"]]
                   type: string
                   default: "100Gi"
-
   - variable: persistenceList
     label: "Additional app storage"
     group: "Storage and Persistence"
@@ -1415,6 +1291,7 @@ questions:
                         type: string
                         default: ""
                         required: true
+
   - variable: securityContext
     group: "Security and Permissions"
     label: "Security Context"
@@ -1441,6 +1318,7 @@ questions:
           schema:
             type: boolean
             default: false
+
   - variable: podSecurityContext
     group: "Security and Permissions"
     label: "Pod Security Context"

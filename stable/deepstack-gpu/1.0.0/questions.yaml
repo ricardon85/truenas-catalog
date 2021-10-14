@@ -32,6 +32,7 @@ portals:
     ports:
       - "$kubernetes-resource_configmap_portal_port"
 questions:
+  # Portal
   - variable: portal
     group: "Container Image"
     label: "Configure Portal Button"
@@ -152,6 +153,7 @@ questions:
                             label: "Value"
                             schema:
                               type: string
+        # Configure Enviroment Variables
   - variable: env
     group: "Container Configuration"
     label: "Image Environment"
@@ -173,35 +175,65 @@ questions:
             default: "002"
         - variable: PUID
           label: "PUID"
-          description: "Sets the userID inside the container"
+          description: "Sets the PUID env var for LinuxServer.io (compatible) containers"
           schema:
-            type: string
-            default: "568"
+            type: int
+            default: 568
 
-        - variable: UMASK_SET
-          label: "UMASK"
-          description: "Sets the UMASK env var for LinuxServer.io (compatible) containers"
+
+        - variable: VISION-FACE
+          label: "VISION-FACE"
+          description: "Enables Face Detection"
           schema:
             type: string
-            default: "002"
-        - variable: GUAC_USER
-          label: "GUAC_USER"
-          description: "Username for the calibre gui"
+            default: "False"
+            enum:
+              - value: "False"
+                description: "False"
+              - value: "True"
+                description: "True"
+        - variable: VISION-DETECTION
+          label: "VISION-DETECTION"
+          description: "Enables Object Detection"
           schema:
             type: string
-            default: ""
-        - variable: GUAC_PASS
-          label: "GUAC_PASS"
-          description: "Password's md5 hash for the calibre gui"
+            default: "True"
+            enum:
+              - value: "False"
+                description: "False"
+              - value: "True"
+                description: "True"
+        - variable: VISION-SCENE
+          label: "VISION-SCENE"
+          description: "Enables Scene Detection"
           schema:
             type: string
-            default: ""
-        - variable: CLI_ARGS
-          label: "CLI_ARGS"
-          description: "Optionally pass cli start arguments to calibre"
+            default: "False"
+            enum:
+              - value: "False"
+                description: "False"
+              - value: "True"
+                description: "True"
+        - variable: MODE
+          label: "Mode"
+          description: "Sets the performance mode"
           schema:
             type: string
-            default: "002"
+            default: "Medium"
+            enum:
+              - value: "High"
+                description: "High"
+              - value: "Medium"
+                description: "Medium"
+              - value: "Low"
+                description: "Low"
+        - variable: MODELSTORE-DETECTION
+          label: "Custom Models Path"
+          description: "Change the path of the custom models (Optional)"
+          schema:
+            type: string
+            default: "/modelstore/detection"
+            required: true
   - variable: envList
     label: "Image environment"
     group: "Container Configuration"
@@ -369,14 +401,14 @@ questions:
                             description: "This port exposes the container port on the service"
                             schema:
                               type: int
-                              default: 8080
+                              default: 5000
                               editable: false
                               hidden: true
                           - variable: port
                             label: "Container Port"
                             schema:
                               type: int
-                              default: 8080
+                              default: 5000
                               editable: true
                               required: true
                           - variable: nodePort
@@ -386,104 +418,7 @@ questions:
                               type: int
                               min: 9000
                               max: 65535
-                              default: 36053
-        - variable: webserver
-          label: "webserver Service"
-          description: "The webserver service"
-          schema:
-            type: dict
-            attrs:
-              - variable: enabled
-                label: "Enable the service"
-                schema:
-                  type: boolean
-                  default: true
-                  hidden: true
-              - variable: type
-                label: "Service Type"
-                description: "ClusterIP's are only internally available, nodePorts expose the container to the host node System, Loadbalancer exposes the service using the system loadbalancer"
-                schema:
-                  type: string
-                  default: "ClusterIP"
-                  enum:
-                    - value: "NodePort"
-                      description: "NodePort"
-                    - value: "ClusterIP"
-                      description: "ClusterIP"
-                    - value: "LoadBalancer"
-                      description: "LoadBalancer"
-              - variable: loadBalancerIP
-                label: "LoadBalancer IP"
-                description: "LoadBalancerIP"
-                schema:
-                  show_if: [["type", "=", "LoadBalancer"]]
-                  type: string
-                  default: ""
-              - variable: externalIPs
-                label: "External IP's"
-                description: "External IP's"
-                schema:
-                  show_if: [["type", "=", "LoadBalancer"]]
-                  type: list
-                  default: []
-                  items:
-                    - variable: externalIP
-                      label: "External IP"
-                      schema:
-                        type: string
-              - variable: ports
-                label: "Service's Port(s) Configuration"
-                schema:
-                  type: dict
-                  attrs:
-                    - variable: webserver
-                      label: "webserver Service Port Configuration"
-                      schema:
-                        type: dict
-                        attrs:
-                          - variable: enabled
-                            label: "Enable the port"
-                            schema:
-                              type: boolean
-                              default: true
-                              hidden: true
-                          - variable: protocol
-                            label: "Port Type"
-                            schema:
-                              type: string
-                              default: "HTTP"
-                              enum:
-                                - value: HTTP
-                                  description: "HTTP"
-                                - value: "HTTPS"
-                                  description: "HTTPS"
-                                - value: TCP
-                                  description: "TCP"
-                                - value: "UDP"
-                                  description: "UDP"
-                          - variable: targetPort
-                            label: "Target Port"
-                            description: "This port exposes the container port on the service"
-                            schema:
-                              type: int
-                              default: 8081
-                              editable: false
-                              hidden: true
-                          - variable: port
-                            label: "Container Port"
-                            schema:
-                              type: int
-                              default: 8081
-                              editable: true
-                              required: true
-                          - variable: nodePort
-                            label: "Node Port (Optional)"
-                            description: "This port gets exposed to the node. Only considered when service type is NodePort"
-                            schema:
-                              type: int
-                              min: 9000
-                              max: 65535
-                              default: 36054
+                              default: 36148
 
   - variable: serviceexpert
     group: "Networking and Services"
@@ -670,19 +605,7 @@ questions:
     schema:
       type: dict
       attrs:
-        - variable: varrun
-          label: "varrun override for S6 Readonly Root"
-          schema:
-            type: dict
-            hidden: true
-            attrs:
-              - variable: enabled
-                label: ""
-                schema:
-                  type: boolean
-                  default: true
-                  hidden: true
-        - variable: config
+        - variable: data
           label: "App Config Storage"
           description: "Stores the Application Configuration."
           schema:
@@ -759,7 +682,7 @@ questions:
                 description: "Path inside the container the storage is mounted"
                 schema:
                   type: string
-                  default: "/config"
+                  default: "/datastore"
                   hidden: true
               - variable: medium
                 label: "EmptyDir Medium"
@@ -1291,7 +1214,6 @@ questions:
                         type: string
                         default: ""
                         required: true
-
   - variable: securityContext
     group: "Security and Permissions"
     label: "Security Context"
@@ -1307,7 +1229,7 @@ questions:
           label: "ReadOnly Root Filesystem"
           schema:
             type: boolean
-            default: true
+            default: false
         - variable: allowPrivilegeEscalation
           label: "Allow Privilege Escalation"
           schema:
