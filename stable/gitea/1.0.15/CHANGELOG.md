@@ -1,6 +1,28 @@
 # Changelog<br>
 
 
+<a name="gitea-1.0.15"></a>
+### [gitea-1.0.15](https://github.com/truecharts/apps/compare/gitea-1.0.14...gitea-1.0.15) (2021-10-19)
+
+#### Change
+
+* Project-Eclipse 3, Automatically generate item.yaml ([#1178](https://github.com/truecharts/apps/issues/1178))
+
+#### Chore
+
+* Project-Eclipse 5, move app-readme to automatic generation script ([#1181](https://github.com/truecharts/apps/issues/1181))
+* update helm chart memcached to v5.15.6 ([#1179](https://github.com/truecharts/apps/issues/1179))
+
+#### Feat
+
+* Project-Eclipse 4, Add App grading annotations to Chart.yaml ([#1180](https://github.com/truecharts/apps/issues/1180))
+
+#### Refactor
+
+* Project Eclipse Part 6, move questions.yaml to root App folder ([#1182](https://github.com/truecharts/apps/issues/1182))
+
+
+
 <a name="gitea-1.0.14"></a>
 ### [gitea-1.0.14](https://github.com/truecharts/apps/compare/gitea-1.0.13...gitea-1.0.14) (2021-10-19)
 
@@ -75,25 +97,3 @@
 #### Chore
 
 * update non-major deps helm releases ([#1126](https://github.com/truecharts/apps/issues/1126))
-
-
-
-<a name="gitea-1.0.6"></a>
-### [gitea-1.0.6](https://github.com/truecharts/apps/compare/gitea-1.0.5...gitea-1.0.6) (2021-10-12)
-
-#### Chore
-
-* update non-major ([#1122](https://github.com/truecharts/apps/issues/1122))
-
-
-
-<a name="gitea-1.0.5"></a>
-### [gitea-1.0.5](https://github.com/truecharts/apps/compare/gitea-1.0.4...gitea-1.0.5) (2021-10-12)
-
-#### Chore
-
-* update non-major deps helm releases ([#1123](https://github.com/truecharts/apps/issues/1123))
-
-
-
-<a name="gitea-1.0.4"></a>
