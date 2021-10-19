@@ -1,5 +1,6 @@
+icon: https://truecharts.org/_static/img/collabora-icon.png
 categories:
-  - office
-  - documents
-  - productivity
-icon_url: https://truecharts.org/_static/img/collabora-icon.png
+- office
+- documents
+- productivity
+
