@@ -39,6 +39,19 @@ questions:
             editable: false
             type: boolean
             default: false
+  - variable: global
+    label: "global settings"
+    group: "Controller"
+    schema:
+      type: dict
+      hidden: true
+      attrs:
+        - variable: isSCALE
+          label: "flag this is SCALE"
+          schema:
+            type: boolean
+            default: true
+            hidden: true
   - variable: controller
     group: "Controller"
     label: ""

@@ -1,6 +1,19 @@
 # Changelog<br>
 
 
+<a name="postgresql-4.0.1"></a>
+### [postgresql-4.0.1](https://github.com/truecharts/apps/compare/postgresql-4.0.0...postgresql-4.0.1) (2021-10-20)
+
+#### Chore
+
+* bump common on postgresql
+
+#### Fix
+
+* use correct PVC storageClass when using postgresql as a dependency on SCALE ([#1212](https://github.com/truecharts/apps/issues/1212))
+
+
+
 <a name="postgresql-4.0.0"></a>
 ### [postgresql-4.0.0](https://github.com/truecharts/apps/compare/postgresql-3.0.21...postgresql-4.0.0) (2021-10-20)
 
@@ -84,16 +97,3 @@
 #### Fix
 
 * force users using correct / prefix for mounPath ([#1156](https://github.com/truecharts/apps/issues/1156))
-
-
-
-<a name="postgresql-3.0.16"></a>
-### [postgresql-3.0.16](https://github.com/truecharts/apps/compare/postgresql-3.0.15...postgresql-3.0.16) (2021-10-13)
-
-#### Chore
-
-* bump common
-
-
-
-<a name="postgresql-3.0.15"></a>
