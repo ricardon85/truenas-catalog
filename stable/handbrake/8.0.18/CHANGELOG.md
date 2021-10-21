@@ -1,6 +1,15 @@
 # Changelog<br>
 
 
+<a name="handbrake-8.0.18"></a>
+### [handbrake-8.0.18](https://github.com/truecharts/apps/compare/handbrake-8.0.17...handbrake-8.0.18) (2021-10-21)
+
+#### Fix
+
+* ensure PVC name is synced between questions.yaml and values.yaml.
+
+
+
 <a name="handbrake-8.0.17"></a>
 ### [handbrake-8.0.17](https://github.com/truecharts/apps/compare/handbrake-8.0.16...handbrake-8.0.17) (2021-10-20)
 
@@ -88,12 +97,3 @@
 
 <a name="handbrake-8.0.8"></a>
 ### [handbrake-8.0.8](https://github.com/truecharts/apps/compare/handbrake-8.0.7...handbrake-8.0.8) (2021-10-13)
-
-#### Chore
-
-* update non-major deps helm releases ([#1133](https://github.com/truecharts/apps/issues/1133))
-
-
-
-<a name="handbrake-8.0.7"></a>
-### [handbrake-8.0.7](https://github.com/truecharts/apps/compare/handbrake-8.0.6...handbrake-8.0.7) (2021-10-12)
