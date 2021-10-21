@@ -1,6 +1,15 @@
 # Changelog<br>
 
 
+<a name="handbrake-8.0.19"></a>
+### [handbrake-8.0.19](https://github.com/truecharts/apps/compare/handbrake-8.0.18...handbrake-8.0.19) (2021-10-21)
+
+#### Fix
+
+* null is obviously not a correct password.
+
+
+
 <a name="handbrake-8.0.18"></a>
 ### [handbrake-8.0.18](https://github.com/truecharts/apps/compare/handbrake-8.0.17...handbrake-8.0.18) (2021-10-21)
 
@@ -88,12 +97,3 @@
 #### Chore
 
 * update helm chart common to v8.3.10 ([#1160](https://github.com/truecharts/apps/issues/1160))
-
-#### Fix
-
-* force users using correct / prefix for mounPath ([#1156](https://github.com/truecharts/apps/issues/1156))
-
-
-
-<a name="handbrake-8.0.8"></a>
-### [handbrake-8.0.8](https://github.com/truecharts/apps/compare/handbrake-8.0.7...handbrake-8.0.8) (2021-10-13)
