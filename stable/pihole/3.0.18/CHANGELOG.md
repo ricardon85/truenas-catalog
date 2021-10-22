@@ -1,6 +1,15 @@
 # Changelog<br>
 
 
+<a name="pihole-3.0.18"></a>
+### [pihole-3.0.18](https://github.com/truecharts/apps/compare/pihole-3.0.17...pihole-3.0.18) (2021-10-22)
+
+#### Fix
+
+* fix discrepancies between values.yaml and questions.yaml
+
+
+
 <a name="pihole-3.0.17"></a>
 ### [pihole-3.0.17](https://github.com/truecharts/apps/compare/pihole-3.0.14...pihole-3.0.17) (2021-10-20)
 
@@ -87,13 +96,4 @@
 * update helm chart common to v8.3.10 ([#1160](https://github.com/truecharts/apps/issues/1160))
 
 #### Fix
-
-* force users using correct / prefix for mounPath ([#1156](https://github.com/truecharts/apps/issues/1156))
-
-
-
-<a name="pihole-3.0.8"></a>
-### [pihole-3.0.8](https://github.com/truecharts/apps/compare/pihole-3.0.7...pihole-3.0.8) (2021-10-13)
-
-#### Chore
 

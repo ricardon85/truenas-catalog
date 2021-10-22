@@ -1,6 +1,15 @@
 # Changelog<br>
 
 
+<a name="jdownloader2-3.0.17"></a>
+### [jdownloader2-3.0.17](https://github.com/truecharts/apps/compare/jdownloader2-3.0.16...jdownloader2-3.0.17) (2021-10-22)
+
+#### Fix
+
+* fix discrepancies between values.yaml and questions.yaml
+
+
+
 <a name="jdownloader2-3.0.16"></a>
 ### [jdownloader2-3.0.16](https://github.com/truecharts/apps/compare/jdownloader2-3.0.15...jdownloader2-3.0.16) (2021-10-20)
 
@@ -88,12 +97,3 @@
 
 <a name="jdownloader2-3.0.7"></a>
 ### [jdownloader2-3.0.7](https://github.com/truecharts/apps/compare/jdownloader2-3.0.6...jdownloader2-3.0.7) (2021-10-13)
-
-#### Chore
-
-* update non-major deps helm releases ([#1133](https://github.com/truecharts/apps/issues/1133))
-
-
-
-<a name="jdownloader2-3.0.6"></a>
-### [jdownloader2-3.0.6](https://github.com/truecharts/apps/compare/jdownloader2-3.0.5...jdownloader2-3.0.6) (2021-10-12)
