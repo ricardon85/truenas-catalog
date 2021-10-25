@@ -1,0 +1,53 @@
+# Default values for qbittorrent.
+
+image:
+  repository: ghcr.io/k8s-at-home/qbittorrent
+  pullPolicy: IfNotPresent
+  tag: v4.3.8@sha256:d224ead6e97bbd655a18b6d23a76c8bed23098c9c9d745bcd6e84feea31fd494
+
+securityContext:
+  readOnlyRootFilesystem: false
+
+env: {}
+    # TZ: UTC
+  # PUID: 1001
+
+  # UMASK: 022
+
+service:
+  main:
+    ports:
+      main:
+        port: 8080
+  torrent:
+    enabled: true
+    type: ClusterIP
+    ports:
+      tcp:
+        enabled: true
+        port: 6881
+        protocol: TCP
+      udp:
+        enabled: true
+        port: 6881
+        protocol: UDP
+
+persistence:
+  config:
+    enabled: true
+    mountPath: "/config"
+    type: pvc
+    accessMode: ReadWriteOnce
+    size: "100Gi"
+
+additionalVolumes:
+  - name: qbittorrent-scripts
+    emptyDir: {}
+    ## When you want to enable automatic port configuration at startup, adjust this to:
+    # configMap:
+    #   name: <RELEASENAME>-scripts
+    #   defaultMode: 511
+
+additionalVolumeMounts:
+  - mountPath: /config/custom-cont-init.d
+    name: qbittorrent-scripts

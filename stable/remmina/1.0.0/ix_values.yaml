@@ -1,0 +1,29 @@
+image:
+  repository: ghcr.io/linuxserver/remmina
+  pullPolicy: IfNotPresent
+  tag: version-1.2.0-rcgit.29dfsg-1ubuntu1@sha256:c1c81d50ae4c2337895c3ca3bd8c60dde647833575bd4f320be5132721b2046f
+
+
+env:
+  PUID: 568
+
+securityContext:
+  readOnlyRootFilesystem: false
+  runAsNonRoot: false
+
+podSecurityContext:
+  runAsUser: 0
+  runAsGroup: 0
+
+service:
+  main:
+    ports:
+      main:
+        port: 3000
+
+persistence:
+  config:
+    enabled: true
+    mountPath: /config
+  varrun:
+    enabled: true
