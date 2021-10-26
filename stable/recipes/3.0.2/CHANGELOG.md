@@ -1,6 +1,15 @@
 # Changelog<br>
 
 
+<a name="recipes-3.0.2"></a>
+### [recipes-3.0.2](https://github.com/truecharts/apps/compare/recipes-3.0.1...recipes-3.0.2) (2021-10-26)
+
+#### Chore
+
+* update container image vabene1111/recipes to v0.17.3 ([#1244](https://github.com/truecharts/apps/issues/1244))
+
+
+
 <a name="recipes-3.0.1"></a>
 ### [recipes-3.0.1](https://github.com/truecharts/apps/compare/recipes-3.0.0...recipes-3.0.1) (2021-10-26)
 
@@ -88,12 +97,3 @@
 
 #### Chore
 
-* Project-Eclipse part 2, adapting and cleaning changelog ([#1173](https://github.com/truecharts/apps/issues/1173))
-* update helm chart postgresql to v3.0.20 ([#1177](https://github.com/truecharts/apps/issues/1177))
-
-
-
-<a name="recipes-0.0.1"></a>
-### recipes-0.0.1 (2021-10-19)
-
-#### Feat
