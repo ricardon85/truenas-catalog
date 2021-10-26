@@ -5,8 +5,8 @@ dependencies:
 - name: postgresql
   repository: https://truecharts.org/
   version: 5.1.2
-- name: memcached
+- name: redis
   repository: https://charts.bitnami.com/bitnami
-  version: 5.15.7
-digest: sha256:48a8b9537b3b508f9fdecdee7d96ae9f388ed86dd334edc10befe6d69c73890b
-generated: "2021-10-26T19:33:22.914693651Z"
+  version: 15.5.2
+digest: sha256:20e111e4302a1ccc5e26abbb82d7eea016aebcbd55873a8a7f3121c00b984634
+generated: "2021-10-26T20:32:54.530359181Z"

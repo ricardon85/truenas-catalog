@@ -1,15 +1,14 @@
 # Introduction
 
-Self hosted GIT repositories
+Authelia is a Single Sign-On Multi-Factor portal for web apps
 
 TrueCharts are designed to be installed as TrueNAS SCALE app only. We can not guarantee this charts works as a stand-alone helm installation.
 **This chart is not maintained by the upstream project and any issues with the chart should be raised [here](https://github.com/truecharts/apps/issues/new/choose)**
 
 ## Source Code
 
-* <https://gitea.com/gitea/helm-chart>
-* <https://github.com/go-gitea/gitea>
-* <https://hub.docker.com/r/gitea/gitea/>
+* <https://github.com/authelia/chartrepo>
+* <https://github.com/authelia/authelia>
 
 ## Requirements
 
@@ -19,7 +18,7 @@ Kubernetes: `>=1.16.0-0`
 
 | Repository | Name | Version |
 |------------|------|---------|
-| https://charts.bitnami.com/bitnami | memcached | 5.15.7 |
+| https://charts.bitnami.com/bitnami | redis | 15.5.2 |
 | https://truecharts.org/ | postgresql | 5.1.2 |
 | https://truecharts.org | common | 8.3.16 |
 

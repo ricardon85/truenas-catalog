@@ -1,6 +1,15 @@
 # Changelog<br>
 
 
+<a name="nextcloud-9.0.3"></a>
+### [nextcloud-9.0.3](https://github.com/truecharts/apps/compare/nextcloud-9.0.2...nextcloud-9.0.3) (2021-10-26)
+
+#### Chore
+
+* update non-major deps helm releases ([#1247](https://github.com/truecharts/apps/issues/1247))
+
+
+
 <a name="nextcloud-9.0.2"></a>
 ### [nextcloud-9.0.2](https://github.com/truecharts/apps/compare/nextcloud-9.0.1...nextcloud-9.0.2) (2021-10-26)
 
@@ -86,14 +95,5 @@
 #### Fix
 
 * use correct PVC storageClass when using postgresql as a dependency on SCALE ([#1212](https://github.com/truecharts/apps/issues/1212))
-
-
-
-<a name="nextcloud-6.0.28"></a>
-### [nextcloud-6.0.28](https://github.com/truecharts/apps/compare/nextcloud-6.0.27...nextcloud-6.0.28) (2021-10-20)
-
-#### Chore
-
-* bump versions to rerelease and fix icons
 
 

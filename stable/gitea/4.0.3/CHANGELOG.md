@@ -1,6 +1,15 @@
 # Changelog<br>
 
 
+<a name="gitea-4.0.3"></a>
+### [gitea-4.0.3](https://github.com/truecharts/apps/compare/gitea-4.0.2...gitea-4.0.3) (2021-10-26)
+
+#### Chore
+
+* update non-major deps helm releases ([#1247](https://github.com/truecharts/apps/issues/1247))
+
+
+
 <a name="gitea-4.0.2"></a>
 ### [gitea-4.0.2](https://github.com/truecharts/apps/compare/gitea-4.0.1...gitea-4.0.2) (2021-10-26)
 
@@ -87,13 +96,4 @@
 * update helm chart common to v8.3.13 ([#1184](https://github.com/truecharts/apps/issues/1184))
 
 
-
-<a name="gitea-1.0.15"></a>
-### [gitea-1.0.15](https://github.com/truecharts/apps/compare/gitea-1.0.14...gitea-1.0.15) (2021-10-19)
-
-#### Change
-
-* Project-Eclipse 3, Automatically generate item.yaml ([#1178](https://github.com/truecharts/apps/issues/1178))
-
-#### Chore
 

@@ -1,5 +1,5 @@
 apiVersion: v2
-appVersion: "22.2.0"
+appVersion: "4.32.2"
 dependencies:
 - name: common
   repository: https://truecharts.org
@@ -11,31 +11,36 @@ dependencies:
 - condition: redis.enabled
   name: redis
   repository: https://charts.bitnami.com/bitnami
-  version: 15.5.1
+  version: 15.5.2
 deprecated: false
-description: A private cloud server that puts the control and security of your own
-  data back into your hands.
-home: https://nextcloud.com/
-icon: https://upload.wikimedia.org/wikipedia/commons/thumb/6/60/Nextcloud_Logo.svg/1280px-Nextcloud_Logo.svg.png
+description: Authelia is a Single Sign-On Multi-Factor portal for web apps
+home: https://github.com/truecharts/apps/tree/master/charts/stable/authelia
+icon: https://avatars2.githubusercontent.com/u/59122411?s=200&v=4
 keywords:
-- nextcloud
-- storage
-- http
-- web
-- php
+- authelia
+- authentication
+- login
+- SSO
+- Authentication
+- Security
+- Two-Factor
+- U2F
+- YubiKey
+- Push Notifications
+- LDAP
 kubeVersion: '>=1.16.0-0'
 maintainers:
 - email: info@truecharts.org
   name: TrueCharts
   url: truecharts.org
-name: nextcloud
+name: authelia
 sources:
-- https://github.com/nextcloud/docker
-- https://github.com/nextcloud/helm
+- https://github.com/authelia/chartrepo
+- https://github.com/authelia/authelia
 type: application
-version: 9.0.2
+version: 7.0.3
 annotations:
   truecharts.org/catagories: |
-    - cloud
+    - security
   truecharts.org/SCALE-support: "true"
   truecharts.org/grade: U
