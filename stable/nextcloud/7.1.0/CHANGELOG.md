@@ -1,6 +1,34 @@
 # Changelog<br>
 
 
+<a name="nextcloud-7.1.0"></a>
+### [nextcloud-7.1.0](https://github.com/truecharts/apps/compare/nextcloud-8.0.1...nextcloud-7.1.0) (2021-10-26)
+
+#### Fix
+
+* fix patch for important postgresql consumping apps
+
+
+
+<a name="nextcloud-8.0.1"></a>
+### [nextcloud-8.0.1](https://github.com/truecharts/apps/compare/nextcloud-8.0.0...nextcloud-8.0.1) (2021-10-26)
+
+#### Chore
+
+* update non-major deps helm releases
+
+
+
+<a name="nextcloud-8.0.0"></a>
+### [nextcloud-8.0.0](https://github.com/truecharts/apps/compare/nextcloud-7.0.3...nextcloud-8.0.0) (2021-10-25)
+
+#### Chore
+
+* Adapt for TrueNAS SCALE RC1
+* make admin password private ([#1219](https://github.com/truecharts/apps/issues/1219))
+
+
+
 <a name="nextcloud-7.0.3"></a>
 ### [nextcloud-7.0.3](https://github.com/truecharts/apps/compare/nextcloud-7.0.0...nextcloud-7.0.3) (2021-10-20)
 
@@ -67,33 +95,5 @@
 
 * Project-Eclipse part 2, adapting and cleaning changelog ([#1173](https://github.com/truecharts/apps/issues/1173))
 * update helm chart postgresql to v3.0.20 ([#1177](https://github.com/truecharts/apps/issues/1177))
-
-
-
-<a name="nextcloud-6.0.25"></a>
-### [nextcloud-6.0.25](https://github.com/truecharts/apps/compare/nextcloud-6.0.24...nextcloud-6.0.25) (2021-10-19)
-
-#### Fix
-
-* fix previous SCALE bugfix not correctly being applied
-
-
-
-<a name="nextcloud-6.0.24"></a>
-### [nextcloud-6.0.24](https://github.com/truecharts/apps/compare/nextcloud-6.0.23...nextcloud-6.0.24) (2021-10-19)
-
-#### Fix
-
-* Solve issues regarding ix_values.yaml not containing the image and tag definitions. ([#1176](https://github.com/truecharts/apps/issues/1176))
-
-
-
-<a name="nextcloud-6.0.23"></a>
-### [nextcloud-6.0.23](https://github.com/truecharts/apps/compare/nextcloud-6.0.22...nextcloud-6.0.23) (2021-10-18)
-
-#### Refactor
-
-* Project Eclipse - part 1 - remove ix_values.yaml ([#1168](https://github.com/truecharts/apps/issues/1168))
-
 
 

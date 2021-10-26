@@ -1,6 +1,33 @@
 # Changelog<br>
 
 
+<a name="authelia-5.1.0"></a>
+### [authelia-5.1.0](https://github.com/truecharts/apps/compare/authelia-6.0.1...authelia-5.1.0) (2021-10-26)
+
+#### Fix
+
+* fix patch for important postgresql consumping apps
+
+
+
+<a name="authelia-6.0.1"></a>
+### [authelia-6.0.1](https://github.com/truecharts/apps/compare/authelia-6.0.0...authelia-6.0.1) (2021-10-26)
+
+#### Chore
+
+* update non-major deps helm releases
+
+
+
+<a name="authelia-6.0.0"></a>
+### [authelia-6.0.0](https://github.com/truecharts/apps/compare/authelia-5.0.3...authelia-6.0.0) (2021-10-25)
+
+#### Chore
+
+* Adapt for TrueNAS SCALE RC1
+
+
+
 <a name="authelia-5.0.3"></a>
 ### [authelia-5.0.3](https://github.com/truecharts/apps/compare/authelia-5.0.2...authelia-5.0.3) (2021-10-20)
 
@@ -70,30 +97,3 @@
 #### Fix
 
 * fix previous SCALE bugfix not correctly being applied
-
-
-
-<a name="authelia-4.0.21"></a>
-### [authelia-4.0.21](https://github.com/truecharts/apps/compare/authelia-4.0.20...authelia-4.0.21) (2021-10-19)
-
-#### Fix
-
-* Solve issues regarding ix_values.yaml not containing the image and tag definitions. ([#1176](https://github.com/truecharts/apps/issues/1176))
-
-
-
-<a name="authelia-4.0.20"></a>
-### [authelia-4.0.20](https://github.com/truecharts/apps/compare/authelia-4.0.19...authelia-4.0.20) (2021-10-18)
-
-#### Refactor
-
-* Project Eclipse - part 1 - remove ix_values.yaml ([#1168](https://github.com/truecharts/apps/issues/1168))
-
-
-
-<a name="authelia-4.0.19"></a>
-### [authelia-4.0.19](https://github.com/truecharts/apps/compare/authelia-4.0.18...authelia-4.0.19) (2021-10-17)
-
-#### Chore
-
-* update helm chart common to v8.3.10 ([#1160](https://github.com/truecharts/apps/issues/1160))
