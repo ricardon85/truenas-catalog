@@ -1,6 +1,20 @@
 # Changelog<br>
 
 
+<a name="postgresql-5.1.0"></a>
+### [postgresql-5.1.0](https://github.com/truecharts/apps/compare/postgresql-4.1.0...postgresql-5.1.0) (2021-10-26)
+
+
+
+<a name="postgresql-4.1.0"></a>
+### [postgresql-4.1.0](https://github.com/truecharts/apps/compare/postgresql-5.0.0...postgresql-4.1.0) (2021-10-26)
+
+#### Fix
+
+* fix migration scripting for new major
+
+
+
 <a name="postgresql-5.0.0"></a>
 ### [postgresql-5.0.0](https://github.com/truecharts/apps/compare/postgresql-4.0.3...postgresql-5.0.0) (2021-10-25)
 
@@ -83,17 +97,3 @@
 
 
 
-<a name="postgresql-3.0.19"></a>
-### [postgresql-3.0.19](https://github.com/truecharts/apps/compare/postgresql-3.0.18...postgresql-3.0.19) (2021-10-19)
-
-#### Chore
-
-* Add description on persistence ([#1172](https://github.com/truecharts/apps/issues/1172))
-
-#### Fix
-
-* Solve issues regarding ix_values.yaml not containing the image and tag definitions. ([#1176](https://github.com/truecharts/apps/issues/1176))
-
-#### Refactor
-
-* Project Eclipse - part 1 - remove ix_values.yaml ([#1168](https://github.com/truecharts/apps/issues/1168))
