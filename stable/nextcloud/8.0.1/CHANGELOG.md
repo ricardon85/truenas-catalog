@@ -1,6 +1,15 @@
 # Changelog<br>
 
 
+<a name="nextcloud-8.0.1"></a>
+### [nextcloud-8.0.1](https://github.com/truecharts/apps/compare/nextcloud-8.0.0...nextcloud-8.0.1) (2021-10-26)
+
+#### Chore
+
+* update non-major deps helm releases
+
+
+
 <a name="nextcloud-8.0.0"></a>
 ### [nextcloud-8.0.0](https://github.com/truecharts/apps/compare/nextcloud-7.0.3...nextcloud-8.0.0) (2021-10-25)
 
@@ -86,14 +95,5 @@
 #### Fix
 
 * fix previous SCALE bugfix not correctly being applied
-
-
-
-<a name="nextcloud-6.0.24"></a>
-### [nextcloud-6.0.24](https://github.com/truecharts/apps/compare/nextcloud-6.0.23...nextcloud-6.0.24) (2021-10-19)
-
-#### Fix
-
-* Solve issues regarding ix_values.yaml not containing the image and tag definitions. ([#1176](https://github.com/truecharts/apps/issues/1176))
 
 

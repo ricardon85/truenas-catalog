@@ -1,5 +1,5 @@
 apiVersion: v2
-appVersion: "22.2.0"
+appVersion: "1.15.4"
 dependencies:
 - name: common
   repository: https://truecharts.org
@@ -8,35 +8,36 @@ dependencies:
   name: postgresql
   repository: https://truecharts.org/
   version: 4.0.1
-- condition: redis.enabled
-  name: redis
+- condition: memcached.enabled
+  name: memcached
   repository: https://charts.bitnami.com/bitnami
-  version: 15.4.2
+  version: 5.15.7
 deprecated: false
-description: A private cloud server that puts the control and security of your own
-  data back into your hands.
-home: https://nextcloud.com/
-icon: https://upload.wikimedia.org/wikipedia/commons/thumb/6/60/Nextcloud_Logo.svg/1280px-Nextcloud_Logo.svg.png
+description: Self hosted GIT repositories
+home: https://github.com/truecharts/apps/tree/master/charts/stable/gitea
+icon: https://docs.gitea.io/images/gitea.png
 keywords:
-- nextcloud
-- storage
-- http
-- web
-- php
+- git
+- issue tracker
+- code review
+- wiki
+- gitea
+- gogs
 kubeVersion: '>=1.16.0-0'
 maintainers:
 - email: info@truecharts.org
   name: TrueCharts
   url: truecharts.org
-name: nextcloud
+name: gitea
 sources:
-- https://github.com/nextcloud/docker
-- https://github.com/nextcloud/helm
+- https://gitea.com/gitea/helm-chart
+- https://github.com/go-gitea/gitea
+- https://hub.docker.com/r/gitea/gitea/
 type: application
-version: 8.0.0
+version: 3.0.1
 annotations:
   truecharts.org/catagories: |
-    - cloud
+    - GIT
 
   truecharts.org/SCALE-support: "true"
   truecharts.org/grade: U
