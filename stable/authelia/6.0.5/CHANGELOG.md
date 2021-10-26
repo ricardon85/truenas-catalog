@@ -1,6 +1,20 @@
 # Changelog<br>
 
 
+<a name="authelia-6.0.5"></a>
+### [authelia-6.0.5](https://github.com/truecharts/apps/compare/authelia-5.1.0...authelia-6.0.5) (2021-10-26)
+
+
+
+<a name="authelia-5.1.0"></a>
+### [authelia-5.1.0](https://github.com/truecharts/apps/compare/authelia-6.0.1...authelia-5.1.0) (2021-10-26)
+
+#### Fix
+
+* fix patch for important postgresql consumping apps
+
+
+
 <a name="authelia-6.0.1"></a>
 ### [authelia-6.0.1](https://github.com/truecharts/apps/compare/authelia-6.0.0...authelia-6.0.1) (2021-10-26)
 
@@ -83,17 +97,3 @@
 
 
 <a name="authelia-4.0.22"></a>
-### [authelia-4.0.22](https://github.com/truecharts/apps/compare/authelia-4.0.21...authelia-4.0.22) (2021-10-19)
-
-#### Fix
-
-* fix previous SCALE bugfix not correctly being applied
-
-
-
-<a name="authelia-4.0.21"></a>
-### [authelia-4.0.21](https://github.com/truecharts/apps/compare/authelia-4.0.20...authelia-4.0.21) (2021-10-19)
-
-#### Fix
-
-* Solve issues regarding ix_values.yaml not containing the image and tag definitions. ([#1176](https://github.com/truecharts/apps/issues/1176))
