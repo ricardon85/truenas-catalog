@@ -1,6 +1,15 @@
 # Changelog<br>
 
 
+<a name="postgresql-5.1.4"></a>
+### [postgresql-5.1.4](https://github.com/truecharts/apps/compare/postgresql-5.1.3...postgresql-5.1.4) (2021-10-26)
+
+#### Fix
+
+* correct group permissions on SCALE deployments of postgresql
+
+
+
 <a name="postgresql-5.1.3"></a>
 ### [postgresql-5.1.3](https://github.com/truecharts/apps/compare/postgresql-5.1.2...postgresql-5.1.3) (2021-10-26)
 
@@ -88,12 +97,3 @@
 * update non-major ([#1185](https://github.com/truecharts/apps/issues/1185))
 
 #### Security
-
-* Improve Snyk hardening advisory ([#1208](https://github.com/truecharts/apps/issues/1208))
-
-
-
-<a name="postgresql-3.0.21"></a>
-### [postgresql-3.0.21](https://github.com/truecharts/apps/compare/postgresql-3.0.20...postgresql-3.0.21) (2021-10-19)
-
-#### Change
