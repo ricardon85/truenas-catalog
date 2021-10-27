@@ -1,6 +1,15 @@
 # Changelog<br>
 
 
+<a name="esphome-9.0.3"></a>
+### [esphome-9.0.3](https://github.com/truecharts/apps/compare/esphome-9.0.2...esphome-9.0.3) (2021-10-27)
+
+#### Chore
+
+* update container image ghcr.io/truecharts/esphome to v2021.10.3 ([#1251](https://github.com/truecharts/apps/issues/1251))
+
+
+
 <a name="esphome-9.0.2"></a>
 ### [esphome-9.0.2](https://github.com/truecharts/apps/compare/esphome-9.0.1...esphome-9.0.2) (2021-10-26)
 
@@ -87,13 +96,4 @@
 * Solve issues regarding ix_values.yaml not containing the image and tag definitions. ([#1176](https://github.com/truecharts/apps/issues/1176))
 
 
-
-<a name="esphome-8.0.11"></a>
-### [esphome-8.0.11](https://github.com/truecharts/apps/compare/esphome-8.0.10...esphome-8.0.11) (2021-10-18)
-
-#### Chore
-
-* Add description on persistence ([#1172](https://github.com/truecharts/apps/issues/1172))
-
-#### Refactor
 
