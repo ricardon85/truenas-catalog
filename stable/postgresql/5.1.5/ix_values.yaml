@@ -1,0 +1,45 @@
+image:
+  repository: bitnami/postgresql
+  pullPolicy: IfNotPresent
+  tag: 14.0.0@sha256:0ba854e1cf12f0d58c643db3a52b168b53111d8d4ca136b98c3e18ae191b78bf
+
+securityContext:
+  readOnlyRootFilesystem: false
+
+service:
+  main:
+    enabled: true
+    ports:
+      main:
+        port: 5432
+
+## TODO: Fix the backup-on-upgrade system
+enableUpgradeBackup: false
+
+podSecurityContext:
+  runAsGroup: 0
+
+persistence:
+  db:
+    enabled: true
+    mountPath: "/bitnami/postgresql"
+    type: pvc
+    accessMode: ReadWriteOnce
+    size: "999Gi"
+
+postgresqlPassword: "testpass"
+postgresqlUsername: "test"
+postgresqlDatabase: "test"
+existingSecret: ""
+
+envValueFrom:
+  POSTGRES_PASSWORD:
+    secretKeyRef:
+      name: '{{ ( tpl .Values.existingSecret $ ) | default ( include "common.names.fullname" . ) }}'
+      key: "postgresql-password"
+
+envTpl:
+  POSTGRES_USER: "{{ .Values.postgresqlUsername }}"
+  POSTGRES_DB: "{{ .Values.postgresqlDatabase }}"
+# POSTGRESQL_POSTGRES_PASSWORD: "{{ .Values.postgrespassword }}"
+# POSTGRESQL_PASSWORD: "{{ .Values.password }}"
