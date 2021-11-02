@@ -1,0 +1,12 @@
+dependencies:
+- name: common
+  repository: https://truecharts.org
+  version: 8.3.19
+- name: postgresql
+  repository: https://truecharts.org/
+  version: 5.1.7
+- name: memcached
+  repository: https://charts.bitnami.com/bitnami
+  version: 5.15.8
+digest: sha256:afabbea24c2de9344350994afdd0c4d963c1d58cf176d20ecec7d7825544eacb
+generated: "2021-11-02T18:10:07.33530055Z"
