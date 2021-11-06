@@ -1,6 +1,11 @@
 # Changelog<br>
 
 
+<a name="testrc2-0.0.5"></a>
+### [testrc2-0.0.5](https://github.com/truecharts/apps/compare/testrc2-0.0.4...testrc2-0.0.5) (2021-11-06)
+
+
+
 <a name="testrc2-0.0.4"></a>
 ### [testrc2-0.0.4](https://github.com/truecharts/apps/compare/testrc2-0.0.3...testrc2-0.0.4) (2021-11-06)
 
@@ -92,8 +97,3 @@
 * update non-major ([#1263](https://github.com/truecharts/apps/issues/1263))
 
 
-
-<a name="jackett-9.0.2"></a>
-### [jackett-9.0.2](https://github.com/truecharts/apps/compare/jackett-9.0.1...jackett-9.0.2) (2021-10-26)
-
-#### Chore
