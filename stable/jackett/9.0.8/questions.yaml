@@ -109,7 +109,7 @@ questions:
                       description: "RollingUpdate: Create new pods and then kill old ones"
                     - value: "OnDelete"
                       description: "(Legacy) OnDelete: ignore .spec.template changes"
-              - variable: advanced
+              - variable: expert
                 label: "Show Expert Configuration Options"
                 schema:
                   type: boolean
@@ -288,7 +288,51 @@ questions:
           schema:
             type: dict
             attrs:
-# Include{serviceselector}
+              - variable: enabled
+                label: "Enable the service"
+                schema:
+                  type: boolean
+                  default: true
+                  hidden: true
+              - variable: type
+                label: "Service Type"
+                description: "ClusterIP's are only internally available, nodePorts expose the container to the host node System, Loadbalancer exposes the service using the system loadbalancer"
+                schema:
+                  type: string
+                  default: "NodePort"
+                  enum:
+                    - value: "Simple"
+                      description: "Simple"
+                    - value: "ClusterIP"
+                      description: "ClusterIP"
+                    - value: "NodePort"
+                      description: "NodePort (Advanced)"
+                    - value: "LoadBalancer"
+                      description: "LoadBalancer (Advanced)"
+              - variable: loadBalancerIP
+                label: "LoadBalancer IP"
+                description: "LoadBalancerIP"
+                schema:
+                  show_if: [["type", "=", "LoadBalancer"]]
+                  type: string
+                  default: ""
+              - variable: externalIPs
+                label: "External IP's"
+                description: "External IP's"
+                schema:
+                  show_if: [["type", "=", "LoadBalancer"]]
+                  type: list
+                  default: []
+                  items:
+                    - variable: externalIP
+                      label: "External IP"
+                      schema:
+                        type: string
+              - variable: ports
+                label: "Service's Port(s) Configuration"
+                schema:
+                  type: dict
+                  attrs:
                     - variable: main
                       label: "Main Service Port Configuration"
                       schema:
