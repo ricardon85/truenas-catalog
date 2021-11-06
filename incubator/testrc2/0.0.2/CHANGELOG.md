@@ -1,6 +1,11 @@
 # Changelog<br>
 
 
+<a name="testrc2-0.0.2"></a>
+### [testrc2-0.0.2](https://github.com/truecharts/apps/compare/testrc2-0.0.1...testrc2-0.0.2) (2021-11-06)
+
+
+
 <a name="testrc2-0.0.1"></a>
 ### testrc2-0.0.1 (2021-11-06)
 
@@ -92,8 +97,3 @@
 
 <a name="jackett-9.0.0"></a>
 ### [jackett-9.0.0](https://github.com/truecharts/apps/compare/jackett-8.0.23...jackett-9.0.0) (2021-10-25)
-
-#### Chore
-
-* Adapt for TrueNAS SCALE RC1
-
