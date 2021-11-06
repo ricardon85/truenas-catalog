@@ -593,64 +593,31 @@ questions:
                 schema:
                   type: boolean
                   default: true
+                  hidden: true
               - variable: type
-                label: "(Advanced) Type of Storage"
-                description: "Sets the persistence type"
+                label: "Type of Storage"
+                description: "Sets the persistence type, Anything other than PVC could break rollback!"
                 schema:
                   type: string
-                  default: "pvc"
+                  default: "simpleHP"
                   enum:
-                    - value: "pvc"
-                      description: "pvc"
+                    - value: "simplePVC"
+                      description: "PVC (simple)"
+                    - value: "simpleHP"
+                      description: "HostPath (simple)"
                     - value: "emptyDir"
                       description: "emptyDir"
+                    - value: "pvc"
+                      description: "pvc"
                     - value: "hostPath"
                       description: "hostPath"
-              - variable: storageClass
-                label: "(Advanced) storageClass"
-                description: " Warning: Anything other than SCALE-ZFS will break rollback!"
+              - variable: setPermissionsSimple
+                label: "Automatic Permissions"
+                description: "Automatically set permissions on install"
                 schema:
-                  show_if: [["type", "=", "pvc"]]
-                  type: string
-                  default: "SCALE-ZFS"
-              - variable: labelsList
-                label: "Labels"
-                schema:
-                  type: list
-                  default: []
-                  items:
-                    - variable: labelItem
-                      label: "Label"
-                      schema:
-                        type: dict
-                        attrs:
-                          - variable: name
-                            label: "Name"
-                            schema:
-                              type: string
-                          - variable: value
-                            label: "Value"
-                            schema:
-                              type: string
-              - variable: annotationsList
-                label: "Annotations"
-                schema:
-                  type: list
-                  default: []
-                  items:
-                    - variable: annotationItem
-                      label: "Label"
-                      schema:
-                        type: dict
-                        attrs:
-                          - variable: name
-                            label: "Name"
-                            schema:
-                              type: string
-                          - variable: value
-                            label: "Value"
-                            schema:
-                              type: string
+                  show_if: [["type", "=", "simpleHP"]]
+                  type: boolean
+                  default: true
               - variable: setPermissions
                 label: "Automatic Permissions"
                 description: "Automatically set permissions on install"
@@ -663,14 +630,45 @@ questions:
                 schema:
                   type: boolean
                   default: false
+              - variable: hostPathSimple
+                label: "hostPath"
+                description: "Path inside the container the storage is mounted"
+                schema:
+                  show_if: [["type", "=", "simpleHP"]]
+                  type: hostpath
               - variable: hostPath
                 label: "hostPath"
                 description: "Path inside the container the storage is mounted"
                 schema:
                   show_if: [["type", "=", "hostPath"]]
                   type: hostpath
+              - variable: mountPath
+                label: "mountPath"
+                description: "Path inside the container the storage is mounted"
+                schema:
+                  type: string
+                  default: "/config"
+                  editable: false
+                  valid_chars: '^\/([a-zA-Z0-9._-]+\/?)+$'
+              - variable: medium
+                label: "EmptyDir Medium"
+                schema:
+                  show_if: [["type", "=", "emptyDir"]]
+                  type: string
+                  default: ""
+                  enum:
+                    - value: ""
+                      description: "Default"
+                    - value: "Memory"
+                      description: "Memory"
+              - variable: size
+                label: "Size quotum of storage"
+                schema:
+                  show_if: [["type", "=", "pvc"]]
+                  type: string
+                  default: "999Gi"
               - variable: hostPathType
-                label: "hostPath Type"
+                label: "(Advanced) hostPath Type"
                 schema:
                   show_if: [["type", "=", "hostPath"]]
                   type: string
@@ -692,27 +690,15 @@ questions:
                       description: "CharDevice"
                     - value: "BlockDevice"
                       description: "BlockDevice"
-              - variable: mountPath
-                label: "mountPath"
-                description: "Path inside the container the storage is mounted"
+              - variable: storageClass
+                label: "(Advanced) storageClass"
+                description: "Warning: Anything other than SCALE-ZFS or empty will break rollback!"
                 schema:
+                  show_if: [["type", "=", "pvc"]]
                   type: string
-                  default: "/config"
-                  hidden: true
-                  valid_chars: '^\/([a-zA-Z0-9._-]+\/?)+$'
-              - variable: medium
-                label: "EmptyDir Medium"
-                schema:
-                  show_if: [["type", "=", "emptyDir"]]
-                  type: string
-                  default: ""
-                  enum:
-                    - value: ""
-                      description: "Default"
-                    - value: "Memory"
-                      description: "Memory"
+                  default: "SCALE-ZFS"
               - variable: accessMode
-                label: "Access Mode (Advanced)"
+                label: "(Advanced) Access Mode"
                 description: "Allow or disallow multiple PVC's writhing to the same PV"
                 schema:
                   show_if: [["type", "=", "pvc"]]
@@ -725,12 +711,52 @@ questions:
                       description: "ReadOnlyMany"
                     - value: "ReadWriteMany"
                       description: "ReadWriteMany"
-              - variable: size
-                label: "Size quotum of storage"
+              - variable: advanced
+                label: "Show Advanced Options"
                 schema:
-                  show_if: [["type", "=", "pvc"]]
-                  type: string
-                  default: "100Gi"
+                  type: boolean
+                  default: false
+                  show_subquestions_if: true
+                  subquestions:
+                    - variable: labelsList
+                      label: "Labels"
+                      schema:
+                        type: list
+                        default: []
+                        items:
+                          - variable: labelItem
+                            label: "Label"
+                            schema:
+                              type: dict
+                              attrs:
+                                - variable: name
+                                  label: "Name"
+                                  schema:
+                                    type: string
+                                - variable: value
+                                  label: "Value"
+                                  schema:
+                                    type: string
+                    - variable: annotationsList
+                      label: "Annotations"
+                      schema:
+                        type: list
+                        default: []
+                        items:
+                          - variable: annotationItem
+                            label: "Label"
+                            schema:
+                              type: dict
+                              attrs:
+                                - variable: name
+                                  label: "Name"
+                                  schema:
+                                    type: string
+                                - variable: value
+                                  label: "Value"
+                                  schema:
+                                    type: string
+
   - variable: persistenceList
     label: "Additional app storage"
     group: "Storage and Persistence"
