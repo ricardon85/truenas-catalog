@@ -109,70 +109,70 @@ questions:
                       description: "RollingUpdate: Create new pods and then kill old ones"
                     - value: "OnDelete"
                       description: "(Legacy) OnDelete: ignore .spec.template changes"
-              - variable: expert
-                label: "Show Expert Configuration Options"
+        - variable: expert
+          label: "Show Expert Configuration Options"
+          schema:
+            type: boolean
+            default: false
+            show_subquestions_if: true
+            subquestions:
+              - variable: extraArgs
+                label: "Extra Args"
                 schema:
-                  type: boolean
-                  default: false
-                  show_subquestions_if: true
-                  subquestions:
-                    - variable: extraArgs
-                      label: "Extra Args"
+                  type: list
+                  default: []
+                  items:
+                    - variable: argItem
+                      label: "Arg"
                       schema:
-                        type: list
-                        default: []
-                        items:
-                          - variable: argItem
-                            label: "Arg"
+                        type: dict
+                        attrs:
+                          - variable: name
+                            label: "Name"
                             schema:
-                              type: dict
-                              attrs:
-                                - variable: name
-                                  label: "Name"
-                                  schema:
-                                    type: string
-                                - variable: value
-                                  label: "Value"
-                                  schema:
-                                    type: string
-                    - variable: labelsList
-                      label: "Controller Labels"
+                              type: string
+                          - variable: value
+                            label: "Value"
+                            schema:
+                              type: string
+              - variable: labelsList
+                label: "Controller Labels"
+                schema:
+                  type: list
+                  default: []
+                  items:
+                    - variable: labelItem
+                      label: "Label"
                       schema:
-                        type: list
-                        default: []
-                        items:
-                          - variable: labelItem
-                            label: "Label"
+                        type: dict
+                        attrs:
+                          - variable: name
+                            label: "Name"
                             schema:
-                              type: dict
-                              attrs:
-                                - variable: name
-                                  label: "Name"
-                                  schema:
-                                    type: string
-                                - variable: value
-                                  label: "Value"
-                                  schema:
-                                    type: string
-                    - variable: annotationsList
-                      label: " Controller Annotations"
+                              type: string
+                          - variable: value
+                            label: "Value"
+                            schema:
+                              type: string
+              - variable: annotationsList
+                label: " Controller Annotations"
+                schema:
+                  type: list
+                  default: []
+                  items:
+                    - variable: annotationItem
+                      label: "Label"
                       schema:
-                        type: list
-                        default: []
-                        items:
-                          - variable: annotationItem
-                            label: "Label"
+                        type: dict
+                        attrs:
+                          - variable: name
+                            label: "Name"
                             schema:
-                              type: dict
-                              attrs:
-                                - variable: name
-                                  label: "Name"
-                                  schema:
-                                    type: string
-                                - variable: value
-                                  label: "Value"
-                                  schema:
-                                    type: string
+                              type: string
+                          - variable: value
+                            label: "Value"
+                            schema:
+                              type: string
 
   - variable: env
     group: "Container Configuration"
@@ -299,7 +299,7 @@ questions:
                 description: "ClusterIP's are only internally available, nodePorts expose the container to the host node System, Loadbalancer exposes the service using the system loadbalancer"
                 schema:
                   type: string
-                  default: "NodePort"
+                  default: "Simple"
                   enum:
                     - value: "Simple"
                       description: "Simple"
@@ -378,7 +378,8 @@ questions:
                                     type: int
                                     default: 9117
                           - variable: port
-                            label: "This port exposes the container port on the service"
+                            label: "Port"
+                            description: "This port exposes the container port on the service"
                             schema:
                               type: int
                               default: 9117
@@ -490,7 +491,7 @@ questions:
                       description: "ClusterIP's are only internally available, nodePorts expose the container to the host node System, Loadbalancer exposes the service using the system loadbalancer"
                       schema:
                         type: string
-                        default: "NodePort"
+                        default: "Simple"
                         enum:
                           - value: "Simple"
                             description: "Simple"
