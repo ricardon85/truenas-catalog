@@ -1,0 +1,40 @@
+# Default values for Syncthing.
+
+image:
+  repository: ghcr.io/truecharts/syncthing
+  pullPolicy: IfNotPresent
+  tag: v1.18.3@sha256:d299f89bf7a3462953ca415c1dcea27ea1cd0eb776011905d6c37aef9a4fbea5
+
+service:
+  main:
+    ports:
+      main:
+        port: 8384
+        targetPort: 8384
+  listeners:
+    ports:
+      tcp:
+        enabled: true
+        port: 22000
+        targetPort: 22000
+        protocol: TCP
+      udp:
+        enabled: true
+        port: 22000
+        targetPort: 22000
+        protocol: UDP
+  discovery:
+    ports:
+      discovery:
+        enabled: true
+        port: 21027
+        targetPort: 21027
+        protocol: UDP
+
+persistence:
+  config:
+    enabled: true
+    mountPath: "/var/syncthing/"
+    type: pvc
+    accessMode: ReadWriteOnce
+    size: "100Gi"
