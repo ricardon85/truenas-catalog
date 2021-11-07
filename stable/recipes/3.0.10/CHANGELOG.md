@@ -1,6 +1,15 @@
 # Changelog<br>
 
 
+<a name="recipes-3.0.10"></a>
+### [recipes-3.0.10](https://github.com/truecharts/apps/compare/recipes-3.0.9...recipes-3.0.10) (2021-11-07)
+
+#### Chore
+
+* update container image vabene1111/recipes to v1.0.0 ([#1293](https://github.com/truecharts/apps/issues/1293))
+
+
+
 <a name="recipes-3.0.9"></a>
 ### [recipes-3.0.9](https://github.com/truecharts/apps/compare/recipes-3.0.8...recipes-3.0.9) (2021-11-07)
 
@@ -88,12 +97,3 @@
 
 * update helm chart common to v8.3.15 ([#1240](https://github.com/truecharts/apps/issues/1240))
 
-
-
-<a name="recipes-3.0.0"></a>
-### [recipes-3.0.0](https://github.com/truecharts/apps/compare/recipes-2.0.0...recipes-3.0.0) (2021-10-26)
-
-#### Chore
-
-* update helm chart postgresql to v5 ([#1234](https://github.com/truecharts/apps/issues/1234))
-* update helm chart postgresql to v4.1.0 ([#1237](https://github.com/truecharts/apps/issues/1237))
