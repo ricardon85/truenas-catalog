@@ -1,6 +1,15 @@
 # Changelog<br>
 
 
+<a name="medusa-1.0.7"></a>
+### [medusa-1.0.7](https://github.com/truecharts/apps/compare/medusa-1.0.6...medusa-1.0.7) (2021-11-07)
+
+#### Fix
+
+* update medusa manually
+
+
+
 <a name="medusa-1.0.6"></a>
 ### [medusa-1.0.6](https://github.com/truecharts/apps/compare/medusa-1.0.5...medusa-1.0.6) (2021-11-07)
 
@@ -87,13 +96,4 @@
 #### Chore
 
 * bump versions to rerelease and fix icons
-
-
-
-<a name="medusa-0.0.8"></a>
-### [medusa-0.0.8](https://github.com/truecharts/apps/compare/medusa-0.0.7...medusa-0.0.8) (2021-10-19)
-
-#### Change
-
-* Project-Eclipse 3, Automatically generate item.yaml ([#1178](https://github.com/truecharts/apps/issues/1178))
 
