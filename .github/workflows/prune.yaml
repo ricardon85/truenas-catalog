@@ -16,7 +16,7 @@ jobs:
 
       - name: Prune App Versions
         run: |
-          for train in stable incubator
+          for train in stable incubator dependency
           do
             for chart in ${train}/*; do
               if [ -f "${chart}/item.yaml" ]; then
