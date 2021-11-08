@@ -1,6 +1,15 @@
 # Changelog<br>
 
 
+<a name="jdownloader2-4.0.7"></a>
+### [jdownloader2-4.0.7](https://github.com/truecharts/apps/compare/jdownloader2-4.0.6...jdownloader2-4.0.7) (2021-11-08)
+
+#### Fix
+
+* Add missing service to values.yaml
+
+
+
 <a name="jdownloader2-4.0.6"></a>
 ### [jdownloader2-4.0.6](https://github.com/truecharts/apps/compare/jdownloader2-4.0.5...jdownloader2-4.0.6) (2021-11-07)
 
@@ -87,13 +96,4 @@
 #### Chore
 
 * bump apps, remove duplicates and move incubator to stable for RC1
-
-
-
-<a name="jdownloader2-3.0.13"></a>
-### [jdownloader2-3.0.13](https://github.com/truecharts/apps/compare/jdownloader2-3.0.12...jdownloader2-3.0.13) (2021-10-20)
-
-#### Chore
-
-* bump versions to rerelease and fix icons
 
