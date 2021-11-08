@@ -1,6 +1,11 @@
 # Changelog<br>
 
 
+<a name="openldap-4.0.8"></a>
+### [openldap-4.0.8](https://github.com/truecharts/apps/compare/openldap-4.0.7...openldap-4.0.8) (2021-11-08)
+
+
+
 <a name="openldap-4.0.7"></a>
 ### [openldap-4.0.7](https://github.com/truecharts/apps/compare/openldap-4.0.6...openldap-4.0.7) (2021-11-08)
 
@@ -92,8 +97,3 @@
 #### Fix
 
 * reenable postgresql migration scripting and bump all to force update
-* use correct PVC storageClass when using postgresql as a dependency on SCALE ([#1212](https://github.com/truecharts/apps/issues/1212))
-
-
-
-<a name="openldap-3.0.13"></a>
