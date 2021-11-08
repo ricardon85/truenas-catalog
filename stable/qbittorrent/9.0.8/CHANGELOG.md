@@ -1,6 +1,15 @@
 # Changelog<br>
 
 
+<a name="qbittorrent-9.0.8"></a>
+### [qbittorrent-9.0.8](https://github.com/truecharts/apps/compare/qbittorrent-9.0.7...qbittorrent-9.0.8) (2021-11-08)
+
+#### Fix
+
+* Split torrent service to allow for the use of LoadBalancer servicetype
+
+
+
 <a name="qbittorrent-9.0.7"></a>
 ### [qbittorrent-9.0.7](https://github.com/truecharts/apps/compare/qbittorrent-9.0.6...qbittorrent-9.0.7) (2021-11-07)
 
@@ -88,12 +97,3 @@
 <a name="qbittorrent-8.0.17"></a>
 ### [qbittorrent-8.0.17](https://github.com/truecharts/apps/compare/qbittorrent-8.0.14...qbittorrent-8.0.17) (2021-10-20)
 
-#### Chore
-
-* bump apps, remove duplicates and move incubator to stable for RC1
-* update non-major deps helm releases ([#1213](https://github.com/truecharts/apps/issues/1213))
-
-#### Fix
-
-* reenable postgresql migration scripting and bump all to force update
-* use correct PVC storageClass when using postgresql as a dependency on SCALE ([#1212](https://github.com/truecharts/apps/issues/1212))
