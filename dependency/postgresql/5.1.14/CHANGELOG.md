@@ -1,6 +1,15 @@
 # Changelog<br>
 
 
+<a name="postgresql-5.1.14"></a>
+### [postgresql-5.1.14](https://github.com/truecharts/apps/compare/postgresql-5.1.13...postgresql-5.1.14) (2021-11-08)
+
+#### Feat
+
+* also set and remember postgresql root password
+
+
+
 <a name="postgresql-5.1.13"></a>
 ### [postgresql-5.1.13](https://github.com/truecharts/apps/compare/postgresql-5.1.12...postgresql-5.1.13) (2021-11-08)
 
@@ -87,13 +96,4 @@
 #### Chore
 
 * update non-major ([#1263](https://github.com/truecharts/apps/issues/1263))
-
-
-
-<a name="postgresql-5.1.4"></a>
-### [postgresql-5.1.4](https://github.com/truecharts/apps/compare/postgresql-5.1.3...postgresql-5.1.4) (2021-10-26)
-
-#### Fix
-
-* correct group permissions on SCALE deployments of postgresql
 
