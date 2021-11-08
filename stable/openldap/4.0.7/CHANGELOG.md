@@ -1,6 +1,15 @@
 # Changelog<br>
 
 
+<a name="openldap-4.0.7"></a>
+### [openldap-4.0.7](https://github.com/truecharts/apps/compare/openldap-4.0.6...openldap-4.0.7) (2021-11-08)
+
+#### Fix
+
+* Correctly enable ports by default on some more Apps
+
+
+
 <a name="openldap-4.0.6"></a>
 ### [openldap-4.0.6](https://github.com/truecharts/apps/compare/openldap-4.0.5...openldap-4.0.6) (2021-11-07)
 
@@ -88,12 +97,3 @@
 
 
 <a name="openldap-3.0.13"></a>
-### [openldap-3.0.13](https://github.com/truecharts/apps/compare/openldap-3.0.12...openldap-3.0.13) (2021-10-20)
-
-#### Chore
-
-* bump versions to rerelease and fix icons
-
-
-
-<a name="openldap-3.0.12"></a>

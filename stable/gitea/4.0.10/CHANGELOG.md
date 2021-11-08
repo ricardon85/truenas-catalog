@@ -1,6 +1,15 @@
 # Changelog<br>
 
 
+<a name="gitea-4.0.10"></a>
+### [gitea-4.0.10](https://github.com/truecharts/apps/compare/gitea-4.0.9...gitea-4.0.10) (2021-11-08)
+
+#### Fix
+
+* Correctly enable ports by default on some more Apps
+
+
+
 <a name="gitea-4.0.9"></a>
 ### [gitea-4.0.9](https://github.com/truecharts/apps/compare/gitea-4.0.8...gitea-4.0.9) (2021-11-07)
 
@@ -88,12 +97,3 @@
 
 * update helm chart common to v8.3.15 ([#1240](https://github.com/truecharts/apps/issues/1240))
 
-
-
-<a name="gitea-4.0.0"></a>
-### [gitea-4.0.0](https://github.com/truecharts/apps/compare/gitea-3.0.1...gitea-4.0.0) (2021-10-26)
-
-#### Chore
-
-* update helm chart postgresql to v5 ([#1234](https://github.com/truecharts/apps/issues/1234))
-* update non-major ([#1232](https://github.com/truecharts/apps/issues/1232))

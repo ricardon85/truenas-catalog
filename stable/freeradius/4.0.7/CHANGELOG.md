@@ -1,6 +1,15 @@
 # Changelog<br>
 
 
+<a name="freeradius-4.0.7"></a>
+### [freeradius-4.0.7](https://github.com/truecharts/apps/compare/freeradius-4.0.6...freeradius-4.0.7) (2021-11-08)
+
+#### Fix
+
+* Correctly enable ports by default on some more Apps
+
+
+
 <a name="freeradius-4.0.6"></a>
 ### [freeradius-4.0.6](https://github.com/truecharts/apps/compare/freeradius-4.0.5...freeradius-4.0.6) (2021-11-07)
 
@@ -87,13 +96,4 @@
 #### Chore
 
 * bump versions to rerelease and fix icons
-
-
-
-<a name="freeradius-3.0.12"></a>
-### [freeradius-3.0.12](https://github.com/truecharts/apps/compare/freeradius-3.0.11...freeradius-3.0.12) (2021-10-19)
-
-#### Change
-
-* Project-Eclipse 3, Automatically generate item.yaml ([#1178](https://github.com/truecharts/apps/issues/1178))
 
