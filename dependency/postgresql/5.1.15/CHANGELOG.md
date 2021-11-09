@@ -1,6 +1,19 @@
 # Changelog<br>
 
 
+<a name="postgresql-5.1.15"></a>
+### [postgresql-5.1.15](https://github.com/truecharts/apps/compare/postgresql-5.1.14...postgresql-5.1.15) (2021-11-09)
+
+#### Chore
+
+* update non-major ([#1296](https://github.com/truecharts/apps/issues/1296))
+
+#### Fix
+
+* correct mistake in service definition
+
+
+
 <a name="postgresql-5.1.14"></a>
 ### [postgresql-5.1.14](https://github.com/truecharts/apps/compare/postgresql-5.1.13...postgresql-5.1.14) (2021-11-08)
 
@@ -83,17 +96,4 @@
 
 <a name="postgresql-5.1.6"></a>
 ### [postgresql-5.1.6](https://github.com/truecharts/apps/compare/postgresql-5.1.5...postgresql-5.1.6) (2021-11-01)
-
-#### Chore
-
-* update non-major deps helm releases ([#1264](https://github.com/truecharts/apps/issues/1264))
-
-
-
-<a name="postgresql-5.1.5"></a>
-### [postgresql-5.1.5](https://github.com/truecharts/apps/compare/postgresql-5.1.4...postgresql-5.1.5) (2021-11-01)
-
-#### Chore
-
-* update non-major ([#1263](https://github.com/truecharts/apps/issues/1263))
 
