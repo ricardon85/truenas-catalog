@@ -1,6 +1,15 @@
 # Changelog<br>
 
 
+<a name="littlelink-4.0.9"></a>
+### [littlelink-4.0.9](https://github.com/truecharts/apps/compare/littlelink-4.0.8...littlelink-4.0.9) (2021-11-09)
+
+#### Chore
+
+* update non-major ([#1299](https://github.com/truecharts/apps/issues/1299))
+
+
+
 <a name="littlelink-4.0.8"></a>
 ### [littlelink-4.0.8](https://github.com/truecharts/apps/compare/littlelink-4.0.7...littlelink-4.0.8) (2021-11-07)
 
@@ -88,12 +97,3 @@
 #### Chore
 
 * Adapt for TrueNAS SCALE RC1
-
-
-
-<a name="littlelink-3.0.18"></a>
-### [littlelink-3.0.18](https://github.com/truecharts/apps/compare/littlelink-3.0.15...littlelink-3.0.18) (2021-10-20)
-
-#### Chore
-
-* bump apps, remove duplicates and move incubator to stable for RC1
