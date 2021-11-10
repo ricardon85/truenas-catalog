@@ -1,6 +1,15 @@
 # Changelog<br>
 
 
+<a name="openldap-4.0.10"></a>
+### [openldap-4.0.10](https://github.com/truecharts/apps/compare/openldap-4.0.9...openldap-4.0.10) (2021-11-10)
+
+#### Fix
+
+* fix release.name issues when installing
+
+
+
 <a name="openldap-4.0.9"></a>
 ### [openldap-4.0.9](https://github.com/truecharts/apps/compare/openldap-4.0.8...openldap-4.0.9) (2021-11-09)
 
@@ -88,12 +97,3 @@
 
 <a name="openldap-4.0.0"></a>
 ### [openldap-4.0.0](https://github.com/truecharts/apps/compare/openldap-3.0.16...openldap-4.0.0) (2021-10-25)
-
-#### Chore
-
-* Adapt for TrueNAS SCALE RC1
-
-
-
-<a name="openldap-3.0.16"></a>
-### [openldap-3.0.16](https://github.com/truecharts/apps/compare/openldap-3.0.13...openldap-3.0.16) (2021-10-20)
