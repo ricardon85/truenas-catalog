@@ -1,6 +1,15 @@
 # Changelog<br>
 
 
+<a name="qbittorrent-9.0.10"></a>
+### [qbittorrent-9.0.10](https://github.com/truecharts/apps/compare/qbittorrent-9.0.9...qbittorrent-9.0.10) (2021-11-09)
+
+#### Fix
+
+* fix some port issues
+
+
+
 <a name="qbittorrent-9.0.9"></a>
 ### [qbittorrent-9.0.9](https://github.com/truecharts/apps/compare/qbittorrent-9.0.8...qbittorrent-9.0.9) (2021-11-09)
 
@@ -87,13 +96,4 @@
 
 <a name="qbittorrent-9.0.1"></a>
 ### [qbittorrent-9.0.1](https://github.com/truecharts/apps/compare/qbittorrent-9.0.0...qbittorrent-9.0.1) (2021-10-26)
-
-#### Chore
-
-* update helm chart common to v8.3.15 ([#1240](https://github.com/truecharts/apps/issues/1240))
-
-
-
-<a name="qbittorrent-9.0.0"></a>
-### [qbittorrent-9.0.0](https://github.com/truecharts/apps/compare/qbittorrent-8.0.17...qbittorrent-9.0.0) (2021-10-25)
 
