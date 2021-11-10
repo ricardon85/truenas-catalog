@@ -1,6 +1,16 @@
 # Changelog<br>
 
 
+<a name="openldap-4.0.11"></a>
+### [openldap-4.0.11](https://github.com/truecharts/apps/compare/openldap-4.0.10...openldap-4.0.11) (2021-11-10)
+
+#### Fix
+
+* Allow spaces in paths ([#1306](https://github.com/truecharts/apps/issues/1306))
+* bump common to fix volumeclaim error
+
+
+
 <a name="openldap-4.0.10"></a>
 ### [openldap-4.0.10](https://github.com/truecharts/apps/compare/openldap-4.0.9...openldap-4.0.10) (2021-11-10)
 
@@ -87,13 +97,3 @@
 
 
 <a name="openldap-4.0.1"></a>
-### [openldap-4.0.1](https://github.com/truecharts/apps/compare/openldap-4.0.0...openldap-4.0.1) (2021-10-26)
-
-#### Chore
-
-* update helm chart common to v8.3.15 ([#1240](https://github.com/truecharts/apps/issues/1240))
-
-
-
-<a name="openldap-4.0.0"></a>
-### [openldap-4.0.0](https://github.com/truecharts/apps/compare/openldap-3.0.16...openldap-4.0.0) (2021-10-25)
