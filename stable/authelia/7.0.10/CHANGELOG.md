@@ -1,6 +1,19 @@
 # Changelog<br>
 
 
+<a name="authelia-7.0.10"></a>
+### [authelia-7.0.10](https://github.com/truecharts/apps/compare/authelia-7.0.9...authelia-7.0.10) (2021-11-12)
+
+#### Feat
+
+* use our own redis chart ([#1312](https://github.com/truecharts/apps/issues/1312))
+
+#### Fix
+
+* Allow spaces in paths ([#1306](https://github.com/truecharts/apps/issues/1306))
+
+
+
 <a name="authelia-7.0.9"></a>
 ### [authelia-7.0.9](https://github.com/truecharts/apps/compare/authelia-7.0.8...authelia-7.0.9) (2021-11-09)
 
@@ -83,17 +96,4 @@
 
 <a name="authelia-7.0.1"></a>
 ### [authelia-7.0.1](https://github.com/truecharts/apps/compare/authelia-7.0.0...authelia-7.0.1) (2021-10-26)
-
-#### Chore
-
-* update helm chart common to v8.3.15 ([#1240](https://github.com/truecharts/apps/issues/1240))
-
-
-
-<a name="authelia-7.0.0"></a>
-### [authelia-7.0.0](https://github.com/truecharts/apps/compare/authelia-6.0.5...authelia-7.0.0) (2021-10-26)
-
-#### Chore
-
-* update helm chart postgresql to v5 ([#1234](https://github.com/truecharts/apps/issues/1234))
 
