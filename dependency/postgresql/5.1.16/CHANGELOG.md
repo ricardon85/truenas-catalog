@@ -1,6 +1,23 @@
 # Changelog<br>
 
 
+<a name="postgresql-5.1.16"></a>
+### [postgresql-5.1.16](https://github.com/truecharts/apps/compare/postgresql-5.1.15...postgresql-5.1.16) (2021-11-12)
+
+#### Chore
+
+* update non-major ([#1302](https://github.com/truecharts/apps/issues/1302))
+
+#### Feat
+
+* move deps to incubator ([#1311](https://github.com/truecharts/apps/issues/1311))
+
+#### Fix
+
+* Allow spaces in paths ([#1306](https://github.com/truecharts/apps/issues/1306))
+
+
+
 <a name="postgresql-5.1.15"></a>
 ### [postgresql-5.1.15](https://github.com/truecharts/apps/compare/postgresql-5.1.14...postgresql-5.1.15) (2021-11-09)
 
@@ -80,20 +97,3 @@
 ### [postgresql-5.1.8](https://github.com/truecharts/apps/compare/postgresql-5.1.7...postgresql-5.1.8) (2021-11-02)
 
 #### Chore
-
-* update non-major deps helm releases ([#1267](https://github.com/truecharts/apps/issues/1267))
-
-
-
-<a name="postgresql-5.1.7"></a>
-### [postgresql-5.1.7](https://github.com/truecharts/apps/compare/postgresql-5.1.6...postgresql-5.1.7) (2021-11-02)
-
-#### Chore
-
-* update non-major ([#1265](https://github.com/truecharts/apps/issues/1265))
-
-
-
-<a name="postgresql-5.1.6"></a>
-### [postgresql-5.1.6](https://github.com/truecharts/apps/compare/postgresql-5.1.5...postgresql-5.1.6) (2021-11-01)
-
