@@ -1,6 +1,0 @@
-# Default values for Jackett.
-
-image:
-  repository: ghcr.io/k8s-at-home/jackett
-  pullPolicy: IfNotPresent
-  tag: v0.19.215@sha256:5835f69200d6c7ce40535e324bfc6944f6a2976a4ee72b8df16c470902fb2333
