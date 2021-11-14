@@ -1,14 +1,13 @@
 # Introduction
 
-Memcached is a memory-backed database caching solution
+PostgresSQL
 
 TrueCharts are designed to be installed as TrueNAS SCALE app only. We can not guarantee this charts works as a stand-alone helm installation.
 **This chart is not maintained by the upstream project and any issues with the chart should be raised [here](https://github.com/truecharts/apps/issues/new/choose)**
 
 ## Source Code
 
-* <https://github.com/bitnami/bitnami-docker-memcached>
-* <http://memcached.org/>
+* <https://www.postgresql.org/>
 
 ## Requirements
 
@@ -18,7 +17,7 @@ Kubernetes: `>=1.16.0-0`
 
 | Repository | Name | Version |
 |------------|------|---------|
-| https://truecharts.org | common | 8.5.6 |
+| https://truecharts.org | common | 8.5.7 |
 
 ## Installing the Chart
 

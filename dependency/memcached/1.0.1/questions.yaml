@@ -351,6 +351,14 @@ questions:
                       schema:
                         type: dict
                         attrs:
+                          - variable: port
+                            label: "Port"
+                            description: "This port exposes the container port on the service"
+                            schema:
+                              type: int
+                              default: 11211
+                              editable: true
+                              required: true
                           - variable: advanced
                             label: "Show Advanced settings"
                             schema:
@@ -385,16 +393,6 @@ questions:
                                   schema:
                                     type: int
                                     default: 11211
-
-                          - variable: port
-                            label: "Container Port"
-                            schema:
-                              type: int
-                              default: 11211
-                              editable: true
-                              required: true
-
-
 
   - variable: serviceexpert
     group: "Networking and Services"
@@ -1022,17 +1020,6 @@ questions:
                 description: "Always"
 
 
-  # Specify GPU configuration
-  - variable: scaleGPU
-    label: "GPU Configuration"
-    group: "Resources and Devices"
-    schema:
-      type: dict
-      $ref:
-        - "definitions/gpuConfiguration"
-      attrs: []
-
-
   - variable: advancedresources
     label: "Set Custom Resource Limits/Requests (Advanced)"
     group: "Resources and Devices"
@@ -1121,6 +1108,16 @@ questions:
                 schema:
                   type: string
                   default: "/dev/ttyACM0"
+
+  # Specify GPU configuration
+  - variable: scaleGPU
+    label: "GPU Configuration"
+    group: "Resources and Devices"
+    schema:
+      type: dict
+      $ref:
+        - "definitions/gpuConfiguration"
+      attrs: []
 
   - variable: autoscaling
     group: "Advanced"

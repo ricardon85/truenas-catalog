@@ -3,7 +3,7 @@ appVersion: "6.2.6"
 dependencies:
 - name: common
   repository: https://truecharts.org
-  version: 8.5.6
+  version: 8.5.7
 deprecated: false
 description: Open source, advanced key-value store.
 home: https://github.com/truecharts/apps/tree/master/stable/redis
@@ -16,13 +16,13 @@ kubeVersion: '>=1.16.0-0'
 maintainers:
 - email: info@truecharts.org
   name: TrueCharts
-  url: truecharts.org
+  url: https://truecharts.org
 name: redis
 sources:
   - https://github.com/bitnami/bitnami-docker-redis
   - http://redis.io/
 type: application
-version: 1.0.0
+version: 1.0.1
 annotations:
   truecharts.org/catagories: |
     - database
