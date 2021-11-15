@@ -1,6 +1,15 @@
 # Changelog<br>
 
 
+<a name="nextcloud-9.0.12"></a>
+### [nextcloud-9.0.12](https://github.com/truecharts/apps/compare/nextcloud-9.0.11...nextcloud-9.0.12) (2021-11-15)
+
+#### Chore
+
+* update non-major docker tags ([#1339](https://github.com/truecharts/apps/issues/1339))
+
+
+
 <a name="nextcloud-9.0.11"></a>
 ### [nextcloud-9.0.11](https://github.com/truecharts/apps/compare/nextcloud-9.0.10...nextcloud-9.0.11) (2021-11-15)
 
@@ -85,15 +94,6 @@
 
 <a name="nextcloud-9.0.5"></a>
 ### [nextcloud-9.0.5](https://github.com/truecharts/apps/compare/nextcloud-9.0.4...nextcloud-9.0.5) (2021-11-01)
-
-#### Chore
-
-* update non-major deps helm releases ([#1264](https://github.com/truecharts/apps/issues/1264))
-
-
-
-<a name="nextcloud-9.0.4"></a>
-### [nextcloud-9.0.4](https://github.com/truecharts/apps/compare/nextcloud-9.0.3...nextcloud-9.0.4) (2021-10-26)
 
 #### Chore
 
