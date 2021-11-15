@@ -70,7 +70,7 @@ questions:
                 label: "(Advanced) Controller Type"
                 schema:
                   type: string
-                  default: "deployment"
+                  default: "statefulset"
                   required: true
                   enum:
                     - value: "deployment"
@@ -91,7 +91,7 @@ questions:
                 label: "(Advanced) Update Strategy"
                 schema:
                   type: string
-                  default: "Recreate"
+                  default: "RollingUpdate"
                   required: true
                   enum:
                     - value: "Recreate"
@@ -584,15 +584,15 @@ questions:
                                     min: 9000
                                     max: 65535
 
-  - variable: persistence
+  - variable: volumeClaimTemplates
     label: "Integrated Persistent Storage"
     description: "Integrated Persistent Storage"
     group: "Storage and Persistence"
     schema:
       type: dict
       attrs:
-        - variable: db
-          label: "Old db Storage"
+        - variable: data
+          label: "DB Storage"
           description: "Stores the old Application Database."
           schema:
             type: dict
@@ -613,14 +613,8 @@ questions:
                   enum:
                     - value: "simplePVC"
                       description: "PVC (simple)"
-                    - value: "simpleHP"
-                      description: "HostPath (simple)"
-                    - value: "emptyDir"
-                      description: "emptyDir"
                     - value: "pvc"
                       description: "pvc"
-                    - value: "hostPath"
-                      description: "hostPath"
               - variable: setPermissionsSimple
                 label: "Automatic Permissions"
                 description: "Automatically set permissions on install"

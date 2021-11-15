@@ -1,7 +1,7 @@
 image:
-  repository: bitnami/redis
+  repository: bitnami/mariadb
   pullPolicy: IfNotPresent
-  tag: 6.2.6@sha256:213ea7a04401c66fc44fc94aca2eb52233c556e22ace27571e7194d5e693a4dd
+  tag: 10.6.5@sha256:0099beca7ba9246595221c2ce676196a8efb1a9e8c0d474761d020da893b6576
 
 controller:
   # -- Set the controller type.
@@ -24,44 +24,25 @@ controller:
   # -- ReplicaSet revision history limit
   revisionHistoryLimit: 3
 
+service:
+  main:
+    enabled: true
+    ports:
+      main:
+        port: 3306
+        targetPort: 3306
+
 securityContext:
   readOnlyRootFilesystem: false
+
 
 podSecurityContext:
   runAsGroup: 0
 
-env:
-  - name: REDIS_REPLICATION_MODE
-    value: master
-  - name: ALLOW_EMPTY_PASSWORD
-    value: "yes"
-
-envTpl:
-  REDIS_PORT: "{{ .Values.service.main.ports.main.targetPort }}"
-
-redisPassword: "testpass"
-existingSecret: ""
-
-envValueFrom:
-  REDIS_PASSWORD:
-    secretKeyRef:
-      name: '{{ ( tpl .Values.existingSecret $ ) | default ( include "common.names.fullname" . ) }}'
-      key: "redis-password"
-
-service:
-  main:
-    ports:
-      main:
-        port: 6379
-        targetPort: 6379
-
 volumeClaimTemplates:
   data:
     enabled: true
-    mountPath: "/bitnami/redis"
-    accessMode: ReadWriteOnce
-    type: pvc
-    size: "100Gi"
+    mountPath: "/bitnami/mariadb"
 
 # -- Probe configuration
 # -- [[ref]](https://kubernetes.io/docs/tasks/configure-pod-container/configure-liveness-readiness-startup-probes/)
@@ -80,9 +61,9 @@ probes:
     spec:
       exec:
         command:
-          - sh
-          - -c
-          - /health/ping_liveness_local.sh 2
+          - /bin/bash
+          - -ec
+          - mysqladmin status -uroot -p"${MARIADB_ROOT_PASSWORD}"
 
   # -- Redainess probe configuration
   # @default -- See below
@@ -97,9 +78,9 @@ probes:
     spec:
       exec:
         command:
-          - sh
-          - -c
-          - /health/ping_readiness_local.sh 2
+          - /bin/bash
+          - -ec
+          - mysqladmin status -uroot -p"${MARIADB_ROOT_PASSWORD}"
   # -- Startup probe configuration
   # @default -- See below
   startup:
@@ -112,25 +93,26 @@ probes:
     spec:
       exec:
         command:
-          - sh
-          - -c
-          - /health/ping_readiness_local.sh 2
+          - /bin/bash
+          - -ec
+          - mysqladmin status -uroot -p"${MARIADB_ROOT_PASSWORD}"
 
-persistence:
-  # -- redis-health configmap mount
-  # @default -- See below
-  redis-health:
-    enabled: true
-    type: custom
-    # -- Where to mount the volume in the main container.
-    # Defaults to `/<name_of_the_volume>`,
-    # setting to '-' creates the volume but disables the volumeMount.
-    mountPath: "/health"
-    # -- Specify if the volume should be mounted read-only.
-    readOnly: false
-    # -- Define the custom Volume spec here
-    # [[ref]](https://kubernetes.io/docs/concepts/storage/volumes/)
-    volumeSpec:
-      configMap:
-        defaultMode: 0755
-        name: redis-health
+mariadbPassword: "testpass"
+mariadbUsername: "test"
+mariadbDatabase: "test"
+mariadbRootPassword: "testroot"
+existingSecret: ""
+
+envValueFrom:
+  MARIADB_PASSWORD:
+    secretKeyRef:
+      name: '{{ ( tpl .Values.existingSecret $ ) | default ( include "common.names.fullname" . ) }}'
+      key: "mariadb-password"
+  MARIADB_ROOT_PASSWORD:
+    secretKeyRef:
+      name: '{{ ( tpl .Values.existingSecret $ ) | default ( include "common.names.fullname" . ) }}'
+      key: "mariadb-root-password"
+
+envTpl:
+  MARIADB_USER: "{{ .Values.mariadbUsername }}"
+  MARIADB_DATABASE: "{{ .Values.mariadbDatabase }}"
