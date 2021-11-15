@@ -1,6 +1,15 @@
 # Changelog<br>
 
 
+<a name="postgresql-5.2.2"></a>
+### [postgresql-5.2.2](https://github.com/truecharts/apps/compare/postgresql-5.2.1...postgresql-5.2.2) (2021-11-15)
+
+#### Chore
+
+* bump common on dependency apps
+
+
+
 <a name="postgresql-5.2.1"></a>
 ### [postgresql-5.2.1](https://github.com/truecharts/apps/compare/postgresql-5.2.0...postgresql-5.2.1) (2021-11-15)
 
@@ -86,14 +95,5 @@
 
 <a name="postgresql-5.1.13"></a>
 ### [postgresql-5.1.13](https://github.com/truecharts/apps/compare/postgresql-5.1.12...postgresql-5.1.13) (2021-11-08)
-
-#### Chore
-
-* rename train name
-
-
-
-<a name="postgresql-5.1.12"></a>
-### [postgresql-5.1.12](https://github.com/truecharts/apps/compare/postgresql-5.1.11...postgresql-5.1.12) (2021-11-08)
 
 #### Chore
