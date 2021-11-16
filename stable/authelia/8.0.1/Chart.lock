@@ -4,9 +4,9 @@ dependencies:
   version: 8.6.2
 - name: postgresql
   repository: https://truecharts.org/
-  version: 6.0.0
+  version: 6.0.1
 - name: redis
   repository: https://truecharts.org/
   version: 1.0.5
-digest: sha256:2c96b92df1fcdce274b26fcc97cbbe1d387bd6fa4d875311636c56931cbb337a
-generated: "2021-11-16T15:20:33.470891464Z"
+digest: sha256:fce65af1813e8b00c4a998509f2a6803f5b34e3ace5cebbd6b922b1543615fa0
+generated: "2021-11-16T15:53:04.931226489Z"

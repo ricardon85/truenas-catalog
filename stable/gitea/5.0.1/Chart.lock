@@ -4,9 +4,9 @@ dependencies:
   version: 8.6.2
 - name: postgresql
   repository: https://truecharts.org/
-  version: 6.0.0
+  version: 6.0.1
 - name: memcached
   repository: https://truecharts.org/
   version: 1.0.4
-digest: sha256:4a63cdac91ab354f7a77f6b87982eb2f7136b780cb160b9e75e94f8579f9572e
-generated: "2021-11-16T15:21:23.305319202Z"
+digest: sha256:f4ec82bc93a2aff142e3b5ec37557270a636bf5c57fab553fb158aacedfec987
+generated: "2021-11-16T15:53:47.821664643Z"

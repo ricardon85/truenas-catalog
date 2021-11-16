@@ -1,6 +1,15 @@
 # Changelog<br>
 
 
+<a name="authelia-8.0.1"></a>
+### [authelia-8.0.1](https://github.com/truecharts/apps/compare/authelia-8.0.0...authelia-8.0.1) (2021-11-16)
+
+#### Chore
+
+* bump postgresql again
+
+
+
 <a name="authelia-8.0.0"></a>
 ### [authelia-8.0.0](https://github.com/truecharts/apps/compare/authelia-7.0.12...authelia-8.0.0) (2021-11-16)
 
@@ -86,14 +95,5 @@
 #### Chore
 
 * update non-major deps helm releases ([#1267](https://github.com/truecharts/apps/issues/1267))
-
-
-
-<a name="authelia-7.0.5"></a>
-### [authelia-7.0.5](https://github.com/truecharts/apps/compare/authelia-7.0.4...authelia-7.0.5) (2021-11-01)
-
-#### Chore
-
-* update non-major deps helm releases ([#1264](https://github.com/truecharts/apps/issues/1264))
 
 
