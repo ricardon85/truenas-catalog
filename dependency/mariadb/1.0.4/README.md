@@ -1,14 +1,15 @@
 # Introduction
 
-Open source, advanced key-value store.
+Fast, reliable, scalable, and easy to use open-source relational database system.
 
 TrueCharts are designed to be installed as TrueNAS SCALE app only. We can not guarantee this charts works as a stand-alone helm installation.
 **This chart is not maintained by the upstream project and any issues with the chart should be raised [here](https://github.com/truecharts/apps/issues/new/choose)**
 
 ## Source Code
 
-* <https://github.com/bitnami/bitnami-docker-redis>
-* <http://redis.io/>
+* <https://github.com/bitnami/bitnami-docker-mariadb>
+* <https://github.com/prometheus/mysqld_exporter>
+* <https://mariadb.org>
 
 ## Requirements
 
@@ -18,7 +19,7 @@ Kubernetes: `>=1.16.0-0`
 
 | Repository | Name | Version |
 |------------|------|---------|
-| https://truecharts.org | common | 8.6.2 |
+| https://truecharts.org | common | 8.6.3 |
 
 ## Installing the Chart
 
