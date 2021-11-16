@@ -1,6 +1,15 @@
 # Changelog<br>
 
 
+<a name="postgresql-6.0.1"></a>
+### [postgresql-6.0.1](https://github.com/truecharts/apps/compare/postgresql-6.0.0...postgresql-6.0.1) (2021-11-16)
+
+#### Fix
+
+* correct mistake in VCT
+
+
+
 <a name="postgresql-6.0.0"></a>
 ### [postgresql-6.0.0](https://github.com/truecharts/apps/compare/postgresql-5.2.2...postgresql-6.0.0) (2021-11-16)
 
@@ -88,12 +97,3 @@
 * update non-major ([#1296](https://github.com/truecharts/apps/issues/1296))
 
 #### Fix
-
-* correct mistake in service definition
-
-
-
-<a name="postgresql-5.1.14"></a>
-### [postgresql-5.1.14](https://github.com/truecharts/apps/compare/postgresql-5.1.13...postgresql-5.1.14) (2021-11-08)
-
-#### Feat
