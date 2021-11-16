@@ -1,6 +1,15 @@
 # Changelog<br>
 
 
+<a name="stash-4.0.10"></a>
+### [stash-4.0.10](https://github.com/truecharts/apps/compare/stash-4.0.9...stash-4.0.10) (2021-11-16)
+
+#### Chore
+
+* update container image ghcr.io/truecharts/stash to v0.11.0 ([#1341](https://github.com/truecharts/apps/issues/1341))
+
+
+
 <a name="stash-4.0.9"></a>
 ### [stash-4.0.9](https://github.com/truecharts/apps/compare/stash-4.0.8...stash-4.0.9) (2021-11-15)
 
@@ -87,13 +96,4 @@
 #### Chore
 
 * update non-major deps helm releases ([#1245](https://github.com/truecharts/apps/issues/1245))
-
-
-
-<a name="stash-4.0.1"></a>
-### [stash-4.0.1](https://github.com/truecharts/apps/compare/stash-4.0.0...stash-4.0.1) (2021-10-26)
-
-#### Chore
-
-* update helm chart common to v8.3.15 ([#1240](https://github.com/truecharts/apps/issues/1240))
 
