@@ -1,6 +1,15 @@
 # Changelog<br>
 
 
+<a name="recipes-4.0.3"></a>
+### [recipes-4.0.3](https://github.com/truecharts/apps/compare/recipes-4.0.2...recipes-4.0.3) (2021-11-17)
+
+#### Chore
+
+* update nginx:1.21.4 docker digest to 168a6a2 ([#1346](https://github.com/truecharts/apps/issues/1346))
+
+
+
 <a name="recipes-4.0.2"></a>
 ### [recipes-4.0.2](https://github.com/truecharts/apps/compare/recipes-4.0.1...recipes-4.0.2) (2021-11-16)
 
@@ -88,12 +97,3 @@
 
 #### Chore
 
-* update non-major deps helm releases ([#1291](https://github.com/truecharts/apps/issues/1291))
-
-#### Chore
-
-* Simplify GUI for deployment, persistence and securityContext ([#1289](https://github.com/truecharts/apps/issues/1289))
-
-#### Feat
-
-* Simplify the Services GUI ([#1290](https://github.com/truecharts/apps/issues/1290))
