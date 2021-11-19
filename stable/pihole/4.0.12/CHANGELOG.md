@@ -1,6 +1,15 @@
 # Changelog<br>
 
 
+<a name="pihole-4.0.12"></a>
+### [pihole-4.0.12](https://github.com/truecharts/apps/compare/pihole-4.0.11...pihole-4.0.12) (2021-11-19)
+
+#### Fix
+
+* use port protocol, not port type as default and change default webui port
+
+
+
 <a name="pihole-4.0.11"></a>
 ### [pihole-4.0.11](https://github.com/truecharts/apps/compare/pihole-4.0.10...pihole-4.0.11) (2021-11-16)
 
@@ -86,14 +95,5 @@
 #### Chore
 
 * update non-major deps helm releases ([#1267](https://github.com/truecharts/apps/issues/1267))
-
-
-
-<a name="pihole-4.0.3"></a>
-### [pihole-4.0.3](https://github.com/truecharts/apps/compare/pihole-4.0.2...pihole-4.0.3) (2021-11-01)
-
-#### Chore
-
-* update non-major deps helm releases ([#1264](https://github.com/truecharts/apps/issues/1264))
 
 
