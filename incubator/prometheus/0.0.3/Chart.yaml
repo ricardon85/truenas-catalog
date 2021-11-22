@@ -1,5 +1,5 @@
 apiVersion: v2
-appVersion: "0.52.1-deb"
+appVersion: "0.52.1"
 dependencies:
 - name: common
   repository: https://truecharts.org
@@ -20,7 +20,7 @@ sources:
   - https://github.com/prometheus-community/helm-charts
   - https://github.com/prometheus-operator/kube-prometheus
 type: application
-version: 0.0.2
+version: 0.0.3
 annotations:
   truecharts.org/catagories: |
     - metrics
