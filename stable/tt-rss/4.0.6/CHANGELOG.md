@@ -1,6 +1,15 @@
 # Changelog<br>
 
 
+<a name="tt-rss-4.0.6"></a>
+### [tt-rss-4.0.6](https://github.com/truecharts/apps/compare/tt-rss-4.0.5...tt-rss-4.0.6) (2021-11-23)
+
+#### Chore
+
+* update non-major docker tags ([#1387](https://github.com/truecharts/apps/issues/1387))
+
+
+
 <a name="tt-rss-4.0.5"></a>
 ### [tt-rss-4.0.5](https://github.com/truecharts/apps/compare/tt-rss-4.0.4...tt-rss-4.0.5) (2021-11-23)
 
@@ -88,12 +97,3 @@
 
 
 <a name="tt-rss-3.0.12"></a>
-### [tt-rss-3.0.12](https://github.com/truecharts/apps/compare/tt-rss-3.0.11...tt-rss-3.0.12) (2021-11-14)
-
-#### Chore
-
-* fixes around the GUI refactor ([#1316](https://github.com/truecharts/apps/issues/1316))
-* move port above advanced in GUI ([#1326](https://github.com/truecharts/apps/issues/1326))
-* clean up Chart.yaml ([#1322](https://github.com/truecharts/apps/issues/1322))
-* update non-major deps helm releases ([#1328](https://github.com/truecharts/apps/issues/1328))
-* update non-major ([#1327](https://github.com/truecharts/apps/issues/1327))
