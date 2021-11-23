@@ -1,6 +1,15 @@
 # Changelog<br>
 
 
+<a name="redis-1.0.14"></a>
+### [redis-1.0.14](https://github.com/truecharts/apps/compare/redis-1.0.13...redis-1.0.14) (2021-11-23)
+
+#### Chore
+
+* bump deps again to sync with common
+
+
+
 <a name="redis-1.0.13"></a>
 ### [redis-1.0.13](https://github.com/truecharts/apps/compare/redis-1.0.11...redis-1.0.13) (2021-11-23)
 
@@ -88,12 +97,3 @@
 
 #### Chore
 
-* persistence cleanup and small bugfixes ([#1329](https://github.com/truecharts/apps/issues/1329))
-* bump common and move mariadb
-
-
-
-<a name="redis-1.0.1"></a>
-### [redis-1.0.1](https://github.com/truecharts/apps/compare/redis-1.0.0...redis-1.0.1) (2021-11-14)
-
-#### Chore

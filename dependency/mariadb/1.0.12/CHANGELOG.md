@@ -1,6 +1,15 @@
 # Changelog<br>
 
 
+<a name="mariadb-1.0.12"></a>
+### [mariadb-1.0.12](https://github.com/truecharts/apps/compare/mariadb-1.0.11...mariadb-1.0.12) (2021-11-23)
+
+#### Chore
+
+* bump deps again to sync with common
+
+
+
 <a name="mariadb-1.0.11"></a>
 ### [mariadb-1.0.11](https://github.com/truecharts/apps/compare/mariadb-1.0.9...mariadb-1.0.11) (2021-11-23)
 
@@ -88,12 +97,3 @@
 ### [mariadb-1.0.0](https://github.com/truecharts/apps/compare/mariadb-0.0.1...mariadb-1.0.0) (2021-11-15)
 
 #### Chore
-
-* bump common and move mariadb
-
-
-
-<a name="mariadb-0.0.1"></a>
-### mariadb-0.0.1 (2021-11-15)
-
-#### Feat

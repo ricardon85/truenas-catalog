@@ -1,6 +1,15 @@
 # Changelog<br>
 
 
+<a name="memcached-1.0.13"></a>
+### [memcached-1.0.13](https://github.com/truecharts/apps/compare/memcached-1.0.12...memcached-1.0.13) (2021-11-23)
+
+#### Chore
+
+* bump deps again to sync with common
+
+
+
 <a name="memcached-1.0.12"></a>
 ### [memcached-1.0.12](https://github.com/truecharts/apps/compare/memcached-1.0.10...memcached-1.0.12) (2021-11-23)
 
@@ -87,13 +96,4 @@
 ### [memcached-1.0.1](https://github.com/truecharts/apps/compare/memcached-1.0.0...memcached-1.0.1) (2021-11-14)
 
 #### Chore
-
-* fixes around the GUI refactor ([#1316](https://github.com/truecharts/apps/issues/1316))
-* move port above advanced in GUI ([#1326](https://github.com/truecharts/apps/issues/1326))
-* clean up Chart.yaml ([#1322](https://github.com/truecharts/apps/issues/1322))
-* update non-major ([#1327](https://github.com/truecharts/apps/issues/1327))
-
-#### Fix
-
-* split udp and tcp ports ([#1321](https://github.com/truecharts/apps/issues/1321))
 
