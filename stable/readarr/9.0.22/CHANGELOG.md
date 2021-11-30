@@ -1,6 +1,15 @@
 # Changelog<br>
 
 
+<a name="readarr-9.0.22"></a>
+### [readarr-9.0.22](https://github.com/truecharts/apps/compare/readarr-9.0.21...readarr-9.0.22) (2021-11-30)
+
+#### Chore
+
+* update non-major docker tags ([#1438](https://github.com/truecharts/apps/issues/1438))
+
+
+
 <a name="readarr-9.0.21"></a>
 ### [readarr-9.0.21](https://github.com/truecharts/apps/compare/readarr-9.0.20...readarr-9.0.21) (2021-11-30)
 
@@ -88,12 +97,3 @@
 
 #### Chore
 
-* fixes around the GUI refactor ([#1316](https://github.com/truecharts/apps/issues/1316))
-* move port above advanced in GUI ([#1326](https://github.com/truecharts/apps/issues/1326))
-* clean up Chart.yaml ([#1322](https://github.com/truecharts/apps/issues/1322))
-* update non-major deps helm releases ([#1328](https://github.com/truecharts/apps/issues/1328))
-* update non-major ([#1327](https://github.com/truecharts/apps/issues/1327))
-
-#### Fix
-
-* split udp and tcp ports ([#1321](https://github.com/truecharts/apps/issues/1321))
