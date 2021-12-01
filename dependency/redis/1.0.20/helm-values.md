@@ -18,20 +18,21 @@ You will, however, be able to use all values referenced in the common chart here
 | controller.rollingUpdate.unavailable | int | `1` | Set deployment RollingUpdate max unavailable |
 | controller.strategy | string | `"RollingUpdate"` | Set the controller upgrade strategy For Deployments, valid values are Recreate (default) and RollingUpdate. For StatefulSets, valid values are OnDelete and RollingUpdate (default). DaemonSets ignore this. |
 | controller.type | string | `"statefulset"` | Set the controller type. Valid options are deployment, daemonset or statefulset |
-| envTpl.MARIADB_DATABASE | string | `"{{ .Values.mariadbDatabase }}"` |  |
-| envTpl.MARIADB_USER | string | `"{{ .Values.mariadbUsername }}"` |  |
-| envValueFrom.MARIADB_PASSWORD.secretKeyRef.key | string | `"mariadb-password"` |  |
-| envValueFrom.MARIADB_PASSWORD.secretKeyRef.name | string | `"{{ ( tpl .Values.existingSecret $ ) | default ( include \"common.names.fullname\" . ) }}"` |  |
-| envValueFrom.MARIADB_ROOT_PASSWORD.secretKeyRef.key | string | `"mariadb-root-password"` |  |
-| envValueFrom.MARIADB_ROOT_PASSWORD.secretKeyRef.name | string | `"{{ ( tpl .Values.existingSecret $ ) | default ( include \"common.names.fullname\" . ) }}"` |  |
+| envTpl.REDIS_PORT | string | `"{{ .Values.service.main.ports.main.targetPort }}"` |  |
+| envValueFrom.REDIS_PASSWORD.secretKeyRef.key | string | `"redis-password"` |  |
+| envValueFrom.REDIS_PASSWORD.secretKeyRef.name | string | `"{{ ( tpl .Values.existingSecret $ ) | default ( include \"common.names.fullname\" . ) }}"` |  |
+| env[0].name | string | `"REDIS_REPLICATION_MODE"` |  |
+| env[0].value | string | `"master"` |  |
+| env[1].name | string | `"ALLOW_EMPTY_PASSWORD"` |  |
+| env[1].value | string | `"yes"` |  |
 | existingSecret | string | `""` |  |
 | image.pullPolicy | string | `"IfNotPresent"` |  |
-| image.repository | string | `"bitnami/mariadb"` |  |
-| image.tag | string | `"10.6.5@sha256:913ce8cd2369bc396f7285c2890120b2dba9e54c4caf788267d9c595ec9b8791"` |  |
-| mariadbDatabase | string | `"test"` |  |
-| mariadbPassword | string | `"testpass"` |  |
-| mariadbRootPassword | string | `"testroot"` |  |
-| mariadbUsername | string | `"test"` |  |
+| image.repository | string | `"bitnami/redis"` |  |
+| image.tag | string | `"6.2.6@sha256:5c14298baea515f4317aa2ab85eaadf119cc49c17e0ad2e1e87aeab87a4431d2"` |  |
+| persistence.redis-health | object | See below | redis-health configmap mount |
+| persistence.redis-health.mountPath | string | `"/health"` | Where to mount the volume in the main container. Defaults to `/<name_of_the_volume>`, setting to '-' creates the volume but disables the volumeMount. |
+| persistence.redis-health.readOnly | bool | `false` | Specify if the volume should be mounted read-only. |
+| persistence.redis-health.volumeSpec | object | `{"configMap":{"defaultMode":493,"name":"redis-health"}}` | Define the custom Volume spec here [[ref]](https://kubernetes.io/docs/concepts/storage/volumes/) |
 | podSecurityContext.runAsGroup | int | `0` |  |
 | probes | object | See below | Probe configuration -- [[ref]](https://kubernetes.io/docs/tasks/configure-pod-container/configure-liveness-readiness-startup-probes/) |
 | probes.liveness | object | See below | Liveness probe configuration |
@@ -45,10 +46,11 @@ You will, however, be able to use all values referenced in the common chart here
 | probes.startup | object | See below | Startup probe configuration |
 | probes.startup.enabled | bool | `true` | Enable the startup probe |
 | probes.startup.spec | object | See below | The spec field contains the values for the default livenessProbe. If you selected `custom: true`, this field holds the definition of the livenessProbe. |
+| redisPassword | string | `"testpass"` |  |
 | securityContext.readOnlyRootFilesystem | bool | `false` |  |
-| service.main.ports.main.port | int | `3306` |  |
-| service.main.ports.main.targetPort | int | `3306` |  |
+| service.main.ports.main.port | int | `6379` |  |
+| service.main.ports.main.targetPort | int | `6379` |  |
 | volumeClaimTemplates.data.enabled | bool | `true` |  |
-| volumeClaimTemplates.data.mountPath | string | `"/bitnami/mariadb"` |  |
+| volumeClaimTemplates.data.mountPath | string | `"/bitnami/redis"` |  |
 
 All Rights Reserved - The TrueCharts Project
