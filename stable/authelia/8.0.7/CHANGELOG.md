@@ -1,6 +1,15 @@
 # Changelog<br>
 
 
+<a name="authelia-8.0.7"></a>
+### [authelia-8.0.7](https://github.com/truecharts/apps/compare/authelia-8.0.6...authelia-8.0.7) (2021-12-03)
+
+#### Fix
+
+* misc fixes
+
+
+
 <a name="authelia-8.0.6"></a>
 ### [authelia-8.0.6](https://github.com/truecharts/apps/compare/authelia-8.0.5...authelia-8.0.6) (2021-12-03)
 
@@ -88,12 +97,3 @@
 
 #### Chore
 
-* fixes around the GUI refactor ([#1316](https://github.com/truecharts/apps/issues/1316))
-* move port above advanced in GUI ([#1326](https://github.com/truecharts/apps/issues/1326))
-* clean up Chart.yaml ([#1322](https://github.com/truecharts/apps/issues/1322))
-* update non-major deps helm releases ([#1328](https://github.com/truecharts/apps/issues/1328))
-
-
-
-<a name="authelia-7.0.10"></a>
-### [authelia-7.0.10](https://github.com/truecharts/apps/compare/authelia-7.0.9...authelia-7.0.10) (2021-11-12)
