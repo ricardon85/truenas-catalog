@@ -1,0 +1,19 @@
+image:
+  repository: tccr.io/truecharts/sabnzbd
+  pullPolicy: IfNotPresent
+  tag: v3.4.2@sha256:23f1fd8ff6709a1f11b08134f5463887efcfaa5aa1beadf32984d56b9b93c35d
+
+service:
+  main:
+    ports:
+      main:
+        port: 10097
+        targetPort: 8080
+
+env: {}
+  # TZ: UTC
+  # PUID: 1001
+persistence:
+  config:
+    enabled: true
+    mountPath: "/config"
