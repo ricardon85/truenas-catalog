@@ -1,6 +1,15 @@
 # Changelog<br>
 
 
+<a name="jackett-9.0.28"></a>
+### [jackett-9.0.28](https://github.com/truecharts/apps/compare/jackett-9.0.27...jackett-9.0.28) (2021-12-03)
+
+#### Feat
+
+* Render security scan results during build ([#1451](https://github.com/truecharts/apps/issues/1451))
+
+
+
 <a name="jackett-9.0.27"></a>
 ### [jackett-9.0.27](https://github.com/truecharts/apps/compare/jackett-9.0.26...jackett-9.0.27) (2021-12-03)
 
@@ -85,15 +94,6 @@
 #### Chore
 
 * update non-major ([#1342](https://github.com/truecharts/apps/issues/1342))
-
-
-
-<a name="jackett-9.0.17"></a>
-### [jackett-9.0.17](https://github.com/truecharts/apps/compare/jackett-9.0.16...jackett-9.0.17) (2021-11-15)
-
-#### Chore
-
-* update non-major deps helm releases ([#1338](https://github.com/truecharts/apps/issues/1338))
 
 
 
