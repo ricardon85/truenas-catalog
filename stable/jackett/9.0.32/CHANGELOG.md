@@ -1,6 +1,15 @@
 # Changelog<br>
 
 
+<a name="jackett-9.0.32"></a>
+### [jackett-9.0.32](https://github.com/truecharts/apps/compare/jackett-9.0.31...jackett-9.0.32) (2021-12-04)
+
+#### Feat
+
+* Craft a trivy config to md parser
+
+
+
 <a name="jackett-9.0.31"></a>
 ### [jackett-9.0.31](https://github.com/truecharts/apps/compare/jackett-9.0.30...jackett-9.0.31) (2021-12-04)
 
@@ -87,13 +96,4 @@
 * update non-major ([#1380](https://github.com/truecharts/apps/issues/1380))
 
 #### Fix
-
-* Default enable all services ([#1361](https://github.com/truecharts/apps/issues/1361))
-
-
-
-<a name="jackett-9.0.20"></a>
-### [jackett-9.0.20](https://github.com/truecharts/apps/compare/jackett-9.0.19...jackett-9.0.20) (2021-11-18)
-
-#### Chore
 
