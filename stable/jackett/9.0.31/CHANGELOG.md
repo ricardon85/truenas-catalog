@@ -1,6 +1,15 @@
 # Changelog<br>
 
 
+<a name="jackett-9.0.31"></a>
+### [jackett-9.0.31](https://github.com/truecharts/apps/compare/jackett-9.0.30...jackett-9.0.31) (2021-12-04)
+
+#### Chore
+
+* improve a bit on security docs generation
+
+
+
 <a name="jackett-9.0.30"></a>
 ### [jackett-9.0.30](https://github.com/truecharts/apps/compare/jackett-9.0.28...jackett-9.0.30) (2021-12-04)
 
@@ -85,15 +94,6 @@
 
 <a name="jackett-9.0.20"></a>
 ### [jackett-9.0.20](https://github.com/truecharts/apps/compare/jackett-9.0.19...jackett-9.0.20) (2021-11-18)
-
-#### Chore
-
-* update non-major ([#1350](https://github.com/truecharts/apps/issues/1350))
-
-
-
-<a name="jackett-9.0.19"></a>
-### [jackett-9.0.19](https://github.com/truecharts/apps/compare/jackett-9.0.18...jackett-9.0.19) (2021-11-16)
 
 #### Chore
 
