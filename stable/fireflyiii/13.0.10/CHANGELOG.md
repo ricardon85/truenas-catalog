@@ -1,8 +1,17 @@
 # Changelog<br>
 
 
-<a name="grocy-9.0.18"></a>
-### grocy-9.0.18 (2021-12-05)
+<a name="fireflyiii-13.0.10"></a>
+### [fireflyiii-13.0.10](https://github.com/truecharts/apps/compare/fireflyiii-13.0.9...fireflyiii-13.0.10) (2021-12-05)
+
+#### Chore
+
+* fix some remaining issues after refactor work
+
+
+
+<a name="fireflyiii-13.0.9"></a>
+### fireflyiii-13.0.9 (2021-12-05)
 
 #### Chore
 
@@ -20,8 +29,8 @@
 
 
 
-<a name="grocy-9.0.17"></a>
-### [grocy-9.0.17](https://github.com/truecharts/apps/compare/grocy-9.0.16...grocy-9.0.17) (2021-12-05)
+<a name="fireflyiii-13.0.8"></a>
+### [fireflyiii-13.0.8](https://github.com/truecharts/apps/compare/fireflyiii-13.0.7...fireflyiii-13.0.8) (2021-12-05)
 
 #### Chore
 
@@ -29,8 +38,8 @@
 
 
 
-<a name="grocy-9.0.16"></a>
-### [grocy-9.0.16](https://github.com/truecharts/apps/compare/grocy-9.0.15...grocy-9.0.16) (2021-12-04)
+<a name="fireflyiii-13.0.7"></a>
+### [fireflyiii-13.0.7](https://github.com/truecharts/apps/compare/fireflyiii-13.0.6...fireflyiii-13.0.7) (2021-12-04)
 
 #### Chore
 
@@ -38,8 +47,8 @@
 
 
 
-<a name="grocy-9.0.15"></a>
-### [grocy-9.0.15](https://github.com/truecharts/apps/compare/grocy-9.0.14...grocy-9.0.15) (2021-12-04)
+<a name="fireflyiii-13.0.6"></a>
+### [fireflyiii-13.0.6](https://github.com/truecharts/apps/compare/fireflyiii-13.0.5...fireflyiii-13.0.6) (2021-12-04)
 
 #### Chore
 
@@ -47,8 +56,8 @@
 
 
 
-<a name="grocy-9.0.14"></a>
-### [grocy-9.0.14](https://github.com/truecharts/apps/compare/grocy-9.0.13...grocy-9.0.14) (2021-12-03)
+<a name="fireflyiii-13.0.5"></a>
+### [fireflyiii-13.0.5](https://github.com/truecharts/apps/compare/fireflyiii-13.0.4...fireflyiii-13.0.5) (2021-12-03)
 
 #### Chore
 
@@ -57,8 +66,8 @@
 
 
 
-<a name="grocy-9.0.13"></a>
-### [grocy-9.0.13](https://github.com/truecharts/apps/compare/grocy-9.0.12...grocy-9.0.13) (2021-11-30)
+<a name="fireflyiii-13.0.4"></a>
+### [fireflyiii-13.0.4](https://github.com/truecharts/apps/compare/fireflyiii-13.0.3...fireflyiii-13.0.4) (2021-11-30)
 
 #### Chore
 
@@ -70,8 +79,8 @@
 
 
 
-<a name="grocy-9.0.12"></a>
-### [grocy-9.0.12](https://github.com/truecharts/apps/compare/grocy-9.0.11...grocy-9.0.12) (2021-11-23)
+<a name="fireflyiii-13.0.3"></a>
+### [fireflyiii-13.0.3](https://github.com/truecharts/apps/compare/fireflyiii-13.0.2...fireflyiii-13.0.3) (2021-11-23)
 
 #### Chore
 
@@ -79,21 +88,12 @@
 
 
 
-<a name="grocy-9.0.11"></a>
-### [grocy-9.0.11](https://github.com/truecharts/apps/compare/grocy-9.0.10...grocy-9.0.11) (2021-11-22)
+<a name="fireflyiii-13.0.2"></a>
+### [fireflyiii-13.0.2](https://github.com/truecharts/apps/compare/fireflyiii-13.0.1...fireflyiii-13.0.2) (2021-11-22)
 
 #### Chore
 
 * update non-major deps helm releases ([#1383](https://github.com/truecharts/apps/issues/1383))
-
-
-
-<a name="grocy-9.0.10"></a>
-### [grocy-9.0.10](https://github.com/truecharts/apps/compare/grocy-9.0.9...grocy-9.0.10) (2021-11-16)
-
-#### Chore
-
-* update non-major deps helm releases ([#1345](https://github.com/truecharts/apps/issues/1345))
 
 
 
