@@ -1,6 +1,15 @@
 # Changelog<br>
 
 
+<a name="promtail-1.0.9"></a>
+### [promtail-1.0.9](https://github.com/truecharts/apps/compare/promtail-1.0.8...promtail-1.0.9) (2021-12-05)
+
+#### Chore
+
+* update common on deps ([#1467](https://github.com/truecharts/apps/issues/1467))
+
+
+
 <a name="promtail-1.0.8"></a>
 ### [promtail-1.0.8](https://github.com/truecharts/apps/compare/promtail-1.0.7...promtail-1.0.8) (2021-12-05)
 
@@ -87,13 +96,4 @@
 
 <a name="promtail-0.0.3"></a>
 ### [promtail-0.0.3](https://github.com/truecharts/apps/compare/promtail-0.0.2...promtail-0.0.3) (2021-11-24)
-
-#### Fix
-
-* correct mistake in namespace generator
-
-
-
-<a name="promtail-0.0.2"></a>
-### [promtail-0.0.2](https://github.com/truecharts/apps/compare/promtail-0.0.1...promtail-0.0.2) (2021-11-24)
 
