@@ -1,9 +1,0 @@
-dependencies:
-- name: common
-  repository: https://truecharts.org
-  version: 8.9.10
-- name: mariadb
-  repository: https://truecharts.org/
-  version: 1.0.20
-digest: sha256:e501344209fd5c30574ba1a1b20da921adee5c89d493ff0a7aa996f19023f4c6
-generated: "2021-12-04T19:16:33.015851601Z"
