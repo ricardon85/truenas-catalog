@@ -1,6 +1,15 @@
 # Changelog<br>
 
 
+<a name="code-server-2.0.19"></a>
+### [code-server-2.0.19](https://github.com/truecharts/apps/compare/code-server-2.0.18...code-server-2.0.19) (2021-12-06)
+
+#### Fix
+
+* correct code-server persistence ([#1473](https://github.com/truecharts/apps/issues/1473))
+
+
+
 <a name="code-server-2.0.18"></a>
 ### code-server-2.0.18 (2021-12-05)
 
@@ -86,14 +95,5 @@
 
 <a name="code-server-2.0.11"></a>
 ### [code-server-2.0.11](https://github.com/truecharts/apps/compare/code-server-2.0.10...code-server-2.0.11) (2021-11-22)
-
-#### Chore
-
-* update non-major deps helm releases ([#1383](https://github.com/truecharts/apps/issues/1383))
-
-
-
-<a name="code-server-2.0.10"></a>
-### [code-server-2.0.10](https://github.com/truecharts/apps/compare/code-server-2.0.9...code-server-2.0.10) (2021-11-16)
 
 #### Chore
