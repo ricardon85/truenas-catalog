@@ -1,6 +1,15 @@
 # Changelog<br>
 
 
+<a name="anonaddy-6.0.9"></a>
+### [anonaddy-6.0.9](https://github.com/truecharts/apps/compare/anonaddy-6.0.8...anonaddy-6.0.9) (2021-12-07)
+
+#### Fix
+
+* enable redis on 2 apps ([#1480](https://github.com/truecharts/apps/issues/1480))
+
+
+
 <a name="anonaddy-6.0.8"></a>
 ### anonaddy-6.0.8 (2021-12-05)
 
@@ -88,9 +97,3 @@
 
 
 
-<a name="anonaddy-6.0.0"></a>
-### anonaddy-6.0.0 (2021-11-30)
-
-#### Feat
-
-* add  a bunch of mariaDB backed Apps ([#1407](https://github.com/truecharts/apps/issues/1407))
