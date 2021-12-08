@@ -1,0 +1,39 @@
+image:
+  repository: tccr.io/truecharts/syncthing
+  pullPolicy: IfNotPresent
+  tag: v1.18.5@sha256:13830f6cf740e859743beb2ee5acf55d226d2e313fd340fc56ddadc497a7597a
+
+service:
+  main:
+    ports:
+      main:
+        port: 8384
+        targetPort: 8384
+  listeners:
+    enabled: true
+    ports:
+      tcp:
+        enabled: true
+        port: 22000
+        targetPort: 22000
+  listeners-udp:
+    enabled: true
+    ports:
+      udp:
+        enabled: true
+        port: 22000
+        targetPort: 22000
+        protocol: UDP
+  discovery:
+    enabled: true
+    ports:
+      discovery:
+        enabled: true
+        port: 21027
+        targetPort: 21027
+        protocol: UDP
+
+persistence:
+  config:
+    enabled: true
+    mountPath: "/var/syncthing/"
