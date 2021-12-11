@@ -1,0 +1,27 @@
+image:
+  repository: tccr.io/truecharts/truecommand
+  pullPolicy: IfNotPresent
+  tag: v2.0.2@sha256:f2882df54c8b939000c4dc7d361b5200ee096f202b1208eb045b8773f2891b8f
+
+securityContext:
+  readOnlyRootFilesystem: false
+  runAsNonRoot: false
+
+podSecurityContext:
+  runAsUser: 0
+  runAsGroup: 0
+
+service:
+  main:
+    ports:
+      main:
+        port: 10031
+        targetPort: 80
+
+env: {}
+  # TZ: UTC
+  # PUID: 1001
+persistence:
+  data:
+    enabled: true
+    mountPath: "/data"
