@@ -1,0 +1,80 @@
+image:
+  # -- image repository
+  repository: tccr.io/truecharts/photoprism
+  # -- image tag
+  tag: v20211203@sha256:a1455179da40abe39c1a8750e9f9b8134d3bfb506a0e642dcd5fc3b69579b571
+  # -- image pull policy
+  pullPolicy: IfNotPresent
+
+securityContext:
+  readOnlyRootFilesystem: false
+
+secret:
+  # -- Initial admin password. **BE SURE TO CHANGE THIS!**
+  PHOTOPRISM_ADMIN_PASSWORD: "please-change"
+# -- environment variables. See [image docs](https://docs.photoprism.org/getting-started/config-options/) for more details.
+# @default -- See below
+env:
+  # -- Set the container timezone
+  TZ: UTC
+  # -- Photoprism originals path
+  PHOTOPRISM_ORIGINALS_PATH: /photoprism/originals
+  # -- Photoprism import path
+  PHOTOPRISM_IMPORT_PATH: /photoprism/import
+  # -- Photoprism temp path
+  PHOTOPRISM_TEMP_PATH: /photoprism/temp
+  # -- Photoprism storage path
+  PHOTOPRISM_STORAGE_PATH: /assets/storage
+  # -- Photoprism sidecar path
+  PHOTOPRISM_SIDECAR_PATH: /assets/sidecar
+  # -- Photoprism cache path
+  PHOTOPRISM_CACHE_PATH: /assets/cache
+  # -- Photoprism config path
+  PHOTOPRISM_CONFIG_PATH: /assets/config
+  # -- Photoprism backup path
+  PROTOPRISM_BACKUP_PATH: /assets/backup
+  # -- Disable authentication / password protection
+  PHOTOPRISM_PUBLIC: "false"
+  # -- Sets UID Photoprism runs under.
+  UID:  # 1000
+  # -- Sets GID Photoprism runs under.
+  GID:  # 1000
+  PHOTOPRISM_DATABASE_DRIVER: "mysql"            # Use MariaDB 10.5+ or MySQL 8+ instead of SQLite for improved performance
+  PHOTOPRISM_DATABASE_NAME: "photoprism"         # MariaDB or MySQL database schema name
+  PHOTOPRISM_DATABASE_USER: "photoprism"         # MariaDB or MySQL database user name
+
+envValueFrom:
+  PHOTOPRISM_DATABASE_SERVER:
+    secretKeyRef:
+      name: mariadbcreds
+      key: plainporthost
+  PHOTOPRISM_DATABASE_PASSWORD:
+    secretKeyRef:
+      name: mariadbcreds
+      key: mariadb-password
+
+# -- Configures service settings for the chart.
+# @default -- See values.yaml
+service:
+  main:
+    ports:
+      main:
+        port: 2342
+        targetPort: 2342
+
+# -- Configure persistence settings for the chart under this key.
+# @default -- See values.yaml
+persistence:
+  storage:
+    enabled: true
+    mountPath: "/assets"
+  temp:
+    enabled: true
+    mountPath: "/photoprism/temp"
+    type: emptyDir
+
+mariadb:
+  enabled: true
+  mariadbUsername: photoprism
+  mariadbDatabase: photoprism
+  existingSecret: "mariadbcreds"
