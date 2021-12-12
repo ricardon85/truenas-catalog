@@ -1,6 +1,15 @@
 # Changelog<br>
 
 
+<a name="openldap-5.0.2"></a>
+### [openldap-5.0.2](https://github.com/truecharts/apps/compare/openldap-5.0.1...openldap-5.0.2) (2021-12-12)
+
+#### Fix
+
+* remove required setting on booleans in questions
+
+
+
 <a name="openldap-5.0.1"></a>
 ### [openldap-5.0.1](https://github.com/truecharts/apps/compare/openldap-5.0.0...openldap-5.0.1) (2021-12-11)
 
@@ -88,12 +97,3 @@
 
 #### Chore
 
-* move all container references to TCCR ([#1448](https://github.com/truecharts/apps/issues/1448))
-* update non-major ([#1449](https://github.com/truecharts/apps/issues/1449))
-
-
-
-<a name="openldap-4.0.18"></a>
-### [openldap-4.0.18](https://github.com/truecharts/apps/compare/openldap-4.0.17...openldap-4.0.18) (2021-11-30)
-
-#### Chore
