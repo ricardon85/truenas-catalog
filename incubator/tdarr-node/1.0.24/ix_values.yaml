@@ -1,0 +1,37 @@
+image:
+  repository: tccr.io/truecharts/tdarr_node
+  pullPolicy: IfNotPresent
+  tag: v2.00.12@sha256:79b1211a1eefc564724935d532b6b90904d67efc9d8a238873e7156aa70f2f4a
+
+securityContext:
+  readOnlyRootFilesystem: false
+  runAsNonRoot: false
+
+podSecurityContext:
+  runAsUser: 0
+  runAsGroup: 0
+
+env:
+  PUID: 568
+  nodeID: "myFirstTdarrNode"
+  nodeIP: "0.0.0.0"
+  nodePort: 8267
+  serverIP: "0.0.0.0"
+  serverPort: 8266
+
+service:
+  main:
+    ports:
+      main:
+        port: 8267
+        targetPort: 8267
+
+persistence:
+  configs:
+    enabled: true
+    mountPath: "/app/configs"
+  logs:
+    enabled: true
+    mountPath: "/app/logs"
+  varrun:
+    enabled: true
