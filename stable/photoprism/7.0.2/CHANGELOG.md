@@ -1,6 +1,16 @@
 # Changelog<br>
 
 
+<a name="photoprism-7.0.2"></a>
+### [photoprism-7.0.2](https://github.com/truecharts/apps/compare/photoprism-7.0.1...photoprism-7.0.2) (2021-12-13)
+
+#### Chore
+
+* fix some icons ([#1525](https://github.com/truecharts/apps/issues/1525))
+* update docker general major docker tags (major) ([#1523](https://github.com/truecharts/apps/issues/1523))
+
+
+
 <a name="photoprism-7.0.1"></a>
 ### [photoprism-7.0.1](https://github.com/truecharts/apps/compare/photoprism-7.0.0...photoprism-7.0.1) (2021-12-11)
 
@@ -87,13 +97,3 @@
 #### Chore
 
 * update non-major deps helm releases ([#1453](https://github.com/truecharts/apps/issues/1453))
-
-
-
-<a name="photoprism-6.0.4"></a>
-### [photoprism-6.0.4](https://github.com/truecharts/apps/compare/photoprism-6.0.3...photoprism-6.0.4) (2021-12-03)
-
-#### Chore
-
-* ensure container references are prefixed with v
-* move all container references to TCCR ([#1448](https://github.com/truecharts/apps/issues/1448))
