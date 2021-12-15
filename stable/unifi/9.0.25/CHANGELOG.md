@@ -1,6 +1,17 @@
 # Changelog<br>
 
 
+<a name="unifi-9.0.25"></a>
+### [unifi-9.0.25](https://github.com/truecharts/apps/compare/unifi-9.0.24...unifi-9.0.25) (2021-12-15)
+
+#### Chore
+
+* App-Icon Organization ([#1539](https://github.com/truecharts/apps/issues/1539))
+* update docker general non-major docker tags ([#1542](https://github.com/truecharts/apps/issues/1542))
+* update docker general non-major
+
+
+
 <a name="unifi-9.0.24"></a>
 ### [unifi-9.0.24](https://github.com/truecharts/apps/compare/unifi-9.0.23...unifi-9.0.24) (2021-12-14)
 
@@ -85,15 +96,4 @@
 
 <a name="unifi-9.0.16"></a>
 ### [unifi-9.0.16](https://github.com/truecharts/apps/compare/unifi-9.0.15...unifi-9.0.16) (2021-12-04)
-
-#### Chore
-
-* bump apps to generate security page
-
-
-
-<a name="unifi-9.0.15"></a>
-### [unifi-9.0.15](https://github.com/truecharts/apps/compare/unifi-9.0.14...unifi-9.0.15) (2021-12-04)
-
-#### Chore
 
