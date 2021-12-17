@@ -1,6 +1,20 @@
 # Changelog<br>
 
 
+<a name="tdarr-1.0.26"></a>
+### [tdarr-1.0.26](https://github.com/truecharts/apps/compare/tdarr-1.0.25...tdarr-1.0.26) (2021-12-17)
+
+#### Chore
+
+* App-Icon Organization ([#1539](https://github.com/truecharts/apps/issues/1539))
+* update docker general non-major
+
+#### Fix
+
+* app needs r/w access to rootfs ([#1549](https://github.com/truecharts/apps/issues/1549))
+
+
+
 <a name="tdarr-1.0.25"></a>
 ### [tdarr-1.0.25](https://github.com/truecharts/apps/compare/tdarr-1.0.24...tdarr-1.0.25) (2021-12-14)
 
@@ -83,17 +97,3 @@
 * bump apps to generate security page
 
 
-
-<a name="tdarr-1.0.17"></a>
-### [tdarr-1.0.17](https://github.com/truecharts/apps/compare/tdarr-node-1.0.16...tdarr-1.0.17) (2021-12-04)
-
-#### Chore
-
-* update non-major deps helm releases ([#1453](https://github.com/truecharts/apps/issues/1453))
-
-
-
-<a name="tdarr-1.0.16"></a>
-### [tdarr-1.0.16](https://github.com/truecharts/apps/compare/tdarr-node-1.0.15...tdarr-1.0.16) (2021-12-03)
-
-#### Chore
