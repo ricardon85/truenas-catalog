@@ -1,0 +1,12 @@
+dependencies:
+- name: common
+  repository: https://truecharts.org
+  version: 8.9.21
+- name: postgresql
+  repository: https://truecharts.org/
+  version: 6.0.31
+- name: memcached
+  repository: https://truecharts.org/
+  version: 1.0.34
+digest: sha256:6814d383ef8718e52130ac18d58fe3e18eb9d6b60f319815775dc915718a4e66
+generated: "2021-12-18T19:40:28.983707806Z"

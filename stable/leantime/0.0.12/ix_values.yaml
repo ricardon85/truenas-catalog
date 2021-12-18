@@ -1,0 +1,53 @@
+image:
+  repository: tccr.io/truecharts/leantime
+  pullPolicy: IfNotPresent
+  tag: v2.1.7-ls6@sha256:09f51955b47e8bf7cf8c95b7fa4e023ce2fae4aa15ef42db1568b4c23830b5a6
+
+securityContext:
+  runAsNonRoot: false
+  readOnlyRootFilesystem: false
+
+
+podSecurityContext:
+  runAsUser: 0
+  runAsGroup: 0
+
+env:
+  LEAN_DB_DATABASE: "leantime"
+  LEAN_DB_USER: leantime
+
+service:
+  main:
+    ports:
+      main:
+        port: 10117
+        targetPort: 80
+  extra:
+    enabled: true
+    ports:
+      extra:
+        enabled: true
+        port: 10118
+        targetPort: 9000
+        protocol: UDP
+
+persistence:
+  sessions:
+    enabled: true
+    mountPath: "/sessions"
+
+envValueFrom:
+  LEAN_DB_HOST:
+    secretKeyRef:
+      name: mariadbcreds
+      key: plainhost
+  LEAN_DB_PASSWORD:
+    secretKeyRef:
+      name: mariadbcreds
+      key: mariadb-password
+
+mariadb:
+  enabled: true
+  mariadbUsername: leantime
+  mariadbDatabase: leantime
+  existingSecret: "mariadbcreds"
