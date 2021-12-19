@@ -1,9 +1,0 @@
-dependencies:
-- name: common
-  repository: https://truecharts.org
-  version: 8.9.24
-- name: promtail
-  repository: https://truecharts.org
-  version: 1.0.15
-digest: sha256:7ebdef71e1d8778c749a2ef1a290f9310301021bc9fd9dbee023d957e2eb14fd
-generated: "2021-12-19T18:36:30.382597862Z"
