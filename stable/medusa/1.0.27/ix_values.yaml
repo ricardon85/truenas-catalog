@@ -1,0 +1,27 @@
+image:
+  repository: tccr.io/truecharts/medusa
+  pullPolicy: IfNotPresent
+  tag: v0.5.20@sha256:ab6d867b5a7328a6fd36e01d2c036865b31c86c855e0de58820cfb09e7996eed
+env:
+  PUID: 568
+
+securityContext:
+  readOnlyRootFilesystem: false
+  runAsNonRoot: false
+
+podSecurityContext:
+  runAsUser: 0
+  runAsGroup: 0
+service:
+  main:
+    ports:
+      main:
+        port: 10068
+        targetPort: 8081
+
+persistence:
+  config:
+    enabled: true
+    mountPath: "/config"
+  varrun:
+    enabled: true
