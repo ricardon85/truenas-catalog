@@ -396,7 +396,7 @@ questions:
                             description: "This port exposes the container port on the service"
                             schema:
                               type: int
-                              default: 10050
+                              default: 10049
                               editable: true
                               required: true
                           - variable: advanced
@@ -810,7 +810,7 @@ questions:
                 description: "Sets the persistence type, Anything other than PVC could break rollback!"
                 schema:
                   type: string
-                  default: "simpleHP"
+                  default: "simplePVC"
                   enum:
                     - value: "simplePVC"
                       description: "PVC (simple)"

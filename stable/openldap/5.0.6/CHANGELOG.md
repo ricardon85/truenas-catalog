@@ -1,6 +1,15 @@
 # Changelog<br>
 
 
+<a name="openldap-5.0.6"></a>
+### [openldap-5.0.6](https://github.com/truecharts/apps/compare/openldap-5.0.5...openldap-5.0.6) (2021-12-19)
+
+#### Fix
+
+* revert removing of trailing slash ([#1566](https://github.com/truecharts/apps/issues/1566))
+
+
+
 <a name="openldap-5.0.5"></a>
 ### [openldap-5.0.5](https://github.com/truecharts/apps/compare/openldap-5.0.4...openldap-5.0.5) (2021-12-18)
 
@@ -88,12 +97,3 @@
 * update non-major deps helm releases ([#1432](https://github.com/truecharts/apps/issues/1432))
 
 #### Fix
-
-* fix typo in theme selection ([#1428](https://github.com/truecharts/apps/issues/1428))
-
-
-
-<a name="openldap-4.0.22"></a>
-### [openldap-4.0.22](https://github.com/truecharts/apps/compare/openldap-4.0.21...openldap-4.0.22) (2021-12-05)
-
-#### Chore

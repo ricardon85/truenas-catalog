@@ -1,6 +1,15 @@
 # Changelog<br>
 
 
+<a name="deepstack-cpu-8.0.5"></a>
+### [deepstack-cpu-8.0.5](https://github.com/truecharts/apps/compare/deepstack-cpu-8.0.4...deepstack-cpu-8.0.5) (2021-12-19)
+
+#### Fix
+
+* default to pvc for modelstore ([#1565](https://github.com/truecharts/apps/issues/1565))
+
+
+
 <a name="deepstack-cpu-8.0.4"></a>
 ### [deepstack-cpu-8.0.4](https://github.com/truecharts/apps/compare/deepstack-cpu-8.0.3...deepstack-cpu-8.0.4) (2021-12-18)
 
@@ -86,14 +95,5 @@
 
 <a name="deepstack-cpu-7.0.16"></a>
 ### [deepstack-cpu-7.0.16](https://github.com/truecharts/apps/compare/deepstack-cpu-7.0.15...deepstack-cpu-7.0.16) (2021-12-04)
-
-#### Chore
-
-* bump apps to generate security page
-
-
-
-<a name="deepstack-cpu-7.0.15"></a>
-### [deepstack-cpu-7.0.15](https://github.com/truecharts/apps/compare/deepstack-cpu-7.0.14...deepstack-cpu-7.0.15) (2021-12-04)
 
 #### Chore
