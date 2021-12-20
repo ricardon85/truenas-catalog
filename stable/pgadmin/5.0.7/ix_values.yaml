@@ -1,0 +1,31 @@
+image:
+  repository: tccr.io/truecharts/pgadmin4
+  pullPolicy: IfNotPresent
+  tag: v6.3@sha256:13498140469d4efc97e0d746baaca4322344e6f295c584de072b7b22cd94d7c7
+
+securityContext:
+  runAsNonRoot: false
+  readOnlyRootFilesystem: false
+
+podSecurityContext:
+  runAsUser: 0
+  runAsGroup: 0
+  fsGroup: 5050
+
+service:
+  main:
+    ports:
+      main:
+        port: 10024
+        targetPort: 80
+
+secret:
+  PGADMIN_DEFAULT_EMAIL: "replace@this.now"
+  PGADMIN_DEFAULT_PASSWORD: "changeme"
+
+env: {}
+
+persistence:
+  config:
+    enabled: true
+    mountPath: "/var/lib/pgadmin"
