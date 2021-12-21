@@ -1,6 +1,15 @@
 # Changelog<br>
 
 
+<a name="resilio-sync-4.0.26"></a>
+### [resilio-sync-4.0.26](https://github.com/truecharts/apps/compare/resilio-sync-4.0.25...resilio-sync-4.0.26) (2021-12-21)
+
+#### Fix
+
+* allow access to rootfs ([#1593](https://github.com/truecharts/apps/issues/1593))
+
+
+
 <a name="resilio-sync-4.0.25"></a>
 ### [resilio-sync-4.0.25](https://github.com/truecharts/apps/compare/resilio-sync-4.0.24...resilio-sync-4.0.25) (2021-12-19)
 
@@ -88,12 +97,3 @@
 * update non-major deps helm releases ([#1432](https://github.com/truecharts/apps/issues/1432))
 
 #### Fix
-
-* fix typo in theme selection ([#1428](https://github.com/truecharts/apps/issues/1428))
-
-
-
-<a name="resilio-sync-4.0.17"></a>
-### [resilio-sync-4.0.17](https://github.com/truecharts/apps/compare/resilio-sync-4.0.16...resilio-sync-4.0.17) (2021-12-05)
-
-#### Chore
