@@ -25,30 +25,8 @@ groups:
     description: "Addon Configuration"
   - name: "Advanced"
     description: "Advanced Configuration"
-portals:
-  web_portal:
-    protocols:
-      - "$kubernetes-resource_configmap_portal_protocol"
-    host:
-      - "$kubernetes-resource_configmap_portal_host"
-    ports:
-      - "$kubernetes-resource_configmap_portal_port"
+portals: {}
 questions:
-  - variable: portal
-    group: "Container Image"
-    label: "Configure Portal Button"
-    schema:
-      type: dict
-      hidden: true
-      attrs:
-        - variable: enabled
-          label: "Enable"
-          description: "enable the portal button"
-          schema:
-            hidden: true
-            editable: false
-            type: boolean
-            default: true
   - variable: global
     label: "global settings"
     group: "Controller"
@@ -62,7 +40,6 @@ questions:
             type: boolean
             default: true
             hidden: true
-
   - variable: controller
     group: "Controller"
     label: ""
@@ -1122,7 +1099,7 @@ questions:
                 label: "ReadOnly Root Filesystem"
                 schema:
                   type: boolean
-                  default: true
+                  default: false
               - variable: allowPrivilegeEscalation
                 label: "Allow Privilege Escalation"
                 schema:
