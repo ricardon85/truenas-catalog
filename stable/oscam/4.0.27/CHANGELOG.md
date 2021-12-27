@@ -1,6 +1,15 @@
 # Changelog<br>
 
 
+<a name="oscam-4.0.27"></a>
+### [oscam-4.0.27](https://github.com/truecharts/apps/compare/oscam-4.0.26...oscam-4.0.27) (2021-12-27)
+
+#### Chore
+
+* move `port` up in gui ([#1620](https://github.com/truecharts/apps/issues/1620))
+
+
+
 <a name="oscam-4.0.26"></a>
 ### [oscam-4.0.26](https://github.com/truecharts/apps/compare/oscam-4.0.25...oscam-4.0.26) (2021-12-21)
 
@@ -88,12 +97,3 @@
 * update non-major deps helm releases ([#1453](https://github.com/truecharts/apps/issues/1453))
 * update non-major ([#1449](https://github.com/truecharts/apps/issues/1449))
 * update non-major deps helm releases ([#1432](https://github.com/truecharts/apps/issues/1432))
-
-#### Fix
-
-* fix typo in theme selection ([#1428](https://github.com/truecharts/apps/issues/1428))
-
-
-
-<a name="oscam-4.0.17"></a>
-### [oscam-4.0.17](https://github.com/truecharts/apps/compare/oscam-4.0.16...oscam-4.0.17) (2021-12-05)
