@@ -25,30 +25,10 @@ groups:
     description: "Addon Configuration"
   - name: "Advanced"
     description: "Advanced Configuration"
-portals:
-  web_portal:
-    protocols:
-      - "$kubernetes-resource_configmap_portal_protocol"
-    host:
-      - "$kubernetes-resource_configmap_portal_host"
-    ports:
-      - "$kubernetes-resource_configmap_portal_port"
+portals: {}
+
 questions:
-  - variable: portal
-    group: "Container Image"
-    label: "Configure Portal Button"
-    schema:
-      type: dict
-      hidden: true
-      attrs:
-        - variable: enabled
-          label: "Enable"
-          description: "enable the portal button"
-          schema:
-            hidden: true
-            editable: false
-            type: boolean
-            default: true
+
   - variable: global
     label: "global settings"
     group: "Controller"
@@ -207,6 +187,12 @@ questions:
           schema:
             type: string
             default: ""
+        - variable: IS_HTTPS_ENABLED
+          label: "Served over HTTPS"
+          description: "Tells if Shlink is served with https or not"
+          schema:
+            type: boolean
+            default: true
   - variable: envList
     label: "Image environment"
     group: "Container Configuration"
@@ -350,6 +336,13 @@ questions:
                       schema:
                         type: dict
                         attrs:
+                          - variable: port
+                            label: "Port"
+                            description: "This port exposes the container port on the service"
+                            schema:
+                              type: int
+                              default: 10153
+                              required: true
                           - variable: advanced
                             label: "Show Advanced settings"
                             schema:
@@ -366,7 +359,7 @@ questions:
                                   label: "Port Type"
                                   schema:
                                     type: string
-                                    default: "HTTPS"
+                                    default: "HTTP"
                                     enum:
                                       - value: HTTP
                                         description: "HTTP"
@@ -389,13 +382,6 @@ questions:
                                   schema:
                                     type: int
                                     default: 10153
-                          - variable: port
-                            label: "Port"
-                            description: "This port exposes the container port on the service"
-                            schema:
-                              type: int
-                              default: 10153
-                              required: true
 
   - variable: serviceexpert
     group: "Networking and Services"
