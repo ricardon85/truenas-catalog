@@ -62,6 +62,7 @@ questions:
             type: boolean
             default: true
             hidden: true
+
   - variable: controller
     group: "Controller"
     label: ""
@@ -174,27 +175,6 @@ questions:
                             label: "Value"
                             schema:
                               type: string
-  - variable: secret
-    group: "Container Configuration"
-    label: "Image Secrets"
-    schema:
-      type: dict
-      attrs:
-        - variable: SPOTWEB_USERNAME
-          label: "Admin username"
-          description: "Username to configure for the admin of this installation."
-          schema:
-            type: string
-            default: "admin"
-            required: true
-        - variable: SPOTWEB_PASSWORD
-          label: "Admin password"
-          description: "Password to configure for the admin of this installation."
-          schema:
-            type: string
-            default: "changeme"
-            private: true
-            required: true
 
   - variable: env
     group: "Container Configuration"
@@ -215,61 +195,24 @@ questions:
           schema:
             type: string
             default: "002"
-        - variable: SPOTWEB_SYSTEMTYPE
-          label: "System Type"
-          description: "System type to configure during initialization."
+        - variable: SHLINK_SERVER_URL
+          label: "Server URL"
+          description: "The fully qualified URL for the Shlink server."
           schema:
             type: string
-            required: true
-            default: "single"
-            enum:
-              - value: "single"
-                description: "Singe User System"
-              - value: "shared"
-                description: "Shared System"
-              - value: "public"
-                description: "Public System"
-        - variable: SPOTWEB_FIRSTNAME
-          label: "Admin first name"
-          description: "The first name of the admin user."
+            default: ""
+        - variable: SHLINK_SERVER_API_KEY
+          label: "API Key"
+          description: "The API key. You can create API Key by opening a shell to shlink server and executing 'shlink api-key:generate' "
           schema:
             type: string
-            required: true
-            default: "firstname"
-        - variable: SPOTWEB_LASTNAME
-          label: "Admin last name"
-          description: "Last name of the admin user."
+            default: ""
+        - variable: SHLINK_SERVER_NAME
+          label: "Server Name"
+          description: "The name to be displayed. Defaults to Shlink if not provided."
           schema:
             type: string
-            required: true
-            default: "lastname"
-        - variable: SPOTWEB_MAIL
-          label: "Admin mail adres"
-          description: "Email adres to configure for the provided admin user."
-          schema:
-            type: string
-            required: true
-            default: firstname@lastname.com
-        - variable: SPOTWEB_RETRIEVE
-          label: "SPOTWEB_RETRIEVE"
-          description: "Schedule on which to automatically retrieve new spots."
-          schema:
-            type: string
-            default: "15min"
-            enum:
-              - value: "1min"
-                description: "Each minute"
-              - value: "5min"
-                description: "Every 5 minutes"
-              - value: "15min"
-                description: "Every 15 minutes"
-              - value: "hourly"
-                description: "Every hour"
-              - value: "weekly"
-                description: "Once a week"
-              - value: "monthly"
-                description:: "Once a month"
-
+            default: ""
   - variable: envList
     label: "Image environment"
     group: "Container Configuration"
@@ -351,7 +294,6 @@ questions:
                       label: "Value"
                       schema:
                         type: string
-
   - variable: service
     group: "Networking and Services"
     label: "Configure Service(s)"
@@ -360,7 +302,7 @@ questions:
       attrs:
         - variable: main
           label: "Main Service"
-          description: "Spotweb Web UI and API endpoint"
+          description: "The Primary service on which the healthcheck runs, often the webUI"
           schema:
             type: dict
             attrs:
@@ -410,18 +352,10 @@ questions:
                   type: dict
                   attrs:
                     - variable: main
-                      label: "Web Interface"
+                      label: "Main Service Port Configuration"
                       schema:
                         type: dict
                         attrs:
-                          - variable: port
-                            label: "Port"
-                            description: "This port exposes the container port on the service"
-                            schema:
-                              type: int
-                              default: 11000
-                              editable: true
-                              required: true
                           - variable: advanced
                             label: "Show Advanced settings"
                             schema:
@@ -429,6 +363,11 @@ questions:
                               default: false
                               show_subquestions_if: true
                               subquestions:
+                                - variable: enabled
+                                  label: "Enable the port"
+                                  schema:
+                                    type: boolean
+                                    default: true
                                 - variable: protocol
                                   label: "Port Type"
                                   schema:
@@ -456,6 +395,13 @@ questions:
                                   schema:
                                     type: int
                                     default: 80
+                          - variable: port
+                            label: "Port"
+                            description: "This port exposes the container port on the service"
+                            schema:
+                              type: int
+                              default: 10154
+                              required: true
 
   - variable: serviceexpert
     group: "Networking and Services"
@@ -891,6 +837,7 @@ questions:
                                                 type: string
                                                 required: true
                                                 default: "Prefix"
+
                     - variable: tls
                       label: "TLS-Settings"
                       schema:
@@ -920,6 +867,7 @@ questions:
                                     type: int
                                     $ref:
                                       - "definitions/certificate"
+
                     - variable: entrypoint
                       label: "(Advanced) Traefik Entrypoint"
                       description: "Entrypoint used by Traefik when using Traefik as Ingress Provider"
@@ -948,6 +896,12 @@ questions:
                   default: false
                   show_subquestions_if: true
                   subquestions:
+                    - variable: enableFixedMiddlewares
+                      description: "These middlewares enforce a number of best practices."
+                      label: "Enable Default Middlewares"
+                      schema:
+                        type: boolean
+                        default: true
                     - variable: ingressClassName
                       label: "IngressClass Name"
                       schema:
