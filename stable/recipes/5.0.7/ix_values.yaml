@@ -1,0 +1,94 @@
+image:
+  # -- image repository
+  repository: tccr.io/truecharts/recipes
+  # -- image tag
+  tag: v1.0.4@sha256:3b15df975e692fc49d337a2ef937b53934d6b4c527bc1e8071cbb444b1a8bc20
+  # -- image pull policy
+  pullPolicy: IfNotPresent
+
+nginxImage:
+  # -- nginx sidecar image repository
+  repository: tccr.io/truecharts/nginx
+  # -- nginx sidecar image tag
+  tag: v1.21.5@sha256:83a87113db9e86c2de4ba7a83b7ca796b3e455115ae545984c7a50ef16c1b45e
+
+securityContext:
+  readOnlyRootFilesystem: false
+  runAsNonRoot: false
+
+podSecurityContext:
+  runAsUser: 0
+  runAsGroup: 0
+
+# -- environment variables. See [project docs](https://raw.githubusercontent.com/vabene1111/recipes/master/.env.template) for more details.
+# @default -- See below
+env:
+  DEBUG: 0
+  ALLOWED_HOSTS: "*"
+  GUNICORN_MEDIA: 0
+  FRACTION_PREF_DEFAULT: 0
+  COMMENT_PREF_DEFAULT: 1
+  SHOPPING_MIN_AUTOSYNC_INTERVAL: 5
+  TIMEZONE: "{{ .Values.env.TZ }}"
+  DB_ENGINE: "django.db.backends.postgresql"
+  POSTGRES_DB: "{{ .Values.postgresql.postgresqlDatabase }}"
+  POSTGRES_USER: "{{ .Values.postgresql.postgresqlUsername }}"
+  POSTGRES_PORT: "5432"
+
+envValueFrom:
+  POSTGRES_PASSWORD:
+    secretKeyRef:
+      name: dbcreds
+      key: postgresql-password
+  POSTGRES_HOST:
+    secretKeyRef:
+      name: dbcreds
+      key: plainhost
+  SECRET_KEY:
+    secretKeyRef:
+      name: recipes-secrets
+      key: SECRET_KEY
+
+additionalContainers:
+  nginx:
+    name: nginx
+    image: "{{ .Values.nginxImage.repository }}:{{ .Values.nginxImage.tag }}"
+    ports:
+      - containerPort: 80
+        name: main
+    volumeMounts:
+    - name: recipes-config
+      mountPath: "/etc/nginx/nginx.conf"
+      subPath: nginx-config
+      readOnly: true
+    - name: media
+      mountPath: "/media"
+    - name: static
+      mountPath: "/static"
+
+# -- Configures service settings for the chart.
+# @default -- See values.yaml
+service:
+  main:
+    ports:
+      main:
+        port: 10029
+        targetPort: 80
+
+# -- Configure persistence settings for the chart under this key.
+# @default -- See values.yaml
+persistence:
+  media:
+    enabled: true
+    mountPath: "/opt/recipes/mediafiles"
+  static:
+    enabled: true
+    type: emptyDir
+    mountPath: "/opt/recipes/staticfiles"
+
+# Enabled postgres
+postgresql:
+  enabled: true
+  existingSecret: "dbcreds"
+  postgresqlUsername: recipes
+  postgresqlDatabase: recipes

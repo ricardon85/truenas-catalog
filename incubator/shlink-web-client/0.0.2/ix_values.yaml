@@ -1,0 +1,22 @@
+image:
+  repository: tccr.io/truecharts/shlink-web-client
+  pullPolicy: IfNotPresent
+  tag: v3.5.0@sha256:6cd8d9060af9196895ec96f19203786fd55b6a671cb75a7139ffc6ad9a4f9684
+
+securityContext:
+  readOnlyRootFilesystem: false
+  runAsNonRoot: false
+
+podSecurityContext:
+  runAsUser: 0
+  runAsGroup: 0
+
+service:
+  main:
+    ports:
+      main:
+        targetPort: 80
+        port: 10154
+        protocol: HTTP
+
+env: {}
