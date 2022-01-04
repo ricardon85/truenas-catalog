@@ -1,0 +1,40 @@
+image:
+  repository: tccr.io/truecharts/appdaemon
+  pullPolicy: IfNotPresent
+  tag: v4.2.0@sha256:c3caaa7d7e2065cdfed6ccacf0998459e971054c1aeaf86725a62aa6aea61fd5
+
+securityContext:
+  runAsNonRoot: false
+
+podSecurityContext:
+  runAsUser: 0
+  runAsGroup: 0
+
+env:
+  TZ: "America/Chicago"
+  LATITUDE: 46
+  LONGITUDE: -94
+  ELEVATION: 1217
+  DASH_URL: "http://$HOSTNAME:5050"
+
+service:
+  main:
+    ports:
+      main:
+        port: 5050
+        targetPort: 5050
+  tcp:
+    enabled: true
+    ports:
+      tcp:
+        enabled: true
+        port: 51050
+        targetPort: 51050
+
+persistence:
+  conf:
+    enabled: true
+    mountPath: "/conf"
+
+  varrun:
+    enabled: true
