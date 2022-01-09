@@ -186,6 +186,7 @@ questions:
           schema:
             type: string
             private: true
+            required: true
             default: ""
         - variable: SUDO_PASSWORD
           label: "SUDO_PASSWORD"
@@ -212,7 +213,13 @@ questions:
           schema:
             type: string
             default: "002"
-
+        - variable: PUID
+          label: "PUID"
+          description: "Sets the PUID env var"
+          schema:
+            type: int
+            required: true
+            default: 568
   - variable: envList
     label: "Image environment"
     group: "Container Configuration"
@@ -1306,7 +1313,7 @@ questions:
                 label: "ReadOnly Root Filesystem"
                 schema:
                   type: boolean
-                  default: true
+                  default: false
               - variable: allowPrivilegeEscalation
                 label: "Allow Privilege Escalation"
                 schema:
