@@ -1,0 +1,57 @@
+image:
+  repository: tccr.io/truecharts/nzbhydra2
+  pullPolicy: IfNotPresent
+  tag: v4.0.0@sha256:9413e51b07d1132ce57c10810a70e531854efb607a1688ec786da3a386cb2ef7
+
+securityContext:
+  readOnlyRootFilesystem: false
+
+service:
+  main:
+    ports:
+      main:
+        port: 5076
+        targetPort: 5076
+
+env: {}
+  # TZ: UTC
+  # PUID: 1001
+probes:
+  liveness:
+    custom: true
+    enabled: true
+    spec:
+      failureThreshold: 5
+      httpGet:
+        path: /actuator/health/livenessState
+        port: main
+      initialDelaySeconds: 30
+      periodSeconds: 10
+      timeoutSeconds: 10
+  readiness:
+    custom: true
+    enabled: true
+    spec:
+      failureThreshold: 5
+      httpGet:
+        path: /actuator/health/readinessState
+        port: main
+      initialDelaySeconds: 30
+      periodSeconds: 10
+      timeoutSeconds: 10
+  startup:
+    custom: true
+    enabled: true
+    spec:
+      failureThreshold: 5
+      httpGet:
+        path: /actuator/health/readinessState
+        port: main
+      initialDelaySeconds: 30
+      periodSeconds: 10
+      timeoutSeconds: 10
+
+persistence:
+  config:
+    enabled: true
+    mountPath: "/config"
