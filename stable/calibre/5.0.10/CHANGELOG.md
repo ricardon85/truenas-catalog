@@ -1,6 +1,15 @@
 # Changelog<br>
 
 
+<a name="calibre-5.0.10"></a>
+### [calibre-5.0.10](https://github.com/truecharts/apps/compare/calibre-5.0.9...calibre-5.0.10) (2022-01-11)
+
+#### Fix
+
+* Replace deprecated env's and fix port ([#1689](https://github.com/truecharts/apps/issues/1689))
+
+
+
 <a name="calibre-5.0.9"></a>
 ### [calibre-5.0.9](https://github.com/truecharts/apps/compare/calibre-5.0.8...calibre-5.0.9) (2022-01-04)
 
@@ -88,12 +97,3 @@
 
 <a name="calibre-5.0.0"></a>
 ### [calibre-5.0.0](https://github.com/truecharts/apps/compare/calibre-web-9.0.19...calibre-5.0.0) (2021-12-11)
-
-#### Feat
-
-* move user/pass/secrets/keys from `env` to `secret` ([#1501](https://github.com/truecharts/apps/issues/1501))
-
-#### Fix
-
-* remove `UMASK` as this is taken care from common ([#1503](https://github.com/truecharts/apps/issues/1503))
-
