@@ -1,0 +1,6 @@
+dependencies:
+- name: common
+  repository: https://truecharts.org
+  version: 8.12.0
+digest: sha256:b2069abd5a348e4ab6b8defd880a890d9f3dc7ee256ed194a2d65f31917028d9
+generated: "2022-01-12T20:21:18.110750172Z"
