@@ -1,9 +1,0 @@
-dependencies:
-- name: common
-  repository: https://truecharts.org
-  version: 8.9.25
-- name: postgresql
-  repository: https://truecharts.org/
-  version: 6.0.37
-digest: sha256:4d175017b955b26c660f622932b787b4f869f90cecdd615ffa35a564098ebaf7
-generated: "2021-12-21T18:37:32.373406867Z"
