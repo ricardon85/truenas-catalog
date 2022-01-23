@@ -1,6 +1,15 @@
 # Changelog<br>
 
 
+<a name="smokeping-1.0.37"></a>
+### [smokeping-1.0.37](https://github.com/truecharts/apps/compare/smokeping-1.0.36...smokeping-1.0.37) (2022-01-23)
+
+#### Fix
+
+* Allow priviledge escalation ([#1769](https://github.com/truecharts/apps/issues/1769))
+
+
+
 <a name="smokeping-1.0.36"></a>
 ### [smokeping-1.0.36](https://github.com/truecharts/apps/compare/smokeping-1.0.35...smokeping-1.0.36) (2022-01-22)
 
@@ -88,12 +97,3 @@
 
 * update helm general non-major helm releases ([#1596](https://github.com/truecharts/apps/issues/1596))
 
-
-
-<a name="smokeping-1.0.27"></a>
-### [smokeping-1.0.27](https://github.com/truecharts/apps/compare/smokeping-1.0.26...smokeping-1.0.27) (2021-12-19)
-
-#### Chore
-
-* Last patch bump before RC2 branch-off
-* remove `editable: true` as this is the default ([#1576](https://github.com/truecharts/apps/issues/1576))
