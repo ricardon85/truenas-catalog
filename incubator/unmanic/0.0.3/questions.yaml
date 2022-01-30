@@ -866,14 +866,6 @@ questions:
                                   label: "Value"
                                   schema:
                                     type: string
-  - variable: persistence
-    label: "Integrated Persistent Storage"
-    description: "Integrated Persistent Storage"
-    group: "Storage and Persistence"
-    schema:
-      additional_attrs: true
-      type: dict
-      attrs:
         - variable: library
           label: "App Library Storage"
           description: "Switch this to HostPath (Simple) and mount your library"
