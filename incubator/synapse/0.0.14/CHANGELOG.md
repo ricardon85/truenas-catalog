@@ -1,6 +1,15 @@
 # Changelog<br>
 
 
+<a name="synapse-0.0.14"></a>
+### [synapse-0.0.14](https://github.com/truecharts/apps/compare/synapse-0.0.13...synapse-0.0.14) (2022-01-31)
+
+#### Fix
+
+* use opencors headerset
+
+
+
 <a name="synapse-0.0.13"></a>
 ### [synapse-0.0.13](https://github.com/truecharts/apps/compare/synapse-0.0.12...synapse-0.0.13) (2022-01-31)
 
@@ -87,13 +96,4 @@
 * update docker general non-major docker tags ([#1787](https://github.com/truecharts/apps/issues/1787))
 
 #### Fix
-
-* update UI ([#1778](https://github.com/truecharts/apps/issues/1778))
-
-
-
-<a name="synapse-0.0.1"></a>
-### synapse-0.0.1 (2022-01-23)
-
-#### Feat
 
