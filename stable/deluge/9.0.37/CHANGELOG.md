@@ -1,6 +1,15 @@
 # Changelog<br>
 
 
+<a name="deluge-9.0.37"></a>
+### [deluge-9.0.37](https://github.com/truecharts/apps/compare/deluge-9.0.36...deluge-9.0.37) (2022-01-31)
+
+#### Fix
+
+* rofs false ([#1821](https://github.com/truecharts/apps/issues/1821))
+
+
+
 <a name="deluge-9.0.36"></a>
 ### [deluge-9.0.36](https://github.com/truecharts/apps/compare/deluge-9.0.35...deluge-9.0.36) (2022-01-25)
 
@@ -87,13 +96,4 @@
 #### Chore
 
 * update helm general non-major helm releases ([#1623](https://github.com/truecharts/apps/issues/1623))
-
-
-
-<a name="deluge-9.0.27"></a>
-### [deluge-9.0.27](https://github.com/truecharts/apps/compare/deluge-9.0.26...deluge-9.0.27) (2021-12-21)
-
-#### Chore
-
-* update helm general non-major helm releases ([#1596](https://github.com/truecharts/apps/issues/1596))
 
