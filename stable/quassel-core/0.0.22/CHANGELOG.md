@@ -1,6 +1,16 @@
 # Changelog<br>
 
 
+<a name="quassel-core-0.0.22"></a>
+### [quassel-core-0.0.22](https://github.com/truecharts/apps/compare/quassel-core-0.0.21...quassel-core-0.0.22) (2022-02-02)
+
+#### Fix
+
+* Restore probes ([#1832](https://github.com/truecharts/apps/issues/1832))
+* Remove probes and portal, as this is only a backend ([#1827](https://github.com/truecharts/apps/issues/1827))
+
+
+
 <a name="quassel-core-0.0.21"></a>
 ### [quassel-core-0.0.21](https://github.com/truecharts/apps/compare/quassel-core-0.0.20...quassel-core-0.0.21) (2022-02-02)
 
@@ -87,13 +97,3 @@
 #### Chore
 
 * update helm general non-major helm releases ([#1704](https://github.com/truecharts/apps/issues/1704))
-
-
-
-<a name="quassel-core-0.0.12"></a>
-### [quassel-core-0.0.12](https://github.com/truecharts/apps/compare/quassel-core-0.0.11...quassel-core-0.0.12) (2022-01-11)
-
-#### Chore
-
-* update helm general non-major helm releases ([#1693](https://github.com/truecharts/apps/issues/1693))
-
