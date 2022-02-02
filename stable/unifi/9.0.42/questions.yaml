@@ -188,13 +188,6 @@ questions:
           schema:
             type: string
             default: "002"
-        - variable: PUID
-          label: "PUID"
-          description: "Sets the PUID env var for LinuxServer.io (compatible) containers"
-          schema:
-            type: int
-            default: 568
-
 
   - variable: envList
     label: "Image environment"
@@ -2002,7 +1995,7 @@ questions:
                 label: "runAsNonRoot"
                 schema:
                   type: boolean
-                  default: false
+                  default: true
               - variable: capabilities
                 label: "Capabilities"
                 schema:
@@ -2042,13 +2035,13 @@ questions:
           description: "The UserID of the user running the application"
           schema:
             type: int
-            default: 0
+            default: 999
         - variable: runAsGroup
           label: "runAsGroup"
           description: The groupID this App of the user running the application"
           schema:
             type: int
-            default: 0
+            default: 999
         - variable: fsGroup
           label: "fsGroup"
           description: "The group that should own ALL storage."

@@ -1,6 +1,15 @@
 # Changelog<br>
 
 
+<a name="unifi-9.0.42"></a>
+### [unifi-9.0.42](https://github.com/truecharts/apps/compare/unifi-9.0.41...unifi-9.0.42) (2022-02-02)
+
+#### Fix
+
+* run as non-root ([#1831](https://github.com/truecharts/apps/issues/1831))
+
+
+
 <a name="unifi-9.0.41"></a>
 ### [unifi-9.0.41](https://github.com/truecharts/apps/compare/unifi-9.0.40...unifi-9.0.41) (2022-02-02)
 
@@ -87,13 +96,4 @@
 #### Chore
 
 * update helm general non-major helm releases ([#1693](https://github.com/truecharts/apps/issues/1693))
-
-
-
-<a name="unifi-9.0.32"></a>
-### [unifi-9.0.32](https://github.com/truecharts/apps/compare/unifi-9.0.31...unifi-9.0.32) (2022-01-04)
-
-#### Chore
-
-* update helm general non-major helm releases
 
