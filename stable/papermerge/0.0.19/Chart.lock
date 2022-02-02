@@ -1,0 +1,9 @@
+dependencies:
+- name: common
+  repository: https://truecharts.org
+  version: 8.14.4
+- name: redis
+  repository: https://truecharts.org
+  version: 1.0.65
+digest: sha256:4c94fa34a95a41f2327b02ae8a4dd2bc95c23810bfcba12ee69744fcd0e9f5a0
+generated: "2022-02-02T13:53:32.693549253Z"
