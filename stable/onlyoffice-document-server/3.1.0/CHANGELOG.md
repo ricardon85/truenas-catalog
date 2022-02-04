@@ -1,6 +1,15 @@
 # Changelog<br>
 
 
+<a name="onlyoffice-document-server-3.1.0"></a>
+### [onlyoffice-document-server-3.1.0](https://github.com/truecharts/apps/compare/onlyoffice-document-server-3.0.18...onlyoffice-document-server-3.1.0) (2022-02-04)
+
+#### Feat
+
+* Move to our own OnlyOffice Container ([#1837](https://github.com/truecharts/apps/issues/1837))
+
+
+
 <a name="onlyoffice-document-server-3.0.18"></a>
 ### [onlyoffice-document-server-3.0.18](https://github.com/truecharts/apps/compare/onlyoffice-document-server-3.0.17...onlyoffice-document-server-3.0.18) (2022-02-02)
 
@@ -87,13 +96,4 @@
 #### Chore
 
 * update helm general non-major helm releases ([#1693](https://github.com/truecharts/apps/issues/1693))
-
-
-
-<a name="onlyoffice-document-server-3.0.9"></a>
-### [onlyoffice-document-server-3.0.9](https://github.com/truecharts/apps/compare/onlyoffice-document-server-3.0.8...onlyoffice-document-server-3.0.9) (2022-01-04)
-
-#### Chore
-
-* update helm general non-major helm releases
 
