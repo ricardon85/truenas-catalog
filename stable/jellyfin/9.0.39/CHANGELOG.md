@@ -1,6 +1,15 @@
 # Changelog<br>
 
 
+<a name="jellyfin-9.0.39"></a>
+### [jellyfin-9.0.39](https://github.com/truecharts/apps/compare/jellyfin-9.0.38...jellyfin-9.0.39) (2022-02-06)
+
+#### Chore
+
+* Mount cache to emptyDir and add PublishedServerURL var ([#1853](https://github.com/truecharts/apps/issues/1853))
+
+
+
 <a name="jellyfin-9.0.38"></a>
 ### [jellyfin-9.0.38](https://github.com/truecharts/apps/compare/jellyfin-9.0.37...jellyfin-9.0.38) (2022-02-05)
 
@@ -87,13 +96,4 @@
 #### Chore
 
 * update helm general non-major helm releases ([#1693](https://github.com/truecharts/apps/issues/1693))
-
-
-
-<a name="jellyfin-9.0.29"></a>
-### [jellyfin-9.0.29](https://github.com/truecharts/apps/compare/jellyfin-9.0.28...jellyfin-9.0.29) (2022-01-04)
-
-#### Chore
-
-* update helm general non-major helm releases
 
