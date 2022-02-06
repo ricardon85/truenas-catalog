@@ -1,6 +1,15 @@
 # Changelog<br>
 
 
+<a name="custom-app-3.0.71"></a>
+### [custom-app-3.0.71](https://github.com/truecharts/apps/compare/custom-app-3.0.70...custom-app-3.0.71) (2022-02-06)
+
+#### Feat
+
+* Allow to disable probes on GUI ([#1860](https://github.com/truecharts/apps/issues/1860))
+
+
+
 <a name="custom-app-3.0.70"></a>
 ### [custom-app-3.0.70](https://github.com/truecharts/apps/compare/custom-app-3.0.69...custom-app-3.0.70) (2022-02-06)
 
@@ -86,14 +95,5 @@
 
 <a name="custom-app-3.0.61"></a>
 ### [custom-app-3.0.61](https://github.com/truecharts/apps/compare/custom-app-3.0.60...custom-app-3.0.61) (2022-01-22)
-
-#### Chore
-
-* update helm general non-major helm releases ([#1766](https://github.com/truecharts/apps/issues/1766))
-
-
-
-<a name="custom-app-3.0.60"></a>
-### [custom-app-3.0.60](https://github.com/truecharts/apps/compare/custom-app-3.0.59...custom-app-3.0.60) (2022-01-22)
 
 #### Chore
