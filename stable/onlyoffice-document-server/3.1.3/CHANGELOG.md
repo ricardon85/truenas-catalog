@@ -1,6 +1,15 @@
 # Changelog<br>
 
 
+<a name="onlyoffice-document-server-3.1.3"></a>
+### [onlyoffice-document-server-3.1.3](https://github.com/truecharts/apps/compare/onlyoffice-document-server-3.1.2...onlyoffice-document-server-3.1.3) (2022-02-08)
+
+#### Feat
+
+* Point probes to healthcheck endpoint ([#1867](https://github.com/truecharts/apps/issues/1867))
+
+
+
 <a name="onlyoffice-document-server-3.1.2"></a>
 ### [onlyoffice-document-server-3.1.2](https://github.com/truecharts/apps/compare/onlyoffice-document-server-3.1.1...onlyoffice-document-server-3.1.2) (2022-02-06)
 
@@ -88,12 +97,3 @@
 
 
 <a name="onlyoffice-document-server-3.0.12"></a>
-### [onlyoffice-document-server-3.0.12](https://github.com/truecharts/apps/compare/onlyoffice-document-server-3.0.11...onlyoffice-document-server-3.0.12) (2022-01-13)
-
-#### Chore
-
-* update helm general non-major helm releases ([#1712](https://github.com/truecharts/apps/issues/1712))
-
-#### Feat
-
-* expose capabilities in GUI ([#1709](https://github.com/truecharts/apps/issues/1709))
