@@ -1,4 +1,0 @@
-image:
-  repository: tccr.io/truecharts/jackett
-  pullPolicy: IfNotPresent
-  tag: v0.20.510@sha256:d4c09cd3b978aa590300579902b204c3787acc7fc14dd40cdfb6e3cfa47706d5
