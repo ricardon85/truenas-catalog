@@ -714,7 +714,7 @@ questions:
                   additional_attrs: true
                   type: dict
                   attrs:
-                    - variable: valheim-1
+                    - variable: valheim1
                       label: "valheim-1 Service Port Configuration"
                       schema:
                         additional_attrs: true
@@ -762,7 +762,7 @@ questions:
                                     type: int
                                     default: 2456
 
-                    - variable: valheim-2
+                    - variable: valheim2
                       label: "valheim-2 Service Port Configuration"
                       schema:
                         additional_attrs: true
@@ -810,7 +810,7 @@ questions:
                                     type: int
                                     default: 2457
 
-                    - variable: valheim-3
+                    - variable: valheim3
                       label: "valheim-3 Service Port Configuration"
                       schema:
                         additional_attrs: true
