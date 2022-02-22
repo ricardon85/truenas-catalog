@@ -1,14 +1,14 @@
 # Introduction
 
-kube-prometheus-stack collects Kubernetes manifests, Grafana dashboards, and Prometheus rules combined with documentation and scripts to provide easy to operate end-to-end Kubernetes cluster monitoring with Prometheus using the Prometheus Operator.
+Lychee is a free photo-management tool, which runs on your server or web-space
 
 TrueCharts are designed to be installed as TrueNAS SCALE app only. We can not guarantee this charts works as a stand-alone helm installation.
 **This chart is not maintained by the upstream project and any issues with the chart should be raised [here](https://github.com/truecharts/apps/issues/new/choose)**
 
 ## Source Code
 
-* <https://github.com/prometheus-community/helm-charts>
-* <https://github.com/prometheus-operator/kube-prometheus>
+* <https://github.com/LycheeOrg/Lychee>
+* <https://hub.docker.com/r/lycheeorg/lychee>
 
 ## Requirements
 
@@ -18,9 +18,9 @@ Kubernetes: `>=1.16.0-0`
 
 | Repository | Name | Version |
 |------------|------|---------|
-| https://charts.bitnami.com/bitnami | kube-state-metrics | 2.2.7 |
-| https://charts.bitnami.com/bitnami | node-exporter | 2.4.1 |
+| https://truecharts.org/ | postgresql | 6.0.69 |
 | https://truecharts.org | common | 8.16.0 |
+| https://truecharts.org | redis | 1.0.76 |
 
 ## Installing the Chart
 
