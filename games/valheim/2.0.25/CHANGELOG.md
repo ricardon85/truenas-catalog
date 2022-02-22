@@ -1,6 +1,19 @@
 # Changelog<br>
 
 
+<a name="valheim-2.0.25"></a>
+### [valheim-2.0.25](https://github.com/truecharts/apps/compare/valheim-2.0.24...valheim-2.0.25) (2022-02-22)
+
+#### Chore
+
+* update helm chart common to v8.16.0 ([#1925](https://github.com/truecharts/apps/issues/1925))
+
+#### Fix
+
+* map ingress to correct service ([#1929](https://github.com/truecharts/apps/issues/1929))
+
+
+
 <a name="valheim-2.0.24"></a>
 ### [valheim-2.0.24](https://github.com/truecharts/apps/compare/valheim-2.0.23...valheim-2.0.24) (2022-02-21)
 
@@ -84,16 +97,3 @@
 
 <a name="valheim-2.0.15"></a>
 ### [valheim-2.0.15](https://github.com/truecharts/apps/compare/valheim-2.0.14...valheim-2.0.15) (2022-01-22)
-
-#### Chore
-
-* update helm general non-major helm releases ([#1766](https://github.com/truecharts/apps/issues/1766))
-
-
-
-<a name="valheim-2.0.14"></a>
-### [valheim-2.0.14](https://github.com/truecharts/apps/compare/valheim-2.0.13...valheim-2.0.14) (2022-01-21)
-
-#### Chore
-
-* update helm general non-major helm releases ([#1759](https://github.com/truecharts/apps/issues/1759))

@@ -1,6 +1,15 @@
 # Changelog<br>
 
 
+<a name="monica-0.0.44"></a>
+### [monica-0.0.44](https://github.com/truecharts/apps/compare/monica-0.0.43...monica-0.0.44) (2022-02-22)
+
+#### Fix
+
+* only b64enc the key once ([#1930](https://github.com/truecharts/apps/issues/1930))
+
+
+
 <a name="monica-0.0.43"></a>
 ### [monica-0.0.43](https://github.com/truecharts/apps/compare/monica-0.0.42...monica-0.0.43) (2022-02-21)
 
@@ -85,15 +94,6 @@
 
 <a name="monica-0.0.34"></a>
 ### [monica-0.0.34](https://github.com/truecharts/apps/compare/monica-0.0.33...monica-0.0.34) (2022-01-25)
-
-#### Chore
-
-* update helm general non-major helm releases ([#1791](https://github.com/truecharts/apps/issues/1791))
-
-
-
-<a name="monica-0.0.33"></a>
-### [monica-0.0.33](https://github.com/truecharts/apps/compare/monica-0.0.32...monica-0.0.33) (2022-01-24)
 
 #### Chore
 
