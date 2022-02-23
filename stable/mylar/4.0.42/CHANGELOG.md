@@ -1,6 +1,15 @@
 # Changelog<br>
 
 
+<a name="mylar-4.0.42"></a>
+### [mylar-4.0.42](https://github.com/truecharts/apps/compare/mylar-4.0.41...mylar-4.0.42) (2022-02-23)
+
+#### Fix
+
+* fix image reference ([#1944](https://github.com/truecharts/apps/issues/1944))
+
+
+
 <a name="mylar-4.0.41"></a>
 ### [mylar-4.0.41](https://github.com/truecharts/apps/compare/mylar-4.0.40...mylar-4.0.41) (2022-02-21)
 
@@ -88,12 +97,3 @@
 
 
 <a name="mylar-4.0.32"></a>
-### [mylar-4.0.32](https://github.com/truecharts/apps/compare/mylar-4.0.31...mylar-4.0.32) (2022-01-18)
-
-#### Chore
-
-* update helm general non-major helm releases ([#1732](https://github.com/truecharts/apps/issues/1732))
-
-
-
-<a name="mylar-4.0.31"></a>
