@@ -1,6 +1,15 @@
 # Changelog<br>
 
 
+<a name="pydio-cells-1.0.3"></a>
+### [pydio-cells-1.0.3](https://github.com/truecharts/apps/compare/pydio-cells-1.0.2...pydio-cells-1.0.3) (2022-02-23)
+
+#### Fix
+
+* fix configmap and main service ([#1943](https://github.com/truecharts/apps/issues/1943))
+
+
+
 <a name="pydio-cells-1.0.2"></a>
 ### [pydio-cells-1.0.2](https://github.com/truecharts/apps/compare/pydio-cells-1.0.1...pydio-cells-1.0.2) (2022-02-22)
 
@@ -88,12 +97,3 @@
 #### Chore
 
 * update helm general non-major helm releases ([#1828](https://github.com/truecharts/apps/issues/1828))
-
-
-
-<a name="pydio-cells-0.0.17"></a>
-### [pydio-cells-0.0.17](https://github.com/truecharts/apps/compare/pydio-cells-0.0.16...pydio-cells-0.0.17) (2022-01-25)
-
-#### Chore
-
-* update helm general non-major helm releases ([#1791](https://github.com/truecharts/apps/issues/1791))
