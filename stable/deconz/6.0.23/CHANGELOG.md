@@ -1,6 +1,15 @@
 # Changelog<br>
 
 
+<a name="deconz-6.0.23"></a>
+### [deconz-6.0.23](https://github.com/truecharts/apps/compare/deconz-6.0.22...deconz-6.0.23) (2022-02-24)
+
+#### Fix
+
+* Dynamicly set env vars for ports based on service ([#1948](https://github.com/truecharts/apps/issues/1948))
+
+
+
 <a name="deconz-6.0.22"></a>
 ### [deconz-6.0.22](https://github.com/truecharts/apps/compare/deconz-6.0.21...deconz-6.0.22) (2022-02-21)
 
@@ -88,12 +97,3 @@
 
 
 <a name="deconz-6.0.13"></a>
-### [deconz-6.0.13](https://github.com/truecharts/apps/compare/deconz-6.0.12...deconz-6.0.13) (2022-01-18)
-
-#### Chore
-
-* update helm general non-major helm releases ([#1732](https://github.com/truecharts/apps/issues/1732))
-
-
-
-<a name="deconz-6.0.12"></a>

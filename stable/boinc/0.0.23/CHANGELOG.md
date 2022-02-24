@@ -1,6 +1,15 @@
 # Changelog<br>
 
 
+<a name="boinc-0.0.23"></a>
+### [boinc-0.0.23](https://github.com/truecharts/apps/compare/boinc-0.0.22...boinc-0.0.23) (2022-02-24)
+
+#### Fix
+
+* allow root fs access ([#1947](https://github.com/truecharts/apps/issues/1947))
+
+
+
 <a name="boinc-0.0.22"></a>
 ### [boinc-0.0.22](https://github.com/truecharts/apps/compare/boinc-0.0.21...boinc-0.0.22) (2022-02-21)
 
@@ -88,12 +97,3 @@
 
 <a name="boinc-0.0.13"></a>
 ### [boinc-0.0.13](https://github.com/truecharts/apps/compare/boinc-0.0.12...boinc-0.0.13) (2022-01-18)
-
-#### Chore
-
-* update helm general non-major helm releases ([#1732](https://github.com/truecharts/apps/issues/1732))
-
-
-
-<a name="boinc-0.0.12"></a>
-### [boinc-0.0.12](https://github.com/truecharts/apps/compare/boinc-0.0.11...boinc-0.0.12) (2022-01-13)
