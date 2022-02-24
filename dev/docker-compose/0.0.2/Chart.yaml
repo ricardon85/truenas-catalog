@@ -7,7 +7,7 @@ dependencies:
 deprecated: false
 description: Dedicated App for using Docker-Compose on TrueNAS SCALE
 home: https://github.com/truecharts/apps/tree/master/charts/dev/docker-compose
-icon: https://truecharts.org/_static/img/appicons/docker-compose.png
+icon: https://truecharts.org/_static/img/appicons/docker-compose-icon.png
 keywords:
 - docker-compose
 - docker
@@ -20,7 +20,7 @@ name: docker-compose
 sources:
 - https://github.com/Jackett/Jackett
 type: application
-version: 0.0.1
+version: 0.0.2
 annotations:
   truecharts.org/catagories: |
     - docker

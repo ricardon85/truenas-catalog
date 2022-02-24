@@ -1,6 +1,19 @@
 # Changelog<br>
 
 
+<a name="pydio-cells-1.0.4"></a>
+### [pydio-cells-1.0.4](https://github.com/truecharts/apps/compare/pydio-cells-1.0.3...pydio-cells-1.0.4) (2022-02-24)
+
+#### Chore
+
+* rename `web_portal` to `open` ([#1957](https://github.com/truecharts/apps/issues/1957))
+
+#### Fix
+
+* Use different port for healthcheck ([#1949](https://github.com/truecharts/apps/issues/1949))
+
+
+
 <a name="pydio-cells-1.0.3"></a>
 ### [pydio-cells-1.0.3](https://github.com/truecharts/apps/compare/pydio-cells-1.0.2...pydio-cells-1.0.3) (2022-02-23)
 
@@ -84,16 +97,3 @@
 
 <a name="pydio-cells-0.0.19"></a>
 ### [pydio-cells-0.0.19](https://github.com/truecharts/apps/compare/pydio-cells-0.0.18...pydio-cells-0.0.19) (2022-02-03)
-
-#### Chore
-
-* update docker general non-major ([#1836](https://github.com/truecharts/apps/issues/1836))
-
-
-
-<a name="pydio-cells-0.0.18"></a>
-### [pydio-cells-0.0.18](https://github.com/truecharts/apps/compare/pydio-cells-0.0.17...pydio-cells-0.0.18) (2022-02-02)
-
-#### Chore
-
-* update helm general non-major helm releases ([#1828](https://github.com/truecharts/apps/issues/1828))
