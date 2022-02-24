@@ -26,7 +26,7 @@ groups:
   - name: "Advanced"
     description: "Advanced Configuration"
 portals:
-  web_portal:
+  open:
     protocols:
       - "$kubernetes-resource_configmap_portal_protocol"
     host:
@@ -189,6 +189,37 @@ questions:
             type: string
             default: "002"
 
+  - variable: focalboard
+    group: "Container Configuration"
+    label: "Focalboard Configuration"
+    schema:
+      additional_attrs: true
+      type: dict
+      attrs:
+        - variable: serverRoot
+          label: "serverRoot"
+          description: "Root URL of the server.	eg. https://focal.mydomain.com"
+          schema:
+            type: string
+            default: "http://localhost:10072"
+        - variable: telemetry
+          label: "telemetry"
+          description: "Enable health diagnostics telemetry	"
+          schema:
+            type: boolean
+            default: false
+        - variable: localOnly
+          label: "localOnly"
+          description: "Only allow connections from localhost"
+          schema:
+            type: boolean
+            default: false
+        - variable: enableLocalMode
+          label: "enableLocalMode"
+          description: "Enable admin APIs on local Unix port"
+          schema:
+            type: boolean
+            default: true
   - variable: envList
     label: "Image environment"
     group: "Container Configuration"
@@ -386,7 +417,7 @@ questions:
                             description: "This port exposes the container port on the service"
                             schema:
                               type: int
-                              default: 8043
+                              default: 10072
                               required: true
                           - variable: advanced
                             label: "Show Advanced settings"
@@ -399,7 +430,7 @@ questions:
                                   label: "Port Type"
                                   schema:
                                     type: string
-                                    default: "HTTPS"
+                                    default: "HTTP"
                                     enum:
                                       - value: HTTP
                                         description: "HTTP"
@@ -421,134 +452,7 @@ questions:
                                   description: "The internal(!) port on the container the Application runs on"
                                   schema:
                                     type: int
-                                    default: 8043
-
-        - variable: comm
-          label: "Omada Controller User HTTPS portal"
-          description: "Omada Controller User HTTPS portal"
-          schema:
-            additional_attrs: true
-            type: dict
-            attrs:
-              - variable: enabled
-                label: "Enable the service"
-                schema:
-                  type: boolean
-                  default: true
-                  hidden: true
-              - variable: type
-                label: "Service Type"
-                description: "ClusterIP's are only internally available, nodePorts expose the container to the host node System, Loadbalancer exposes the service using the system loadbalancer"
-                schema:
-                  type: string
-                  default: "Simple"
-                  enum:
-                    - value: "Simple"
-                      description: "Simple"
-                    - value: "ClusterIP"
-                      description: "ClusterIP"
-                    - value: "NodePort"
-                      description: "NodePort (Advanced)"
-                    - value: "LoadBalancer"
-                      description: "LoadBalancer (Advanced)"
-              - variable: loadBalancerIP
-                label: "LoadBalancer IP"
-                description: "LoadBalancerIP"
-                schema:
-                  show_if: [["type", "=", "LoadBalancer"]]
-                  type: string
-                  default: ""
-              - variable: externalIPs
-                label: "External IP's"
-                description: "External IP's"
-                schema:
-                  show_if: [["type", "=", "LoadBalancer"]]
-                  type: list
-                  default: []
-                  items:
-                    - variable: externalIP
-                      label: "External IP"
-                      schema:
-                        type: string
-              - variable: ipFamilyPolicy
-                label: "IP Family Policy"
-                description: "(Advanced) Specify the ip policy"
-                schema:
-                  show_if: [["type", "!=", "Simple"]]
-                  type: string
-                  default: "SingleStack"
-                  enum:
-                    - value: "SingleStack"
-                      description: "SingleStack"
-                    - value: "PreferDualStack"
-                      description: "PreferDualStack"
-                    - value: "RequireDualStack"
-                      description: "RequireDualStack"
-              - variable: ipFamilies
-                label: "(advanced) IP families"
-                description: "(advanced) The ip families that should be used"
-                schema:
-                  show_if: [["type", "!=", "Simple"]]
-                  type: list
-                  default: []
-                  items:
-                    - variable: ipFamily
-                      label: "IP family"
-                      schema:
-                        type: string
-              - variable: ports
-                label: "Service's Port(s) Configuration"
-                schema:
-                  additional_attrs: true
-                  type: dict
-                  attrs:
-                    - variable: comm
-                      label: "TCP Service Port Configuration"
-                      schema:
-                        additional_attrs: true
-                        type: dict
-                        attrs:
-                          - variable: port
-                            label: "Port"
-                            description: "This port exposes the container port on the service"
-                            schema:
-                              type: int
-                              default: 8843
-                              required: true
-                          - variable: advanced
-                            label: "Show Advanced settings"
-                            schema:
-                              type: boolean
-                              default: false
-                              show_subquestions_if: true
-                              subquestions:
-                                - variable: protocol
-                                  label: "Port Type"
-                                  schema:
-                                    type: string
-                                    default: "HTTPS"
-                                    enum:
-                                      - value: HTTP
-                                        description: "HTTP"
-                                      - value: "HTTPS"
-                                        description: "HTTPS"
-                                      - value: TCP
-                                        description: "TCP"
-                                      - value: "UDP"
-                                        description: "UDP"
-                                - variable: nodePort
-                                  label: "Node Port (Optional)"
-                                  description: "This port gets exposed to the node. Only considered when service type is NodePort, Simple or LoadBalancer"
-                                  schema:
-                                    type: int
-                                    min: 9000
-                                    max: 65535
-                                - variable: targetPort
-                                  label: "Target Port"
-                                  description: "The internal(!) port on the container the Application runs on"
-                                  schema:
-                                    type: int
-                                    default: 8843
+                                    default: 10072
 
   - variable: serviceexpert
     group: "Networking and Services"
@@ -829,9 +733,9 @@ questions:
       additional_attrs: true
       type: dict
       attrs:
-        - variable: data
-          label: "App data Storage"
-          description: "Stores the Application data."
+        - variable: uploads
+          label: "App Uploads Storage"
+          description: "Stores the Application Uploads."
           schema:
             additional_attrs: true
             type: dict
@@ -1565,7 +1469,7 @@ questions:
                 label: "runAsNonRoot"
                 schema:
                   type: boolean
-                  default: false
+                  default: true
               - variable: capabilities
                 label: "Capabilities"
                 schema:
@@ -1605,13 +1509,13 @@ questions:
           description: "The UserID of the user running the application"
           schema:
             type: int
-            default: 0
+            default: 568
         - variable: runAsGroup
           label: "runAsGroup"
           description: The groupID this App of the user running the application"
           schema:
             type: int
-            default: 0
+            default: 568
         - variable: fsGroup
           label: "fsGroup"
           description: "The group that should own ALL storage."

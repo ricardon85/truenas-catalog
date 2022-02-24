@@ -1,6 +1,19 @@
 # Changelog<br>
 
 
+<a name="omada-controller-4.0.67"></a>
+### [omada-controller-4.0.67](https://github.com/truecharts/apps/compare/omada-controller-4.0.66...omada-controller-4.0.67) (2022-02-24)
+
+#### Chore
+
+* rename `web_portal` to `open` ([#1957](https://github.com/truecharts/apps/issues/1957))
+
+#### Fix
+
+* Use correct ports for v5.x and fix typo ([#1962](https://github.com/truecharts/apps/issues/1962))
+
+
+
 <a name="omada-controller-4.0.66"></a>
 ### [omada-controller-4.0.66](https://github.com/truecharts/apps/compare/omada-controller-4.0.65...omada-controller-4.0.66) (2022-02-21)
 
@@ -84,16 +97,3 @@
 ### [omada-controller-4.0.57](https://github.com/truecharts/apps/compare/omada-controller-4.0.56...omada-controller-4.0.57) (2022-02-02)
 
 #### Chore
-
-* update helm general non-major helm releases ([#1828](https://github.com/truecharts/apps/issues/1828))
-
-
-
-<a name="omada-controller-4.0.56"></a>
-### [omada-controller-4.0.56](https://github.com/truecharts/apps/compare/omada-controller-4.0.55...omada-controller-4.0.56) (2022-01-31)
-
-#### Chore
-
-* update docker general non-major docker tags ([#1823](https://github.com/truecharts/apps/issues/1823))
-
-
