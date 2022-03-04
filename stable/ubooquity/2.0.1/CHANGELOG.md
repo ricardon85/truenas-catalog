@@ -1,6 +1,11 @@
 # Changelog<br>
 
 
+<a name="ubooquity-2.0.1"></a>
+### [ubooquity-2.0.1](https://github.com/truecharts/apps/compare/ubooquity-2.0.0...ubooquity-2.0.1) (2022-03-04)
+
+
+
 <a name="ubooquity-2.0.0"></a>
 ### [ubooquity-2.0.0](https://github.com/truecharts/apps/compare/ubooquity-1.0.1...ubooquity-2.0.0) (2022-03-03)
 
@@ -92,8 +97,3 @@
 * update helm general non-major helm releases ([#1828](https://github.com/truecharts/apps/issues/1828))
 
 
-
-<a name="ubooquity-0.0.16"></a>
-### [ubooquity-0.0.16](https://github.com/truecharts/apps/compare/ubooquity-0.0.15...ubooquity-0.0.16) (2022-01-25)
-
-#### Chore
