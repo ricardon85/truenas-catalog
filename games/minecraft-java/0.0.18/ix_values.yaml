@@ -1,0 +1,71 @@
+image:
+  repository: tccr.io/truecharts/minecraft-java
+  tag: v2022.4.1@sha256:24cdde2584fbc5c5ff0428147f89ab57d7c96a08a703521a4e3657cabd281a1c
+  pullPolicy: Always
+j11Image:
+  repository: tccr.io/truecharts/minecraft-java11
+  tag: latest@sha256:d1e4217d91b7466dcd227b14915c854d39ab70f0dd07a580a57da88b11baa44f
+  pullPolicy: Always
+j11j9Image:
+  repository: tccr.io/truecharts/minecraft-java11-openj9
+  tag: latest@sha256:248ecbdca94efa8ab7c0b0437a0b59ba82ca9dabe6cd1f90a8cbd43319f15b82
+  pullPolicy: Always
+j8Image:
+  repository: tccr.io/truecharts/minecraft-java8-openj9
+  tag: latest@sha256:f467e390ee080d582477b444761c3b196a9ced1bebbfdac615fd75eb6bf17993
+  pullPolicy: Always
+j8j9Image:
+  repository: tccr.io/truecharts/minecraft-java8-openj9
+  tag: latest@sha256:f467e390ee080d582477b444761c3b196a9ced1bebbfdac615fd75eb6bf17993
+  pullPolicy: Always
+
+portal:
+  enabled: false
+
+securityContext:
+  readOnlyRootFilesystem: false
+  runAsNonRoot: false
+
+podSecurityContext:
+  runAsUser: 0
+  runAsGroup: 0
+
+env:
+  UID: "{{ .Values.security.PUID }}"
+  EULA: "TRUE"
+  VERSION: "LATEST"
+  TYPE: "VANILLA"
+  DIFFICULTY: easy
+  MAX_PLAYERS: 20
+  MAX_WORLD_SIZE: 10000
+  ALLOW_NETHER: true
+  ANNOUNCE_PLAYER_ACHIEVEMENTS: true
+  ENABLE_COMMAND_BLOCK: false
+  FORCE_GAMEMODE: false
+  GENERATE_STRUCTURES: true
+  HARDCORE: false
+  MAX_BUILD_HEIGHT: 256
+  MAX_TICK_TIME: 60000
+  SPAWN_ANIMALS: true
+  SPAWN_MONSTERS: true
+  SPAWN_NPCS: true
+  VIEW_DISTANCE: 16
+  MODE: survival
+  MOTD: "Welcome to Minecraft on TrueNAS Scale!"
+  PVP: false
+  LEVEL_TYPE: DEFAULT
+  LEVEL: world
+  ONLINE_MODE: true
+  MEMORY: 2048M
+
+persistence:
+  data:
+    enabled: true
+    mountPath: "/data"
+
+service:
+  main:
+    ports:
+      main:
+        port: 25565
+        targetPort: 25565
