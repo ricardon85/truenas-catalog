@@ -1,6 +1,15 @@
 # Changelog<br>
 
 
+<a name="libreoffice-1.0.2"></a>
+### [libreoffice-1.0.2](https://github.com/truecharts/apps/compare/libreoffice-1.0.1...libreoffice-1.0.2) (2022-03-12)
+
+#### Fix
+
+* rofs false ([#2141](https://github.com/truecharts/apps/issues/2141))
+
+
+
 <a name="libreoffice-1.0.1"></a>
 ### [libreoffice-1.0.1](https://github.com/truecharts/apps/compare/libreoffice-1.0.0...libreoffice-1.0.1) (2022-03-07)
 
@@ -88,12 +97,3 @@
 #### Chore
 
 * update helm general non-major helm releases ([#1828](https://github.com/truecharts/apps/issues/1828))
-
-
-
-<a name="libreoffice-0.0.17"></a>
-### [libreoffice-0.0.17](https://github.com/truecharts/apps/compare/libreoffice-0.0.16...libreoffice-0.0.17) (2022-01-25)
-
-#### Chore
-
-* update helm general non-major helm releases ([#1791](https://github.com/truecharts/apps/issues/1791))
