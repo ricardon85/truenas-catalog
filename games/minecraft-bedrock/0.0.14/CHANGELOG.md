@@ -1,6 +1,15 @@
 # Changelog<br>
 
 
+<a name="minecraft-bedrock-0.0.14"></a>
+### [minecraft-bedrock-0.0.14](https://github.com/truecharts/apps/compare/minecraft-bedrock-0.0.13...minecraft-bedrock-0.0.14) (2022-03-13)
+
+#### Chore
+
+* remove UID and GID from values ([#2146](https://github.com/truecharts/apps/issues/2146))
+
+
+
 <a name="minecraft-bedrock-0.0.13"></a>
 ### [minecraft-bedrock-0.0.13](https://github.com/truecharts/apps/compare/minecraft-bedrock-0.0.12...minecraft-bedrock-0.0.13) (2022-03-07)
 
@@ -87,13 +96,4 @@
 #### Chore
 
 * update helm chart common to v8.15.0 ([#1856](https://github.com/truecharts/apps/issues/1856))
-
-
-
-<a name="minecraft-bedrock-0.0.2"></a>
-### minecraft-bedrock-0.0.2 (2022-02-04)
-
-#### Feat
-
-* add games train and two gameservers ([#1839](https://github.com/truecharts/apps/issues/1839))
 
