@@ -1,6 +1,15 @@
 # Changelog<br>
 
 
+<a name="mosquitto-5.0.2"></a>
+### [mosquitto-5.0.2](https://github.com/truecharts/apps/compare/mosquitto-5.0.1...mosquitto-5.0.2) (2022-03-14)
+
+#### Fix
+
+* remove portal button ([#2164](https://github.com/truecharts/apps/issues/2164))
+
+
+
 <a name="mosquitto-5.0.1"></a>
 ### [mosquitto-5.0.1](https://github.com/truecharts/apps/compare/mosquitto-5.0.0...mosquitto-5.0.1) (2022-03-07)
 
@@ -87,13 +96,4 @@
 #### Chore
 
 * update helm general non-major helm releases ([#1828](https://github.com/truecharts/apps/issues/1828))
-
-
-
-<a name="mosquitto-4.0.37"></a>
-### [mosquitto-4.0.37](https://github.com/truecharts/apps/compare/mosquitto-4.0.36...mosquitto-4.0.37) (2022-01-25)
-
-#### Chore
-
-* update helm general non-major helm releases ([#1791](https://github.com/truecharts/apps/issues/1791))
 
