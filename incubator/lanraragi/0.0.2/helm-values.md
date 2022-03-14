@@ -11,21 +11,20 @@ You will, however, be able to use all values referenced in the common chart here
 
 | Key | Type | Default | Description |
 |-----|------|---------|-------------|
+| env.LRR_GID | string | `"{{ .Values.podSecurityContext.fsGroup }}"` |  |
+| env.LRR_UID | string | `"{{ .Values.security.PUID }}"` |  |
 | image.pullPolicy | string | `"IfNotPresent"` |  |
-| image.repository | string | `"tinymediamanager/tinymediamanager"` |  |
-| image.tag | string | `"4.2.7@sha256:80602caa61aea1f274265af9a8e3e90722d18f2d191b586d9304ada590e9d334"` |  |
-| persistence.data.enabled | bool | `true` |  |
-| persistence.data.mountPath | string | `"/data"` |  |
-| persistence.movies.enabled | bool | `true` |  |
-| persistence.movies.mountPath | string | `"/media/movies"` |  |
-| persistence.tvshows.enabled | bool | `true` |  |
-| persistence.tvshows.mountPath | string | `"/media/tvshows"` |  |
+| image.repository | string | `"tccr.io/truecharts/lanraragi"` |  |
+| image.tag | string | `"v.0.8.4@sha256:e41603c23afbb27544cdef8cf30f4e568eb499bd3221f81953e6cd60c469ab25"` |  |
+| persistence.config.enabled | bool | `true` |  |
+| persistence.config.mountPath | string | `"/home/koyomi/lanraragi/database"` |  |
+| persistence.content.enabled | bool | `true` |  |
+| persistence.content.mountPath | string | `"/home/koyomi/lanraragi/content"` |  |
 | podSecurityContext.runAsGroup | int | `0` |  |
 | podSecurityContext.runAsUser | int | `0` |  |
-| secret.PASSWORD | string | `""` |  |
 | securityContext.readOnlyRootFilesystem | bool | `false` |  |
 | securityContext.runAsNonRoot | bool | `false` |  |
-| service.main.ports.main.port | int | `10179` |  |
-| service.main.ports.main.targetPort | int | `4000` |  |
+| service.main.ports.main.port | int | `10177` |  |
+| service.main.ports.main.targetPort | int | `3000` |  |
 
 All Rights Reserved - The TrueCharts Project
