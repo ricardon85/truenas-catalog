@@ -1,6 +1,15 @@
 # Changelog<br>
 
 
+<a name="prometheus-2.0.8"></a>
+### [prometheus-2.0.8](https://github.com/truecharts/apps/compare/prometheus-2.0.7...prometheus-2.0.8) (2022-03-17)
+
+#### Chore
+
+* update helm general non-major helm releases ([#2186](https://github.com/truecharts/apps/issues/2186))
+
+
+
 <a name="prometheus-2.0.7"></a>
 ### [prometheus-2.0.7](https://github.com/truecharts/apps/compare/uptimerobot-prometheus-3.0.2...prometheus-2.0.7) (2022-03-17)
 
@@ -88,12 +97,3 @@
 
 <a name="prometheus-1.1.71"></a>
 ### [prometheus-1.1.71](https://github.com/truecharts/apps/compare/prometheus-1.1.70...prometheus-1.1.71) (2022-02-28)
-
-#### Chore
-
-* update docker general non-major ([#1983](https://github.com/truecharts/apps/issues/1983))
-
-
-
-<a name="prometheus-1.1.70"></a>
-### [prometheus-1.1.70](https://github.com/truecharts/apps/compare/prometheus-1.1.69...prometheus-1.1.70) (2022-02-28)
