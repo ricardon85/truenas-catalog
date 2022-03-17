@@ -169,7 +169,19 @@ questions:
                             label: "Value"
                             schema:
                               type: string
-
+  - variable: env
+    group: "Container Configuration"
+    label: "Image Environment"
+    schema:
+      additional_attrs: true
+      type: dict
+      attrs:
+        - variable: APP_URL
+          label: "APP_URL"
+          description: "Application URL eg. https://bookstack.mydomain.com"
+          schema:
+            type: string
+            default: ""
   - variable: TZ
     label: "Timezone"
     group: "Container Configuration"
