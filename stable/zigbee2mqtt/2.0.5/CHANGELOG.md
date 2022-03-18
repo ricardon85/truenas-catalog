@@ -1,6 +1,15 @@
 # Changelog<br>
 
 
+<a name="zigbee2mqtt-2.0.5"></a>
+### [zigbee2mqtt-2.0.5](https://github.com/truecharts/apps/compare/zigbee2mqtt-2.0.4...zigbee2mqtt-2.0.5) (2022-03-18)
+
+#### Fix
+
+* Expose gui option to set usbdevice path ([#2213](https://github.com/truecharts/apps/issues/2213))
+
+
+
 <a name="zigbee2mqtt-2.0.2"></a>
 ### [zigbee2mqtt-2.0.2](https://github.com/truecharts/apps/compare/zigbee2mqtt-2.0.1...zigbee2mqtt-2.0.2) (2022-03-07)
 
@@ -86,14 +95,5 @@
 #### Chore
 
 * update helm general non-major helm releases ([#1852](https://github.com/truecharts/apps/issues/1852))
-
-
-
-<a name="zigbee2mqtt-1.0.39"></a>
-### [zigbee2mqtt-1.0.39](https://github.com/truecharts/apps/compare/zigbee2mqtt-1.0.38...zigbee2mqtt-1.0.39) (2022-02-03)
-
-#### Chore
-
-* update docker general non-major ([#1836](https://github.com/truecharts/apps/issues/1836))
 
 
