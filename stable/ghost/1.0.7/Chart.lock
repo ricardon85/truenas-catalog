@@ -1,0 +1,9 @@
+dependencies:
+- name: common
+  repository: https://truecharts.org
+  version: 9.1.6
+- name: mariadb
+  repository: https://truecharts.org/
+  version: 2.0.6
+digest: sha256:ff7edea3cc43b408f54d6c9f67877d7ca94d6e5e33f348841c5643c8df72770f
+generated: "2022-03-20T03:48:27.748639852Z"
