@@ -1,6 +1,15 @@
 # Changelog<br>
 
 
+<a name="zigbee2mqtt-2.0.7"></a>
+### [zigbee2mqtt-2.0.7](https://github.com/truecharts/apps/compare/zigbee2mqtt-2.0.6...zigbee2mqtt-2.0.7) (2022-03-20)
+
+#### Fix
+
+* Remove configmap and provide questions for basic setup to get up and running ([#2225](https://github.com/truecharts/apps/issues/2225))
+
+
+
 <a name="zigbee2mqtt-2.0.6"></a>
 ### [zigbee2mqtt-2.0.6](https://github.com/truecharts/apps/compare/zigbee2mqtt-2.0.5...zigbee2mqtt-2.0.6) (2022-03-19)
 
@@ -86,14 +95,5 @@
 #### Chore
 
 * update helm general non-major helm releases ([#1871](https://github.com/truecharts/apps/issues/1871))
-
-
-
-<a name="zigbee2mqtt-1.0.41"></a>
-### [zigbee2mqtt-1.0.41](https://github.com/truecharts/apps/compare/zigbee2mqtt-1.0.40...zigbee2mqtt-1.0.41) (2022-02-06)
-
-#### Chore
-
-* update helm chart common to v8.15.0 ([#1859](https://github.com/truecharts/apps/issues/1859))
 
 

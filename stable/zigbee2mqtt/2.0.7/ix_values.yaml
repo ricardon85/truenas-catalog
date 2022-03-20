@@ -1,0 +1,37 @@
+image:
+  repository: tccr.io/truecharts/zigbee2mqtt
+  tag: v1.24.0@sha256:2574cbd6af36d0305c8034804e2c64f672757133d71b14f87f36913a9b97e754
+  pullPolicy: IfNotPresent
+
+secret:
+  ZIGBEE2MQTT_CONFIG_MQTT_USER: ""
+  ZIGBEE2MQTT_CONFIG_MQTT_PASSWORD: ""
+
+env:
+  ZIGBEE2MQTT_DATA: "/data"
+  ZIGBEE2MQTT_CONFIG_FRONTEND_PORT: "{{ .Values.service.main.ports.main.port }}"
+  ZIGBEE2MQTT_CONFIG_EXPIRIMENTAL_NEW_API: true
+  # User defined
+  ZIGBEE2MQTT_CONFIG_PERMIT_JOIN: true
+  ZIGBEE2MQTT_CONFIG_MQTT_SERVER: "mqtt://localhost"
+  ZIGBEE2MQTT_CONFIG_MQTT_BASE_TOPIC: "zigbee2mqtt"
+  ZIGBEE2MQTT_CONFIG_SERIAL_PORT: "/dev/ttyUSB0"
+  ZIGBEE2MQTT_CONFIG_SERIAL_ADAPTER: "auto"
+
+securityContext:
+  runAsNonRoot: false
+
+podSecurityContext:
+  runAsUser: 0
+  runAsGroup: 0
+
+service:
+  main:
+    ports:
+      main:
+        port: 10103
+
+persistence:
+  data:
+    enabled: true
+    mountPath: "/data"
