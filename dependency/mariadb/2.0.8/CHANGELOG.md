@@ -1,6 +1,15 @@
 # Changelog<br>
 
 
+<a name="mariadb-2.0.8"></a>
+### [mariadb-2.0.8](https://github.com/truecharts/apps/compare/mariadb-2.0.7...mariadb-2.0.8) (2022-03-20)
+
+#### Fix
+
+* Wait for init ([#2226](https://github.com/truecharts/apps/issues/2226))
+
+
+
 <a name="mariadb-2.0.7"></a>
 ### [mariadb-2.0.7](https://github.com/truecharts/apps/compare/mariadb-2.0.6...mariadb-2.0.7) (2022-03-20)
 
@@ -87,13 +96,4 @@
 #### Chore
 
 * update helm chart common to v8.17.3 ([#2009](https://github.com/truecharts/apps/issues/2009))
-
-
-
-<a name="mariadb-1.0.77"></a>
-### [mariadb-1.0.77](https://github.com/truecharts/apps/compare/mariadb-1.0.76...mariadb-1.0.77) (2022-03-03)
-
-#### Chore
-
-* update docker general non-major ([#2006](https://github.com/truecharts/apps/issues/2006))
 
