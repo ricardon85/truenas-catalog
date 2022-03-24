@@ -1,6 +1,15 @@
 # Changelog<br>
 
 
+<a name="snipe-it-2.0.1"></a>
+### [snipe-it-2.0.1](https://github.com/truecharts/apps/compare/snipe-it-2.0.0...snipe-it-2.0.1) (2022-03-24)
+
+#### Fix
+
+* permissions ([#2267](https://github.com/truecharts/apps/issues/2267))
+
+
+
 <a name="snipe-it-2.0.0"></a>
 ### [snipe-it-2.0.0](https://github.com/truecharts/apps/compare/snipe-it-1.0.8...snipe-it-2.0.0) (2022-03-23)
 
@@ -88,12 +97,3 @@
 #### Chore
 
 * rename `web_portal` to `open` ([#1957](https://github.com/truecharts/apps/issues/1957))
-* update docker general non-major ([#1980](https://github.com/truecharts/apps/issues/1980))
-
-
-
-<a name="snipe-it-0.0.39"></a>
-### [snipe-it-0.0.39](https://github.com/truecharts/apps/compare/snipe-it-0.0.38...snipe-it-0.0.39) (2022-02-21)
-
-#### Chore
-
