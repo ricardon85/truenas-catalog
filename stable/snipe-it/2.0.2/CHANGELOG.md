@@ -1,6 +1,15 @@
 # Changelog<br>
 
 
+<a name="snipe-it-2.0.2"></a>
+### [snipe-it-2.0.2](https://github.com/truecharts/apps/compare/snipe-it-2.0.1...snipe-it-2.0.2) (2022-03-24)
+
+#### Fix
+
+* fix permissions and add more storage questions ([#2269](https://github.com/truecharts/apps/issues/2269))
+
+
+
 <a name="snipe-it-2.0.1"></a>
 ### [snipe-it-2.0.1](https://github.com/truecharts/apps/compare/snipe-it-2.0.0...snipe-it-2.0.1) (2022-03-24)
 
@@ -88,12 +97,3 @@
 #### Chore
 
 * update helm general non-major helm releases ([#1999](https://github.com/truecharts/apps/issues/1999))
-
-
-
-<a name="snipe-it-0.0.40"></a>
-### [snipe-it-0.0.40](https://github.com/truecharts/apps/compare/snipe-it-0.0.39...snipe-it-0.0.40) (2022-02-28)
-
-#### Chore
-
-* rename `web_portal` to `open` ([#1957](https://github.com/truecharts/apps/issues/1957))
