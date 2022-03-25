@@ -1,0 +1,56 @@
+image:
+  repository: tccr.io/truecharts/minio
+  tag: latest@sha256:a31f22b3cac9931e4eebf306c358fd7ca1966432b5db98e755743e25c3bcbe7c
+  pullPolicy: IfNotPresent
+
+args: ["server", "/data", "--address", ":10106", "--console-address", ":10107"]
+
+secret:
+  MINIO_ROOT_PASSWORD: "changeme"
+
+env:
+  MINIO_ROOT_USER: "minio"
+  MINIO_BROWSER_REDIRECT_URL: ""
+  MINIO_SERVER_URL: ""
+
+probes:
+  liveness:
+    custom: true
+    spec:
+      httpGet:
+        scheme: HTTP
+        path: "/minio/health/live"
+        port: 10106
+  readiness:
+    custom: true
+    spec:
+      httpGet:
+        scheme: HTTP
+        path: "/minio/health/ready"
+        port: 10106
+
+service:
+  main:
+    ports:
+      main:
+        port: 10107
+        targetPort: 10107
+  api:
+    enabled: true
+    ports:
+      api:
+        enabled: true
+        targetPort: 10106
+        port: 10106
+
+ingress:
+  api:
+    autoLink: true
+
+securityContext:
+  readOnlyRootFilesystem: false
+
+persistence:
+  config:
+    enabled: true
+    mountPath: "/data"

@@ -1,0 +1,23 @@
+image:
+  repository: tccr.io/truecharts/eclipse-mosquitto
+  tag: v2.0.14@sha256:6e58ccce3eb94b213f5af2a7d969c1c39aea1ccc6f3e35a93d9dd4f961199c81
+  pullPolicy: IfNotPresent
+
+service:
+  main:
+    ports:
+      main:
+        port: 1883
+        targetPort: 1883
+
+auth:
+  # -- By enabling this, `allow_anonymous` gets set to `false` in the mosquitto config.
+  enabled: false
+
+persistence:
+  data:
+    enabled: true
+    mountPath: "/mosquitto/data"
+  configinc:
+    enabled: true
+    mountPath: "/mosquitto/configinc"

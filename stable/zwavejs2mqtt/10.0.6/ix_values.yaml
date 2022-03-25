@@ -1,0 +1,86 @@
+image:
+  repository: tccr.io/truecharts/zwavejs2mqtt
+  pullPolicy: IfNotPresent
+  tag: v6.6.0@sha256:7798e9afa46b4fda8eadf271efd01e4a0c7bf131c43c9e0ab00334b0df2f35a3
+
+securityContext:
+  readOnlyRootFilesystem: false
+
+# # See more environment variables in the zwavejs2mqtt documentation
+# https://zwave-js.github.io/zwavejs2mqtt/#/guide/env-vars
+env: {}
+  # OZW_NETWORK_KEY:
+
+probes:
+  liveness:
+    enabled: true
+    # custom: true
+    # spec:
+    #   failureThreshold: 5
+    #   httpGet:
+    #     path: /health
+    #     port: http
+    #     httpHeaders:
+    #       - name: Accept
+    #         value: text/plain
+    #   initialDelaySeconds: 30
+    #   periodSeconds: 10
+    #   timeoutSeconds: 10
+  readiness:
+    enabled: true
+    # custom: true
+    # spec:
+    #   failureThreshold: 5
+    #   httpGet:
+    #     path: /health
+    #     port: http
+    #     httpHeaders:
+    #       - name: Accept
+    #         value: text/plain
+    #   initialDelaySeconds: 30
+    #   periodSeconds: 10
+    #   timeoutSeconds: 10
+  startup:
+    enabled: false
+    # custom: true
+    # spec:
+    #   failureThreshold: 5
+    #   httpGet:
+    #     path: /health
+    #     port: http
+    #     httpHeaders:
+    #       - name: Accept
+    #         value: text/plain
+    #   initialDelaySeconds: 30
+    #   periodSeconds: 10
+    #   timeoutSeconds: 10
+
+service:
+  main:
+    ports:
+      main:
+        port: 8091
+        targetPort: 8091
+  ws:
+    enabled: true
+    ports:
+      ws:
+        enabled: true
+        port: 10046
+        targetPort: 3000
+
+persistence:
+  config:
+    enabled: true
+    mountPath: "/usr/src/app/store"
+
+
+# affinity:
+#   nodeAffinity:
+#     requiredDuringSchedulingIgnoredDuringExecution:
+#       nodeSelectorTerms:
+#       - matchExpressions:
+#         - key: app
+#           operator: In
+#           values:
+#           - zwave-controller
