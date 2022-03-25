@@ -1,6 +1,16 @@
 # Changelog<br>
 
 
+<a name="webgrabplus-1.0.5"></a>
+### [webgrabplus-1.0.5](https://github.com/truecharts/apps/compare/webgrabplus-1.0.4...webgrabplus-1.0.5) (2022-03-25)
+
+#### Chore
+
+* update container image tccr.io/truecharts/webgrabplus to v4.2.2 ([#2277](https://github.com/truecharts/apps/issues/2277))
+* update docker general non-major
+
+
+
 <a name="webgrabplus-1.0.1"></a>
 ### [webgrabplus-1.0.1](https://github.com/truecharts/apps/compare/webgrabplus-1.0.0...webgrabplus-1.0.1) (2022-03-07)
 
@@ -87,13 +97,3 @@
 #### Chore
 
 * update helm general non-major helm releases ([#1828](https://github.com/truecharts/apps/issues/1828))
-
-
-
-<a name="webgrabplus-0.0.17"></a>
-### [webgrabplus-0.0.17](https://github.com/truecharts/apps/compare/webgrabplus-0.0.16...webgrabplus-0.0.17) (2022-01-25)
-
-#### Chore
-
-* update helm general non-major helm releases ([#1791](https://github.com/truecharts/apps/issues/1791))
-
