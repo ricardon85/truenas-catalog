@@ -1,0 +1,12 @@
+dependencies:
+- name: common
+  repository: https://library-charts.truecharts.org
+  version: 9.1.15
+- name: postgresql
+  repository: https://truecharts.org/
+  version: 7.0.10
+- name: memcached
+  repository: https://truecharts.org/
+  version: 2.0.11
+digest: sha256:823ef1a68db5b7edd5f49233d51a49c69a957da95b009d61c1411fe88b9fbadb
+generated: "2022-03-26T17:34:48.052217317Z"

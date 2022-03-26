@@ -1,0 +1,12 @@
+dependencies:
+- name: common
+  repository: https://library-charts.truecharts.org
+  version: 9.1.15
+- name: postgresql
+  repository: https://truecharts.org/
+  version: 7.0.10
+- name: redis
+  repository: https://truecharts.org/
+  version: 2.0.8
+digest: sha256:e731963363030b0ff7336297f62c616dd682fe958b891a5a18017e6746ef6373
+generated: "2022-03-26T17:45:17.581599255Z"
