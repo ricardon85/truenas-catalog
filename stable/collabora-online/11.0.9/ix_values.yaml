@@ -1,0 +1,27 @@
+image:
+  repository: tccr.io/truecharts/collabora
+  tag: v21.11.3.3.1@sha256:9929ff93991ef738eca24801a260be592fe3d52e724a8f350e81aedddf2169a4
+  pullPolicy: IfNotPresent
+
+securityContext:
+  readOnlyRootFilesystem: false
+  allowPrivilegeEscalation: true
+
+podSecurityContext:
+  runAsUser: 104
+  runAsGroup: 106
+
+service:
+  main:
+    ports:
+      main:
+        port: 10105
+        targetPort: 9980
+secret:
+  username: admin
+  password: changeme
+env:
+  domain: nextcloud\.domain\.tld
+  dictionaries: de_DE en_GB en_US es_ES fr_FR it nl pt_BR pt_PT ru
+  extra_params: "-o:welcome.enable=false -o:user_interface.mode=notebookbar -o:ssl.termination=true -o:ssl.enable=false"
+  server_name: collabora\.domain\.tld
