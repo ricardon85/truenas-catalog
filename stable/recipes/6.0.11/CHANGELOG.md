@@ -1,6 +1,15 @@
 # Changelog<br>
 
 
+<a name="recipes-6.0.11"></a>
+### [recipes-6.0.11](https://github.com/truecharts/apps/compare/recipes-6.0.10...recipes-6.0.11) (2022-03-26)
+
+#### Chore
+
+* correct path for nginx ([#2284](https://github.com/truecharts/apps/issues/2284))
+
+
+
 <a name="recipes-6.0.10"></a>
 ### [recipes-6.0.10](https://github.com/truecharts/apps/compare/recipes-6.0.9...recipes-6.0.10) (2022-03-24)
 
@@ -88,12 +97,3 @@
 <a name="recipes-5.0.25"></a>
 ### [recipes-5.0.25](https://github.com/truecharts/apps/compare/recipes-5.0.24...recipes-5.0.25) (2022-03-02)
 
-#### Chore
-
-* rename `web_portal` to `open` ([#1957](https://github.com/truecharts/apps/issues/1957))
-* update helm general non-major helm releases ([#1999](https://github.com/truecharts/apps/issues/1999))
-
-
-
-<a name="recipes-5.0.24"></a>
-### [recipes-5.0.24](https://github.com/truecharts/apps/compare/recipes-5.0.23...recipes-5.0.24) (2022-02-21)
