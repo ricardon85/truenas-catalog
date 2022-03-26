@@ -1,6 +1,15 @@
 # Changelog<br>
 
 
+<a name="friendica-2.0.10"></a>
+### [friendica-2.0.10](https://github.com/truecharts/apps/compare/friendica-2.0.9...friendica-2.0.10) (2022-03-26)
+
+#### Fox
+
+* update probe path ([#2293](https://github.com/truecharts/apps/issues/2293))
+
+
+
 <a name="friendica-2.0.9"></a>
 ### [friendica-2.0.9](https://github.com/truecharts/apps/compare/friendica-2.0.8...friendica-2.0.9) (2022-03-26)
 
@@ -87,13 +96,4 @@
 
 <a name="friendica-1.0.0"></a>
 ### [friendica-1.0.0](https://github.com/truecharts/apps/compare/friendica-0.0.44...friendica-1.0.0) (2022-03-03)
-
-#### Chore
-
-* remove fixed env from questions.yaml
-* update helm general major helm releases ([#2021](https://github.com/truecharts/apps/issues/2021))
-
-#### Fix
-
-* BREAKING CHANGE Move some env-vars outside of env section ([#2010](https://github.com/truecharts/apps/issues/2010))
 
