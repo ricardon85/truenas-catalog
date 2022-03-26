@@ -1,6 +1,19 @@
 # Changelog<br>
 
 
+<a name="snipe-it-2.0.5"></a>
+### [snipe-it-2.0.5](https://github.com/truecharts/apps/compare/snipe-it-2.0.4...snipe-it-2.0.5) (2022-03-26)
+
+#### Feat
+
+* Add filerun ([#2242](https://github.com/truecharts/apps/issues/2242))
+
+#### Fix
+
+* adjust probe ([#2270](https://github.com/truecharts/apps/issues/2270))
+
+
+
 <a name="snipe-it-2.0.4"></a>
 ### [snipe-it-2.0.4](https://github.com/truecharts/apps/compare/snipe-it-2.0.3...snipe-it-2.0.4) (2022-03-26)
 
@@ -84,16 +97,3 @@
 
 
 
-<a name="snipe-it-1.0.0"></a>
-### [snipe-it-1.0.0](https://github.com/truecharts/apps/compare/snipe-it-0.0.41...snipe-it-1.0.0) (2022-03-03)
-
-#### Chore
-
-* remove fixed env from questions.yaml
-* remove PUID from per-app env-vars if set to 568
-* remove empty env var declaration from questions.yaml
-* update helm general major helm releases ([#2021](https://github.com/truecharts/apps/issues/2021))
-
-#### Fix
-
-* BREAKING CHANGE Move some env-vars outside of env section ([#2010](https://github.com/truecharts/apps/issues/2010))
