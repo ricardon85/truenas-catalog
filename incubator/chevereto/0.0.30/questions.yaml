@@ -168,24 +168,24 @@ questions:
                             label: "Value"
                             schema:
                               type: string
-  - variable: env
+  - variable: chevereto
     group: "Container Configuration"
-    label: "Image Environment"
+    label: "Chevereto Configuration"
     schema:
       additional_attrs: true
       type: dict
       attrs:
-        - variable: CHEVERETO_HTTPS
+        - variable: https
           label: "CHEVERETO_HTTPS"
           schema:
             type: boolean
             default: false
-        - variable: CHEVERETO_DISABLE_UPDATE_HTTP
+        - variable: disable_update_http
           label: "CHEVERETO_DISABLE_UPDATE_HTTP"
           schema:
             type: boolean
             default: true
-        - variable: CHEVERETO_DISABLE_UPDATE_CLI
+        - variable: disable_update_cli
           label: "CHEVERETO_DISABLE_UPDATE_CLI"
           schema:
             type: boolean
