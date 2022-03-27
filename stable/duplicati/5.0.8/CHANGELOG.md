@@ -1,6 +1,15 @@
 # Changelog<br>
 
 
+<a name="duplicati-5.0.8"></a>
+### [duplicati-5.0.8](https://github.com/truecharts/apps/compare/duplicati-5.0.6...duplicati-5.0.8) (2022-03-27)
+
+#### Feat
+
+* actually move to stable ([#2319](https://github.com/truecharts/apps/issues/2319))
+
+
+
 <a name="duplicati-5.0.6"></a>
 ### [duplicati-5.0.6](https://github.com/truecharts/apps/compare/duplicati-5.0.5...duplicati-5.0.6) (2022-03-26)
 
@@ -85,15 +94,6 @@
 
 <a name="duplicati-4.0.37"></a>
 ### [duplicati-4.0.37](https://github.com/truecharts/apps/compare/duplicati-4.0.36...duplicati-4.0.37) (2022-02-05)
-
-#### Chore
-
-* update helm general non-major helm releases ([#1852](https://github.com/truecharts/apps/issues/1852))
-
-
-
-<a name="duplicati-4.0.36"></a>
-### [duplicati-4.0.36](https://github.com/truecharts/apps/compare/duplicati-4.0.35...duplicati-4.0.36) (2022-02-02)
 
 #### Chore
 
