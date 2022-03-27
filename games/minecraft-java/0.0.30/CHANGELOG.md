@@ -1,6 +1,15 @@
 # Changelog<br>
 
 
+<a name="minecraft-java-0.0.30"></a>
+### [minecraft-java-0.0.30](https://github.com/truecharts/apps/compare/minecraft-java-0.0.29...minecraft-java-0.0.30) (2022-03-26)
+
+#### Chore
+
+* Add rcon_password in gui ([#2297](https://github.com/truecharts/apps/issues/2297))
+
+
+
 <a name="minecraft-java-0.0.29"></a>
 ### [minecraft-java-0.0.29](https://github.com/truecharts/apps/compare/minecraft-java-0.0.28...minecraft-java-0.0.29) (2022-03-26)
 
@@ -86,14 +95,5 @@
 
 * update helm chart common to v9.1.2 ([#2049](https://github.com/truecharts/apps/issues/2049))
 
-
-
-<a name="minecraft-java-0.0.18"></a>
-### [minecraft-java-0.0.18](https://github.com/truecharts/apps/compare/minecraft-java-0.0.17...minecraft-java-0.0.18) (2022-03-07)
-
-#### Chore
-
-* update docker general non-major ([#2046](https://github.com/truecharts/apps/issues/2046))
-* Remove `-icon` string from icon png's ([#2040](https://github.com/truecharts/apps/issues/2040))
 
 
