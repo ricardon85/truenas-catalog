@@ -270,23 +270,30 @@ questions:
                       schema:
                         type: string
 
-  - variable: mariadbDatabase
+  - variable: mongodbDatabase
     group: "App Configuration"
     label: "Database Name"
     schema:
       type: string
       default: "mydatabase"
       required: true
-  - variable: mariadbUsername
+  - variable: mongodbUsername
     group: "App Configuration"
     label: "Database User"
     schema:
       type: string
       default: "mydatabaseuser"
       required: true
-  - variable: mariadbPassword
+  - variable: mongodbPassword
     group: "App Configuration"
     label: "Database Password"
+    schema:
+      type: string
+      default: ""
+      required: true
+  - variable: mongodbRootPassword
+    group: "App Configuration"
+    label: "Root Password"
     schema:
       type: string
       default: ""
@@ -389,7 +396,7 @@ questions:
                             description: "This port exposes the container port on the service"
                             schema:
                               type: int
-                              default: 3306
+                              default: 27017
                               required: true
                           - variable: advanced
                             label: "Show Advanced settings"
@@ -424,7 +431,7 @@ questions:
                                   description: "The internal(!) port on the container the Application runs on"
                                   schema:
                                     type: int
-                                    default: 3306
+                                    default: 27017
 
   - variable: serviceexpert
     group: "Networking and Services"

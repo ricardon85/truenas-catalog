@@ -270,23 +270,30 @@ questions:
                       schema:
                         type: string
 
-  - variable: postgresqlDatabase
+  - variable: mariadbDatabase
     group: "App Configuration"
     label: "Database Name"
     schema:
       type: string
       default: "mydatabase"
       required: true
-  - variable: postgresqlUsername
+  - variable: mariadbUsername
     group: "App Configuration"
     label: "Database User"
     schema:
       type: string
       default: "mydatabaseuser"
       required: true
-  - variable: postgresqlPassword
+  - variable: mariadbPassword
     group: "App Configuration"
     label: "Database Password"
+    schema:
+      type: string
+      default: ""
+      required: true
+  - variable: mariadbRootPassword
+    group: "App Configuration"
+    label: "Root Password"
     schema:
       type: string
       default: ""
@@ -389,7 +396,7 @@ questions:
                             description: "This port exposes the container port on the service"
                             schema:
                               type: int
-                              default: 5432
+                              default: 3306
                               required: true
                           - variable: advanced
                             label: "Show Advanced settings"
@@ -424,7 +431,7 @@ questions:
                                   description: "The internal(!) port on the container the Application runs on"
                                   schema:
                                     type: int
-                                    default: 5432
+                                    default: 3306
 
   - variable: serviceexpert
     group: "Networking and Services"
@@ -705,7 +712,7 @@ questions:
       additional_attrs: true
       type: dict
       attrs:
-        - variable: db
+        - variable: data
           label: "DB Storage"
           description: "Stores the old Application Database."
           schema:
@@ -867,7 +874,7 @@ questions:
                       description: "Path inside the container the storage is mounted"
                       schema:
                         type: string
-                        default: "/bitnami/postgresql"
+                        default: "/bitnami/mariadb"
                         editable: false
                         valid_chars: '^\/([a-zA-Z0-9._-]+(\s?[a-zA-Z0-9._-]+|\/?))+$'
 

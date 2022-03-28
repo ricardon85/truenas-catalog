@@ -270,23 +270,30 @@ questions:
                       schema:
                         type: string
 
-  - variable: mongodbDatabase
+  - variable: postgresqlDatabase
     group: "App Configuration"
     label: "Database Name"
     schema:
       type: string
       default: "mydatabase"
       required: true
-  - variable: mongodbUsername
+  - variable: postgresqlUsername
     group: "App Configuration"
     label: "Database User"
     schema:
       type: string
       default: "mydatabaseuser"
       required: true
-  - variable: mongodbPassword
+  - variable: postgresqlPassword
     group: "App Configuration"
     label: "Database Password"
+    schema:
+      type: string
+      default: ""
+      required: true
+  - variable: postgrespassword
+    group: "App Configuration"
+    label: "Root Password"
     schema:
       type: string
       default: ""
@@ -389,7 +396,7 @@ questions:
                             description: "This port exposes the container port on the service"
                             schema:
                               type: int
-                              default: 27017
+                              default: 5432
                               required: true
                           - variable: advanced
                             label: "Show Advanced settings"
@@ -424,7 +431,7 @@ questions:
                                   description: "The internal(!) port on the container the Application runs on"
                                   schema:
                                     type: int
-                                    default: 27017
+                                    default: 5432
 
   - variable: serviceexpert
     group: "Networking and Services"
@@ -705,7 +712,7 @@ questions:
       additional_attrs: true
       type: dict
       attrs:
-        - variable: data
+        - variable: db
           label: "DB Storage"
           description: "Stores the old Application Database."
           schema:
@@ -867,7 +874,7 @@ questions:
                       description: "Path inside the container the storage is mounted"
                       schema:
                         type: string
-                        default: "/bitnami/mariadb"
+                        default: "/bitnami/postgresql"
                         editable: false
                         valid_chars: '^\/([a-zA-Z0-9._-]+(\s?[a-zA-Z0-9._-]+|\/?))+$'
 

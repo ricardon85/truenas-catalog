@@ -1,6 +1,15 @@
 # Changelog<br>
 
 
+<a name="postgresql-7.0.14"></a>
+### [postgresql-7.0.14](https://github.com/truecharts/apps/compare/postgresql-7.0.13...postgresql-7.0.14) (2022-03-28)
+
+#### Feat
+
+* expose root password field on gui ([#2327](https://github.com/truecharts/apps/issues/2327))
+
+
+
 <a name="postgresql-7.0.13"></a>
 ### [postgresql-7.0.13](https://github.com/truecharts/apps/compare/postgresql-7.0.12...postgresql-7.0.13) (2022-03-28)
 
@@ -87,13 +96,4 @@
 
 <a name="postgresql-7.0.3"></a>
 ### [postgresql-7.0.3](https://github.com/truecharts/apps/compare/postgresql-7.0.2...postgresql-7.0.3) (2022-03-15)
-
-#### Chore
-
-* update docker general non-major ([#2175](https://github.com/truecharts/apps/issues/2175))
-
-
-
-<a name="postgresql-7.0.2"></a>
-### [postgresql-7.0.2](https://github.com/truecharts/apps/compare/postgresql-7.0.1...postgresql-7.0.2) (2022-03-07)
 
