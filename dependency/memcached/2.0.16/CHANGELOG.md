@@ -1,6 +1,15 @@
 # Changelog<br>
 
 
+<a name="memcached-2.0.16"></a>
+### [memcached-2.0.16](https://github.com/truecharts/apps/compare/memcached-2.0.15...memcached-2.0.16) (2022-03-29)
+
+#### Fix
+
+* try to push dependencies to new helm repo ([#2336](https://github.com/truecharts/apps/issues/2336))
+
+
+
 <a name="memcached-2.0.15"></a>
 ### [memcached-2.0.15](https://github.com/truecharts/apps/compare/memcached-2.0.14...memcached-2.0.15) (2022-03-29)
 
@@ -88,12 +97,3 @@
 ### [memcached-2.0.5](https://github.com/truecharts/apps/compare/memcached-2.0.4...memcached-2.0.5) (2022-03-17)
 
 #### Chore
-
-* update docker general non-major ([#2198](https://github.com/truecharts/apps/issues/2198))
-* update docker general non-major ([#2196](https://github.com/truecharts/apps/issues/2196))
-
-
-
-<a name="memcached-2.0.4"></a>
-### [memcached-2.0.4](https://github.com/truecharts/apps/compare/memcached-2.0.3...memcached-2.0.4) (2022-03-15)
-

@@ -1,6 +1,15 @@
 # Changelog<br>
 
 
+<a name="postgresql-7.0.17"></a>
+### [postgresql-7.0.17](https://github.com/truecharts/apps/compare/postgresql-7.0.16...postgresql-7.0.17) (2022-03-29)
+
+#### Fix
+
+* try to push dependencies to new helm repo ([#2336](https://github.com/truecharts/apps/issues/2336))
+
+
+
 <a name="postgresql-7.0.16"></a>
 ### [postgresql-7.0.16](https://github.com/truecharts/apps/compare/postgresql-7.0.15...postgresql-7.0.16) (2022-03-29)
 
@@ -86,14 +95,5 @@
 
 <a name="postgresql-7.0.6"></a>
 ### [postgresql-7.0.6](https://github.com/truecharts/apps/compare/postgresql-7.0.5...postgresql-7.0.6) (2022-03-17)
-
-#### Chore
-
-* update helm chart common to v9.1.6 ([#2202](https://github.com/truecharts/apps/issues/2202))
-
-
-
-<a name="postgresql-7.0.5"></a>
-### [postgresql-7.0.5](https://github.com/truecharts/apps/compare/postgresql-7.0.4...postgresql-7.0.5) (2022-03-17)
 
 #### Chore
