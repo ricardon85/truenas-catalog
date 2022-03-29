@@ -1,8 +1,8 @@
 # Changelog<br>
 
 
-<a name="mongodb-0.0.7"></a>
-### [mongodb-0.0.7](https://github.com/truecharts/apps/compare/mongodb-0.0.6...mongodb-0.0.7) (2022-03-29)
+<a name="mongodb-0.0.9"></a>
+### [mongodb-0.0.9](https://github.com/truecharts/apps/compare/mongodb-0.0.8...mongodb-0.0.9) (2022-03-29)
 
 
 

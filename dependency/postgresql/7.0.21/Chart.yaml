@@ -1,31 +1,30 @@
 apiVersion: v2
-appVersion: "6.2.6"
+appVersion: "14.2.0"
 dependencies:
 - name: common
   repository: https://library-charts.truecharts.org
   version: 9.2.3
 deprecated: false
-description: Open source, advanced key-value store.
-home: https://github.com/truecharts/apps/tree/master/stable/redis
-icon: https://bitnami.com/assets/stacks/redis/img/redis-stack-220x234.png
+description: PostgresSQL
+home: https://github.com/truecharts/apps/tree/master/stable/postgres
+icon: https://d1q6f0aelx0por.cloudfront.net/product-logos/library-postgres-logo.png
 keywords:
-  - redis
-  - keyvalue
-  - database
+- postgres
+- postgressql
+- dtabase
+- sql
 kubeVersion: '>=1.16.0-0'
 maintainers:
 - email: info@truecharts.org
   name: TrueCharts
   url: https://truecharts.org
-name: redis
+name: postgresql
 sources:
-  - https://github.com/bitnami/bitnami-docker-redis
-  - http://redis.io/
+- https://www.postgresql.org/
 type: application
-version: 2.0.15
+version: 7.0.21
 annotations:
   truecharts.org/catagories: |
     - database
-    - cache
   truecharts.org/SCALE-support: "true"
   truecharts.org/grade: U
