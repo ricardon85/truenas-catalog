@@ -1,31 +1,31 @@
 apiVersion: v2
-appVersion: "6.2.6"
+appVersion: "5.0.6"
 dependencies:
 - name: common
   repository: https://library-charts.truecharts.org
   version: 9.2.3
 deprecated: false
-description: Open source, advanced key-value store.
-home: https://github.com/truecharts/apps/tree/master/stable/redis
-icon: https://bitnami.com/assets/stacks/redis/img/redis-stack-220x234.png
+description: Fast, reliable, scalable, and easy to use open-source no-sql database system.
+home: https://github.com/truecharts/apps/tree/master/stable/mongodb
+icon: https://truecharts.org/_static/img/appicons/mongodb.png
 keywords:
-  - redis
-  - keyvalue
+  - mongodb
   - database
+  - nosql
 kubeVersion: '>=1.16.0-0'
 maintainers:
 - email: info@truecharts.org
   name: TrueCharts
   url: https://truecharts.org
-name: redis
+name: mongodb
 sources:
-  - https://github.com/bitnami/bitnami-docker-redis
-  - http://redis.io/
+  - https://hub.docker.com/r/bitnami/mongodb
+  - https://github.com/bitnami/bitnami-docker-mongodb
+  - https://www.mongodb.com
 type: application
-version: 2.0.13
+version: 0.0.6
 annotations:
   truecharts.org/catagories: |
     - database
-    - cache
   truecharts.org/SCALE-support: "true"
   truecharts.org/grade: U
