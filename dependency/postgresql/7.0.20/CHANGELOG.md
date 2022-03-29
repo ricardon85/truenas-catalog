@@ -1,8 +1,8 @@
 # Changelog<br>
 
 
-<a name="postgresql-7.0.19"></a>
-### [postgresql-7.0.19](https://github.com/truecharts/apps/compare/postgresql-7.0.18...postgresql-7.0.19) (2022-03-29)
+<a name="postgresql-7.0.20"></a>
+### [postgresql-7.0.20](https://github.com/truecharts/apps/compare/postgresql-7.0.19...postgresql-7.0.20) (2022-03-29)
 
 
 
