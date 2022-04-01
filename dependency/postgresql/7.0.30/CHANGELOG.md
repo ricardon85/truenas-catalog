@@ -1,6 +1,11 @@
 # Changelog<br>
 
 
+<a name="postgresql-7.0.30"></a>
+### [postgresql-7.0.30](https://github.com/truecharts/apps/compare/postgresql-7.0.28...postgresql-7.0.30) (2022-04-01)
+
+
+
 <a name="postgresql-7.0.28"></a>
 ### [postgresql-7.0.28](https://github.com/truecharts/apps/compare/postgresql-7.0.27...postgresql-7.0.28) (2022-04-01)
 
@@ -92,8 +97,3 @@
 #### Feat
 
 * Add probes on standalone aswell ([#2318](https://github.com/truecharts/apps/issues/2318))
-
-
-
-<a name="postgresql-7.0.14"></a>
-### [postgresql-7.0.14](https://github.com/truecharts/apps/compare/postgresql-7.0.13...postgresql-7.0.14) (2022-03-28)
