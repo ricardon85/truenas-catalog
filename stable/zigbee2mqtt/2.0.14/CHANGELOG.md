@@ -1,6 +1,15 @@
 # Changelog<br>
 
 
+<a name="zigbee2mqtt-2.0.14"></a>
+### [zigbee2mqtt-2.0.14](https://github.com/truecharts/apps/compare/zigbee2mqtt-2.0.13...zigbee2mqtt-2.0.14) (2022-04-02)
+
+#### Fix
+
+* wrong default on dropdown ([#2391](https://github.com/truecharts/apps/issues/2391))
+
+
+
 <a name="zigbee2mqtt-2.0.13"></a>
 ### [zigbee2mqtt-2.0.13](https://github.com/truecharts/apps/compare/zigbee2mqtt-2.0.12...zigbee2mqtt-2.0.13) (2022-03-31)
 
@@ -87,13 +96,4 @@
 ### [zigbee2mqtt-2.0.0](https://github.com/truecharts/apps/compare/zigbee2mqtt-1.0.45...zigbee2mqtt-2.0.0) (2022-03-03)
 
 #### Chore
-
-* remove fixed env from questions.yaml
-* update helm general major helm releases ([#2021](https://github.com/truecharts/apps/issues/2021))
-
-#### Fix
-
-* BREAKING CHANGE Move some env-vars outside of env section ([#2010](https://github.com/truecharts/apps/issues/2010))
-
-
 
