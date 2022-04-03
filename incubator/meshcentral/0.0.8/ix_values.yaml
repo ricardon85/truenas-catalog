@@ -1,7 +1,7 @@
 image:
   repository: einar/meshcentral
   pullPolicy: IfNotPresent
-  tag: latest@sha256:3a80bced48bdb0fa5b9043cfe51553d72ec01290f456b328c9e3921d19e472a5
+  tag: latest@sha256:293106bdcad40e9666b5a23c50baa73c656c729fd4cd5ae1848306689ad27a90
 
 securityContext:
   readOnlyRootFilesystem: false
@@ -12,28 +12,29 @@ podSecurityContext:
   runAsGroup: 0
 
 env:
-  HOSTNAME: "my.domain.com"
   # your hostname
-  REVERSE_PROXY: false
+  HOSTNAME: "my.domain.com"
   # set to your reverse proxy IP if you want to put meshcentral behind a reverse proxy
+  REVERSE_PROXY: false
   REVERSE_PROXY_TLS_PORT: ""
-  IFRAME: false
   # set to true if you wish to enable iframe support
-  ALLOW_NEW_ACCOUNTS: true
+  IFRAME: false
   # set to false if you want disable self-service creation of new accounts besides the first (admin)
-  WEBRTC: false
+  ALLOW_NEW_ACCOUNTS: true
   # set to true to enable WebRTC - per documentation it is not officially released with meshcentral, but is solid enough to work with. Use with caution
-  ALLOWPLUGINS: false
+  WEBRTC: false
   # set to true to allow plugins
-  LOCALSESSIONRECORDING: false
+  ALLOWPLUGINS: false
   # set to true to allow session recording
-  MINIFY: true
+  LOCALSESSIONRECORDING: false
   # set to enable or disable minification of json, reduces traffic
+  MINIFY: true
 
 service:
   main:
     ports:
       main:
+        protocol: "HTTPS"
         targetPort: 443
         port: 10205
 
