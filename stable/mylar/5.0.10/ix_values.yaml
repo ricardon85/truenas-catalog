@@ -1,0 +1,25 @@
+image:
+  repository: tccr.io/truecharts/mylar3
+  tag: v0.6.6@sha256:fc6e6e5f1df627fde2097f2818a8f3b9be873b6fda622561756493589c785702
+  pullPolicy: IfNotPresent
+
+securityContext:
+  runAsNonRoot: false
+
+podSecurityContext:
+  runAsUser: 0
+  runAsGroup: 0
+
+service:
+  main:
+    ports:
+      main:
+        port: 8090
+        targetPort: 8090
+
+persistence:
+  config:
+    enabled: true
+    mountPath: "/config"
+  varrun:
+    enabled: true
