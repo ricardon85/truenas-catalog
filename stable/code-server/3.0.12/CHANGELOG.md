@@ -1,6 +1,15 @@
 # Changelog<br>
 
 
+<a name="code-server-3.0.12"></a>
+### [code-server-3.0.12](https://github.com/truecharts/apps/compare/code-server-3.0.11...code-server-3.0.12) (2022-04-04)
+
+#### Fix
+
+* correctly set the run-as-root things ([#2425](https://github.com/truecharts/apps/issues/2425))
+
+
+
 <a name="code-server-3.0.11"></a>
 ### [code-server-3.0.11](https://github.com/truecharts/apps/compare/openvscode-server-1.0.10...code-server-3.0.11) (2022-04-03)
 
@@ -87,13 +96,4 @@
 
 * update helm general non-major helm releases ([#1999](https://github.com/truecharts/apps/issues/1999))
 
-
-
-<a name="code-server-2.1.28"></a>
-### [code-server-2.1.28](https://github.com/truecharts/apps/compare/openvscode-server-0.0.27...code-server-2.1.28) (2022-02-28)
-
-#### Chore
-
-* rename `web_portal` to `open` ([#1957](https://github.com/truecharts/apps/issues/1957))
-* update docker general non-major ([#1980](https://github.com/truecharts/apps/issues/1980))
 
