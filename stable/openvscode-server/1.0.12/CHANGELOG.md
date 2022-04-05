@@ -1,6 +1,15 @@
 # Changelog<br>
 
 
+<a name="openvscode-server-1.0.12"></a>
+### [openvscode-server-1.0.12](https://github.com/truecharts/apps/compare/openvscode-server-1.0.11...openvscode-server-1.0.12) (2022-04-05)
+
+#### Chore
+
+* make connectionToken optional as it changed upstream ([#2428](https://github.com/truecharts/apps/issues/2428))
+
+
+
 <a name="openvscode-server-1.0.11"></a>
 ### [openvscode-server-1.0.11](https://github.com/truecharts/apps/compare/openvscode-server-1.0.10...openvscode-server-1.0.11) (2022-04-03)
 
@@ -88,12 +97,3 @@
 
 * update helm general non-major helm releases ([#1999](https://github.com/truecharts/apps/issues/1999))
 
-
-
-<a name="openvscode-server-0.0.28"></a>
-### [openvscode-server-0.0.28](https://github.com/truecharts/apps/compare/openvscode-server-0.0.27...openvscode-server-0.0.28) (2022-02-28)
-
-#### Chore
-
-* rename `web_portal` to `open` ([#1957](https://github.com/truecharts/apps/issues/1957))
-* update docker general non-major ([#1980](https://github.com/truecharts/apps/issues/1980))
