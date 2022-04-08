@@ -1,6 +1,15 @@
 # Changelog<br>
 
 
+<a name="mysql-workbench-1.0.11"></a>
+### [mysql-workbench-1.0.11](https://github.com/truecharts/apps/compare/mysql-workbench-1.0.10...mysql-workbench-1.0.11) (2022-04-08)
+
+#### Fix
+
+* Fix keyring support by adding IPC_Lock ([#2453](https://github.com/truecharts/apps/issues/2453))
+
+
+
 <a name="mysql-workbench-1.0.10"></a>
 ### [mysql-workbench-1.0.10](https://github.com/truecharts/apps/compare/mysql-workbench-1.0.9...mysql-workbench-1.0.10) (2022-04-03)
 
@@ -88,12 +97,3 @@
 #### Chore
 
 * update helm general non-major helm releases ([#1927](https://github.com/truecharts/apps/issues/1927))
-
-
-
-<a name="mysql-workbench-0.0.22"></a>
-### [mysql-workbench-0.0.22](https://github.com/truecharts/apps/compare/mysql-workbench-0.0.21...mysql-workbench-0.0.22) (2022-02-15)
-
-#### Chore
-
-* update helm general non-major helm releases ([#1901](https://github.com/truecharts/apps/issues/1901))
