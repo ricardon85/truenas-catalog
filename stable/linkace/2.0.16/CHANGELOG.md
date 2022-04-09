@@ -1,6 +1,15 @@
 # Changelog<br>
 
 
+<a name="linkace-2.0.16"></a>
+### [linkace-2.0.16](https://github.com/truecharts/apps/compare/linkace-2.0.15...linkace-2.0.16) (2022-04-09)
+
+#### Fix
+
+* Remove init containers, upstream made some changes to simplify ([#2462](https://github.com/truecharts/apps/issues/2462))
+
+
+
 <a name="linkace-2.0.15"></a>
 ### [linkace-2.0.15](https://github.com/truecharts/apps/compare/linkace-2.0.14...linkace-2.0.15) (2022-04-09)
 
@@ -86,14 +95,5 @@
 
 <a name="linkace-2.0.2"></a>
 ### [linkace-2.0.2](https://github.com/truecharts/apps/compare/linkace-2.0.1...linkace-2.0.2) (2022-03-07)
-
-#### Chore
-
-* update helm general non-major helm releases ([#2111](https://github.com/truecharts/apps/issues/2111))
-
-
-
-<a name="linkace-2.0.1"></a>
-### [linkace-2.0.1](https://github.com/truecharts/apps/compare/linkace-2.0.0...linkace-2.0.1) (2022-03-06)
 
 #### Chore
