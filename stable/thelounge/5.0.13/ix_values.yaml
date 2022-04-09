@@ -1,0 +1,41 @@
+image:
+  # -- image repository
+  repository: tccr.io/truecharts/thelounge
+  # -- image pull policy
+  pullPolicy: IfNotPresent
+  # -- image tag
+  tag: v4.3.0@sha256:e2d66fc4a83c81be24ff14e31072cd5933516bb12d6c562828dd6ef7e2946fa2
+
+securityContext:
+  runAsNonRoot: false
+
+podSecurityContext:
+  runAsUser: 0
+  runAsGroup: 0
+
+# -- environment variables. See [image docs](https://hub.docker.com/r/thelounge/thelounge/) for more details.
+# @default -- See below
+env:
+  THELOUNGE_HOME: "/config"
+
+# -- Configures service settings for the chart. Normally this does not need to be modified.
+# @default -- See values.yaml
+service:
+  main:
+    ports:
+      main:
+        port: 10061
+        targetPort: 9000
+
+ingress:
+  # -- Enable and configure ingress settings for the chart under this key.
+  # @default -- See values.yaml
+  main:
+    enabled: false
+
+# -- Configure persistence settings for the chart under this key.
+# @default -- See values.yaml
+persistence:
+  config:
+    enabled: true
+    mountPath: "/config"

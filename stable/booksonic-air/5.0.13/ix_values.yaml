@@ -1,0 +1,37 @@
+image:
+  # -- image repository
+  repository: tccr.io/truecharts/booksonic-air
+  # -- image pull policy
+  pullPolicy: IfNotPresent
+  # -- image tag
+  tag: v2201.1.0@sha256:90dd12369ea8e9805120cfd9e52cdebc2f45a571660a161c190cbe198e1f8304
+
+securityContext:
+  readOnlyRootFilesystem: false
+  runAsNonRoot: false
+
+podSecurityContext:
+  runAsUser: 0
+  runAsGroup: 0
+
+# See more environment variables in the [booksonic-air documentation](https://github.com/linuxserver/docker-booksonic-air#parameters)
+# @default -- See below
+env: {}
+  # -- Used to set the base path for reverse proxies eg. /booksonic, /books, etc.
+  # CONTEXT_PATH=url-base
+
+# -- Configures service settings for the chart.
+# @default -- See values.yaml
+service:
+  main:
+    ports:
+      main:
+        port: 10048
+        targetPort: 4040
+
+# -- Configure persistence settings for the chart under this key.
+# @default -- See values.yaml
+persistence:
+  config:
+    enabled: true
+    mountPath: "/config"

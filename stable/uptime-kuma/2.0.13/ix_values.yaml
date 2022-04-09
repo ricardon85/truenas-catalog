@@ -1,0 +1,26 @@
+image:
+  repository: tccr.io/truecharts/uptime-kuma
+  pullPolicy: IfNotPresent
+  tag: v1.13.2@sha256:c4acc28a527bf287c4bc13da5182e2ff46f9669377b88e5e89548d07ea5af2bb
+
+securityContext:
+  runAsNonRoot: false
+
+podSecurityContext:
+  runAsUser: 0
+  runAsGroup: 0
+
+security:
+  PUID: 0
+
+service:
+  main:
+    ports:
+      main:
+        port: 3001
+        targetPort: 3001
+
+persistence:
+  config:
+    enabled: true
+    mountPath: "/app/data"

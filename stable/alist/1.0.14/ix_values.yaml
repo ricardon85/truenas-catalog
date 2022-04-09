@@ -1,0 +1,18 @@
+image:
+  repository: tccr.io/truecharts/alist
+  pullPolicy: IfNotPresent
+  tag: v2.3.2@sha256:c229f3d705ae859681da5435112d1e2d3064ec59f2a1cc9303a64863e4c7d8dd
+
+env: {}
+
+service:
+  main:
+    ports:
+      main:
+        targetPort: 5244
+        port: 10167
+
+persistence:
+  data:
+    enabled: true
+    mountPath: "/opt/alist/data"
