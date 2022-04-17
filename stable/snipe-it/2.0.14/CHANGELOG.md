@@ -1,6 +1,15 @@
 # Changelog<br>
 
 
+<a name="snipe-it-2.0.14"></a>
+### [snipe-it-2.0.14](https://github.com/truecharts/apps/compare/snipe-it-2.0.13...snipe-it-2.0.14) (2022-04-17)
+
+#### Chore
+
+* add force tls gui option ([#2496](https://github.com/truecharts/apps/issues/2496))
+
+
+
 <a name="snipe-it-2.0.13"></a>
 ### [snipe-it-2.0.13](https://github.com/truecharts/apps/compare/snipe-it-2.0.12...snipe-it-2.0.13) (2022-04-17)
 
@@ -88,12 +97,3 @@
 
 
 <a name="snipe-it-2.0.4"></a>
-### [snipe-it-2.0.4](https://github.com/truecharts/apps/compare/snipe-it-2.0.3...snipe-it-2.0.4) (2022-03-26)
-
-#### Chore
-
-* bump all apps to trigger ci
-
-
-
-<a name="snipe-it-2.0.2"></a>
