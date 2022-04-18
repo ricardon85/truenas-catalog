@@ -168,7 +168,19 @@ questions:
                             label: "Value"
                             schema:
                               type: string
-
+  - variable: env
+    group: "Container Configuration"
+    label: "Image Environment"
+    schema:
+      additional_attrs: true
+      type: dict
+      attrs:
+        - variable: CSRF_TRUSTED_ORIGINS
+          label: "CSRF_TRUSTED_ORIGINS"
+          description: "Add any address you'd like to access babybuddy at (comma separated, no spaces)"
+          schema:
+            type: string
+            default: ""
   - variable: TZ
     label: "Timezone"
     group: "Container Configuration"
@@ -1443,12 +1455,12 @@ questions:
                 label: "ReadOnly Root Filesystem"
                 schema:
                   type: boolean
-                  default: true
+                  default: false
               - variable: allowPrivilegeEscalation
                 label: "Allow Privilege Escalation"
                 schema:
                   type: boolean
-                  default: true
+                  default: false
               - variable: runAsNonRoot
                 label: "runAsNonRoot"
                 schema:

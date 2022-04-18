@@ -1,6 +1,15 @@
 # Changelog<br>
 
 
+<a name="babybuddy-6.0.19"></a>
+### [babybuddy-6.0.19](https://github.com/truecharts/apps/compare/babybuddy-6.0.18...babybuddy-6.0.19) (2022-04-18)
+
+#### Feat
+
+* add 5 apps, fix babybuddy rofs ([#2501](https://github.com/truecharts/apps/issues/2501))
+
+
+
 <a name="babybuddy-6.0.18"></a>
 ### [babybuddy-6.0.18](https://github.com/truecharts/apps/compare/babybuddy-6.0.17...babybuddy-6.0.18) (2022-04-12)
 
@@ -85,15 +94,6 @@
 
 <a name="babybuddy-6.0.9"></a>
 ### [babybuddy-6.0.9](https://github.com/truecharts/apps/compare/babybuddy-6.0.8...babybuddy-6.0.9) (2022-03-26)
-
-#### Chore
-
-* bump all apps to trigger ci
-
-
-
-<a name="babybuddy-6.0.5"></a>
-### [babybuddy-6.0.5](https://github.com/truecharts/apps/compare/babybuddy-6.0.4...babybuddy-6.0.5) (2022-03-17)
 
 #### Chore
 
