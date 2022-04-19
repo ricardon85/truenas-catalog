@@ -1,6 +1,15 @@
 # Changelog<br>
 
 
+<a name="n8n-2.0.20"></a>
+### [n8n-2.0.20](https://github.com/truecharts/apps/compare/n8n-2.0.19...n8n-2.0.20) (2022-04-19)
+
+#### Fix
+
+* try to fix n8n gui issue not loading edit ([#2514](https://github.com/truecharts/apps/issues/2514))
+
+
+
 <a name="n8n-2.0.19"></a>
 ### [n8n-2.0.19](https://github.com/truecharts/apps/compare/n8n-2.0.18...n8n-2.0.19) (2022-04-12)
 
@@ -85,15 +94,6 @@
 
 <a name="n8n-2.0.10"></a>
 ### [n8n-2.0.10](https://github.com/truecharts/apps/compare/n8n-2.0.9...n8n-2.0.10) (2022-03-26)
-
-#### Chore
-
-* bump all apps to trigger ci
-
-
-
-<a name="n8n-2.0.5"></a>
-### [n8n-2.0.5](https://github.com/truecharts/apps/compare/n8n-2.0.4...n8n-2.0.5) (2022-03-15)
 
 #### Chore
 
