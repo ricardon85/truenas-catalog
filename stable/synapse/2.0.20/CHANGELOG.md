@@ -1,6 +1,15 @@
 # Changelog<br>
 
 
+<a name="synapse-2.0.20"></a>
+### [synapse-2.0.20](https://github.com/truecharts/apps/compare/synapse-2.0.17...synapse-2.0.20) (2022-04-20)
+
+#### Chore
+
+* bump vikunja ([#2523](https://github.com/truecharts/apps/issues/2523))
+
+
+
 <a name="synapse-2.0.17"></a>
 ### [synapse-2.0.17](https://github.com/truecharts/apps/compare/synapse-2.0.16...synapse-2.0.17) (2022-04-20)
 
@@ -88,12 +97,3 @@
 ### [synapse-2.0.7](https://github.com/truecharts/apps/compare/synapse-2.0.6...synapse-2.0.7) (2022-03-24)
 
 #### Chore
-
-* update docker general non-major
-* update docker general non-major
-
-
-
-<a name="synapse-2.0.3"></a>
-### [synapse-2.0.3](https://github.com/truecharts/apps/compare/synapse-2.0.2...synapse-2.0.3) (2022-03-15)
-
