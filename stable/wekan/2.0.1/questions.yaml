@@ -226,7 +226,7 @@ questions:
                   type: int
                   default: 90
         - variable: passwordnabled
-          label: "Logout/Login Settings"
+          label: "Password Brute Force Protection Settings"
           schema:
             type: boolean
             default: false
@@ -434,7 +434,7 @@ questions:
                   type: string
                   default: "*"
         - variable: matomoenabled
-          label: "CORS Settings"
+          label: "Matomo Settings"
           schema:
             type: boolean
             default: false
