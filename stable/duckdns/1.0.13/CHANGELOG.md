@@ -1,6 +1,15 @@
 # Changelog<br>
 
 
+<a name="duckdns-1.0.13"></a>
+### [duckdns-1.0.13](https://github.com/truecharts/apps/compare/duckdns-1.0.12...duckdns-1.0.13) (2022-04-24)
+
+#### Fix
+
+* rofs false ([#2546](https://github.com/truecharts/apps/issues/2546))
+
+
+
 <a name="duckdns-1.0.12"></a>
 ### [duckdns-1.0.12](https://github.com/truecharts/apps/compare/duckdns-1.0.11...duckdns-1.0.12) (2022-04-20)
 
@@ -87,13 +96,4 @@
 * remove fixed env from questions.yaml
 * remove PUID from per-app env-vars if set to 568
 * update helm general major helm releases ([#2021](https://github.com/truecharts/apps/issues/2021))
-
-#### Fix
-
-* BREAKING CHANGE Move some env-vars outside of env section ([#2010](https://github.com/truecharts/apps/issues/2010))
-
-
-
-<a name="duckdns-0.0.23"></a>
-### [duckdns-0.0.23](https://github.com/truecharts/apps/compare/duckdns-0.0.22...duckdns-0.0.23) (2022-03-02)
 
