@@ -1,6 +1,15 @@
 # Changelog<br>
 
 
+<a name="mongodb-0.1.1"></a>
+### [mongodb-0.1.1](https://github.com/truecharts/apps/compare/mongodb-0.1.0...mongodb-0.1.1) (2022-04-24)
+
+#### Chore
+
+* bump common ([#2548](https://github.com/truecharts/apps/issues/2548))
+
+
+
 <a name="mongodb-0.1.0"></a>
 ### [mongodb-0.1.0](https://github.com/truecharts/apps/compare/mongodb-0.0.31...mongodb-0.1.0) (2022-04-24)
 
@@ -85,15 +94,6 @@
 
 <a name="mongodb-0.0.23"></a>
 ### [mongodb-0.0.23](https://github.com/truecharts/apps/compare/mongodb-0.0.22...mongodb-0.0.23) (2022-04-09)
-
-#### Chore
-
-* update docker general non-major ([#2460](https://github.com/truecharts/apps/issues/2460))
-
-
-
-<a name="mongodb-0.0.22"></a>
-### [mongodb-0.0.22](https://github.com/truecharts/apps/compare/mongodb-0.0.21...mongodb-0.0.22) (2022-04-06)
 
 #### Chore
 
