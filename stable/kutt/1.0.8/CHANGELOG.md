@@ -1,6 +1,15 @@
 # Changelog<br>
 
 
+<a name="kutt-1.0.8"></a>
+### [kutt-1.0.8](https://github.com/truecharts/apps/compare/kutt-1.0.7...kutt-1.0.8) (2022-04-24)
+
+#### Chore
+
+* fix small mistakes ([#2537](https://github.com/truecharts/apps/issues/2537))
+
+
+
 <a name="kutt-1.0.7"></a>
 ### [kutt-1.0.7](https://github.com/truecharts/apps/compare/kutt-1.0.6...kutt-1.0.7) (2022-04-20)
 
@@ -88,12 +97,3 @@
 ### [kutt-0.0.6](https://github.com/truecharts/apps/compare/kutt-0.0.5...kutt-0.0.6) (2022-03-26)
 
 #### Chore
-
-* bump all apps to trigger ci
-
-
-
-<a name="kutt-0.0.4"></a>
-### [kutt-0.0.4](https://github.com/truecharts/apps/compare/kutt-0.0.3...kutt-0.0.4) (2022-03-24)
-
-#### Fix
