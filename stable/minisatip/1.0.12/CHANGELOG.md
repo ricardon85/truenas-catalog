@@ -1,6 +1,15 @@
 # Changelog<br>
 
 
+<a name="minisatip-1.0.12"></a>
+### [minisatip-1.0.12](https://github.com/truecharts/apps/compare/minisatip-1.0.11...minisatip-1.0.12) (2022-04-24)
+
+#### Fix
+
+* rofs false ([#2549](https://github.com/truecharts/apps/issues/2549))
+
+
+
 <a name="minisatip-1.0.11"></a>
 ### [minisatip-1.0.11](https://github.com/truecharts/apps/compare/minisatip-1.0.10...minisatip-1.0.11) (2022-04-20)
 
@@ -88,12 +97,3 @@
 #### Chore
 
 * rename `web_portal` to `open` ([#1957](https://github.com/truecharts/apps/issues/1957))
-* update helm general non-major helm releases ([#1999](https://github.com/truecharts/apps/issues/1999))
-
-
-
-<a name="minisatip-0.0.23"></a>
-### [minisatip-0.0.23](https://github.com/truecharts/apps/compare/minisatip-0.0.22...minisatip-0.0.23) (2022-02-21)
-
-#### Chore
-
