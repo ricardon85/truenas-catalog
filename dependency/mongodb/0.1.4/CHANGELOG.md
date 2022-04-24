@@ -1,6 +1,15 @@
 # Changelog<br>
 
 
+<a name="mongodb-0.1.4"></a>
+### [mongodb-0.1.4](https://github.com/truecharts/apps/compare/mongodb-0.1.3...mongodb-0.1.4) (2022-04-24)
+
+#### Fix
+
+* dont set initial primary host ([#2557](https://github.com/truecharts/apps/issues/2557))
+
+
+
 <a name="mongodb-0.1.3"></a>
 ### [mongodb-0.1.3](https://github.com/truecharts/apps/compare/mongodb-0.1.2...mongodb-0.1.3) (2022-04-24)
 
@@ -85,15 +94,6 @@
 
 <a name="mongodb-0.0.26"></a>
 ### [mongodb-0.0.26](https://github.com/truecharts/apps/compare/mongodb-0.0.25...mongodb-0.0.26) (2022-04-13)
-
-#### Chore
-
-* update docker general non-major
-
-
-
-<a name="mongodb-0.0.25"></a>
-### [mongodb-0.0.25](https://github.com/truecharts/apps/compare/mongodb-0.0.24...mongodb-0.0.25) (2022-04-12)
 
 #### Chore
 
