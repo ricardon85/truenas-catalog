@@ -1,6 +1,15 @@
 # Changelog<br>
 
 
+<a name="duckdns-1.0.14"></a>
+### [duckdns-1.0.14](https://github.com/truecharts/apps/compare/duckdns-1.0.13...duckdns-1.0.14) (2022-04-24)
+
+#### Chore
+
+* add logfile option in gui ([#2552](https://github.com/truecharts/apps/issues/2552))
+
+
+
 <a name="duckdns-1.0.13"></a>
 ### [duckdns-1.0.13](https://github.com/truecharts/apps/compare/duckdns-1.0.12...duckdns-1.0.13) (2022-04-24)
 
@@ -87,13 +96,4 @@
 * Remove `-icon` string from icon png's ([#2040](https://github.com/truecharts/apps/issues/2040))
 
 
-
-<a name="duckdns-1.0.0"></a>
-### [duckdns-1.0.0](https://github.com/truecharts/apps/compare/duckdns-0.0.23...duckdns-1.0.0) (2022-03-03)
-
-#### Chore
-
-* remove fixed env from questions.yaml
-* remove PUID from per-app env-vars if set to 568
-* update helm general major helm releases ([#2021](https://github.com/truecharts/apps/issues/2021))
 
