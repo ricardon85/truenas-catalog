@@ -1,6 +1,15 @@
 # Changelog<br>
 
 
+<a name="mongodb-0.1.8"></a>
+### [mongodb-0.1.8](https://github.com/truecharts/apps/compare/mongodb-0.1.7...mongodb-0.1.8) (2022-04-25)
+
+#### Revert
+
+* revert replicaset ([#2567](https://github.com/truecharts/apps/issues/2567))
+
+
+
 <a name="mongodb-0.1.7"></a>
 ### [mongodb-0.1.7](https://github.com/truecharts/apps/compare/mongodb-0.1.6...mongodb-0.1.7) (2022-04-25)
 
@@ -85,15 +94,6 @@
 
 <a name="mongodb-0.0.30"></a>
 ### [mongodb-0.0.30](https://github.com/truecharts/apps/compare/mongodb-0.0.29...mongodb-0.0.30) (2022-04-19)
-
-#### Chore
-
-* update helm chart common to v9.2.9 ([#2509](https://github.com/truecharts/apps/issues/2509))
-
-
-
-<a name="mongodb-0.0.29"></a>
-### [mongodb-0.0.29](https://github.com/truecharts/apps/compare/mongodb-0.0.28...mongodb-0.0.29) (2022-04-18)
 
 #### Chore
 
