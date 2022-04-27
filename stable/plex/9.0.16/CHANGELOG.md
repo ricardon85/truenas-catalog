@@ -1,6 +1,15 @@
 # Changelog<br>
 
 
+<a name="plex-9.0.16"></a>
+### [plex-9.0.16](https://github.com/truecharts/apps/compare/plex-9.0.15...plex-9.0.16) (2022-04-27)
+
+#### Fix
+
+* Adjust the description ([#2575](https://github.com/truecharts/apps/issues/2575))
+
+
+
 <a name="plex-9.0.15"></a>
 ### [plex-9.0.15](https://github.com/truecharts/apps/compare/plex-9.0.14...plex-9.0.15) (2022-04-26)
 
@@ -85,15 +94,6 @@
 
 <a name="plex-9.0.5"></a>
 ### [plex-9.0.5](https://github.com/truecharts/apps/compare/plex-9.0.4...plex-9.0.5) (2022-03-24)
-
-#### Chore
-
-* update docker general non-major
-
-
-
-<a name="plex-9.0.1"></a>
-### [plex-9.0.1](https://github.com/truecharts/apps/compare/plex-9.0.0...plex-9.0.1) (2022-03-07)
 
 #### Chore
 
