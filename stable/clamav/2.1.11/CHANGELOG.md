@@ -1,6 +1,15 @@
 # Changelog<br>
 
 
+<a name="clamav-2.1.11"></a>
+### [clamav-2.1.11](https://github.com/truecharts/apps/compare/clamav-2.1.10...clamav-2.1.11) (2022-04-29)
+
+#### Fix
+
+* fix typo in cron ([#2586](https://github.com/truecharts/apps/issues/2586))
+
+
+
 <a name="clamav-2.1.10"></a>
 ### [clamav-2.1.10](https://github.com/truecharts/apps/compare/clamav-2.1.9...clamav-2.1.10) (2022-04-26)
 
@@ -86,14 +95,5 @@
 #### Chore
 
 * update docker general non-major ([#2338](https://github.com/truecharts/apps/issues/2338))
-
-
-
-<a name="clamav-2.1.0"></a>
-### [clamav-2.1.0](https://github.com/truecharts/apps/compare/clamav-2.0.7...clamav-2.1.0) (2022-03-26)
-
-#### Feat
-
-* cron ([#2294](https://github.com/truecharts/apps/issues/2294))
 
 

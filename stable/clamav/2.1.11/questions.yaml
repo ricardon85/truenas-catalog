@@ -2281,7 +2281,7 @@ questions:
                                                   - variable: exceptint
                                                     label: ""
                                                     schema:
-                                                      type: int
+                                                      type: string
                                       - variable: namespaceSelector
                                         label: "namespaceSelector"
                                         schema:
@@ -2450,7 +2450,7 @@ questions:
                                                   - variable: exceptint
                                                     label: ""
                                                     schema:
-                                                      type: int
+                                                      type: string
                                       - variable: namespaceSelector
                                         label: "namespaceSelector"
                                         schema:
