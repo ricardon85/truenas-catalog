@@ -168,7 +168,30 @@ questions:
                             label: "Value"
                             schema:
                               type: string
-  # Docker specific env
+  - variable: secret
+    group: "Container Configuration"
+    label: "Image Secrets"
+    schema:
+      additional_attrs: true
+      type: dict
+      attrs:
+        - variable: NETDATA_CLAIM_URL
+          label: "NETDATA_CLAIM_URL"
+          schema:
+            type: string
+            default: "https://app.netdata.cloud"
+        - variable: NETDATA_CLAIM_TOKEN
+          label: "NETDATA_CLAIM_TOKEN"
+          schema:
+            type: string
+            private: true
+            default: ""
+        - variable: NETDATA_CLAIM_ROOMS
+          label: "NETDATA_CLAIM_ROOMS"
+          schema:
+            type: string
+            private: true
+            default: ""
   - variable: TZ
     label: "Timezone"
     group: "Container Configuration"
