@@ -1,5 +1,5 @@
 apiVersion: v2
-appVersion: "4.46.2"
+appVersion: "4.9.1"
 dependencies:
 - name: common
   repository: https://library-charts.truecharts.org
@@ -8,24 +8,22 @@ dependencies:
   name: mariadb
   repository: https://charts.truecharts.org/
   version: 2.0.49
-description: Ghost is an open source, professional publishing platform built on a modern Node.js technology stack — designed for teams who need power, flexibility and performance.
-home: https://github.com/truecharts/apps/tree/master/charts/stable/ghost
-icon: https://truecharts.org/_static/img/appicons/ghost.png
+description: Matomo is the leading Free/Libre open analytics platform
+home: https://github.com/truecharts/apps/tree/master/charts/stable/matomo
+icon: https://truecharts.org/_static/img/appicons/matomo.png
 keywords:
-- ghost
-- blog
-- cms
+- analytics
 kubeVersion: '>=1.16.0-0'
 maintainers:
 - email: info@truecharts.org
   name: TrueCharts
   url: https://truecharts.org
-name: ghost
+name: matomo
 sources:
-- https://github.com/TryGhost/Ghost
-- https://hub.docker.com/_/ghost
-- https://ghost.org/docs/
-version: 1.0.26
+- https://hub.docker.com/r/bitnami/matomo
+- https://github.com/bitnami/bitnami-docker-matomo
+- https://github.com/matomo-org/matomo
+version: 1.0.41
 annotations:
   truecharts.org/catagories: |
     - productivity

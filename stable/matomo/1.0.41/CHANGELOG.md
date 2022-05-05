@@ -1,6 +1,15 @@
 # Changelog<br>
 
 
+<a name="matomo-1.0.41"></a>
+### [matomo-1.0.41](https://github.com/truecharts/apps/compare/matomo-1.0.40...matomo-1.0.41) (2022-05-05)
+
+#### Chore
+
+* update docker general non-major
+
+
+
 <a name="matomo-1.0.40"></a>
 ### [matomo-1.0.40](https://github.com/truecharts/apps/compare/matomo-1.0.39...matomo-1.0.40) (2022-05-04)
 
@@ -85,15 +94,6 @@
 
 <a name="matomo-1.0.31"></a>
 ### [matomo-1.0.31](https://github.com/truecharts/apps/compare/matomo-1.0.30...matomo-1.0.31) (2022-04-17)
-
-#### Chore
-
-* update docker general non-major ([#2497](https://github.com/truecharts/apps/issues/2497))
-
-
-
-<a name="matomo-1.0.30"></a>
-### [matomo-1.0.30](https://github.com/truecharts/apps/compare/matomo-1.0.29...matomo-1.0.30) (2022-04-16)
 
 #### Chore
 

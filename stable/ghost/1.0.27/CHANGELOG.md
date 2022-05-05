@@ -1,6 +1,15 @@
 # Changelog<br>
 
 
+<a name="ghost-1.0.27"></a>
+### [ghost-1.0.27](https://github.com/truecharts/apps/compare/ghost-1.0.26...ghost-1.0.27) (2022-05-05)
+
+#### Chore
+
+* update docker general non-major
+
+
+
 <a name="ghost-1.0.26"></a>
 ### [ghost-1.0.26](https://github.com/truecharts/apps/compare/ghost-1.0.25...ghost-1.0.26) (2022-05-04)
 
@@ -86,14 +95,5 @@
 
 <a name="ghost-1.0.16"></a>
 ### [ghost-1.0.16](https://github.com/truecharts/apps/compare/ghost-1.0.15...ghost-1.0.16) (2022-03-31)
-
-#### Chore
-
-* update helm general non-major helm releases ([#2361](https://github.com/truecharts/apps/issues/2361))
-
-
-
-<a name="ghost-1.0.15"></a>
-### [ghost-1.0.15](https://github.com/truecharts/apps/compare/ghost-1.0.14...ghost-1.0.15) (2022-03-30)
 
 #### Chore
