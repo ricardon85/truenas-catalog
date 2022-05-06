@@ -1,6 +1,15 @@
 # Changelog<br>
 
 
+<a name="rsshub-1.0.17"></a>
+### [rsshub-1.0.17](https://github.com/truecharts/apps/compare/rsshub-1.0.16...rsshub-1.0.17) (2022-05-06)
+
+#### Fix
+
+* digest pin to latest ([#2621](https://github.com/truecharts/apps/issues/2621))
+
+
+
 <a name="rsshub-1.0.16"></a>
 ### [rsshub-1.0.16](https://github.com/truecharts/apps/compare/rsshub-1.0.15...rsshub-1.0.16) (2022-05-05)
 
@@ -85,15 +94,6 @@
 
 <a name="rsshub-1.0.7"></a>
 ### [rsshub-1.0.7](https://github.com/truecharts/apps/compare/rsshub-1.0.6...rsshub-1.0.7) (2022-04-03)
-
-#### Chore
-
-* update helm general non-major helm releases ([#2410](https://github.com/truecharts/apps/issues/2410))
-
-
-
-<a name="rsshub-1.0.6"></a>
-### [rsshub-1.0.6](https://github.com/truecharts/apps/compare/rsshub-1.0.5...rsshub-1.0.6) (2022-03-31)
 
 #### Chore
 
