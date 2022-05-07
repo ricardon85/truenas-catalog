@@ -2,6 +2,7 @@
 
 
 
+
 <a name="ghost-1.0.28"></a>
 ### [ghost-1.0.28](https://github.com/truecharts/apps/compare/ghost-1.0.27...ghost-1.0.28) (2022-05-05)
 
@@ -96,4 +97,3 @@
 
 <a name="ghost-1.0.17"></a>
 ### [ghost-1.0.17](https://github.com/truecharts/apps/compare/ghost-1.0.16...ghost-1.0.17) (2022-03-31)
-
