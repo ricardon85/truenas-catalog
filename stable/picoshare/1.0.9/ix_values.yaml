@@ -1,0 +1,25 @@
+image:
+  repository: tccr.io/truecharts/picoshare
+  tag: v1.1.4@sha256:a4182fbb244f8985001326f5e4183ef79255e2f1f39fcc6c88cf270bb6f8abab
+  pullPolicy: IfNotPresent
+
+secret:
+  PS_SHARED_SECRET: "somesecretcode"
+  LITESTREAM_BUCKET: ""
+  LITESTREAM_ENDPOINT: ""
+  LITESTREAM_ACCESS_KEY_ID: ""
+  LITESTREAM_SECRET_ACCESS_KEY: ""
+
+env:
+  PORT: "{{ .Values.service.main.ports.main.port }}"
+
+service:
+  main:
+    ports:
+      main:
+        port: 10209
+
+persistence:
+  data:
+    enabled: true
+    mountPath: "/data"

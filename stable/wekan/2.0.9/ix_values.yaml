@@ -1,0 +1,33 @@
+image:
+  repository: tccr.io/truecharts/wekan
+  tag: v6.22@sha256:6cddeee1a7c70efd5e0375011db72d47cae0a5d3dc10dff94f5f35fbc7587a5a
+  pullPolicy: IfNotPresent
+
+env:
+  WRITABLE_PATH: "/data"
+  # User Defined
+  ROOT_URL: "http://localhost:8080"
+
+envValueFrom:
+  MONGO_URL:
+    secretKeyRef:
+      name: mongodbcreds
+      key: url
+
+service:
+  main:
+    ports:
+      main:
+        port: 10192
+        targetPort: 8080
+
+mongodb:
+  enabled: true
+  mongodbUsername: wekan
+  mongodbDatabase: wekan
+  existingSecret: "mongodbcreds"
+
+persistence:
+  data:
+    enabled: true
+    mountPath: "/data"

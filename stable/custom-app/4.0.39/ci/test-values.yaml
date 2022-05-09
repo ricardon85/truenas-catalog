@@ -1,0 +1,41 @@
+image:
+  repository: tccr.io/truecharts/jackett
+  pullPolicy: IfNotPresent
+  tag: v0.20.1027@sha256:a899565baec9f5a212828cc1b10ca7b7fd2c73a18b7da400d29dc4ecb2d9ff6d
+
+securityContext:
+  readOnlyRootFilesystem: false
+
+service:
+  main:
+    enabled: true
+    ports:
+      main:
+        port: 9117
+        targetPort: 9117
+    portsList:
+      - name: "extraport"
+        enabled: true
+        port: 9118
+        targetPort: 9118
+
+serviceList:
+  - name: extraservice
+    enabled: true
+    portsList:
+      - name: "extrasvcport"
+        enabled: true
+        port: 9119
+        targetPort: 9119
+
+env: {}
+  # PUID: 1001
+
+
+persistence:
+  config:
+    enabled: true
+    mountPath: "/config"
+    type: pvc
+    accessMode: ReadWriteOnce
+    size: "100Gi"
