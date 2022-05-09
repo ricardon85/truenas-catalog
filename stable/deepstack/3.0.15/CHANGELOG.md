@@ -1,6 +1,15 @@
 # Changelog<br>
 
 
+<a name="deepstack-3.0.15"></a>
+### [deepstack-3.0.15](https://github.com/truecharts/apps/compare/deepstack-3.0.14...deepstack-3.0.15) (2022-05-09)
+
+#### Chore
+
+* add threadcount gui option ([#2643](https://github.com/truecharts/apps/issues/2643))
+
+
+
 <a name="deepstack-3.0.14"></a>
 ### [deepstack-3.0.14](https://github.com/truecharts/apps/compare/deepstack-3.0.13...deepstack-3.0.14) (2022-05-05)
 
@@ -88,12 +97,3 @@
 
 #### Chore
 
-* update helm general non-major helm releases ([#2111](https://github.com/truecharts/apps/issues/2111))
-* Remove `-icon` string from icon png's ([#2040](https://github.com/truecharts/apps/issues/2040))
-
-
-
-<a name="deepstack-3.0.0"></a>
-### [deepstack-3.0.0](https://github.com/truecharts/apps/compare/deepstack-2.0.8...deepstack-3.0.0) (2022-03-03)
-
-#### Chore
