@@ -1,0 +1,11 @@
+image:
+  repository: ghcr.io/truecharts/memcached
+  pullPolicy: IfNotPresent
+  tag: v1.6.15@sha256:75a0cbd50dffabd2f7c5862de512a5f85ed630785aec3fb40353143ae34c2c40
+
+service:
+  main:
+    ports:
+      main:
+        port: 11211
+        targetPort: 11211
