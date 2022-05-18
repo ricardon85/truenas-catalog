@@ -6,6 +6,16 @@
 
 #### Chore
 
+* Auto-update chart README [skip ci]
+* update helm general non-major helm releases
+
+
+
+<a name="xwiki-1.0.14"></a>
+### [xwiki-1.0.14](https://github.com/truecharts/apps/compare/xwiki-1.0.13...xwiki-1.0.14) (2022-05-17)
+
+#### Chore
+
 * update helm general non-major helm releases
 
 
@@ -87,13 +97,3 @@
 
 #### Chore
 
-* update helm general non-major helm releases ([#2573](https://github.com/truecharts/apps/issues/2573))
-
-
-
-<a name="xwiki-1.0.4"></a>
-### [xwiki-1.0.4](https://github.com/truecharts/apps/compare/xwiki-1.0.3...xwiki-1.0.4) (2022-04-26)
-
-#### Chore
-
-* update docker general non-major ([#2571](https://github.com/truecharts/apps/issues/2571))

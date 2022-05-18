@@ -6,6 +6,16 @@
 
 #### Chore
 
+* Auto-update chart README [skip ci]
+* update helm general non-major helm releases
+
+
+
+<a name="synapse-2.1.5"></a>
+### [synapse-2.1.5](https://github.com/truecharts/apps/compare/synapse-2.1.4...synapse-2.1.5) (2022-05-17)
+
+#### Chore
+
 * update helm general non-major helm releases
 
 
@@ -87,13 +97,3 @@
 * fix loadCustomConfig ([#2602](https://github.com/truecharts/apps/issues/2602))
 
 
-
-<a name="synapse-2.0.25"></a>
-### [synapse-2.0.25](https://github.com/truecharts/apps/compare/synapse-2.0.24...synapse-2.0.25) (2022-05-01)
-
-
-
-<a name="synapse-2.0.24"></a>
-### [synapse-2.0.24](https://github.com/truecharts/apps/compare/synapse-2.0.23...synapse-2.0.24) (2022-04-26)
-
-#### Chore

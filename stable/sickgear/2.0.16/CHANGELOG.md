@@ -6,6 +6,16 @@
 
 #### Chore
 
+* Auto-update chart README [skip ci]
+* update helm general non-major helm releases
+
+
+
+<a name="sickgear-2.0.16"></a>
+### [sickgear-2.0.16](https://github.com/truecharts/apps/compare/sickgear-2.0.15...sickgear-2.0.16) (2022-05-17)
+
+#### Chore
+
 * update helm general non-major helm releases
 
 
@@ -87,13 +97,3 @@
 ### [sickgear-2.0.7](https://github.com/truecharts/apps/compare/sickgear-2.0.6...sickgear-2.0.7) (2022-03-30)
 
 #### Chore
-
-* update helm general non-major helm releases ([#2354](https://github.com/truecharts/apps/issues/2354))
-
-
-
-<a name="sickgear-2.0.6"></a>
-### [sickgear-2.0.6](https://github.com/truecharts/apps/compare/sickgear-2.0.5...sickgear-2.0.6) (2022-03-26)
-
-#### Chore
-

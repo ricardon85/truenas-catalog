@@ -6,6 +6,16 @@
 
 #### Chore
 
+* Auto-update chart README [skip ci]
+* update helm general non-major helm releases
+
+
+
+<a name="qbittorrent-10.0.19"></a>
+### [qbittorrent-10.0.19](https://github.com/truecharts/apps/compare/qbittorrent-10.0.18...qbittorrent-10.0.19) (2022-05-17)
+
+#### Chore
+
 * update helm general non-major helm releases
 
 
@@ -87,13 +97,3 @@
 ### [qbittorrent-10.0.10](https://github.com/truecharts/apps/compare/qbittorrent-10.0.9...qbittorrent-10.0.10) (2022-04-03)
 
 #### Chore
-
-* update helm general non-major helm releases ([#2410](https://github.com/truecharts/apps/issues/2410))
-
-
-
-<a name="qbittorrent-10.0.9"></a>
-### [qbittorrent-10.0.9](https://github.com/truecharts/apps/compare/qbittorrent-10.0.8...qbittorrent-10.0.9) (2022-03-31)
-
-#### Chore
-

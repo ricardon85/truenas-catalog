@@ -6,6 +6,16 @@
 
 #### Chore
 
+* Auto-update chart README [skip ci]
+* update helm general non-major helm releases
+
+
+
+<a name="appsmith-0.0.12"></a>
+### [appsmith-0.0.12](https://github.com/truecharts/apps/compare/appsmith-0.0.11...appsmith-0.0.12) (2022-05-17)
+
+#### Chore
+
 * update helm general non-major helm releases
 
 
@@ -87,13 +97,3 @@
 
 #### Chore
 
-* Auto-update chart README [skip ci]
-* Auto-update chart README [skip ci]
-* Auto-update chart README [skip ci]
-* add missing quote on description ([#2515](https://github.com/truecharts/apps/issues/2515))
-* update helm general non-major helm releases ([#2524](https://github.com/truecharts/apps/issues/2524))
-* add force tls gui option ([#2496](https://github.com/truecharts/apps/issues/2496))
-
-#### Feat
-
-* move some apps to stable ([#2504](https://github.com/truecharts/apps/issues/2504))

@@ -6,6 +6,16 @@
 
 #### Chore
 
+* Auto-update chart README [skip ci]
+* update helm general non-major helm releases
+
+
+
+<a name="medusa-2.0.26"></a>
+### [medusa-2.0.26](https://github.com/truecharts/apps/compare/medusa-2.0.25...medusa-2.0.26) (2022-05-17)
+
+#### Chore
+
 * update helm general non-major helm releases
 
 
@@ -87,13 +97,3 @@
 ### [medusa-2.0.17](https://github.com/truecharts/apps/compare/medusa-2.0.16...medusa-2.0.17) (2022-04-18)
 
 #### Chore
-
-* update docker general non-major ([#2502](https://github.com/truecharts/apps/issues/2502))
-
-
-
-<a name="medusa-2.0.16"></a>
-### [medusa-2.0.16](https://github.com/truecharts/apps/compare/medusa-2.0.15...medusa-2.0.16) (2022-04-12)
-
-#### Chore
-

@@ -6,6 +6,16 @@
 
 #### Chore
 
+* Auto-update chart README [skip ci]
+* update helm general non-major helm releases
+
+
+
+<a name="couchpotato-1.0.16"></a>
+### [couchpotato-1.0.16](https://github.com/truecharts/apps/compare/couchpotato-1.0.15...couchpotato-1.0.16) (2022-05-17)
+
+#### Chore
+
 * update helm general non-major helm releases
 
 
@@ -87,13 +97,3 @@
 ### [couchpotato-1.0.7](https://github.com/truecharts/apps/compare/couchpotato-1.0.6...couchpotato-1.0.7) (2022-03-30)
 
 #### Chore
-
-* update helm general non-major helm releases ([#2354](https://github.com/truecharts/apps/issues/2354))
-
-
-
-<a name="couchpotato-1.0.6"></a>
-### [couchpotato-1.0.6](https://github.com/truecharts/apps/compare/couchpotato-1.0.4...couchpotato-1.0.6) (2022-03-26)
-
-#### Chore
-

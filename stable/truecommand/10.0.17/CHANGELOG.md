@@ -6,6 +6,16 @@
 
 #### Chore
 
+* Auto-update chart README [skip ci]
+* update helm general non-major helm releases
+
+
+
+<a name="truecommand-10.0.17"></a>
+### [truecommand-10.0.17](https://github.com/truecharts/apps/compare/truecommand-10.0.16...truecommand-10.0.17) (2022-05-17)
+
+#### Chore
+
 * update helm general non-major helm releases
 
 
@@ -85,15 +95,5 @@
 
 <a name="truecommand-10.0.8"></a>
 ### [truecommand-10.0.8](https://github.com/truecharts/apps/compare/truecommand-10.0.7...truecommand-10.0.8) (2022-03-30)
-
-#### Chore
-
-* Auto-update chart README [skip ci]
-* update helm general non-major helm releases ([#2354](https://github.com/truecharts/apps/issues/2354))
-
-
-
-<a name="truecommand-10.0.7"></a>
-### [truecommand-10.0.7](https://github.com/truecharts/apps/compare/truecommand-10.0.6...truecommand-10.0.7) (2022-03-30)
 
 #### Chore

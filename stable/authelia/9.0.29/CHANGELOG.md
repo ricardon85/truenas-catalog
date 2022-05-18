@@ -6,6 +6,16 @@
 
 #### Chore
 
+* Auto-update chart README [skip ci]
+* update helm general non-major helm releases
+
+
+
+<a name="authelia-9.0.29"></a>
+### [authelia-9.0.29](https://github.com/truecharts/apps/compare/authelia-9.0.28...authelia-9.0.29) (2022-05-17)
+
+#### Chore
+
 * update helm general non-major helm releases
 
 
@@ -87,13 +97,3 @@
 
 #### Chore
 
-* update docker general non-major ([#2577](https://github.com/truecharts/apps/issues/2577))
-
-
-
-<a name="authelia-9.0.19"></a>
-### [authelia-9.0.19](https://github.com/truecharts/apps/compare/authelia-9.0.18...authelia-9.0.19) (2022-04-26)
-
-#### Chore
-
-* update helm general non-major helm releases ([#2573](https://github.com/truecharts/apps/issues/2573))

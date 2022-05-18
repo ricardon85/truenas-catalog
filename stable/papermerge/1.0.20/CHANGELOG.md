@@ -6,6 +6,16 @@
 
 #### Chore
 
+* Auto-update chart README [skip ci]
+* update helm general non-major helm releases
+
+
+
+<a name="papermerge-1.0.20"></a>
+### [papermerge-1.0.20](https://github.com/truecharts/apps/compare/papermerge-1.0.19...papermerge-1.0.20) (2022-05-17)
+
+#### Chore
+
 * update helm general non-major helm releases
 
 
@@ -87,13 +97,3 @@
 ### [papermerge-1.0.11](https://github.com/truecharts/apps/compare/papermerge-1.0.10...papermerge-1.0.11) (2022-03-31)
 
 #### Chore
-
-* update helm general non-major helm releases ([#2362](https://github.com/truecharts/apps/issues/2362))
-
-
-
-<a name="papermerge-1.0.10"></a>
-### [papermerge-1.0.10](https://github.com/truecharts/apps/compare/papermerge-1.0.9...papermerge-1.0.10) (2022-03-31)
-
-#### Chore
-

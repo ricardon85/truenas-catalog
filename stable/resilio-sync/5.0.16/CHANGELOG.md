@@ -6,6 +6,16 @@
 
 #### Chore
 
+* Auto-update chart README [skip ci]
+* update helm general non-major helm releases
+
+
+
+<a name="resilio-sync-5.0.16"></a>
+### [resilio-sync-5.0.16](https://github.com/truecharts/apps/compare/resilio-sync-5.0.15...resilio-sync-5.0.16) (2022-05-17)
+
+#### Chore
+
 * update helm general non-major helm releases
 
 
@@ -87,13 +97,3 @@
 ### [resilio-sync-5.0.7](https://github.com/truecharts/apps/compare/resilio-sync-5.0.6...resilio-sync-5.0.7) (2022-03-30)
 
 #### Chore
-
-* update helm general non-major helm releases ([#2354](https://github.com/truecharts/apps/issues/2354))
-
-
-
-<a name="resilio-sync-5.0.6"></a>
-### [resilio-sync-5.0.6](https://github.com/truecharts/apps/compare/resilio-sync-5.0.5...resilio-sync-5.0.6) (2022-03-26)
-
-#### Chore
-

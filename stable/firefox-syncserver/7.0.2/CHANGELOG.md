@@ -6,6 +6,16 @@
 
 #### Chore
 
+* Auto-update chart README [skip ci]
+* update helm general non-major helm releases
+
+
+
+<a name="firefox-syncserver-7.0.2"></a>
+### [firefox-syncserver-7.0.2](https://github.com/truecharts/apps/compare/firefox-syncserver-7.0.1...firefox-syncserver-7.0.2) (2022-05-17)
+
+#### Chore
+
 * update helm general non-major helm releases
 
 
@@ -87,13 +97,3 @@
 ### [firefox-syncserver-6.0.12](https://github.com/truecharts/apps/compare/firefox-syncserver-6.0.11...firefox-syncserver-6.0.12) (2022-04-03)
 
 #### Chore
-
-* update helm general non-major helm releases ([#2410](https://github.com/truecharts/apps/issues/2410))
-
-
-
-<a name="firefox-syncserver-6.0.11"></a>
-### [firefox-syncserver-6.0.11](https://github.com/truecharts/apps/compare/firefox-syncserver-6.0.10...firefox-syncserver-6.0.11) (2022-03-31)
-
-#### Chore
-

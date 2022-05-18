@@ -6,6 +6,16 @@
 
 #### Chore
 
+* Auto-update chart README [skip ci]
+* update helm general non-major helm releases
+
+
+
+<a name="valheim-2.0.47"></a>
+### [valheim-2.0.47](https://github.com/truecharts/apps/compare/valheim-2.0.46...valheim-2.0.47) (2022-05-17)
+
+#### Chore
+
 * update helm general non-major helm releases
 
 
@@ -87,13 +97,3 @@
 ### [valheim-2.0.38](https://github.com/truecharts/apps/compare/valheim-2.0.37...valheim-2.0.38) (2022-03-31)
 
 #### Chore
-
-* update helm general non-major helm releases ([#2361](https://github.com/truecharts/apps/issues/2361))
-
-
-
-<a name="valheim-2.0.37"></a>
-### [valheim-2.0.37](https://github.com/truecharts/apps/compare/valheim-2.0.36...valheim-2.0.37) (2022-03-30)
-
-#### Chore
-

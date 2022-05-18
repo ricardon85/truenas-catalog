@@ -6,6 +6,16 @@
 
 #### Chore
 
+* Auto-update chart README [skip ci]
+* update helm general non-major helm releases
+
+
+
+<a name="librespeed-5.0.16"></a>
+### [librespeed-5.0.16](https://github.com/truecharts/apps/compare/librespeed-5.0.15...librespeed-5.0.16) (2022-05-17)
+
+#### Chore
+
 * update helm general non-major helm releases
 
 
@@ -87,13 +97,3 @@
 ### [librespeed-5.0.7](https://github.com/truecharts/apps/compare/librespeed-5.0.6...librespeed-5.0.7) (2022-03-30)
 
 #### Chore
-
-* update helm general non-major helm releases ([#2354](https://github.com/truecharts/apps/issues/2354))
-
-
-
-<a name="librespeed-5.0.6"></a>
-### [librespeed-5.0.6](https://github.com/truecharts/apps/compare/librespeed-5.0.5...librespeed-5.0.6) (2022-03-26)
-
-#### Chore
-

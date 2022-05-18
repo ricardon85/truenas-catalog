@@ -6,6 +6,16 @@
 
 #### Chore
 
+* Auto-update chart README [skip ci]
+* update helm general non-major helm releases
+
+
+
+<a name="traefik-11.3.4"></a>
+### [traefik-11.3.4](https://github.com/truecharts/apps/compare/traefik-11.3.3...traefik-11.3.4) (2022-05-17)
+
+#### Chore
+
 * update helm general non-major helm releases
 
 
@@ -87,13 +97,3 @@
 ### [traefik-11.1.6](https://github.com/truecharts/apps/compare/traefik-11.1.5...traefik-11.1.6) (2022-04-20)
 
 #### Chore
-
-* add missing quote on description ([#2515](https://github.com/truecharts/apps/issues/2515))
-
-#### Fix
-
-* Fix custom chain middleware settings ([#2513](https://github.com/truecharts/apps/issues/2513))
-
-
-
-<a name="traefik-11.1.5"></a>

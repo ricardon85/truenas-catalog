@@ -6,6 +6,16 @@
 
 #### Chore
 
+* Auto-update chart README [skip ci]
+* update helm general non-major helm releases
+
+
+
+<a name="calibre-6.0.25"></a>
+### [calibre-6.0.25](https://github.com/truecharts/apps/compare/calibre-web-10.0.23...calibre-6.0.25) (2022-05-17)
+
+#### Chore
+
 * update helm general non-major helm releases
 
 
@@ -87,13 +97,3 @@
 
 #### Chore
 
-* update docker general non-major ([#2502](https://github.com/truecharts/apps/issues/2502))
-
-
-
-<a name="calibre-6.0.15"></a>
-### [calibre-6.0.15](https://github.com/truecharts/apps/compare/calibre-6.0.14...calibre-6.0.15) (2022-04-12)
-
-#### Chore
-
-* update helm general non-major helm releases ([#2480](https://github.com/truecharts/apps/issues/2480))

@@ -6,6 +6,16 @@
 
 #### Chore
 
+* Auto-update chart README [skip ci]
+* update helm general non-major helm releases
+
+
+
+<a name="leantime-2.0.21"></a>
+### [leantime-2.0.21](https://github.com/truecharts/apps/compare/leantime-2.0.20...leantime-2.0.21) (2022-05-17)
+
+#### Chore
+
 * update helm general non-major helm releases
 
 
@@ -87,13 +97,3 @@
 ### [leantime-2.0.12](https://github.com/truecharts/apps/compare/leantime-2.0.11...leantime-2.0.12) (2022-04-03)
 
 #### Chore
-
-* update helm general non-major helm releases ([#2410](https://github.com/truecharts/apps/issues/2410))
-
-
-
-<a name="leantime-2.0.11"></a>
-### [leantime-2.0.11](https://github.com/truecharts/apps/compare/leantime-2.0.10...leantime-2.0.11) (2022-03-31)
-
-#### Chore
-

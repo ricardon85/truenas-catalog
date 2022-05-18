@@ -6,6 +6,16 @@
 
 #### Chore
 
+* Auto-update chart README [skip ci]
+* update helm general non-major helm releases
+
+
+
+<a name="wekan-2.0.12"></a>
+### [wekan-2.0.12](https://github.com/truecharts/apps/compare/wekan-2.0.11...wekan-2.0.12) (2022-05-17)
+
+#### Chore
+
 * update helm general non-major helm releases
 
 
@@ -87,13 +97,3 @@
 ### [wekan-2.0.1](https://github.com/truecharts/apps/compare/wekan-2.0.0...wekan-2.0.1) (2022-04-24)
 
 #### Fix
-
-* set advertised hostname ([#2555](https://github.com/truecharts/apps/issues/2555))
-
-
-
-<a name="wekan-2.0.0"></a>
-### [wekan-2.0.0](https://github.com/truecharts/apps/compare/wekan-1.0.8...wekan-2.0.0) (2022-04-24)
-
-
-

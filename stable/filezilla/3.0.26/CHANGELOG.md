@@ -6,6 +6,16 @@
 
 #### Chore
 
+* Auto-update chart README [skip ci]
+* update helm general non-major helm releases
+
+
+
+<a name="filezilla-3.0.26"></a>
+### [filezilla-3.0.26](https://github.com/truecharts/apps/compare/filezilla-3.0.25...filezilla-3.0.26) (2022-05-17)
+
+#### Chore
+
 * update helm general non-major helm releases
 
 
@@ -84,16 +94,6 @@
 
 <a name="filezilla-3.0.17"></a>
 ### [filezilla-3.0.17](https://github.com/truecharts/apps/compare/filezilla-3.0.16...filezilla-3.0.17) (2022-04-20)
-
-#### Chore
-
-* add missing quote on description ([#2515](https://github.com/truecharts/apps/issues/2515))
-* update helm general non-major helm releases ([#2524](https://github.com/truecharts/apps/issues/2524))
-
-
-
-<a name="filezilla-3.0.16"></a>
-### [filezilla-3.0.16](https://github.com/truecharts/apps/compare/filezilla-3.0.15...filezilla-3.0.16) (2022-04-16)
 
 #### Chore
 

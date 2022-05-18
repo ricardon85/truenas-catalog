@@ -6,6 +6,16 @@
 
 #### Chore
 
+* Auto-update chart README [skip ci]
+* update helm general non-major helm releases
+
+
+
+<a name="zwavejs2mqtt-10.0.27"></a>
+### [zwavejs2mqtt-10.0.27](https://github.com/truecharts/apps/compare/zwavejs2mqtt-10.0.26...zwavejs2mqtt-10.0.27) (2022-05-17)
+
+#### Chore
+
 * update helm general non-major helm releases
 
 
@@ -87,13 +97,3 @@
 
 #### Chore
 
-* update docker general non-major ([#2571](https://github.com/truecharts/apps/issues/2571))
-
-
-
-<a name="zwavejs2mqtt-10.0.17"></a>
-### [zwavejs2mqtt-10.0.17](https://github.com/truecharts/apps/compare/zwavejs2mqtt-10.0.16...zwavejs2mqtt-10.0.17) (2022-04-20)
-
-#### Chore
-
-* update helm general non-major helm releases ([#2524](https://github.com/truecharts/apps/issues/2524))

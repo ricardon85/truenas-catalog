@@ -6,6 +6,16 @@
 
 #### Chore
 
+* Auto-update chart README [skip ci]
+* update helm general non-major helm releases
+
+
+
+<a name="typecho-1.0.7"></a>
+### [typecho-1.0.7](https://github.com/truecharts/apps/compare/typecho-1.0.6...typecho-1.0.7) (2022-05-17)
+
+#### Chore
+
 * update helm general non-major helm releases
 
 
@@ -87,13 +97,3 @@
 ### [typecho-0.0.7](https://github.com/truecharts/apps/compare/typecho-0.0.6...typecho-0.0.7) (2022-04-09)
 
 #### Chore
-
-* update docker general non-major ([#2460](https://github.com/truecharts/apps/issues/2460))
-
-
-
-<a name="typecho-0.0.6"></a>
-### [typecho-0.0.6](https://github.com/truecharts/apps/compare/typecho-0.0.5...typecho-0.0.6) (2022-04-03)
-
-#### Chore
-

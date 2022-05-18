@@ -6,6 +6,16 @@
 
 #### Chore
 
+* Auto-update chart README [skip ci]
+* update helm general non-major helm releases
+
+
+
+<a name="prowlarr-5.0.38"></a>
+### [prowlarr-5.0.38](https://github.com/truecharts/apps/compare/prowlarr-5.0.37...prowlarr-5.0.38) (2022-05-17)
+
+#### Chore
+
 * update helm general non-major helm releases
 
 
@@ -87,13 +97,3 @@
 
 #### Chore
 
-* update docker general non-major ([#2639](https://github.com/truecharts/apps/issues/2639))
-
-
-
-<a name="prowlarr-5.0.28"></a>
-### [prowlarr-5.0.28](https://github.com/truecharts/apps/compare/prowlarr-5.0.27...prowlarr-5.0.28) (2022-05-05)
-
-#### Chore
-
-* update helm general non-major helm releases ([#2612](https://github.com/truecharts/apps/issues/2612))

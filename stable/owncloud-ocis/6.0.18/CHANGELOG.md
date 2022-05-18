@@ -6,6 +6,16 @@
 
 #### Chore
 
+* Auto-update chart README [skip ci]
+* update helm general non-major helm releases
+
+
+
+<a name="owncloud-ocis-6.0.18"></a>
+### [owncloud-ocis-6.0.18](https://github.com/truecharts/apps/compare/owncloud-ocis-6.0.17...owncloud-ocis-6.0.18) (2022-05-17)
+
+#### Chore
+
 * update helm general non-major helm releases
 
 
@@ -85,15 +95,5 @@
 
 <a name="owncloud-ocis-6.0.9"></a>
 ### [owncloud-ocis-6.0.9](https://github.com/truecharts/apps/compare/owncloud-ocis-6.0.7...owncloud-ocis-6.0.9) (2022-03-31)
-
-#### Chore
-
-* update docker general non-major ([#2357](https://github.com/truecharts/apps/issues/2357))
-* update helm general non-major helm releases ([#2361](https://github.com/truecharts/apps/issues/2361))
-
-
-
-<a name="owncloud-ocis-6.0.7"></a>
-### [owncloud-ocis-6.0.7](https://github.com/truecharts/apps/compare/owncloud-ocis-6.0.6...owncloud-ocis-6.0.7) (2022-03-30)
 
 #### Chore

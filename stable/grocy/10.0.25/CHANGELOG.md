@@ -6,6 +6,16 @@
 
 #### Chore
 
+* Auto-update chart README [skip ci]
+* update helm general non-major helm releases
+
+
+
+<a name="grocy-10.0.25"></a>
+### [grocy-10.0.25](https://github.com/truecharts/apps/compare/grocy-10.0.24...grocy-10.0.25) (2022-05-17)
+
+#### Chore
+
 * update helm general non-major helm releases
 
 
@@ -87,13 +97,3 @@
 ### [grocy-10.0.16](https://github.com/truecharts/apps/compare/grocy-10.0.15...grocy-10.0.16) (2022-04-16)
 
 #### Chore
-
-* update docker general non-major ([#2494](https://github.com/truecharts/apps/issues/2494))
-
-
-
-<a name="grocy-10.0.15"></a>
-### [grocy-10.0.15](https://github.com/truecharts/apps/compare/grocy-10.0.14...grocy-10.0.15) (2022-04-12)
-
-#### Chore
-

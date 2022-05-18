@@ -6,6 +6,16 @@
 
 #### Chore
 
+* Auto-update chart README [skip ci]
+* update helm general non-major helm releases
+
+
+
+<a name="ngircd-1.0.16"></a>
+### [ngircd-1.0.16](https://github.com/truecharts/apps/compare/ngircd-1.0.15...ngircd-1.0.16) (2022-05-17)
+
+#### Chore
+
 * update helm general non-major helm releases
 
 
@@ -87,13 +97,3 @@
 ### [ngircd-1.0.7](https://github.com/truecharts/apps/compare/ngircd-1.0.6...ngircd-1.0.7) (2022-03-30)
 
 #### Chore
-
-* update helm general non-major helm releases ([#2354](https://github.com/truecharts/apps/issues/2354))
-
-
-
-<a name="ngircd-1.0.6"></a>
-### [ngircd-1.0.6](https://github.com/truecharts/apps/compare/ngircd-1.0.5...ngircd-1.0.6) (2022-03-26)
-
-#### Chore
-

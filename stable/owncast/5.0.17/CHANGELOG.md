@@ -6,6 +6,16 @@
 
 #### Chore
 
+* Auto-update chart README [skip ci]
+* update helm general non-major helm releases
+
+
+
+<a name="owncast-5.0.17"></a>
+### [owncast-5.0.17](https://github.com/truecharts/apps/compare/owncast-5.0.16...owncast-5.0.17) (2022-05-17)
+
+#### Chore
+
 * update helm general non-major helm releases
 
 
@@ -87,13 +97,3 @@
 ### [owncast-5.0.8](https://github.com/truecharts/apps/compare/owncast-5.0.7...owncast-5.0.8) (2022-03-30)
 
 #### Chore
-
-* update helm general non-major helm releases ([#2354](https://github.com/truecharts/apps/issues/2354))
-
-
-
-<a name="owncast-5.0.7"></a>
-### [owncast-5.0.7](https://github.com/truecharts/apps/compare/owncast-5.0.6...owncast-5.0.7) (2022-03-26)
-
-#### Chore
-

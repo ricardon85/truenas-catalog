@@ -6,6 +6,16 @@
 
 #### Chore
 
+* Auto-update chart README [skip ci]
+* update helm general non-major helm releases
+
+
+
+<a name="mosdns-1.0.12"></a>
+### [mosdns-1.0.12](https://github.com/truecharts/apps/compare/mosdns-1.0.11...mosdns-1.0.12) (2022-05-17)
+
+#### Chore
+
 * update helm general non-major helm releases
 
 
@@ -87,13 +97,3 @@
 ### [mosdns-1.0.3](https://github.com/truecharts/apps/compare/mosdns-1.0.2...mosdns-1.0.3) (2022-04-12)
 
 #### Chore
-
-* update docker general non-major ([#2478](https://github.com/truecharts/apps/issues/2478))
-
-
-
-<a name="mosdns-1.0.2"></a>
-### [mosdns-1.0.2](https://github.com/truecharts/apps/compare/mosdns-1.0.1...mosdns-1.0.2) (2022-04-09)
-
-#### Chore
-

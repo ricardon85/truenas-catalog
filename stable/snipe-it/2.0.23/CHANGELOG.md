@@ -6,6 +6,16 @@
 
 #### Chore
 
+* Auto-update chart README [skip ci]
+* update helm general non-major helm releases
+
+
+
+<a name="snipe-it-2.0.23"></a>
+### [snipe-it-2.0.23](https://github.com/truecharts/apps/compare/snipe-it-2.0.22...snipe-it-2.0.23) (2022-05-17)
+
+#### Chore
+
 * update helm general non-major helm releases
 
 
@@ -87,13 +97,3 @@
 <a name="snipe-it-2.0.14"></a>
 ### [snipe-it-2.0.14](https://github.com/truecharts/apps/compare/snipe-it-2.0.13...snipe-it-2.0.14) (2022-04-17)
 
-#### Chore
-
-* add force tls gui option ([#2496](https://github.com/truecharts/apps/issues/2496))
-
-
-
-<a name="snipe-it-2.0.13"></a>
-### [snipe-it-2.0.13](https://github.com/truecharts/apps/compare/snipe-it-2.0.12...snipe-it-2.0.13) (2022-04-17)
-
-#### Chore

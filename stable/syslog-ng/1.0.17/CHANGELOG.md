@@ -6,6 +6,16 @@
 
 #### Chore
 
+* Auto-update chart README [skip ci]
+* update helm general non-major helm releases
+
+
+
+<a name="syslog-ng-1.0.17"></a>
+### [syslog-ng-1.0.17](https://github.com/truecharts/apps/compare/syslog-ng-1.0.16...syslog-ng-1.0.17) (2022-05-17)
+
+#### Chore
+
 * update helm general non-major helm releases
 
 
@@ -87,13 +97,3 @@
 ### [syslog-ng-1.0.8](https://github.com/truecharts/apps/compare/syslog-ng-1.0.7...syslog-ng-1.0.8) (2022-03-30)
 
 #### Chore
-
-* update helm general non-major helm releases ([#2354](https://github.com/truecharts/apps/issues/2354))
-
-
-
-<a name="syslog-ng-1.0.7"></a>
-### [syslog-ng-1.0.7](https://github.com/truecharts/apps/compare/syslog-ng-1.0.6...syslog-ng-1.0.7) (2022-03-26)
-
-#### Chore
-

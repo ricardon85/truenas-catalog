@@ -6,6 +6,16 @@
 
 #### Chore
 
+* Auto-update chart README [skip ci]
+* update helm general non-major helm releases
+
+
+
+<a name="paperless-ng-2.0.28"></a>
+### [paperless-ng-2.0.28](https://github.com/truecharts/apps/compare/paperless-ng-2.0.27...paperless-ng-2.0.28) (2022-05-17)
+
+#### Chore
+
 * update helm general non-major helm releases
 
 
@@ -84,16 +94,6 @@
 
 <a name="paperless-ng-2.0.19"></a>
 ### [paperless-ng-2.0.19](https://github.com/truecharts/apps/compare/paperless-ng-2.0.18...paperless-ng-2.0.19) (2022-04-20)
-
-#### Chore
-
-* add missing quote on description ([#2515](https://github.com/truecharts/apps/issues/2515))
-* update helm general non-major helm releases ([#2524](https://github.com/truecharts/apps/issues/2524))
-
-
-
-<a name="paperless-ng-2.0.18"></a>
-### [paperless-ng-2.0.18](https://github.com/truecharts/apps/compare/paperless-ng-2.0.17...paperless-ng-2.0.18) (2022-04-12)
 
 #### Chore
 

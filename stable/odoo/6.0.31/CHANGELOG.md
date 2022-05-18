@@ -6,6 +6,16 @@
 
 #### Chore
 
+* Auto-update chart README [skip ci]
+* update helm general non-major helm releases
+
+
+
+<a name="odoo-6.0.31"></a>
+### [odoo-6.0.31](https://github.com/truecharts/apps/compare/odoo-6.0.30...odoo-6.0.31) (2022-05-17)
+
+#### Chore
+
 * update helm general non-major helm releases
 
 
@@ -87,13 +97,3 @@
 
 #### Chore
 
-* update docker general non-major ([#2571](https://github.com/truecharts/apps/issues/2571))
-
-
-
-<a name="odoo-6.0.21"></a>
-### [odoo-6.0.21](https://github.com/truecharts/apps/compare/odoo-6.0.20...odoo-6.0.21) (2022-04-20)
-
-#### Chore
-
-* add missing quote on description ([#2515](https://github.com/truecharts/apps/issues/2515))

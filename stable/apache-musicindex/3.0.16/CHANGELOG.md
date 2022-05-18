@@ -6,6 +6,16 @@
 
 #### Chore
 
+* Auto-update chart README [skip ci]
+* update helm general non-major helm releases
+
+
+
+<a name="apache-musicindex-3.0.16"></a>
+### [apache-musicindex-3.0.16](https://github.com/truecharts/apps/compare/apache-musicindex-3.0.15...apache-musicindex-3.0.16) (2022-05-17)
+
+#### Chore
+
 * update helm general non-major helm releases
 
 
@@ -87,13 +97,3 @@
 ### [apache-musicindex-3.0.7](https://github.com/truecharts/apps/compare/apache-musicindex-3.0.6...apache-musicindex-3.0.7) (2022-03-30)
 
 #### Chore
-
-* update helm general non-major helm releases ([#2354](https://github.com/truecharts/apps/issues/2354))
-
-
-
-<a name="apache-musicindex-3.0.6"></a>
-### [apache-musicindex-3.0.6](https://github.com/truecharts/apps/compare/apache-musicindex-3.0.5...apache-musicindex-3.0.6) (2022-03-26)
-
-#### Chore
-

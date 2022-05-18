@@ -6,6 +6,16 @@
 
 #### Chore
 
+* Auto-update chart README [skip ci]
+* update helm general non-major helm releases
+
+
+
+<a name="ml-workspace-1.1.10"></a>
+### [ml-workspace-1.1.10](https://github.com/truecharts/apps/compare/ml-workspace-1.1.9...ml-workspace-1.1.10) (2022-05-17)
+
+#### Chore
+
 * update helm general non-major helm releases
 
 
@@ -87,13 +97,3 @@
 ### [ml-workspace-1.1.1](https://github.com/truecharts/apps/compare/ml-workspace-1.1.0...ml-workspace-1.1.1) (2022-03-30)
 
 #### Chore
-
-* update helm general non-major helm releases ([#2354](https://github.com/truecharts/apps/issues/2354))
-
-
-
-<a name="ml-workspace-1.1.0"></a>
-### [ml-workspace-1.1.0](https://github.com/truecharts/apps/compare/ml-workspace-1.0.1...ml-workspace-1.1.0) (2022-03-29)
-
-#### Feat
-

@@ -6,6 +6,16 @@
 
 #### Chore
 
+* Auto-update chart README [skip ci]
+* update helm general non-major helm releases
+
+
+
+<a name="onlyoffice-document-server-4.0.20"></a>
+### [onlyoffice-document-server-4.0.20](https://github.com/truecharts/apps/compare/onlyoffice-document-server-4.0.19...onlyoffice-document-server-4.0.20) (2022-05-17)
+
+#### Chore
+
 * update helm general non-major helm releases
 
 
@@ -87,13 +97,3 @@
 ### [onlyoffice-document-server-4.0.11](https://github.com/truecharts/apps/compare/onlyoffice-document-server-4.0.10...onlyoffice-document-server-4.0.11) (2022-03-31)
 
 #### Chore
-
-* update helm general non-major helm releases ([#2362](https://github.com/truecharts/apps/issues/2362))
-
-
-
-<a name="onlyoffice-document-server-4.0.10"></a>
-### [onlyoffice-document-server-4.0.10](https://github.com/truecharts/apps/compare/onlyoffice-document-server-4.0.9...onlyoffice-document-server-4.0.10) (2022-03-31)
-
-#### Chore
-

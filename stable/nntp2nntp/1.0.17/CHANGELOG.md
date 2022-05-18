@@ -6,6 +6,16 @@
 
 #### Chore
 
+* Auto-update chart README [skip ci]
+* update helm general non-major helm releases
+
+
+
+<a name="nntp2nntp-1.0.17"></a>
+### [nntp2nntp-1.0.17](https://github.com/truecharts/apps/compare/nntp2nntp-1.0.16...nntp2nntp-1.0.17) (2022-05-17)
+
+#### Chore
+
 * update helm general non-major helm releases
 
 
@@ -87,13 +97,3 @@
 ### [nntp2nntp-1.0.8](https://github.com/truecharts/apps/compare/nntp2nntp-1.0.7...nntp2nntp-1.0.8) (2022-03-31)
 
 #### Chore
-
-* update helm general non-major helm releases ([#2361](https://github.com/truecharts/apps/issues/2361))
-
-
-
-<a name="nntp2nntp-1.0.7"></a>
-### [nntp2nntp-1.0.7](https://github.com/truecharts/apps/compare/nntp2nntp-1.0.6...nntp2nntp-1.0.7) (2022-03-30)
-
-#### Chore
-

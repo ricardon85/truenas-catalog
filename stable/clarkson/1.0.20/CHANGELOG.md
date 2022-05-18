@@ -6,6 +6,16 @@
 
 #### Chore
 
+* Auto-update chart README [skip ci]
+* update helm general non-major helm releases
+
+
+
+<a name="clarkson-1.0.20"></a>
+### [clarkson-1.0.20](https://github.com/truecharts/apps/compare/clarkson-1.0.19...clarkson-1.0.20) (2022-05-17)
+
+#### Chore
+
 * update helm general non-major helm releases
 
 
@@ -87,13 +97,3 @@
 ### [clarkson-1.0.11](https://github.com/truecharts/apps/compare/clarkson-1.0.10...clarkson-1.0.11) (2022-03-31)
 
 #### Chore
-
-* update helm general non-major helm releases ([#2362](https://github.com/truecharts/apps/issues/2362))
-
-
-
-<a name="clarkson-1.0.10"></a>
-### [clarkson-1.0.10](https://github.com/truecharts/apps/compare/clarkson-1.0.9...clarkson-1.0.10) (2022-03-31)
-
-#### Chore
-

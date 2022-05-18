@@ -6,6 +6,16 @@
 
 #### Chore
 
+* Auto-update chart README [skip ci]
+* update helm general non-major helm releases
+
+
+
+<a name="heimdall-10.0.17"></a>
+### [heimdall-10.0.17](https://github.com/truecharts/apps/compare/heimdall-10.0.16...heimdall-10.0.17) (2022-05-17)
+
+#### Chore
+
 * update helm general non-major helm releases
 
 
@@ -85,15 +95,5 @@
 #### Fix
 
 * rw root fs / hostnet ([#2389](https://github.com/truecharts/apps/issues/2389))
-
-
-
-<a name="heimdall-10.0.8"></a>
-### [heimdall-10.0.8](https://github.com/truecharts/apps/compare/heimdall-10.0.7...heimdall-10.0.8) (2022-03-31)
-
-#### Chore
-
-* update helm general non-major helm releases ([#2361](https://github.com/truecharts/apps/issues/2361))
-
 
 

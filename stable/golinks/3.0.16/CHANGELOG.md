@@ -6,6 +6,16 @@
 
 #### Chore
 
+* Auto-update chart README [skip ci]
+* update helm general non-major helm releases
+
+
+
+<a name="golinks-3.0.16"></a>
+### [golinks-3.0.16](https://github.com/truecharts/apps/compare/golinks-3.0.15...golinks-3.0.16) (2022-05-17)
+
+#### Chore
+
 * update helm general non-major helm releases
 
 
@@ -87,13 +97,3 @@
 ### [golinks-3.0.7](https://github.com/truecharts/apps/compare/golinks-3.0.6...golinks-3.0.7) (2022-03-30)
 
 #### Chore
-
-* update helm general non-major helm releases ([#2354](https://github.com/truecharts/apps/issues/2354))
-
-
-
-<a name="golinks-3.0.6"></a>
-### [golinks-3.0.6](https://github.com/truecharts/apps/compare/golinks-3.0.5...golinks-3.0.6) (2022-03-26)
-
-#### Chore
-

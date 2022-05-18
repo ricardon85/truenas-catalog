@@ -6,6 +6,16 @@
 
 #### Chore
 
+* Auto-update chart README [skip ci]
+* update helm general non-major helm releases
+
+
+
+<a name="friendica-2.0.30"></a>
+### [friendica-2.0.30](https://github.com/truecharts/apps/compare/friendica-2.0.29...friendica-2.0.30) (2022-05-17)
+
+#### Chore
+
 * update helm general non-major helm releases
 
 
@@ -87,13 +97,3 @@
 
 #### Chore
 
-* update docker general non-major ([#2571](https://github.com/truecharts/apps/issues/2571))
-
-
-
-<a name="friendica-2.0.20"></a>
-### [friendica-2.0.20](https://github.com/truecharts/apps/compare/friendica-2.0.19...friendica-2.0.20) (2022-04-20)
-
-#### Chore
-
-* update helm general non-major helm releases ([#2524](https://github.com/truecharts/apps/issues/2524))

@@ -6,6 +6,16 @@
 
 #### Chore
 
+* Auto-update chart README [skip ci]
+* update helm general non-major helm releases
+
+
+
+<a name="external-service-5.0.17"></a>
+### [external-service-5.0.17](https://github.com/truecharts/apps/compare/external-service-5.0.16...external-service-5.0.17) (2022-05-17)
+
+#### Chore
+
 * update helm general non-major helm releases
 
 
@@ -87,13 +97,3 @@
 
 #### Chore
 
-* update helm general non-major helm releases ([#2354](https://github.com/truecharts/apps/issues/2354))
-
-
-
-<a name="external-service-5.0.7"></a>
-### [external-service-5.0.7](https://github.com/truecharts/apps/compare/external-service-5.0.6...external-service-5.0.7) (2022-03-26)
-
-#### Chore
-
-* bump all apps to trigger ci

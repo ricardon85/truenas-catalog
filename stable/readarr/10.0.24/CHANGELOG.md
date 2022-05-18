@@ -6,6 +6,16 @@
 
 #### Chore
 
+* Auto-update chart README [skip ci]
+* update helm general non-major helm releases
+
+
+
+<a name="readarr-10.0.24"></a>
+### [readarr-10.0.24](https://github.com/truecharts/apps/compare/readarr-10.0.23...readarr-10.0.24) (2022-05-17)
+
+#### Chore
+
 * update helm general non-major helm releases
 
 
@@ -87,13 +97,3 @@
 
 #### Chore
 
-* update helm general non-major helm releases ([#2524](https://github.com/truecharts/apps/issues/2524))
-
-
-
-<a name="readarr-10.0.14"></a>
-### [readarr-10.0.14](https://github.com/truecharts/apps/compare/readarr-10.0.13...readarr-10.0.14) (2022-04-20)
-
-#### Chore
-
-* add missing quote on description ([#2515](https://github.com/truecharts/apps/issues/2515))

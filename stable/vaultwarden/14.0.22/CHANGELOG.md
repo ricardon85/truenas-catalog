@@ -6,6 +6,16 @@
 
 #### Chore
 
+* Auto-update chart README [skip ci]
+* update helm general non-major helm releases
+
+
+
+<a name="vaultwarden-14.0.22"></a>
+### [vaultwarden-14.0.22](https://github.com/truecharts/apps/compare/vaultwarden-14.0.21...vaultwarden-14.0.22) (2022-05-17)
+
+#### Chore
+
 * update helm general non-major helm releases
 
 
@@ -87,13 +97,3 @@
 ### [vaultwarden-14.0.13](https://github.com/truecharts/apps/compare/vaultwarden-14.0.12...vaultwarden-14.0.13) (2022-04-12)
 
 #### Chore
-
-* update helm general non-major helm releases ([#2480](https://github.com/truecharts/apps/issues/2480))
-
-
-
-<a name="vaultwarden-14.0.12"></a>
-### [vaultwarden-14.0.12](https://github.com/truecharts/apps/compare/vaultwarden-14.0.11...vaultwarden-14.0.12) (2022-04-03)
-
-#### Chore
-

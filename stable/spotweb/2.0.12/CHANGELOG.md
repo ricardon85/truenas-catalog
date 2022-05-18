@@ -6,6 +6,16 @@
 
 #### Chore
 
+* Auto-update chart README [skip ci]
+* update helm general non-major helm releases
+
+
+
+<a name="spotweb-2.0.12"></a>
+### [spotweb-2.0.12](https://github.com/truecharts/apps/compare/spotweb-2.0.11...spotweb-2.0.12) (2022-05-17)
+
+#### Chore
+
 * update helm general non-major helm releases
 
 
@@ -87,13 +97,3 @@
 ### [spotweb-2.0.3](https://github.com/truecharts/apps/compare/spotweb-2.0.2...spotweb-2.0.3) (2022-03-31)
 
 #### Chore
-
-* update helm general non-major helm releases ([#2362](https://github.com/truecharts/apps/issues/2362))
-
-
-
-<a name="spotweb-2.0.2"></a>
-### [spotweb-2.0.2](https://github.com/truecharts/apps/compare/spotweb-2.0.1...spotweb-2.0.2) (2022-03-31)
-
-#### Chore
-

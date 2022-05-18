@@ -6,6 +6,16 @@
 
 #### Chore
 
+* Auto-update chart README [skip ci]
+* update helm general non-major helm releases
+
+
+
+<a name="focalboard-6.0.22"></a>
+### [focalboard-6.0.22](https://github.com/truecharts/apps/compare/focalboard-6.0.21...focalboard-6.0.22) (2022-05-17)
+
+#### Chore
+
 * update helm general non-major helm releases
 
 
@@ -87,13 +97,3 @@
 ### [focalboard-6.0.13](https://github.com/truecharts/apps/compare/focalboard-6.0.12...focalboard-6.0.13) (2022-04-03)
 
 #### Chore
-
-* update helm general non-major helm releases ([#2410](https://github.com/truecharts/apps/issues/2410))
-
-
-
-<a name="focalboard-6.0.12"></a>
-### [focalboard-6.0.12](https://github.com/truecharts/apps/compare/focalboard-6.0.11...focalboard-6.0.12) (2022-03-31)
-
-#### Chore
-

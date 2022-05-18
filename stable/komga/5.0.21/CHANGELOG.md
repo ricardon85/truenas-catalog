@@ -6,6 +6,16 @@
 
 #### Chore
 
+* Auto-update chart README [skip ci]
+* update helm general non-major helm releases
+
+
+
+<a name="komga-5.0.21"></a>
+### [komga-5.0.21](https://github.com/truecharts/apps/compare/komga-5.0.20...komga-5.0.21) (2022-05-17)
+
+#### Chore
+
 * update helm general non-major helm releases
 
 
@@ -85,15 +95,5 @@
 
 <a name="komga-5.0.12"></a>
 ### [komga-5.0.12](https://github.com/truecharts/apps/compare/komga-5.0.11...komga-5.0.12) (2022-04-03)
-
-#### Chore
-
-* Auto-update chart README [skip ci]
-* update helm general non-major helm releases ([#2410](https://github.com/truecharts/apps/issues/2410))
-
-
-
-<a name="komga-5.0.10"></a>
-### [komga-5.0.10](https://github.com/truecharts/apps/compare/komga-5.0.9...komga-5.0.10) (2022-03-31)
 
 #### Chore

@@ -6,6 +6,16 @@
 
 #### Chore
 
+* Auto-update chart README [skip ci]
+* update helm general non-major helm releases
+
+
+
+<a name="mysql-workbench-1.0.19"></a>
+### [mysql-workbench-1.0.19](https://github.com/truecharts/apps/compare/mysql-workbench-1.0.18...mysql-workbench-1.0.19) (2022-05-17)
+
+#### Chore
+
 * update helm general non-major helm releases
 
 
@@ -87,13 +97,3 @@
 ### [mysql-workbench-1.0.10](https://github.com/truecharts/apps/compare/mysql-workbench-1.0.9...mysql-workbench-1.0.10) (2022-04-03)
 
 #### Chore
-
-* update helm general non-major helm releases ([#2410](https://github.com/truecharts/apps/issues/2410))
-
-
-
-<a name="mysql-workbench-1.0.9"></a>
-### [mysql-workbench-1.0.9](https://github.com/truecharts/apps/compare/mysql-workbench-1.0.8...mysql-workbench-1.0.9) (2022-03-31)
-
-#### Chore
-

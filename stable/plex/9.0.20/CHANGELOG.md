@@ -6,6 +6,16 @@
 
 #### Chore
 
+* Auto-update chart README [skip ci]
+* update helm general non-major helm releases
+
+
+
+<a name="plex-9.0.20"></a>
+### [plex-9.0.20](https://github.com/truecharts/apps/compare/plex-9.0.19...plex-9.0.20) (2022-05-17)
+
+#### Chore
+
 * update helm general non-major helm releases
 
 
@@ -87,13 +97,3 @@
 <a name="plex-9.0.11"></a>
 ### [plex-9.0.11](https://github.com/truecharts/apps/compare/plex-9.0.10...plex-9.0.11) (2022-04-09)
 
-#### Chore
-
-* update docker general non-major ([#2460](https://github.com/truecharts/apps/issues/2460))
-
-
-
-<a name="plex-9.0.10"></a>
-### [plex-9.0.10](https://github.com/truecharts/apps/compare/plex-9.0.9...plex-9.0.10) (2022-04-03)
-
-#### Chore

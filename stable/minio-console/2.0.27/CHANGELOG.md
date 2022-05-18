@@ -6,6 +6,16 @@
 
 #### Chore
 
+* Auto-update chart README [skip ci]
+* update helm general non-major helm releases
+
+
+
+<a name="minio-console-2.0.27"></a>
+### [minio-console-2.0.27](https://github.com/truecharts/apps/compare/minio-console-2.0.26...minio-console-2.0.27) (2022-05-17)
+
+#### Chore
+
 * update helm general non-major helm releases
 
 
@@ -84,16 +94,6 @@
 
 <a name="minio-console-2.0.18"></a>
 ### [minio-console-2.0.18](https://github.com/truecharts/apps/compare/minio-console-2.0.17...minio-console-2.0.18) (2022-04-20)
-
-#### Chore
-
-* add missing quote on description ([#2515](https://github.com/truecharts/apps/issues/2515))
-* update docker general non-major ([#2522](https://github.com/truecharts/apps/issues/2522))
-
-
-
-<a name="minio-console-2.0.17"></a>
-### [minio-console-2.0.17](https://github.com/truecharts/apps/compare/minio-console-2.0.16...minio-console-2.0.17) (2022-04-16)
 
 #### Chore
 

@@ -6,6 +6,16 @@
 
 #### Chore
 
+* Auto-update chart README [skip ci]
+* update helm general non-major helm releases
+
+
+
+<a name="sickchill-2.0.23"></a>
+### [sickchill-2.0.23](https://github.com/truecharts/apps/compare/sickchill-2.0.22...sickchill-2.0.23) (2022-05-17)
+
+#### Chore
+
 * update helm general non-major helm releases
 
 
@@ -87,13 +97,3 @@
 ### [sickchill-2.0.14](https://github.com/truecharts/apps/compare/sickchill-2.0.13...sickchill-2.0.14) (2022-04-16)
 
 #### Chore
-
-* update docker general non-major ([#2494](https://github.com/truecharts/apps/issues/2494))
-
-
-
-<a name="sickchill-2.0.13"></a>
-### [sickchill-2.0.13](https://github.com/truecharts/apps/compare/sickchill-2.0.12...sickchill-2.0.13) (2022-04-12)
-
-#### Chore
-

@@ -6,6 +6,16 @@
 
 #### Chore
 
+* Auto-update chart README [skip ci]
+* update helm general non-major helm releases
+
+
+
+<a name="doplarr-1.0.14"></a>
+### [doplarr-1.0.14](https://github.com/truecharts/apps/compare/doplarr-1.0.13...doplarr-1.0.14) (2022-05-17)
+
+#### Chore
+
 * update helm general non-major helm releases
 
 
@@ -87,13 +97,3 @@
 ### [doplarr-1.0.5](https://github.com/truecharts/apps/compare/doplarr-1.0.4...doplarr-1.0.5) (2022-04-03)
 
 #### Chore
-
-* update helm general non-major helm releases ([#2410](https://github.com/truecharts/apps/issues/2410))
-
-
-
-<a name="doplarr-1.0.4"></a>
-### [doplarr-1.0.4](https://github.com/truecharts/apps/compare/doplarr-1.0.3...doplarr-1.0.4) (2022-03-31)
-
-#### Chore
-

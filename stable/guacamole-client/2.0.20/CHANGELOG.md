@@ -6,6 +6,16 @@
 
 #### Chore
 
+* Auto-update chart README [skip ci]
+* update helm general non-major helm releases
+
+
+
+<a name="guacamole-client-2.0.20"></a>
+### [guacamole-client-2.0.20](https://github.com/truecharts/apps/compare/guacamole-client-2.0.19...guacamole-client-2.0.20) (2022-05-17)
+
+#### Chore
+
 * update helm general non-major helm releases
 
 
@@ -87,13 +97,3 @@
 ### [guacamole-client-2.0.11](https://github.com/truecharts/apps/compare/guacamole-client-2.0.10...guacamole-client-2.0.11) (2022-03-31)
 
 #### Chore
-
-* update helm general non-major helm releases ([#2362](https://github.com/truecharts/apps/issues/2362))
-
-
-
-<a name="guacamole-client-2.0.10"></a>
-### [guacamole-client-2.0.10](https://github.com/truecharts/apps/compare/guacamole-client-2.0.9...guacamole-client-2.0.10) (2022-03-31)
-
-#### Chore
-

@@ -6,6 +6,16 @@
 
 #### Chore
 
+* Auto-update chart README [skip ci]
+* update helm general non-major helm releases
+
+
+
+<a name="lazylibrarian-10.0.26"></a>
+### [lazylibrarian-10.0.26](https://github.com/truecharts/apps/compare/lazylibrarian-10.0.25...lazylibrarian-10.0.26) (2022-05-17)
+
+#### Chore
+
 * update helm general non-major helm releases
 
 
@@ -87,13 +97,3 @@
 ### [lazylibrarian-10.0.17](https://github.com/truecharts/apps/compare/lazylibrarian-10.0.16...lazylibrarian-10.0.17) (2022-04-18)
 
 #### Chore
-
-* update docker general non-major ([#2502](https://github.com/truecharts/apps/issues/2502))
-
-
-
-<a name="lazylibrarian-10.0.16"></a>
-### [lazylibrarian-10.0.16](https://github.com/truecharts/apps/compare/lazylibrarian-10.0.15...lazylibrarian-10.0.16) (2022-04-12)
-
-#### Chore
-

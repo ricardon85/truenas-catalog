@@ -6,6 +6,16 @@
 
 #### Chore
 
+* Auto-update chart README [skip ci]
+* update helm general non-major helm releases
+
+
+
+<a name="ntfy-1.0.8"></a>
+### [ntfy-1.0.8](https://github.com/truecharts/apps/compare/ntfy-1.0.7...ntfy-1.0.8) (2022-05-17)
+
+#### Chore
+
 * update helm general non-major helm releases
 
 
@@ -87,13 +97,3 @@
 ### [ntfy-0.0.2](https://github.com/truecharts/apps/compare/ntfy-0.0.1...ntfy-0.0.2) (2022-04-18)
 
 #### Chore
-
-* Auto-update chart README [skip ci]
-* update docker general non-major ([#2502](https://github.com/truecharts/apps/issues/2502))
-
-
-
-<a name="ntfy-0.0.1"></a>
-### ntfy-0.0.1 (2022-04-17)
-
-#### Feat

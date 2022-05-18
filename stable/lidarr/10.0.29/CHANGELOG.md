@@ -6,6 +6,16 @@
 
 #### Chore
 
+* Auto-update chart README [skip ci]
+* update helm general non-major helm releases
+
+
+
+<a name="lidarr-10.0.29"></a>
+### [lidarr-10.0.29](https://github.com/truecharts/apps/compare/lidarr-10.0.28...lidarr-10.0.29) (2022-05-17)
+
+#### Chore
+
 * update helm general non-major helm releases
 
 
@@ -87,13 +97,3 @@
 
 #### Chore
 
-* update docker general non-major ([#2606](https://github.com/truecharts/apps/issues/2606))
-
-
-
-<a name="lidarr-10.0.19"></a>
-### [lidarr-10.0.19](https://github.com/truecharts/apps/compare/lidarr-10.0.18...lidarr-10.0.19) (2022-04-28)
-
-#### Chore
-
-* update docker general non-major ([#2577](https://github.com/truecharts/apps/issues/2577))

@@ -6,6 +6,16 @@
 
 #### Chore
 
+* Auto-update chart README [skip ci]
+* update helm chart common to v9.3.15
+
+
+
+<a name="mongodb-0.1.30"></a>
+### [mongodb-0.1.30](https://github.com/truecharts/apps/compare/mongodb-0.1.29...mongodb-0.1.30) (2022-05-17)
+
+#### Chore
+
 * update helm chart common to v9.3.15
 
 
@@ -87,13 +97,3 @@
 
 <a name="mongodb-0.1.19"></a>
 ### [mongodb-0.1.19](https://github.com/truecharts/apps/compare/mongodb-0.1.18...mongodb-0.1.19) (2022-05-11)
-
-#### Chore
-
-* update helm chart common to v9.3.7 ([#2656](https://github.com/truecharts/apps/issues/2656))
-
-
-
-<a name="mongodb-0.1.18"></a>
-### [mongodb-0.1.18](https://github.com/truecharts/apps/compare/mongodb-0.1.17...mongodb-0.1.18) (2022-05-10)
-

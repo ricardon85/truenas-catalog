@@ -6,6 +6,16 @@
 
 #### Chore
 
+* Auto-update chart README [skip ci]
+* update helm general non-major helm releases
+
+
+
+<a name="fluidd-1.0.8"></a>
+### [fluidd-1.0.8](https://github.com/truecharts/apps/compare/fluidd-1.0.7...fluidd-1.0.8) (2022-05-17)
+
+#### Chore
+
 * update helm general non-major helm releases
 
 
@@ -87,13 +97,3 @@
 ### [fluidd-0.0.2](https://github.com/truecharts/apps/compare/fluidd-0.0.1...fluidd-0.0.2) (2022-04-18)
 
 #### Chore
-
-* update docker general non-major ([#2502](https://github.com/truecharts/apps/issues/2502))
-
-
-
-<a name="fluidd-0.0.1"></a>
-### fluidd-0.0.1 (2022-04-18)
-
-#### Feat
-

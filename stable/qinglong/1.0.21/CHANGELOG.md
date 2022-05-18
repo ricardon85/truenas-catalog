@@ -6,6 +6,16 @@
 
 #### Chore
 
+* Auto-update chart README [skip ci]
+* update helm general non-major helm releases
+
+
+
+<a name="qinglong-1.0.21"></a>
+### [qinglong-1.0.21](https://github.com/truecharts/apps/compare/qinglong-1.0.20...qinglong-1.0.21) (2022-05-17)
+
+#### Chore
+
 * update helm general non-major helm releases
 
 
@@ -87,13 +97,3 @@
 ### [qinglong-1.0.12](https://github.com/truecharts/apps/compare/qinglong-1.0.11...qinglong-1.0.12) (2022-04-09)
 
 #### Chore
-
-* update docker general non-major ([#2460](https://github.com/truecharts/apps/issues/2460))
-
-
-
-<a name="qinglong-1.0.11"></a>
-### [qinglong-1.0.11](https://github.com/truecharts/apps/compare/qinglong-1.0.10...qinglong-1.0.11) (2022-04-03)
-
-#### Chore
-

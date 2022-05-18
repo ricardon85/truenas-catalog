@@ -6,6 +6,16 @@
 
 #### Chore
 
+* Auto-update chart README [skip ci]
+* update helm general non-major helm releases
+
+
+
+<a name="double-take-1.0.12"></a>
+### [double-take-1.0.12](https://github.com/truecharts/apps/compare/double-take-1.0.11...double-take-1.0.12) (2022-05-17)
+
+#### Chore
+
 * update helm general non-major helm releases
 
 
@@ -87,13 +97,3 @@
 ### [double-take-1.0.3](https://github.com/truecharts/apps/compare/double-take-1.0.2...double-take-1.0.3) (2022-03-30)
 
 #### Chore
-
-* update helm general non-major helm releases ([#2354](https://github.com/truecharts/apps/issues/2354))
-
-
-
-<a name="double-take-1.0.2"></a>
-### [double-take-1.0.2](https://github.com/truecharts/apps/compare/double-take-1.0.1...double-take-1.0.2) (2022-03-26)
-
-#### Chore
-

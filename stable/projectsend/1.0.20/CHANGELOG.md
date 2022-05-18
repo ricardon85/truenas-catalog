@@ -6,6 +6,16 @@
 
 #### Chore
 
+* Auto-update chart README [skip ci]
+* update helm general non-major helm releases
+
+
+
+<a name="projectsend-1.0.20"></a>
+### [projectsend-1.0.20](https://github.com/truecharts/apps/compare/projectsend-1.0.19...projectsend-1.0.20) (2022-05-17)
+
+#### Chore
+
 * update helm general non-major helm releases
 
 
@@ -87,13 +97,3 @@
 ### [projectsend-1.0.11](https://github.com/truecharts/apps/compare/projectsend-1.0.10...projectsend-1.0.11) (2022-03-31)
 
 #### Chore
-
-* update helm general non-major helm releases ([#2362](https://github.com/truecharts/apps/issues/2362))
-
-
-
-<a name="projectsend-1.0.10"></a>
-### [projectsend-1.0.10](https://github.com/truecharts/apps/compare/projectsend-1.0.9...projectsend-1.0.10) (2022-03-31)
-
-#### Chore
-

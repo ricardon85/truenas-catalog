@@ -6,6 +6,16 @@
 
 #### Chore
 
+* Auto-update chart README [skip ci]
+* update helm general non-major helm releases
+
+
+
+<a name="nzbhydra-10.0.21"></a>
+### [nzbhydra-10.0.21](https://github.com/truecharts/apps/compare/nzbhydra-10.0.20...nzbhydra-10.0.21) (2022-05-17)
+
+#### Chore
+
 * update helm general non-major helm releases
 
 
@@ -87,13 +97,3 @@
 ### [nzbhydra-10.0.12](https://github.com/truecharts/apps/compare/nzbhydra-10.0.11...nzbhydra-10.0.12) (2022-04-03)
 
 #### Chore
-
-* update helm general non-major helm releases ([#2410](https://github.com/truecharts/apps/issues/2410))
-
-
-
-<a name="nzbhydra-10.0.11"></a>
-### [nzbhydra-10.0.11](https://github.com/truecharts/apps/compare/nzbhydra-10.0.10...nzbhydra-10.0.11) (2022-03-31)
-
-#### Chore
-

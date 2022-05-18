@@ -6,6 +6,16 @@
 
 #### Chore
 
+* Auto-update chart README [skip ci]
+* update helm general non-major helm releases
+
+
+
+<a name="kimai-1.0.12"></a>
+### [kimai-1.0.12](https://github.com/truecharts/apps/compare/kimai-1.0.11...kimai-1.0.12) (2022-05-17)
+
+#### Chore
+
 * update helm general non-major helm releases
 
 
@@ -87,13 +97,3 @@
 ### [kimai-1.0.3](https://github.com/truecharts/apps/compare/kimai-1.0.2...kimai-1.0.3) (2022-03-31)
 
 #### Chore
-
-* update helm general non-major helm releases ([#2362](https://github.com/truecharts/apps/issues/2362))
-
-
-
-<a name="kimai-1.0.2"></a>
-### [kimai-1.0.2](https://github.com/truecharts/apps/compare/kimai-1.0.1...kimai-1.0.2) (2022-03-31)
-
-#### Chore
-

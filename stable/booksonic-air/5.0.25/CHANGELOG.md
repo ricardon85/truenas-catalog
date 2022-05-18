@@ -6,6 +6,16 @@
 
 #### Chore
 
+* Auto-update chart README [skip ci]
+* update helm general non-major helm releases
+
+
+
+<a name="booksonic-air-5.0.25"></a>
+### [booksonic-air-5.0.25](https://github.com/truecharts/apps/compare/booksonic-air-5.0.24...booksonic-air-5.0.25) (2022-05-17)
+
+#### Chore
+
 * update helm general non-major helm releases
 
 
@@ -87,13 +97,3 @@
 ### [booksonic-air-5.0.16](https://github.com/truecharts/apps/compare/booksonic-air-5.0.15...booksonic-air-5.0.16) (2022-04-18)
 
 #### Chore
-
-* update docker general non-major ([#2502](https://github.com/truecharts/apps/issues/2502))
-
-
-
-<a name="booksonic-air-5.0.15"></a>
-### [booksonic-air-5.0.15](https://github.com/truecharts/apps/compare/booksonic-air-5.0.14...booksonic-air-5.0.15) (2022-04-12)
-
-#### Chore
-
