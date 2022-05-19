@@ -168,6 +168,20 @@ questions:
                             label: "Value"
                             schema:
                               type: string
+  - variable: env
+    group: "Container Configuration"
+    label: "Image Environment"
+    schema:
+      additional_attrs: true
+      type: dict
+      attrs:
+        - variable: MM_SERVICESETTINGS_SITEURL
+          label: "MM_SERVICESETTINGS_SITEURL"
+          description: "HTTPS URL on which you will reach this instance, eg. https://matter.example.com/"
+          schema:
+            type: string
+            required: false
+            default: ""
 
   - variable: TZ
     label: "Timezone"
