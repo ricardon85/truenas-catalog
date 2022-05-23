@@ -1,6 +1,15 @@
 # Changelog<br>
 
 
+<a name="ipfs-2.0.11"></a>
+### [ipfs-2.0.11](https://github.com/truecharts/apps/compare/ipfs-2.0.10...ipfs-2.0.11) (2022-05-23)
+
+#### Fix
+
+* missing sections of UI ([#2738](https://github.com/truecharts/apps/issues/2738))
+
+
+
 <a name="ipfs-2.0.10"></a>
 ### [ipfs-2.0.10](https://github.com/truecharts/apps/compare/ipfs-2.0.9...ipfs-2.0.10) (2022-05-17)
 
@@ -86,14 +95,5 @@
 
 <a name="ipfs-2.0.2"></a>
 ### [ipfs-2.0.2](https://github.com/truecharts/apps/compare/ipfs-2.0.1...ipfs-2.0.2) (2022-04-09)
-
-#### Chore
-
-* update docker general non-major ([#2460](https://github.com/truecharts/apps/issues/2460))
-
-
-
-<a name="ipfs-2.0.1"></a>
-### [ipfs-2.0.1](https://github.com/truecharts/apps/compare/ipfs-2.0.0...ipfs-2.0.1) (2022-04-03)
 
 #### Chore
