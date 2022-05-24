@@ -1,0 +1,39 @@
+image:
+  repository: tccr.io/truecharts/esphome
+  pullPolicy: IfNotPresent
+  tag: v2022.5.0@sha256:df7e36ed31d40dc5b5a3ab8c991144918cc9a30ef778368a05be792855b2fed8
+
+# App needs to run as root because of this: https://github.com/esphome/issues/issues/2752
+securityContext:
+  runAsNonRoot: false
+  readOnlyRootFilesystem: false
+  privileged: true
+  allowPrivilegeEscalation: true
+
+podSecurityContext:
+  runAsUser: 0
+  runAsGroup: 0
+
+service:
+  main:
+    ports:
+      main:
+        port: 6052
+        targetPort: 6052
+
+env: {}
+  # ESPHOME_DASHBOARD_USE_PING: true
+  # ESPHOME_DASHBOARD_RELATIVE_URL: "/"
+  # ESPHOME_QUICKWIZARD:
+  # ESPHOME_IS_HASSIO:
+  # DISABLE_HA_AUTHENTICATION:
+  # USERNAME:
+  # PASSWORD:
+
+persistence:
+  config:
+    enabled: true
+    mountPath: "/config"
+  platformio:
+    enabled: true
+    mountPath: "/.platformio"
