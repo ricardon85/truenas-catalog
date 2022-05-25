@@ -1,6 +1,15 @@
 # Changelog<br>
 
 
+<a name="traccar-5.0.22"></a>
+### [traccar-5.0.22](https://github.com/truecharts/apps/compare/traccar-5.0.21...traccar-5.0.22) (2022-05-25)
+
+#### Chore
+
+* update container image tccr.io/truecharts/traccar to v5.0 ([#2749](https://github.com/truecharts/apps/issues/2749))
+
+
+
 <a name="traccar-5.0.21"></a>
 ### [traccar-5.0.21](https://github.com/truecharts/apps/compare/traccar-5.0.20...traccar-5.0.21) (2022-05-24)
 
@@ -86,14 +95,5 @@
 
 <a name="traccar-5.0.13"></a>
 ### [traccar-5.0.13](https://github.com/truecharts/apps/compare/traccar-5.0.12...traccar-5.0.13) (2022-04-12)
-
-#### Chore
-
-* update helm general non-major helm releases ([#2480](https://github.com/truecharts/apps/issues/2480))
-
-
-
-<a name="traccar-5.0.12"></a>
-### [traccar-5.0.12](https://github.com/truecharts/apps/compare/traccar-5.0.11...traccar-5.0.12) (2022-04-03)
 
 #### Chore
