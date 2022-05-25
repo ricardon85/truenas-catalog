@@ -1,6 +1,15 @@
 # Changelog<br>
 
 
+<a name="outline-1.0.28"></a>
+### [outline-1.0.28](https://github.com/truecharts/apps/compare/outline-1.0.27...outline-1.0.28) (2022-05-25)
+
+#### Feat
+
+* Add smtp Options ([#2754](https://github.com/truecharts/apps/issues/2754))
+
+
+
 <a name="outline-1.0.27"></a>
 ### [outline-1.0.27](https://github.com/truecharts/apps/compare/outline-1.0.26...outline-1.0.27) (2022-05-25)
 
@@ -85,15 +94,6 @@
 
 <a name="outline-1.0.19"></a>
 ### [outline-1.0.19](https://github.com/truecharts/apps/compare/outline-1.0.18...outline-1.0.19) (2022-05-04)
-
-#### Chore
-
-* update helm general non-major helm releases ([#2605](https://github.com/truecharts/apps/issues/2605))
-
-
-
-<a name="outline-1.0.18"></a>
-### [outline-1.0.18](https://github.com/truecharts/apps/compare/outline-1.0.17...outline-1.0.18) (2022-04-26)
 
 #### Chore
 
