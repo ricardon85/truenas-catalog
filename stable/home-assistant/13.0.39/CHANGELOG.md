@@ -6,6 +6,16 @@
 
 #### Chore
 
+* Auto-update chart README [skip ci]
+* update helm general non-major helm releases ([#2759](https://github.com/truecharts/apps/issues/2759))
+
+
+
+<a name="home-assistant-13.0.39"></a>
+### [home-assistant-13.0.39](https://github.com/truecharts/apps/compare/home-assistant-13.0.38...home-assistant-13.0.39) (2022-05-26)
+
+#### Chore
+
 * update helm general non-major helm releases ([#2759](https://github.com/truecharts/apps/issues/2759))
 
 
@@ -87,13 +97,3 @@
 ### [home-assistant-13.0.31](https://github.com/truecharts/apps/compare/home-assistant-13.0.30...home-assistant-13.0.31) (2022-05-08)
 
 #### Chore
-
-* update docker general non-major ([#2639](https://github.com/truecharts/apps/issues/2639))
-
-
-
-<a name="home-assistant-13.0.30"></a>
-### [home-assistant-13.0.30](https://github.com/truecharts/apps/compare/home-assistant-13.0.29...home-assistant-13.0.30) (2022-05-06)
-
-#### Chore
-

@@ -6,6 +6,16 @@
 
 #### Chore
 
+* Auto-update chart README [skip ci]
+* update helm general non-major helm releases ([#2759](https://github.com/truecharts/apps/issues/2759))
+
+
+
+<a name="budge-1.0.31"></a>
+### [budge-1.0.31](https://github.com/truecharts/apps/compare/budge-1.0.30...budge-1.0.31) (2022-05-26)
+
+#### Chore
+
 * update helm general non-major helm releases ([#2759](https://github.com/truecharts/apps/issues/2759))
 
 
@@ -87,13 +97,3 @@
 <a name="budge-1.0.22"></a>
 ### [budge-1.0.22](https://github.com/truecharts/apps/compare/budge-1.0.21...budge-1.0.22) (2022-05-04)
 
-#### Chore
-
-* update docker general non-major ([#2606](https://github.com/truecharts/apps/issues/2606))
-
-
-
-<a name="budge-1.0.21"></a>
-### [budge-1.0.21](https://github.com/truecharts/apps/compare/budge-1.0.20...budge-1.0.21) (2022-04-29)
-
-#### Chore

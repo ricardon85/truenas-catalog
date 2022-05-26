@@ -6,6 +6,16 @@
 
 #### Chore
 
+* Auto-update chart README [skip ci]
+* update helm general non-major helm releases ([#2759](https://github.com/truecharts/apps/issues/2759))
+
+
+
+<a name="gitea-6.0.28"></a>
+### [gitea-6.0.28](https://github.com/truecharts/apps/compare/gitea-6.0.27...gitea-6.0.28) (2022-05-26)
+
+#### Chore
+
 * update helm general non-major helm releases ([#2759](https://github.com/truecharts/apps/issues/2759))
 
 
@@ -87,13 +97,3 @@
 <a name="gitea-6.0.20"></a>
 ### [gitea-6.0.20](https://github.com/truecharts/apps/compare/gitea-6.0.19...gitea-6.0.20) (2022-04-26)
 
-#### Chore
-
-* update helm general non-major helm releases ([#2573](https://github.com/truecharts/apps/issues/2573))
-
-
-
-<a name="gitea-6.0.19"></a>
-### [gitea-6.0.19](https://github.com/truecharts/apps/compare/gitea-6.0.18...gitea-6.0.19) (2022-04-26)
-
-#### Chore

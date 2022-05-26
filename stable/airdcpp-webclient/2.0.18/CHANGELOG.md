@@ -6,6 +6,16 @@
 
 #### Chore
 
+* Auto-update chart README [skip ci]
+* update helm general non-major helm releases ([#2759](https://github.com/truecharts/apps/issues/2759))
+
+
+
+<a name="airdcpp-webclient-2.0.18"></a>
+### [airdcpp-webclient-2.0.18](https://github.com/truecharts/apps/compare/airdcpp-webclient-2.0.17...airdcpp-webclient-2.0.18) (2022-05-26)
+
+#### Chore
+
 * update helm general non-major helm releases ([#2759](https://github.com/truecharts/apps/issues/2759))
 
 
@@ -87,13 +97,3 @@
 <a name="airdcpp-webclient-2.0.10"></a>
 ### [airdcpp-webclient-2.0.10](https://github.com/truecharts/apps/compare/airdcpp-webclient-2.0.9...airdcpp-webclient-2.0.10) (2022-04-12)
 
-#### Chore
-
-* update helm general non-major helm releases ([#2480](https://github.com/truecharts/apps/issues/2480))
-
-
-
-<a name="airdcpp-webclient-2.0.9"></a>
-### [airdcpp-webclient-2.0.9](https://github.com/truecharts/apps/compare/airdcpp-webclient-2.0.8...airdcpp-webclient-2.0.9) (2022-04-03)
-
-#### Chore

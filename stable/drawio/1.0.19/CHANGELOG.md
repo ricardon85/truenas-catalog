@@ -6,6 +6,16 @@
 
 #### Chore
 
+* Auto-update chart README [skip ci]
+* update helm general non-major helm releases ([#2759](https://github.com/truecharts/apps/issues/2759))
+
+
+
+<a name="drawio-1.0.19"></a>
+### [drawio-1.0.19](https://github.com/truecharts/apps/compare/drawio-1.0.18...drawio-1.0.19) (2022-05-26)
+
+#### Chore
+
 * update helm general non-major helm releases ([#2759](https://github.com/truecharts/apps/issues/2759))
 
 
@@ -87,13 +97,3 @@
 
 <a name="drawio-1.0.10"></a>
 ### [drawio-1.0.10](https://github.com/truecharts/apps/compare/drawio-1.0.9...drawio-1.0.10) (2022-05-13)
-
-#### Chore
-
-* update docker general non-major ([#2658](https://github.com/truecharts/apps/issues/2658))
-
-
-
-<a name="drawio-1.0.9"></a>
-### [drawio-1.0.9](https://github.com/truecharts/apps/compare/drawio-1.0.8...drawio-1.0.9) (2022-05-11)
-

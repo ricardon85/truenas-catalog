@@ -6,6 +6,16 @@
 
 #### Chore
 
+* Auto-update chart README [skip ci]
+* update helm general non-major helm releases ([#2759](https://github.com/truecharts/apps/issues/2759))
+
+
+
+<a name="traefik-11.3.7"></a>
+### [traefik-11.3.7](https://github.com/truecharts/apps/compare/traefik-11.3.6...traefik-11.3.7) (2022-05-26)
+
+#### Chore
+
 * update helm general non-major helm releases ([#2759](https://github.com/truecharts/apps/issues/2759))
 
 
@@ -85,15 +95,5 @@
 #### Chore
 
 * update helm general non-major helm releases ([#2612](https://github.com/truecharts/apps/issues/2612))
-
-
-
-<a name="traefik-11.2.1"></a>
-### [traefik-11.2.1](https://github.com/truecharts/apps/compare/traefik-11.2.0...traefik-11.2.1) (2022-05-04)
-
-#### Chore
-
-* update docker general non-major ([#2606](https://github.com/truecharts/apps/issues/2606))
-
 
 

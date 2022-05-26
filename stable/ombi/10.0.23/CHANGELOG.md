@@ -6,6 +6,16 @@
 
 #### Chore
 
+* Auto-update chart README [skip ci]
+* update helm general non-major helm releases ([#2759](https://github.com/truecharts/apps/issues/2759))
+
+
+
+<a name="ombi-10.0.23"></a>
+### [ombi-10.0.23](https://github.com/truecharts/apps/compare/ombi-10.0.22...ombi-10.0.23) (2022-05-26)
+
+#### Chore
+
 * update helm general non-major helm releases ([#2759](https://github.com/truecharts/apps/issues/2759))
 
 
@@ -87,13 +97,3 @@
 <a name="ombi-10.0.15"></a>
 ### [ombi-10.0.15](https://github.com/truecharts/apps/compare/ombi-10.0.14...ombi-10.0.15) (2022-04-12)
 
-#### Chore
-
-* update helm general non-major helm releases ([#2480](https://github.com/truecharts/apps/issues/2480))
-
-
-
-<a name="ombi-10.0.14"></a>
-### [ombi-10.0.14](https://github.com/truecharts/apps/compare/ombi-10.0.13...ombi-10.0.14) (2022-04-09)
-
-#### Chore

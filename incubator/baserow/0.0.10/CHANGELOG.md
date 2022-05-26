@@ -6,6 +6,16 @@
 
 #### Chore
 
+* Auto-update chart README [skip ci]
+* update helm general non-major helm releases ([#2759](https://github.com/truecharts/apps/issues/2759))
+
+
+
+<a name="baserow-0.0.10"></a>
+### [baserow-0.0.10](https://github.com/truecharts/apps/compare/baserow-0.0.9...baserow-0.0.10) (2022-05-26)
+
+#### Chore
+
 * update helm general non-major helm releases ([#2759](https://github.com/truecharts/apps/issues/2759))
 
 
@@ -84,16 +94,6 @@
 #### Chore
 
 * update helm general non-major helm releases ([#2605](https://github.com/truecharts/apps/issues/2605))
-
-
-
-<a name="baserow-0.0.2"></a>
-### [baserow-0.0.2](https://github.com/truecharts/apps/compare/baserow-0.0.1...baserow-0.0.2) (2022-04-26)
-
-#### Chore
-
-* Auto-update chart README [skip ci]
-* update helm general non-major helm releases ([#2573](https://github.com/truecharts/apps/issues/2573))
 
 
 

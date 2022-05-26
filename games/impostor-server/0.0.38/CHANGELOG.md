@@ -6,6 +6,16 @@
 
 #### Chore
 
+* Auto-update chart README [skip ci]
+* update helm general non-major helm releases ([#2759](https://github.com/truecharts/apps/issues/2759))
+
+
+
+<a name="impostor-server-0.0.38"></a>
+### [impostor-server-0.0.38](https://github.com/truecharts/apps/compare/impostor-server-0.0.37...impostor-server-0.0.38) (2022-05-26)
+
+#### Chore
+
 * update helm general non-major helm releases ([#2759](https://github.com/truecharts/apps/issues/2759))
 
 
@@ -87,13 +97,3 @@
 ### [impostor-server-0.0.30](https://github.com/truecharts/apps/compare/impostor-server-0.0.29...impostor-server-0.0.30) (2022-04-26)
 
 #### Chore
-
-* update docker general non-major ([#2571](https://github.com/truecharts/apps/issues/2571))
-
-
-
-<a name="impostor-server-0.0.29"></a>
-### [impostor-server-0.0.29](https://github.com/truecharts/apps/compare/impostor-server-0.0.28...impostor-server-0.0.29) (2022-04-20)
-
-#### Chore
-

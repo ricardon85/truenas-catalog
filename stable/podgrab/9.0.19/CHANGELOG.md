@@ -6,6 +6,16 @@
 
 #### Chore
 
+* Auto-update chart README [skip ci]
+* update helm general non-major helm releases ([#2759](https://github.com/truecharts/apps/issues/2759))
+
+
+
+<a name="podgrab-9.0.19"></a>
+### [podgrab-9.0.19](https://github.com/truecharts/apps/compare/podgrab-9.0.18...podgrab-9.0.19) (2022-05-26)
+
+#### Chore
+
 * update helm general non-major helm releases ([#2759](https://github.com/truecharts/apps/issues/2759))
 
 
@@ -85,15 +95,5 @@
 
 <a name="podgrab-9.0.11"></a>
 ### [podgrab-9.0.11](https://github.com/truecharts/apps/compare/podgrab-9.0.10...podgrab-9.0.11) (2022-04-20)
-
-#### Chore
-
-* add missing quote on description ([#2515](https://github.com/truecharts/apps/issues/2515))
-* update helm general non-major helm releases ([#2524](https://github.com/truecharts/apps/issues/2524))
-
-
-
-<a name="podgrab-9.0.10"></a>
-### [podgrab-9.0.10](https://github.com/truecharts/apps/compare/podgrab-9.0.9...podgrab-9.0.10) (2022-04-12)
 
 #### Chore

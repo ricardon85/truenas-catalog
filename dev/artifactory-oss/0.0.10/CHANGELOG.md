@@ -6,6 +6,16 @@
 
 #### Chore
 
+* Auto-update chart README [skip ci]
+* update helm general non-major helm releases ([#2759](https://github.com/truecharts/apps/issues/2759))
+
+
+
+<a name="artifactory-oss-0.0.10"></a>
+### [artifactory-oss-0.0.10](https://github.com/truecharts/apps/compare/artifactory-oss-0.0.9...artifactory-oss-0.0.10) (2022-05-26)
+
+#### Chore
+
 * update helm general non-major helm releases ([#2759](https://github.com/truecharts/apps/issues/2759))
 
 
@@ -87,13 +97,3 @@
 * add missing quote on description ([#2515](https://github.com/truecharts/apps/issues/2515))
 * update helm general non-major helm releases ([#2524](https://github.com/truecharts/apps/issues/2524))
 * update docker general non-major ([#2502](https://github.com/truecharts/apps/issues/2502))
-* update docker general non-major ([#2494](https://github.com/truecharts/apps/issues/2494))
-
-
-
-<a name="artifactory-oss-0.0.2"></a>
-### [artifactory-oss-0.0.2](https://github.com/truecharts/apps/compare/artifactory-oss-0.0.1...artifactory-oss-0.0.2) (2022-04-12)
-
-#### Chore
-
-* Auto-update chart README [skip ci]

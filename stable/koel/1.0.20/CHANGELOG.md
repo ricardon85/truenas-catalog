@@ -6,6 +6,16 @@
 
 #### Chore
 
+* Auto-update chart README [skip ci]
+* update helm general non-major helm releases ([#2759](https://github.com/truecharts/apps/issues/2759))
+
+
+
+<a name="koel-1.0.20"></a>
+### [koel-1.0.20](https://github.com/truecharts/apps/compare/koel-1.0.19...koel-1.0.20) (2022-05-26)
+
+#### Chore
+
 * update helm general non-major helm releases ([#2759](https://github.com/truecharts/apps/issues/2759))
 
 
@@ -87,13 +97,3 @@
 ### [koel-1.0.11](https://github.com/truecharts/apps/compare/koel-1.0.10...koel-1.0.11) (2022-04-26)
 
 #### Chore
-
-* update helm general non-major helm releases ([#2573](https://github.com/truecharts/apps/issues/2573))
-
-
-
-<a name="koel-1.0.10"></a>
-### [koel-1.0.10](https://github.com/truecharts/apps/compare/koel-1.0.9...koel-1.0.10) (2022-04-20)
-
-#### Chore
-

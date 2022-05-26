@@ -6,6 +6,16 @@
 
 #### Chore
 
+* Auto-update chart README [skip ci]
+* update helm general non-major helm releases ([#2759](https://github.com/truecharts/apps/issues/2759))
+
+
+
+<a name="pretend-youre-xyzzy-5.0.18"></a>
+### [pretend-youre-xyzzy-5.0.18](https://github.com/truecharts/apps/compare/pretend-youre-xyzzy-5.0.17...pretend-youre-xyzzy-5.0.18) (2022-05-26)
+
+#### Chore
+
 * update helm general non-major helm releases ([#2759](https://github.com/truecharts/apps/issues/2759))
 
 
@@ -87,13 +97,3 @@
 <a name="pretend-youre-xyzzy-5.0.10"></a>
 ### [pretend-youre-xyzzy-5.0.10](https://github.com/truecharts/apps/compare/pretend-youre-xyzzy-5.0.9...pretend-youre-xyzzy-5.0.10) (2022-04-12)
 
-#### Chore
-
-* update helm general non-major helm releases ([#2480](https://github.com/truecharts/apps/issues/2480))
-
-
-
-<a name="pretend-youre-xyzzy-5.0.9"></a>
-### [pretend-youre-xyzzy-5.0.9](https://github.com/truecharts/apps/compare/pretend-youre-xyzzy-5.0.8...pretend-youre-xyzzy-5.0.9) (2022-04-03)
-
-#### Chore

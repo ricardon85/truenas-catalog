@@ -6,6 +6,16 @@
 
 #### Chore
 
+* Auto-update chart README [skip ci]
+* update helm general non-major helm releases ([#2759](https://github.com/truecharts/apps/issues/2759))
+
+
+
+<a name="lanraragi-1.0.17"></a>
+### [lanraragi-1.0.17](https://github.com/truecharts/apps/compare/lanraragi-1.0.16...lanraragi-1.0.17) (2022-05-26)
+
+#### Chore
+
 * update helm general non-major helm releases ([#2759](https://github.com/truecharts/apps/issues/2759))
 
 
@@ -85,15 +95,5 @@
 
 <a name="lanraragi-1.0.9"></a>
 ### [lanraragi-1.0.9](https://github.com/truecharts/apps/compare/lanraragi-1.0.8...lanraragi-1.0.9) (2022-04-20)
-
-#### Chore
-
-* add missing quote on description ([#2515](https://github.com/truecharts/apps/issues/2515))
-* update helm general non-major helm releases ([#2524](https://github.com/truecharts/apps/issues/2524))
-
-
-
-<a name="lanraragi-1.0.8"></a>
-### [lanraragi-1.0.8](https://github.com/truecharts/apps/compare/lanraragi-1.0.7...lanraragi-1.0.8) (2022-04-12)
 
 #### Chore

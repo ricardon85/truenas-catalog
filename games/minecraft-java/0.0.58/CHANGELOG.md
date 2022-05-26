@@ -6,6 +6,16 @@
 
 #### Chore
 
+* Auto-update chart README [skip ci]
+* update helm general non-major helm releases ([#2759](https://github.com/truecharts/apps/issues/2759))
+
+
+
+<a name="minecraft-java-0.0.58"></a>
+### [minecraft-java-0.0.58](https://github.com/truecharts/apps/compare/minecraft-java-0.0.57...minecraft-java-0.0.58) (2022-05-26)
+
+#### Chore
+
 * update helm general non-major helm releases ([#2759](https://github.com/truecharts/apps/issues/2759))
 
 
@@ -87,13 +97,3 @@
 <a name="minecraft-java-0.0.49"></a>
 ### [minecraft-java-0.0.49](https://github.com/truecharts/apps/compare/minecraft-java-0.0.48...minecraft-java-0.0.49) (2022-05-14)
 
-#### Chore
-
-* update docker general non-major ([#2679](https://github.com/truecharts/apps/issues/2679))
-
-
-
-<a name="minecraft-java-0.0.48"></a>
-### [minecraft-java-0.0.48](https://github.com/truecharts/apps/compare/minecraft-java-0.0.47...minecraft-java-0.0.48) (2022-05-13)
-
-#### Chore

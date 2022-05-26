@@ -6,6 +6,16 @@
 
 #### Chore
 
+* Auto-update chart README [skip ci]
+* update helm general non-major helm releases ([#2759](https://github.com/truecharts/apps/issues/2759))
+
+
+
+<a name="bookstack-1.1.21"></a>
+### [bookstack-1.1.21](https://github.com/truecharts/apps/compare/bookstack-1.1.20...bookstack-1.1.21) (2022-05-26)
+
+#### Chore
+
 * update helm general non-major helm releases ([#2759](https://github.com/truecharts/apps/issues/2759))
 
 
@@ -87,13 +97,3 @@
 ### [bookstack-1.1.13](https://github.com/truecharts/apps/compare/bookstack-1.1.12...bookstack-1.1.13) (2022-04-26)
 
 #### Chore
-
-* update helm general non-major helm releases ([#2573](https://github.com/truecharts/apps/issues/2573))
-
-
-
-<a name="bookstack-1.1.12"></a>
-### [bookstack-1.1.12](https://github.com/truecharts/apps/compare/bookstack-1.1.11...bookstack-1.1.12) (2022-04-20)
-
-#### Chore
-

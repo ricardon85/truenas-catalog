@@ -6,6 +6,16 @@
 
 #### Chore
 
+* Auto-update chart README [skip ci]
+* update helm general non-major helm releases ([#2759](https://github.com/truecharts/apps/issues/2759))
+
+
+
+<a name="minecraft-bedrock-0.0.32"></a>
+### [minecraft-bedrock-0.0.32](https://github.com/truecharts/apps/compare/minecraft-bedrock-0.0.31...minecraft-bedrock-0.0.32) (2022-05-26)
+
+#### Chore
+
 * update helm general non-major helm releases ([#2759](https://github.com/truecharts/apps/issues/2759))
 
 
@@ -87,13 +97,3 @@
 <a name="minecraft-bedrock-0.0.24"></a>
 ### [minecraft-bedrock-0.0.24](https://github.com/truecharts/apps/compare/minecraft-bedrock-0.0.23...minecraft-bedrock-0.0.24) (2022-04-12)
 
-#### Chore
-
-* update helm general non-major helm releases ([#2480](https://github.com/truecharts/apps/issues/2480))
-
-
-
-<a name="minecraft-bedrock-0.0.23"></a>
-### [minecraft-bedrock-0.0.23](https://github.com/truecharts/apps/compare/minecraft-bedrock-0.0.22...minecraft-bedrock-0.0.23) (2022-04-03)
-
-#### Chore

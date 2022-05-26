@@ -6,6 +6,16 @@
 
 #### Chore
 
+* Auto-update chart README [skip ci]
+* update helm general non-major helm releases ([#2759](https://github.com/truecharts/apps/issues/2759))
+
+
+
+<a name="filerun-0.0.16"></a>
+### [filerun-0.0.16](https://github.com/truecharts/apps/compare/filerun-0.0.15...filerun-0.0.16) (2022-05-26)
+
+#### Chore
+
 * update helm general non-major helm releases ([#2759](https://github.com/truecharts/apps/issues/2759))
 
 
@@ -85,15 +95,5 @@
 
 <a name="filerun-0.0.8"></a>
 ### [filerun-0.0.8](https://github.com/truecharts/apps/compare/filerun-0.0.7...filerun-0.0.8) (2022-04-20)
-
-#### Chore
-
-* add missing quote on description ([#2515](https://github.com/truecharts/apps/issues/2515))
-* update helm general non-major helm releases ([#2524](https://github.com/truecharts/apps/issues/2524))
-
-
-
-<a name="filerun-0.0.7"></a>
-### [filerun-0.0.7](https://github.com/truecharts/apps/compare/filerun-0.0.6...filerun-0.0.7) (2022-04-12)
 
 #### Chore

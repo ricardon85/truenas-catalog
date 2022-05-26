@@ -6,6 +6,16 @@
 
 #### Chore
 
+* Auto-update chart README [skip ci]
+* update helm general non-major helm releases ([#2759](https://github.com/truecharts/apps/issues/2759))
+
+
+
+<a name="speedtest-exporter-2.0.23"></a>
+### [speedtest-exporter-2.0.23](https://github.com/truecharts/apps/compare/speedtest-exporter-2.0.22...speedtest-exporter-2.0.23) (2022-05-26)
+
+#### Chore
+
 * update helm general non-major helm releases ([#2759](https://github.com/truecharts/apps/issues/2759))
 
 
@@ -87,13 +97,3 @@
 <a name="speedtest-exporter-2.0.15"></a>
 ### [speedtest-exporter-2.0.15](https://github.com/truecharts/apps/compare/speedtest-exporter-2.0.14...speedtest-exporter-2.0.15) (2022-04-13)
 
-#### Chore
-
-* update docker general non-major
-
-
-
-<a name="speedtest-exporter-2.0.14"></a>
-### [speedtest-exporter-2.0.14](https://github.com/truecharts/apps/compare/speedtest-exporter-2.0.13...speedtest-exporter-2.0.14) (2022-04-12)
-
-#### Chore

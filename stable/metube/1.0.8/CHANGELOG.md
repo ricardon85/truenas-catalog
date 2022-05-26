@@ -6,6 +6,16 @@
 
 #### Chore
 
+* Auto-update chart README [skip ci]
+* update helm general non-major helm releases ([#2759](https://github.com/truecharts/apps/issues/2759))
+
+
+
+<a name="metube-1.0.8"></a>
+### [metube-1.0.8](https://github.com/truecharts/apps/compare/metube-1.0.7...metube-1.0.8) (2022-05-26)
+
+#### Chore
+
 * update helm general non-major helm releases ([#2759](https://github.com/truecharts/apps/issues/2759))
 
 
@@ -87,13 +97,3 @@
 <a name="metube-1.0.0"></a>
 ### [metube-1.0.0](https://github.com/truecharts/apps/compare/metube-0.0.2...metube-1.0.0) (2022-04-18)
 
-#### Feat
-
-* move some apps to stable ([#2504](https://github.com/truecharts/apps/issues/2504))
-
-
-
-<a name="metube-0.0.2"></a>
-### [metube-0.0.2](https://github.com/truecharts/apps/compare/metube-0.0.1...metube-0.0.2) (2022-04-17)
-
-#### Chore

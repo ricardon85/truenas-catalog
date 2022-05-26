@@ -6,6 +6,16 @@
 
 #### Chore
 
+* Auto-update chart README [skip ci]
+* update helm general non-major helm releases ([#2759](https://github.com/truecharts/apps/issues/2759))
+
+
+
+<a name="meshcentral-1.1.15"></a>
+### [meshcentral-1.1.15](https://github.com/truecharts/apps/compare/meshcentral-1.1.14...meshcentral-1.1.15) (2022-05-26)
+
+#### Chore
+
 * update helm general non-major helm releases ([#2759](https://github.com/truecharts/apps/issues/2759))
 
 
@@ -87,13 +97,3 @@
 ### [meshcentral-1.1.7](https://github.com/truecharts/apps/compare/meshcentral-1.1.6...meshcentral-1.1.7) (2022-05-01)
 
 #### Fix
-
-* fix config file generation ([#2591](https://github.com/truecharts/apps/issues/2591))
-
-
-
-<a name="meshcentral-1.1.6"></a>
-### [meshcentral-1.1.6](https://github.com/truecharts/apps/compare/meshcentral-1.1.5...meshcentral-1.1.6) (2022-04-26)
-
-#### Chore
-

@@ -6,6 +6,16 @@
 
 #### Chore
 
+* Auto-update chart README [skip ci]
+* update helm general non-major helm releases ([#2759](https://github.com/truecharts/apps/issues/2759))
+
+
+
+<a name="shlink-2.0.25"></a>
+### [shlink-2.0.25](https://github.com/truecharts/apps/compare/shlink-2.0.24...shlink-2.0.25) (2022-05-26)
+
+#### Chore
+
 * update helm general non-major helm releases ([#2759](https://github.com/truecharts/apps/issues/2759))
 
 
@@ -87,13 +97,3 @@
 ### [shlink-2.0.17](https://github.com/truecharts/apps/compare/shlink-2.0.16...shlink-2.0.17) (2022-04-26)
 
 #### Chore
-
-* update helm general non-major helm releases ([#2573](https://github.com/truecharts/apps/issues/2573))
-
-
-
-<a name="shlink-2.0.16"></a>
-### [shlink-2.0.16](https://github.com/truecharts/apps/compare/shlink-2.0.15...shlink-2.0.16) (2022-04-26)
-
-#### Chore
-

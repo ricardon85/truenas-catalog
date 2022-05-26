@@ -6,6 +6,16 @@
 
 #### Chore
 
+* Auto-update chart README [skip ci]
+* update helm general non-major helm releases ([#2759](https://github.com/truecharts/apps/issues/2759))
+
+
+
+<a name="satisfactory-1.0.5"></a>
+### [satisfactory-1.0.5](https://github.com/truecharts/apps/compare/satisfactory-1.0.4...satisfactory-1.0.5) (2022-05-26)
+
+#### Chore
+
 * update helm general non-major helm releases ([#2759](https://github.com/truecharts/apps/issues/2759))
 
 
@@ -85,15 +95,5 @@
 
 <a name="statisfactory-0.0.25"></a>
 ### [statisfactory-0.0.25](https://github.com/truecharts/apps/compare/statisfactory-0.0.24...statisfactory-0.0.25) (2022-04-20)
-
-#### Chore
-
-* add missing quote on description ([#2515](https://github.com/truecharts/apps/issues/2515))
-* update helm general non-major helm releases ([#2524](https://github.com/truecharts/apps/issues/2524))
-
-
-
-<a name="statisfactory-0.0.24"></a>
-### [statisfactory-0.0.24](https://github.com/truecharts/apps/compare/statisfactory-0.0.23...statisfactory-0.0.24) (2022-04-12)
 
 #### Chore

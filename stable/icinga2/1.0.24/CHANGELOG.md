@@ -6,6 +6,16 @@
 
 #### Chore
 
+* Auto-update chart README [skip ci]
+* update helm general non-major helm releases ([#2759](https://github.com/truecharts/apps/issues/2759))
+
+
+
+<a name="icinga2-1.0.24"></a>
+### [icinga2-1.0.24](https://github.com/truecharts/apps/compare/icinga2-1.0.23...icinga2-1.0.24) (2022-05-26)
+
+#### Chore
+
 * update helm general non-major helm releases ([#2759](https://github.com/truecharts/apps/issues/2759))
 
 
@@ -87,13 +97,3 @@
 ### [icinga2-1.0.16](https://github.com/truecharts/apps/compare/icinga2-1.0.15...icinga2-1.0.16) (2022-04-26)
 
 #### Chore
-
-* update helm general non-major helm releases ([#2573](https://github.com/truecharts/apps/issues/2573))
-
-
-
-<a name="icinga2-1.0.15"></a>
-### [icinga2-1.0.15](https://github.com/truecharts/apps/compare/icinga2-1.0.14...icinga2-1.0.15) (2022-04-20)
-
-#### Chore
-

@@ -6,6 +6,16 @@
 
 #### Chore
 
+* Auto-update chart README [skip ci]
+* update helm general non-major helm releases ([#2759](https://github.com/truecharts/apps/issues/2759))
+
+
+
+<a name="handbrake-12.0.16"></a>
+### [handbrake-12.0.16](https://github.com/truecharts/apps/compare/handbrake-12.0.15...handbrake-12.0.16) (2022-05-26)
+
+#### Chore
+
 * update helm general non-major helm releases ([#2759](https://github.com/truecharts/apps/issues/2759))
 
 
@@ -87,13 +97,3 @@
 <a name="handbrake-12.0.8"></a>
 ### [handbrake-12.0.8](https://github.com/truecharts/apps/compare/handbrake-12.0.7...handbrake-12.0.8) (2022-04-12)
 
-#### Chore
-
-* update helm general non-major helm releases ([#2480](https://github.com/truecharts/apps/issues/2480))
-
-
-
-<a name="handbrake-12.0.7"></a>
-### [handbrake-12.0.7](https://github.com/truecharts/apps/compare/handbrake-12.0.6...handbrake-12.0.7) (2022-04-03)
-
-#### Chore

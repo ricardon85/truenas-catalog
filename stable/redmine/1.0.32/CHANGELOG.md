@@ -6,6 +6,16 @@
 
 #### Chore
 
+* Auto-update chart README [skip ci]
+* update helm general non-major helm releases ([#2759](https://github.com/truecharts/apps/issues/2759))
+
+
+
+<a name="redmine-1.0.32"></a>
+### [redmine-1.0.32](https://github.com/truecharts/apps/compare/redmine-1.0.31...redmine-1.0.32) (2022-05-26)
+
+#### Chore
+
 * update helm general non-major helm releases ([#2759](https://github.com/truecharts/apps/issues/2759))
 
 
@@ -87,13 +97,3 @@
 <a name="redmine-1.0.23"></a>
 ### [redmine-1.0.23](https://github.com/truecharts/apps/compare/redmine-1.0.22...redmine-1.0.23) (2022-04-26)
 
-#### Chore
-
-* update helm general non-major helm releases ([#2573](https://github.com/truecharts/apps/issues/2573))
-
-
-
-<a name="redmine-1.0.22"></a>
-### [redmine-1.0.22](https://github.com/truecharts/apps/compare/redmine-1.0.21...redmine-1.0.22) (2022-04-26)
-
-#### Chore

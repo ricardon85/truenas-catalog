@@ -6,6 +6,16 @@
 
 #### Chore
 
+* Auto-update chart README [skip ci]
+* update helm general non-major helm releases ([#2759](https://github.com/truecharts/apps/issues/2759))
+
+
+
+<a name="libreoffice-1.0.19"></a>
+### [libreoffice-1.0.19](https://github.com/truecharts/apps/compare/libreoffice-1.0.18...libreoffice-1.0.19) (2022-05-26)
+
+#### Chore
+
 * update helm general non-major helm releases ([#2759](https://github.com/truecharts/apps/issues/2759))
 
 
@@ -87,13 +97,3 @@
 <a name="libreoffice-1.0.11"></a>
 ### [libreoffice-1.0.11](https://github.com/truecharts/apps/compare/libreoffice-1.0.10...libreoffice-1.0.11) (2022-04-12)
 
-#### Chore
-
-* update helm general non-major helm releases ([#2480](https://github.com/truecharts/apps/issues/2480))
-
-
-
-<a name="libreoffice-1.0.10"></a>
-### [libreoffice-1.0.10](https://github.com/truecharts/apps/compare/libreoffice-1.0.9...libreoffice-1.0.10) (2022-04-03)
-
-#### Chore

@@ -6,6 +6,16 @@
 
 #### Chore
 
+* Auto-update chart README [skip ci]
+* update helm general non-major helm releases ([#2759](https://github.com/truecharts/apps/issues/2759))
+
+
+
+<a name="pinry-1.0.11"></a>
+### [pinry-1.0.11](https://github.com/truecharts/apps/compare/pinry-1.0.10...pinry-1.0.11) (2022-05-26)
+
+#### Chore
+
 * update helm general non-major helm releases ([#2759](https://github.com/truecharts/apps/issues/2759))
 
 
@@ -87,13 +97,3 @@
 ### [pinry-1.0.3](https://github.com/truecharts/apps/compare/pinry-1.0.2...pinry-1.0.3) (2022-04-26)
 
 #### Chore
-
-* update helm general non-major helm releases ([#2573](https://github.com/truecharts/apps/issues/2573))
-
-
-
-<a name="pinry-1.0.2"></a>
-### [pinry-1.0.2](https://github.com/truecharts/apps/compare/pinry-1.0.1...pinry-1.0.2) (2022-04-26)
-
-#### Chore
-

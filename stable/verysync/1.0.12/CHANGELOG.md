@@ -6,6 +6,16 @@
 
 #### Chore
 
+* Auto-update chart README [skip ci]
+* update helm general non-major helm releases ([#2759](https://github.com/truecharts/apps/issues/2759))
+
+
+
+<a name="verysync-1.0.12"></a>
+### [verysync-1.0.12](https://github.com/truecharts/apps/compare/verysync-1.0.11...verysync-1.0.12) (2022-05-26)
+
+#### Chore
+
 * update helm general non-major helm releases ([#2759](https://github.com/truecharts/apps/issues/2759))
 
 
@@ -87,13 +97,3 @@
 <a name="verysync-1.0.4"></a>
 ### [verysync-1.0.4](https://github.com/truecharts/apps/compare/verysync-1.0.3...verysync-1.0.4) (2022-04-12)
 
-#### Chore
-
-* update helm general non-major helm releases ([#2480](https://github.com/truecharts/apps/issues/2480))
-
-
-
-<a name="verysync-1.0.3"></a>
-### [verysync-1.0.3](https://github.com/truecharts/apps/compare/verysync-1.0.2...verysync-1.0.3) (2022-04-03)
-
-#### Chore

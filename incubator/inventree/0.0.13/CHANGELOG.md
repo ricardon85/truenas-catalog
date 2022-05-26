@@ -6,6 +6,16 @@
 
 #### Chore
 
+* Auto-update chart README [skip ci]
+* update helm general non-major helm releases ([#2759](https://github.com/truecharts/apps/issues/2759))
+
+
+
+<a name="inventree-0.0.13"></a>
+### [inventree-0.0.13](https://github.com/truecharts/apps/compare/inventree-0.0.12...inventree-0.0.13) (2022-05-26)
+
+#### Chore
+
 * update helm general non-major helm releases ([#2759](https://github.com/truecharts/apps/issues/2759))
 
 
@@ -85,15 +95,5 @@
 #### Fix
 
 * re-add nginx ([#2618](https://github.com/truecharts/apps/issues/2618))
-
-
-
-<a name="inventree-0.0.4"></a>
-### [inventree-0.0.4](https://github.com/truecharts/apps/compare/inventree-0.0.3...inventree-0.0.4) (2022-05-05)
-
-#### Chore
-
-* update helm general non-major helm releases ([#2612](https://github.com/truecharts/apps/issues/2612))
-
 
 

@@ -6,6 +6,16 @@
 
 #### Chore
 
+* Auto-update chart README [skip ci]
+* update helm general non-major helm releases ([#2759](https://github.com/truecharts/apps/issues/2759))
+
+
+
+<a name="tdarr-1.0.6"></a>
+### [tdarr-1.0.6](https://github.com/truecharts/apps/compare/tdarr-1.0.5...tdarr-1.0.6) (2022-05-26)
+
+#### Chore
+
 * update helm general non-major helm releases ([#2759](https://github.com/truecharts/apps/issues/2759))
 
 
@@ -85,15 +95,5 @@
 #### Chore
 
 * update helm general non-major helm releases ([#2612](https://github.com/truecharts/apps/issues/2612))
-
-
-
-<a name="tdarr-2.0.14"></a>
-### [tdarr-2.0.14](https://github.com/truecharts/apps/compare/tdarr-2.0.13...tdarr-2.0.14) (2022-04-26)
-
-#### Chore
-
-* update helm general non-major helm releases ([#2573](https://github.com/truecharts/apps/issues/2573))
-
 
 

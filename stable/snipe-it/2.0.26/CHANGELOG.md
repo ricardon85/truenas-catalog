@@ -6,6 +6,16 @@
 
 #### Chore
 
+* Auto-update chart README [skip ci]
+* update helm general non-major helm releases ([#2759](https://github.com/truecharts/apps/issues/2759))
+
+
+
+<a name="snipe-it-2.0.26"></a>
+### [snipe-it-2.0.26](https://github.com/truecharts/apps/compare/snipe-it-2.0.25...snipe-it-2.0.26) (2022-05-26)
+
+#### Chore
+
 * update helm general non-major helm releases ([#2759](https://github.com/truecharts/apps/issues/2759))
 
 
@@ -87,13 +97,3 @@
 <a name="snipe-it-2.0.18"></a>
 ### [snipe-it-2.0.18](https://github.com/truecharts/apps/compare/snipe-it-2.0.17...snipe-it-2.0.18) (2022-05-05)
 
-#### Chore
-
-* update helm general non-major helm releases ([#2612](https://github.com/truecharts/apps/issues/2612))
-
-
-
-<a name="snipe-it-2.0.17"></a>
-### [snipe-it-2.0.17](https://github.com/truecharts/apps/compare/snipe-it-2.0.16...snipe-it-2.0.17) (2022-05-04)
-
-#### Chore

@@ -6,6 +6,16 @@
 
 #### Chore
 
+* Auto-update chart README [skip ci]
+* update helm general non-major helm releases ([#2759](https://github.com/truecharts/apps/issues/2759))
+
+
+
+<a name="pihole-5.0.21"></a>
+### [pihole-5.0.21](https://github.com/truecharts/apps/compare/pihole-5.0.20...pihole-5.0.21) (2022-05-26)
+
+#### Chore
+
 * update helm general non-major helm releases ([#2759](https://github.com/truecharts/apps/issues/2759))
 
 
@@ -85,15 +95,5 @@
 
 <a name="pihole-5.0.13"></a>
 ### [pihole-5.0.13](https://github.com/truecharts/apps/compare/pihole-5.0.12...pihole-5.0.13) (2022-04-20)
-
-#### Chore
-
-* add missing quote on description ([#2515](https://github.com/truecharts/apps/issues/2515))
-* update helm general non-major helm releases ([#2524](https://github.com/truecharts/apps/issues/2524))
-
-
-
-<a name="pihole-5.0.12"></a>
-### [pihole-5.0.12](https://github.com/truecharts/apps/compare/pihole-5.0.11...pihole-5.0.12) (2022-04-12)
 
 #### Chore

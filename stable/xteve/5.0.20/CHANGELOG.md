@@ -6,6 +6,16 @@
 
 #### Chore
 
+* Auto-update chart README [skip ci]
+* update helm general non-major helm releases ([#2759](https://github.com/truecharts/apps/issues/2759))
+
+
+
+<a name="xteve-5.0.20"></a>
+### [xteve-5.0.20](https://github.com/truecharts/apps/compare/xteve-5.0.19...xteve-5.0.20) (2022-05-26)
+
+#### Chore
+
 * update helm general non-major helm releases ([#2759](https://github.com/truecharts/apps/issues/2759))
 
 
@@ -87,13 +97,3 @@
 <a name="xteve-5.0.12"></a>
 ### [xteve-5.0.12](https://github.com/truecharts/apps/compare/xteve-5.0.11...xteve-5.0.12) (2022-04-12)
 
-#### Chore
-
-* update helm general non-major helm releases ([#2480](https://github.com/truecharts/apps/issues/2480))
-
-
-
-<a name="xteve-5.0.11"></a>
-### [xteve-5.0.11](https://github.com/truecharts/apps/compare/xteve-5.0.10...xteve-5.0.11) (2022-04-03)
-
-#### Chore

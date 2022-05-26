@@ -6,6 +6,16 @@
 
 #### Chore
 
+* Auto-update chart README [skip ci]
+* update helm general non-major helm releases ([#2759](https://github.com/truecharts/apps/issues/2759))
+
+
+
+<a name="duckdns-1.0.23"></a>
+### [duckdns-1.0.23](https://github.com/truecharts/apps/compare/duckdns-1.0.22...duckdns-1.0.23) (2022-05-26)
+
+#### Chore
+
 * update helm general non-major helm releases ([#2759](https://github.com/truecharts/apps/issues/2759))
 
 
@@ -87,13 +97,3 @@
 <a name="duckdns-1.0.14"></a>
 ### [duckdns-1.0.14](https://github.com/truecharts/apps/compare/duckdns-1.0.13...duckdns-1.0.14) (2022-04-24)
 
-#### Chore
-
-* add logfile option in gui ([#2552](https://github.com/truecharts/apps/issues/2552))
-
-
-
-<a name="duckdns-1.0.13"></a>
-### [duckdns-1.0.13](https://github.com/truecharts/apps/compare/duckdns-1.0.12...duckdns-1.0.13) (2022-04-24)
-
-#### Fix

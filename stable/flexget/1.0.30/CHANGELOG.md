@@ -6,6 +6,16 @@
 
 #### Chore
 
+* Auto-update chart README [skip ci]
+* update helm general non-major helm releases ([#2759](https://github.com/truecharts/apps/issues/2759))
+
+
+
+<a name="flexget-1.0.30"></a>
+### [flexget-1.0.30](https://github.com/truecharts/apps/compare/flexget-1.0.29...flexget-1.0.30) (2022-05-26)
+
+#### Chore
+
 * update helm general non-major helm releases ([#2759](https://github.com/truecharts/apps/issues/2759))
 
 
@@ -87,13 +97,3 @@
 ### [flexget-1.0.22](https://github.com/truecharts/apps/compare/flexget-1.0.21...flexget-1.0.22) (2022-05-06)
 
 #### Chore
-
-* update docker general non-major
-
-
-
-<a name="flexget-1.0.21"></a>
-### [flexget-1.0.21](https://github.com/truecharts/apps/compare/flexget-1.0.20...flexget-1.0.21) (2022-05-05)
-
-#### Chore
-

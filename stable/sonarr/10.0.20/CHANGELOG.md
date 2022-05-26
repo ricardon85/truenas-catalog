@@ -6,6 +6,16 @@
 
 #### Chore
 
+* Auto-update chart README [skip ci]
+* update helm general non-major helm releases ([#2759](https://github.com/truecharts/apps/issues/2759))
+
+
+
+<a name="sonarr-10.0.20"></a>
+### [sonarr-10.0.20](https://github.com/truecharts/apps/compare/sonarr-10.0.19...sonarr-10.0.20) (2022-05-26)
+
+#### Chore
+
 * update helm general non-major helm releases ([#2759](https://github.com/truecharts/apps/issues/2759))
 
 
@@ -85,15 +95,5 @@
 
 <a name="sonarr-10.0.12"></a>
 ### [sonarr-10.0.12](https://github.com/truecharts/apps/compare/sonarr-10.0.11...sonarr-10.0.12) (2022-04-20)
-
-#### Chore
-
-* add missing quote on description ([#2515](https://github.com/truecharts/apps/issues/2515))
-* update helm general non-major helm releases ([#2524](https://github.com/truecharts/apps/issues/2524))
-
-
-
-<a name="sonarr-10.0.11"></a>
-### [sonarr-10.0.11](https://github.com/truecharts/apps/compare/sonarr-10.0.10...sonarr-10.0.11) (2022-04-12)
 
 #### Chore

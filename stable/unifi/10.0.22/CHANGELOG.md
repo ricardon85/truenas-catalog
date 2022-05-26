@@ -6,6 +6,16 @@
 
 #### Chore
 
+* Auto-update chart README [skip ci]
+* update helm general non-major helm releases ([#2759](https://github.com/truecharts/apps/issues/2759))
+
+
+
+<a name="unifi-10.0.22"></a>
+### [unifi-10.0.22](https://github.com/truecharts/apps/compare/unifi-10.0.21...unifi-10.0.22) (2022-05-26)
+
+#### Chore
+
 * update helm general non-major helm releases ([#2759](https://github.com/truecharts/apps/issues/2759))
 
 
@@ -87,13 +97,3 @@
 ### [unifi-10.0.14](https://github.com/truecharts/apps/compare/unifi-10.0.13...unifi-10.0.14) (2022-04-26)
 
 #### Chore
-
-* update helm general non-major helm releases ([#2573](https://github.com/truecharts/apps/issues/2573))
-
-
-
-<a name="unifi-10.0.13"></a>
-### [unifi-10.0.13](https://github.com/truecharts/apps/compare/unifi-10.0.12...unifi-10.0.13) (2022-04-20)
-
-#### Chore
-

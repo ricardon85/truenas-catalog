@@ -6,6 +6,16 @@
 
 #### Chore
 
+* Auto-update chart README [skip ci]
+* update helm general non-major helm releases ([#2759](https://github.com/truecharts/apps/issues/2759))
+
+
+
+<a name="ferdi-server-1.0.11"></a>
+### [ferdi-server-1.0.11](https://github.com/truecharts/apps/compare/ferdi-server-1.0.10...ferdi-server-1.0.11) (2022-05-26)
+
+#### Chore
+
 * update helm general non-major helm releases ([#2759](https://github.com/truecharts/apps/issues/2759))
 
 
@@ -85,15 +95,5 @@
 
 <a name="ferdi-server-1.0.3"></a>
 ### [ferdi-server-1.0.3](https://github.com/truecharts/apps/compare/ferdi-server-1.0.2...ferdi-server-1.0.3) (2022-04-20)
-
-#### Chore
-
-* add missing quote on description ([#2515](https://github.com/truecharts/apps/issues/2515))
-* update helm general non-major helm releases ([#2524](https://github.com/truecharts/apps/issues/2524))
-
-
-
-<a name="ferdi-server-1.0.2"></a>
-### [ferdi-server-1.0.2](https://github.com/truecharts/apps/compare/ferdi-server-1.0.1...ferdi-server-1.0.2) (2022-04-12)
 
 #### Chore

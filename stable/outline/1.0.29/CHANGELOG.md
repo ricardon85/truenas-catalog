@@ -6,6 +6,16 @@
 
 #### Chore
 
+* Auto-update chart README [skip ci]
+* update helm general non-major helm releases ([#2759](https://github.com/truecharts/apps/issues/2759))
+
+
+
+<a name="outline-1.0.29"></a>
+### [outline-1.0.29](https://github.com/truecharts/apps/compare/outline-1.0.28...outline-1.0.29) (2022-05-26)
+
+#### Chore
+
 * update helm general non-major helm releases ([#2759](https://github.com/truecharts/apps/issues/2759))
 
 
@@ -87,13 +97,3 @@
 ### [outline-1.0.21](https://github.com/truecharts/apps/compare/outline-1.0.20...outline-1.0.21) (2022-05-10)
 
 #### Chore
-
-* update helm general non-major helm releases ([#2649](https://github.com/truecharts/apps/issues/2649))
-
-
-
-<a name="outline-1.0.20"></a>
-### [outline-1.0.20](https://github.com/truecharts/apps/compare/outline-1.0.19...outline-1.0.20) (2022-05-05)
-
-#### Chore
-
