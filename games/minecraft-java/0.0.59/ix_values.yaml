@@ -1,0 +1,81 @@
+image:
+  repository: tccr.io/truecharts/minecraft-java
+  tag: v2022.7.0@sha256:95defc3154d8f0aedc02e02d670965f4ec52a2de523f5fef12258594a2597097
+  pullPolicy: Always
+j11Image:
+  repository: tccr.io/truecharts/minecraft-java11
+  tag: latest@sha256:5a5568bd25c49144ac3d7922b9c49c974badcfed9ea2d3e3880afec88bf1dce9
+  pullPolicy: Always
+j11j9Image:
+  repository: tccr.io/truecharts/minecraft-java11-openj9
+  tag: latest@sha256:248ecbdca94efa8ab7c0b0437a0b59ba82ca9dabe6cd1f90a8cbd43319f15b82
+  pullPolicy: Always
+j8Image:
+  repository: tccr.io/truecharts/minecraft-java8-openj9
+  tag: latest@sha256:39ba9f323bb53ad5a1c0c181b290a3d040684155076edd1e34c5e709d688e68c
+  pullPolicy: Always
+j8j9Image:
+  repository: tccr.io/truecharts/minecraft-java8-openj9
+  tag: latest@sha256:39ba9f323bb53ad5a1c0c181b290a3d040684155076edd1e34c5e709d688e68c
+  pullPolicy: Always
+
+portal:
+  enabled: false
+
+securityContext:
+  readOnlyRootFilesystem: false
+  runAsNonRoot: false
+
+podSecurityContext:
+  runAsUser: 0
+  runAsGroup: 0
+
+secret:
+  RCON_PASSWORD: "secretrconpass"
+
+env:
+  EULA: "TRUE"
+  OVERRIDE_SERVER_PROPERTIES: true
+  VERSION: "LATEST"
+  TYPE: "VANILLA"
+  DIFFICULTY: easy
+  MAX_PLAYERS: 20
+  MAX_WORLD_SIZE: 10000
+  ALLOW_NETHER: true
+  ANNOUNCE_PLAYER_ACHIEVEMENTS: true
+  ENABLE_COMMAND_BLOCK: false
+  FORCE_GAMEMODE: false
+  GENERATE_STRUCTURES: true
+  HARDCORE: false
+  MAX_BUILD_HEIGHT: 256
+  MAX_TICK_TIME: 60000
+  SPAWN_ANIMALS: true
+  SPAWN_MONSTERS: true
+  SPAWN_NPCS: true
+  VIEW_DISTANCE: 16
+  MODE: survival
+  MOTD: "Welcome to Minecraft on TrueNAS Scale!"
+  PVP: false
+  LEVEL_TYPE: DEFAULT
+  LEVEL: world
+  ONLINE_MODE: true
+  MEMORY: 2048M
+
+persistence:
+  data:
+    enabled: true
+    mountPath: "/data"
+
+service:
+  main:
+    ports:
+      main:
+        port: 25565
+        targetPort: 25565
+  rcon:
+    enabled: true
+    ports:
+      rcon:
+        enabled: true
+        port: 25575
+        targetPort: 25575
