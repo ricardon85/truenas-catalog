@@ -1,0 +1,21 @@
+image:
+  repository: fallenbagel/jellyseerr
+  tag: 1.1.0@sha256:fb8e44a9a001aac8995e8c43d90816f78a198950dac1b84669caa5dd348d2444
+  pullPolicy: IfNotPresent
+
+env:
+  PORT: "{{ .Values.service.main.ports.main.port }}"
+  # User Defined
+  JELLYFIN_TYPE: ""
+  LOG_LEVEL: "info"
+
+service:
+  main:
+    ports:
+      main:
+        port: 10241
+
+persistence:
+  config:
+    enabled: true
+    mountPath: "/app/config"
