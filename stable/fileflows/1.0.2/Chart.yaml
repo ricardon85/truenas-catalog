@@ -1,22 +1,23 @@
 apiVersion: v2
-appVersion: "0.5.2"
+appVersion: "0.6.2"
 dependencies:
 - name: common
   repository: https://library-charts.truecharts.org
   version: 9.3.24
-description: Homarr is a simple and lightweight homepage for your server, that helps you easily access all of your services in one place.
-home: https://github.com/truecharts/apps/tree/master/charts/stable/homarr
-icon: https://truecharts.org/_static/img/appicons/homarr.png
+description: An application that lets you automatically process files through a simple rule flow.
+home: https://github.com/truecharts/apps/tree/master/charts/stable/fileflows
+icon: https://truecharts.org/_static/img/appicons/fileflows.png
 keywords:
-- dashboard
+- fileflows
 kubeVersion: '>=1.16.0-0'
 maintainers:
 - email: info@truecharts.org
   name: TrueCharts
   url: https://truecharts.org
-name: homarr
+name: fileflows
 sources:
-- https://github.com/ajnart/homarr
+- https://github.com/revenz/FileFlows
+- https://hub.docker.com/r/revenz/fileflows
 version: 1.0.2
 annotations:
   truecharts.org/catagories: |
