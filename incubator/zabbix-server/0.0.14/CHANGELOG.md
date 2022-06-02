@@ -1,6 +1,15 @@
 # Changelog<br>
 
 
+<a name="zabbix-server-0.0.14"></a>
+### [zabbix-server-0.0.14](https://github.com/truecharts/apps/compare/zabbix-server-0.0.13...zabbix-server-0.0.14) (2022-06-02)
+
+#### Chore
+
+* update image refs ([#2819](https://github.com/truecharts/apps/issues/2819))
+
+
+
 <a name="zabbix-server-0.0.13"></a>
 ### [zabbix-server-0.0.13](https://github.com/truecharts/apps/compare/zabbix-server-0.0.12...zabbix-server-0.0.13) (2022-05-31)
 
@@ -86,14 +95,5 @@
 
 <a name="zabbix-server-0.0.6"></a>
 ### [zabbix-server-0.0.6](https://github.com/truecharts/apps/compare/zabbix-server-0.0.5...zabbix-server-0.0.6) (2022-05-04)
-
-#### Chore
-
-* update helm general non-major helm releases ([#2605](https://github.com/truecharts/apps/issues/2605))
-
-
-
-<a name="zabbix-server-0.0.5"></a>
-### [zabbix-server-0.0.5](https://github.com/truecharts/apps/compare/zabbix-server-0.0.4...zabbix-server-0.0.5) (2022-04-26)
 
 #### Chore
