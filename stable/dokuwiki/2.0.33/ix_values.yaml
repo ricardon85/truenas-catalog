@@ -1,0 +1,31 @@
+image:
+  repository: tccr.io/truecharts/dokuwiki
+  pullPolicy: IfNotPresent
+  tag: v20200729.0.0@sha256:3c2d0aae67f180a5d480289eca4f091d8687d3995d7c9d3cfd09045d41e3a9a3
+
+securityContext:
+  runAsNonRoot: false
+  readOnlyRootFilesystem: false
+
+podSecurityContext:
+  runAsUser: 0
+  runAsGroup: 0
+
+secret:
+  DOKUWIKI_USERNAME: "admin"
+  DOKUWIKI_PASSWORD: "supersecret"
+  DOKUWIKI_FULL_NAME: "Super Admin"
+  DOKUWIKI_EMAIL: "admin@example.com"
+  DOKUWIKI_WIKI_NAME: "DokuWiki"
+
+service:
+  main:
+    ports:
+      main:
+        port: 10123
+        targetPort: 8080
+
+persistence:
+  config:
+    enabled: true
+    mountPath: "/bitnami/dokuwiki"
