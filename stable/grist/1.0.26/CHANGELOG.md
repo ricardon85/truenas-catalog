@@ -1,6 +1,15 @@
 # Changelog<br>
 
 
+<a name="grist-1.0.26"></a>
+### [grist-1.0.26](https://github.com/truecharts/apps/compare/grist-1.0.25...grist-1.0.26) (2022-06-04)
+
+#### Fix
+
+* re-enable redis ([#2829](https://github.com/truecharts/apps/issues/2829))
+
+
+
 <a name="grist-1.0.25"></a>
 ### [grist-1.0.25](https://github.com/truecharts/apps/compare/grist-1.0.24...grist-1.0.25) (2022-05-31)
 
@@ -86,14 +95,5 @@
 
 <a name="grist-1.0.18"></a>
 ### [grist-1.0.18](https://github.com/truecharts/apps/compare/grist-1.0.17...grist-1.0.18) (2022-05-05)
-
-#### Chore
-
-* update helm general non-major helm releases ([#2612](https://github.com/truecharts/apps/issues/2612))
-
-
-
-<a name="grist-1.0.17"></a>
-### [grist-1.0.17](https://github.com/truecharts/apps/compare/grist-1.0.16...grist-1.0.17) (2022-04-26)
 
 #### Chore
