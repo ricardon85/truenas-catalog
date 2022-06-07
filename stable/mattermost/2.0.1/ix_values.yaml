@@ -1,0 +1,47 @@
+image:
+  repository: tccr.io/truecharts/mattermost
+  tag: v6.3@sha256:27a1afa26c5d6e79d6533eb08e688d3ff9fe39a3bd3aa88ad77becdf1a7a88a8
+  pullPolicy: IfNotPresent
+
+env:
+  TIMEZONE: "{{ .Values.TZ }}"
+  MM_SQLSETTINGS_DRIVERNAME: "postgres"
+  MM_BLEVESETTINGS_INDEXDIR: "/mattermost/bleve-indexes"
+  MM_SERVICESETTINGS_SITEURL: "https://test.example.com"
+  MM_SQLSETTINGS_DATASOURCE:
+    secretKeyRef:
+      name: dbcreds
+      key: urlnossl
+
+service:
+  main:
+    ports:
+      main:
+        port: 10239
+        targetPort: 8065
+
+persistence:
+  config:
+    enabled: true
+    mountPath: "/mattermost/config"
+  data:
+    enabled: true
+    mountPath: "/mattermost/data"
+  logs:
+    enabled: true
+    mountPath: "/mattermost/logs"
+  plugins:
+    enabled: true
+    mountPath: "/mattermost/plugins"
+  clientplugins:
+    enabled: true
+    mountPath: "/mattermost/client/plugins"
+  bleveindexes:
+    enabled: true
+    mountPath: "/mattermost/bleve-indexes"
+
+postgresql:
+  enabled: true
+  existingSecret: "dbcreds"
+  postgresqlUsername: mattermost
+  postgresqlDatabase: mattermost
