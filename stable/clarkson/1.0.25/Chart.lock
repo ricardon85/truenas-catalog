@@ -1,9 +1,0 @@
-dependencies:
-- name: common
-  repository: https://library-charts.truecharts.org
-  version: 9.3.24
-- name: mariadb
-  repository: https://charts.truecharts.org/
-  version: 2.0.84
-digest: sha256:345a8afa67d4f31ffaf4e10fc01e4d763466e88c65c1f874bed762514fdabd1d
-generated: "2022-05-31T19:43:51.482146366Z"
