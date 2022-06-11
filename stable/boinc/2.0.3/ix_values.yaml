@@ -1,0 +1,26 @@
+image:
+  repository: tccr.io/truecharts/boinc
+  pullPolicy: IfNotPresent
+  tag: latest@sha256:7f2777943224a52820802a5733446c90129e49e550d4b2f1aaa04223e7201221
+
+securityContext:
+  readOnlyRootFilesystem: false
+  runAsNonRoot: false
+
+podSecurityContext:
+  runAsUser: 0
+  runAsGroup: 0
+
+service:
+  main:
+    ports:
+      main:
+        targetPort: 8080
+        port: 10142
+
+persistence:
+  config:
+    enabled: true
+    mountPath: "/config"
+  varrun:
+    enabled: true
