@@ -1,0 +1,9 @@
+dependencies:
+- name: common
+  repository: https://library-charts.truecharts.org
+  version: 10.0.9
+- name: redis
+  repository: https://charts.truecharts.org
+  version: 3.0.5
+digest: sha256:3841a0c71d2870d75e1ebd75bb10a3e99726cbc6ef887ca2063baf4e5a3ebfc5
+generated: "2022-06-11T18:14:43.031759163Z"
