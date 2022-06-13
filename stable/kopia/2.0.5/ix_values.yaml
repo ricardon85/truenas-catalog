@@ -1,0 +1,31 @@
+image:
+  repository: kopia/kopia
+  tag: 20220611.0.141757@sha256:826e0c563847e242c3543c361d21cb809b9cde9588fd50755c46782e904a27fe
+  pullPolicy: IfNotPresent
+
+extraArgs: ["server", "--address=http://0.0.0.0:10238", "--ui", "--insecure"]
+
+secretEnv:
+  KOPIA_PASSWORD: ""
+  KOPIA_SERVER_USERNAME: "user"
+  KOPIA_SERVER_PASSWORD: "password"
+
+service:
+  main:
+    ports:
+      main:
+        port: 10238
+
+persistence:
+  config:
+    enabled: true
+    mountPath: "/app/config"
+  cache:
+    enabled: true
+    mountPath: "/app/cache"
+  logs:
+    enabled: true
+    mountPath: "/app/logs"
+  rclone:
+    enabled: true
+    mountPath: "/app/rclone"
