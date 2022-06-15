@@ -1,6 +1,15 @@
 # Changelog<br>
 
 
+<a name="homer-2.0.6"></a>
+### [homer-2.0.6](https://github.com/truecharts/apps/compare/homer-2.0.5...homer-2.0.6) (2022-06-15)
+
+#### Fix
+
+* run as non root ([#2895](https://github.com/truecharts/apps/issues/2895))
+
+
+
 <a name="homer-2.0.5"></a>
 ### [homer-2.0.5](https://github.com/truecharts/apps/compare/homer-2.0.4...homer-2.0.5) (2022-06-15)
 
@@ -88,12 +97,3 @@
 
 
 <a name="homer-1.0.15"></a>
-### [homer-1.0.15](https://github.com/truecharts/apps/compare/homer-1.0.14...homer-1.0.15) (2022-05-26)
-
-#### Chore
-
-* update helm general non-major helm releases ([#2759](https://github.com/truecharts/apps/issues/2759))
-
-
-
-<a name="homer-1.0.14"></a>
