@@ -1,6 +1,15 @@
 # Changelog<br>
 
 
+<a name="rsshub-3.0.10"></a>
+### [rsshub-3.0.10](https://github.com/truecharts/apps/compare/rsshub-3.0.9...rsshub-3.0.10) (2022-06-15)
+
+#### Fix
+
+* fix permission ([#2889](https://github.com/truecharts/apps/issues/2889))
+
+
+
 <a name="rsshub-3.0.9"></a>
 ### [rsshub-3.0.9](https://github.com/truecharts/apps/compare/rsshub-3.0.8...rsshub-3.0.9) (2022-06-15)
 
@@ -88,12 +97,3 @@
 <a name="rsshub-3.0.1"></a>
 ### [rsshub-3.0.1](https://github.com/truecharts/apps/compare/rsshub-3.0.0...rsshub-3.0.1) (2022-06-08)
 
-#### Chore
-
-* Auto-update chart README [skip ci]
-* update docker general non-major ([#2839](https://github.com/truecharts/apps/issues/2839))
-
-
-
-<a name="rsshub-3.0.1"></a>
-### [rsshub-3.0.1](https://github.com/truecharts/apps/compare/rsshub-3.0.0...rsshub-3.0.1) (2022-06-08)

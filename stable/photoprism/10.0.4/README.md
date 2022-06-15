@@ -1,14 +1,14 @@
 # Introduction
 
-Open source asset management
+PhotoPrismÂ® is a server-based application for browsing, organizing and sharing your personal photo collection
 
 TrueCharts are designed to be installed as TrueNAS SCALE app only. We can not guarantee this charts works as a stand-alone helm installation.
 **This chart is not maintained by the upstream project and any issues with the chart should be raised [here](https://github.com/truecharts/apps/issues/new/choose)**
 
 ## Source Code
 
-* <https://snipeitapp.com/>
-* <https://hub.docker.com/r/linuxserver/>
+* <https://github.com/photoprism/photoprism>
+* <https://hub.docker.com/r/photoprism/photoprism>
 
 ## Requirements
 
@@ -19,7 +19,6 @@ Kubernetes: `>=1.16.0-0`
 | Repository | Name | Version |
 |------------|------|---------|
 | https://charts.truecharts.org/ | mariadb | 3.0.7 |
-| https://charts.truecharts.org | redis | 3.0.7 |
 | https://library-charts.truecharts.org | common | 10.0.10 |
 
 ## Installing the Chart
