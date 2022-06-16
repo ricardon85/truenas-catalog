@@ -1,22 +1,32 @@
 image:
   repository: tccr.io/truecharts/scrutiny
   pullPolicy: IfNotPresent
-  tag: v2021.12.16
+  tag: v0.4.12@sha256:dd341b58ec9bd2cf48113977174be36f2257eb6365cda01ce9a2a561afb4e732
 
 securityContext:
   runAsNonRoot: false
+  readOnlyRootFilesystem: false
   privileged: true
   allowPrivilegeEscalation: true
-  readOnlyRootFilesystem: false
+  capabilities:
+    add:
+      - SYS_RAWIO  # HDD's
+      - SYS_ADMIN  # NVME's
+
+env:
+  COLLECTOR_CRON_SCHEDULE: "0 0 * * *"
 
 podSecurityContext:
   runAsUser: 0
   runAsGroup: 0
 
-env:
-  SCRUTINY_WEB: true
-  SCRUTINY_COLLECTOR: true
-  SCRUTINY_API_ENDPOINT: "http://localhost:8080"
+probes:
+  liveness:
+    path: "/api/health"
+  readiness:
+    path: "/api/health"
+  startup:
+    path: "/api/health"
 
 service:
   main:
@@ -30,10 +40,10 @@ persistence:
     enabled: true
   config:
     enabled: true
-    mountPath: "/scrutiny/config"
-  data:
+    mountPath: "/opt/scrutiny/config"
+  influxdb:
     enabled: true
-    mountPath: "/config"
+    mountPath: "/opt/scrutiny/influxdb"
   udev:
     enabled: true
     type: hostPath

@@ -1,6 +1,19 @@
 # Changelog<br>
 
 
+<a name="scrutiny-2.0.5"></a>
+### [scrutiny-2.0.5](https://github.com/truecharts/apps/compare/scrutiny-2.0.4...scrutiny-2.0.5) (2022-06-16)
+
+#### Chore
+
+* update image ref ([#2915](https://github.com/truecharts/apps/issues/2915))
+
+#### Fix
+
+* BREAKING CHANGE: Use official image due to LSIO deprecation ([#2888](https://github.com/truecharts/apps/issues/2888))
+
+
+
 <a name="scrutiny-2.0.4"></a>
 ### [scrutiny-2.0.4](https://github.com/truecharts/apps/compare/scrutiny-2.0.3...scrutiny-2.0.4) (2022-06-14)
 
@@ -84,16 +97,3 @@
 #### Chore
 
 * update helm general non-major helm releases ([#2759](https://github.com/truecharts/apps/issues/2759))
-
-
-
-<a name="scrutiny-1.0.17"></a>
-### [scrutiny-1.0.17](https://github.com/truecharts/apps/compare/scrutiny-1.0.16...scrutiny-1.0.17) (2022-05-24)
-
-#### Chore
-
-* update helm general non-major helm releases
-
-
-
-<a name="scrutiny-1.0.16"></a>
