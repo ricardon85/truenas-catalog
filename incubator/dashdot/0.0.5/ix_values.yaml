@@ -1,0 +1,47 @@
+image:
+  repository: mauricenino/dashdot
+  tag: 3.5.1@sha256:be7ab1bc0202508827fbda2b5233572c89671c000f33fab2733e8122513c0d3b
+  pullPolicy: IfNotPresent
+
+securityContext:
+  runAsNonRoot: false
+  readOnlyRootFilesystem: false
+  privileged: true
+  allowPrivilegeEscalation: true
+  capabilities:
+    add:
+      - SYS_ADMIN
+      - SYS_RAWIO
+
+podSecurityContext:
+  runAsUser: 0
+  runAsGroup: 0
+
+env:
+  DASHDOT_PORT: "{{ .Values.service.main.ports.main.port}}"
+
+service:
+  main:
+    ports:
+      main:
+        port: 10044
+
+persistence:
+  os:
+    enabled: true
+    type: hostPath
+    hostPath: "/etc/os-release"
+    mountPath: "/etc/os-release"
+    readOnly: true
+  net:
+    enabled: true
+    type: hostPath
+    hostPath: "/proc/1/ns/net"
+    mountPath: "/mnt/proc/1/ns/net"
+    readOnly: true
+  mem:
+    enabled: true
+    type: hostPath
+    hostPath: "/dev/mem"
+    mountPath: "/dev/mem"
+    readOnly: true
