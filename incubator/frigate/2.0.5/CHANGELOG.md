@@ -1,6 +1,15 @@
 # Changelog<br>
 
 
+<a name="frigate-2.0.5"></a>
+### [frigate-2.0.5](https://github.com/truecharts/apps/compare/frigate-2.0.4...frigate-2.0.5) (2022-06-16)
+
+#### Chore
+
+* remove UI leftovers ([#2914](https://github.com/truecharts/apps/issues/2914))
+
+
+
 <a name="frigate-2.0.4"></a>
 ### [frigate-2.0.4](https://github.com/truecharts/apps/compare/frigate-2.0.3...frigate-2.0.4) (2022-06-14)
 
@@ -88,12 +97,3 @@
 
 
 <a name="frigate-1.0.17"></a>
-### [frigate-1.0.17](https://github.com/truecharts/apps/compare/frigate-1.0.16...frigate-1.0.17) (2022-05-24)
-
-#### Chore
-
-* update helm general non-major helm releases
-
-
-
-<a name="frigate-1.0.16"></a>

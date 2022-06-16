@@ -1,6 +1,15 @@
 # Changelog<br>
 
 
+<a name="trilium-notes-5.0.3"></a>
+### [trilium-notes-5.0.3](https://github.com/truecharts/apps/compare/trilium-notes-5.0.2...trilium-notes-5.0.3) (2022-06-16)
+
+#### Chore
+
+* remove UI leftovers ([#2914](https://github.com/truecharts/apps/issues/2914))
+
+
+
 <a name="trilium-notes-5.0.2"></a>
 ### [trilium-notes-5.0.2](https://github.com/truecharts/apps/compare/trilium-notes-5.0.1...trilium-notes-5.0.2) (2022-06-15)
 
@@ -88,12 +97,3 @@
 
 
 <a name="trilium-notes-2.0.21"></a>
-### [trilium-notes-2.0.21](https://github.com/truecharts/apps/compare/trilium-notes-2.0.20...trilium-notes-2.0.21) (2022-05-31)
-
-#### Chore
-
-* update helm general non-major helm releases ([#2803](https://github.com/truecharts/apps/issues/2803))
-
-
-
-<a name="trilium-notes-2.0.20"></a>
