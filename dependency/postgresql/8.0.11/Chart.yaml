@@ -1,0 +1,30 @@
+apiVersion: v2
+appVersion: "14.4.0"
+dependencies:
+- name: common
+  repository: https://library-charts.truecharts.org
+  version: 10.0.13
+deprecated: false
+description: PostgresSQL
+home: https://github.com/truecharts/apps/tree/master/charts/dependency/postgresql
+icon: https://truecharts.org/_static/img/appicons/postgresql.png
+keywords:
+- postgres
+- postgressql
+- dtabase
+- sql
+kubeVersion: '>=1.16.0-0'
+maintainers:
+- email: info@truecharts.org
+  name: TrueCharts
+  url: https://truecharts.org
+name: postgresql
+sources:
+- https://www.postgresql.org/
+type: application
+version: 8.0.11
+annotations:
+  truecharts.org/catagories: |
+    - database
+  truecharts.org/SCALE-support: "true"
+  truecharts.org/grade: U
