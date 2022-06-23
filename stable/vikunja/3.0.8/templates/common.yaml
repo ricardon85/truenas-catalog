@@ -1,5 +1,5 @@
 {{- include "tc.common.loader.init" . }}
 
-{{- include "librephotos.secrets" . }}
+{{ include "vikunja.secrets" . }}
 
 {{ include "tc.common.loader.apply" . }}

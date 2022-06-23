@@ -1,6 +1,11 @@
 # Changelog<br>
 
 
+<a name="vikunja-3.0.8"></a>
+### [vikunja-3.0.8](https://github.com/truecharts/apps/compare/vikunja-3.0.7...vikunja-3.0.8) (2022-06-23)
+
+
+
 <a name="vikunja-3.0.7"></a>
 ### [vikunja-3.0.7](https://github.com/truecharts/apps/compare/vikunja-3.0.6...vikunja-3.0.7) (2022-06-22)
 
@@ -92,8 +97,3 @@
 
 #### Refactor
 
-* BREAKING CHANGE ([#2836](https://github.com/truecharts/apps/issues/2836))
-
-
-
-<a name="vikunja-2.0.0"></a>
