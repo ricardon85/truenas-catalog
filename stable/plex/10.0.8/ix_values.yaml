@@ -1,0 +1,21 @@
+image:
+  repository: tccr.io/truecharts/plex
+  pullPolicy: IfNotPresent
+  tag: v1.27.0.5897@sha256:0dbded565d8784437740c9feadb9d4910651a4a40cd34d9ccd930749c56c766d
+
+service:
+  main:
+    ports:
+      main:
+        port: 32400
+        targetPort: 32400
+
+persistence:
+  config:
+    enabled: true
+    mountPath: "/config"
+
+env:
+  ALLOWED_NETWORKS: "172.16.0.0/12,10.0.0.0/8,192.168.0.0/16"
+  ADVERTISE_IP: ""
+  PLEX_CLAIM: ""
