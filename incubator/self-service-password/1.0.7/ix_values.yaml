@@ -1,0 +1,31 @@
+image:
+  repository: tccr.io/truecharts/self-service-password
+  pullPolicy: IfNotPresent
+  tag: v5.2.2@sha256:8f121cb243437e9d9507e1574dfb66db108e9463aaf713b1f97f904bdf728478
+
+securityContext:
+  readOnlyRootFilesystem: false
+  runAsNonRoot: false
+
+podSecurityContext:
+  runAsUser: 0
+  runAsGroup: 0
+
+env:
+  SETUP_MODE: "manual"
+  ENABLE_RESET_LOG: true
+
+service:
+  main:
+    ports:
+      main:
+        port: 10182
+        targetPort: 80
+
+persistence:
+  config:
+    enabled: true
+    mountPath: "/assets/custom"
+  logs:
+    enabled: true
+    mountPath: "/www/logs"
