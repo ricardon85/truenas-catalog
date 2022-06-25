@@ -1,6 +1,15 @@
 # Changelog<br>
 
 
+<a name="miniflux-7.0.8"></a>
+### [miniflux-7.0.8](https://github.com/truecharts/apps/compare/miniflux-7.0.7...miniflux-7.0.8) (2022-06-25)
+
+#### Miniflux
+
+* make questions ADMIN_PASSWORD private ([#2986](https://github.com/truecharts/apps/issues/2986))
+
+
+
 <a name="miniflux-7.0.7"></a>
 ### [miniflux-7.0.7](https://github.com/truecharts/apps/compare/miniflux-7.0.6...miniflux-7.0.7) (2022-06-25)
 
@@ -88,12 +97,3 @@
 
 #### Fix
 
-* remove malfunctioning SCALE migration script
-
-#### Refactor
-
-* BREAKING CHANGE ([#2836](https://github.com/truecharts/apps/issues/2836))
-
-
-
-<a name="miniflux-6.0.0"></a>
