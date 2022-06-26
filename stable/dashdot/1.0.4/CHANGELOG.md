@@ -1,6 +1,15 @@
 # Changelog<br>
 
 
+<a name="dashdot-1.0.4"></a>
+### [dashdot-1.0.4](https://github.com/truecharts/apps/compare/dashdot-1.0.3...dashdot-1.0.4) (2022-06-26)
+
+#### Chore
+
+* add 2 env vars in gui ([#2992](https://github.com/truecharts/apps/issues/2992))
+
+
+
 <a name="dashdot-1.0.3"></a>
 ### [dashdot-1.0.3](https://github.com/truecharts/apps/compare/dashdot-1.0.2...dashdot-1.0.3) (2022-06-25)
 
@@ -87,13 +96,4 @@
 ### [dashdot-0.0.2](https://github.com/truecharts/apps/compare/dashdot-0.0.1...dashdot-0.0.2) (2022-06-15)
 
 #### Chore
-
-* update docker general non-major ([#2890](https://github.com/truecharts/apps/issues/2890))
-
-
-
-<a name="dashdot-0.0.1"></a>
-### dashdot-0.0.1 (2022-06-14)
-
-#### Feat
 
