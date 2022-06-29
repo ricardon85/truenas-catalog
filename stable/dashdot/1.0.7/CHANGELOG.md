@@ -1,6 +1,15 @@
 # Changelog<br>
 
 
+<a name="dashdot-1.0.7"></a>
+### [dashdot-1.0.7](https://github.com/truecharts/apps/compare/dashdot-1.0.6...dashdot-1.0.7) (2022-06-29)
+
+#### Fix
+
+* try some fixes ([#3010](https://github.com/truecharts/apps/issues/3010))
+
+
+
 <a name="dashdot-1.0.6"></a>
 ### [dashdot-1.0.6](https://github.com/truecharts/apps/compare/dashdot-1.0.5...dashdot-1.0.6) (2022-06-27)
 
@@ -87,13 +96,4 @@
 ### [dashdot-0.0.5](https://github.com/truecharts/apps/compare/dashdot-0.0.4...dashdot-0.0.5) (2022-06-16)
 
 #### Chore
-
-* update docker general non-major ([#2904](https://github.com/truecharts/apps/issues/2904))
-
-
-
-<a name="dashdot-0.0.4"></a>
-### [dashdot-0.0.4](https://github.com/truecharts/apps/compare/dashdot-0.0.3...dashdot-0.0.4) (2022-06-15)
-
-#### Fix
 
