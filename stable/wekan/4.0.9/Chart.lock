@@ -1,9 +1,0 @@
-dependencies:
-- name: common
-  repository: https://library-charts.truecharts.org
-  version: 10.1.4
-- name: mongodb
-  repository: https://charts.truecharts.org
-  version: 1.0.18
-digest: sha256:973bd2f34d82437e297efcd7b3a634d8a118e17920e640f3fbf3e240addaa1c0
-generated: "2022-06-25T14:43:46.004204632Z"
