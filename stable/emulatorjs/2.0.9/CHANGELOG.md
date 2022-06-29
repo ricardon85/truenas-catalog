@@ -1,6 +1,15 @@
 # Changelog<br>
 
 
+<a name="emulatorjs-2.0.9"></a>
+### [emulatorjs-2.0.9](https://github.com/truecharts/apps/compare/emulatorjs-2.0.8...emulatorjs-2.0.9) (2022-06-29)
+
+#### Chore
+
+* add ingress on webui aswell ([#3013](https://github.com/truecharts/apps/issues/3013))
+
+
+
 <a name="emulatorjs-2.0.8"></a>
 ### [emulatorjs-2.0.8](https://github.com/truecharts/apps/compare/emulatorjs-2.0.7...emulatorjs-2.0.8) (2022-06-25)
 
@@ -88,12 +97,3 @@
 #### Chore
 
 * sync all apps persistence configuration and always default to PVC
-
-#### Refactor
-
-* BREAKING CHANGE ([#2836](https://github.com/truecharts/apps/issues/2836))
-
-
-
-<a name="emulatorjs-1.0.21"></a>
-### [emulatorjs-1.0.21](https://github.com/truecharts/apps/compare/emulatorjs-1.0.20...emulatorjs-1.0.21) (2022-05-31)
