@@ -1855,7 +1855,7 @@ questions:
           description: "The group that should own ALL storage."
           schema:
             type: int
-            default: 568
+            default: 82
         - variable: fsGroupChangePolicy
           label: "When should we take ownership?"
           schema:

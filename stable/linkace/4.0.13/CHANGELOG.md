@@ -1,6 +1,15 @@
 # Changelog<br>
 
 
+<a name="linkace-4.0.13"></a>
+### [linkace-4.0.13](https://github.com/truecharts/apps/compare/linkace-4.0.12...linkace-4.0.13) (2022-07-02)
+
+#### Fix
+
+* set fsGroup to www-data (82) ([#3050](https://github.com/truecharts/apps/issues/3050))
+
+
+
 <a name="linkace-4.0.12"></a>
 ### [linkace-4.0.12](https://github.com/truecharts/apps/compare/linkace-4.0.11...linkace-4.0.12) (2022-06-29)
 
@@ -88,12 +97,3 @@
 
 <a name="linkace-4.0.3"></a>
 ### [linkace-4.0.3](https://github.com/truecharts/apps/compare/linkace-4.0.2...linkace-4.0.3) (2022-06-14)
-
-#### Chore
-
-* update helm general non-major helm releases ([#2873](https://github.com/truecharts/apps/issues/2873))
-
-
-
-<a name="linkace-4.0.2"></a>
-### [linkace-4.0.2](https://github.com/truecharts/apps/compare/linkace-4.0.1...linkace-4.0.2) (2022-06-11)
