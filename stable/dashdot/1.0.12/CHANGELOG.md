@@ -1,6 +1,15 @@
 # Changelog<br>
 
 
+<a name="dashdot-1.0.12"></a>
+### [dashdot-1.0.12](https://github.com/truecharts/apps/compare/dashdot-1.0.11...dashdot-1.0.12) (2022-07-06)
+
+#### Chore
+
+* update container image tccr.io/truecharts/dashdot to v4.0.0 ([#3079](https://github.com/truecharts/apps/issues/3079))
+
+
+
 <a name="dashdot-1.0.11"></a>
 ### [dashdot-1.0.11](https://github.com/truecharts/apps/compare/dashdot-1.0.10...dashdot-1.0.11) (2022-07-04)
 
@@ -88,12 +97,3 @@
 
 #### Chore
 
-* update docker general non-major ([#2954](https://github.com/truecharts/apps/issues/2954))
-* update helm general non-major helm releases ([#2948](https://github.com/truecharts/apps/issues/2948))
-
-
-
-<a name="dashdot-1.0.1"></a>
-### [dashdot-1.0.1](https://github.com/truecharts/apps/compare/dashdot-1.0.0...dashdot-1.0.1) (2022-06-21)
-
-#### Chore
