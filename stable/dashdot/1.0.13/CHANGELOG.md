@@ -1,6 +1,15 @@
 # Changelog<br>
 
 
+<a name="dashdot-1.0.13"></a>
+### [dashdot-1.0.13](https://github.com/truecharts/apps/compare/dashdot-1.0.12...dashdot-1.0.13) (2022-07-06)
+
+#### Chore
+
+* apply some changes to be insync with the new app release ([#3082](https://github.com/truecharts/apps/issues/3082))
+
+
+
 <a name="dashdot-1.0.12"></a>
 ### [dashdot-1.0.12](https://github.com/truecharts/apps/compare/dashdot-1.0.11...dashdot-1.0.12) (2022-07-06)
 
@@ -85,15 +94,6 @@
 
 <a name="dashdot-1.0.3"></a>
 ### [dashdot-1.0.3](https://github.com/truecharts/apps/compare/dashdot-1.0.2...dashdot-1.0.3) (2022-06-25)
-
-#### Chore
-
-* update helm general non-major helm releases ([#2977](https://github.com/truecharts/apps/issues/2977))
-
-
-
-<a name="dashdot-1.0.2"></a>
-### [dashdot-1.0.2](https://github.com/truecharts/apps/compare/dashdot-1.0.1...dashdot-1.0.2) (2022-06-22)
 
 #### Chore
 
