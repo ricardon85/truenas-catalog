@@ -1,0 +1,52 @@
+image:
+  repository: tccr.io/truecharts/pihole
+  pullPolicy: IfNotPresent
+  tag: v2022.04.3@sha256:58dfd0e88e29ad6f7681f611a0371c539b5edd531c2f796677475aafa79b083f
+
+securityContext:
+  readOnlyRootFilesystem: false
+  runAsNonRoot: false
+  allowPrivilegeEscalation: true
+
+podSecurityContext:
+  runAsUser: 0
+  runAsGroup: 0
+
+envFrom:
+  - configMapRef:
+      name: pihole-env
+
+service:
+  main:
+    ports:
+      main:
+        port: 9089
+        targetPort: 80
+  dns-tcp:
+    enabled: true
+    ports:
+      dns-tcp:
+        enabled: true
+        port: 53
+        targetPort: 53
+  dns:
+    enabled: true
+    ports:
+      dns:
+        enabled: true
+        protocol: UDP
+        port: 53
+        targetPort: 53
+
+pihole:
+  WEBPASSWORD: "somepassword"
+  DNS1: "9.9.9.9"
+  DNS2: "149.112.112.112"
+
+persistence:
+  config:
+    enabled: true
+    mountPath: "/etc/pihole"
+  dnsmasq:
+    enabled: true
+    mountPath: "/etc/dnsmasq.d"
