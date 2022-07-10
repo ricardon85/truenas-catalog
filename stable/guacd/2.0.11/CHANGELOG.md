@@ -1,6 +1,15 @@
 # Changelog<br>
 
 
+<a name="guacd-2.0.11"></a>
+### [guacd-2.0.11](https://github.com/truecharts/apps/compare/guacd-2.0.10...guacd-2.0.11) (2022-07-10)
+
+#### Fix
+
+* rootfs writable ([#3121](https://github.com/truecharts/apps/issues/3121))
+
+
+
 <a name="guacd-2.0.10"></a>
 ### [guacd-2.0.10](https://github.com/truecharts/apps/compare/guacd-2.0.9...guacd-2.0.10) (2022-07-10)
 
@@ -88,12 +97,3 @@
 #### Chore
 
 * Auto-update chart README [skip ci]
-
-#### Fix
-
-* remove malfunctioning SCALE migration script
-
-#### Refactor
-
-* BREAKING CHANGE ([#2836](https://github.com/truecharts/apps/issues/2836))
-
