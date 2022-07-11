@@ -1,6 +1,19 @@
 # Changelog<br>
 
 
+<a name="ubooquity-3.0.10"></a>
+### [ubooquity-3.0.10](https://github.com/truecharts/apps/compare/ubooquity-3.0.9...ubooquity-3.0.10) (2022-07-11)
+
+#### Chore
+
+* move icons into the apps folder ([#3139](https://github.com/truecharts/apps/issues/3139))
+
+#### Fix
+
+* make root fs writable ([#3142](https://github.com/truecharts/apps/issues/3142))
+
+
+
 <a name="ubooquity-3.0.9"></a>
 ### [ubooquity-3.0.9](https://github.com/truecharts/apps/compare/ubooquity-3.0.8...ubooquity-3.0.9) (2022-07-09)
 
@@ -84,16 +97,3 @@
 #### Fix
 
 * remove malfunctioning SCALE migration script
-
-#### Refactor
-
-* BREAKING CHANGE ([#2836](https://github.com/truecharts/apps/issues/2836))
-
-
-
-<a name="ubooquity-3.0.0"></a>
-### [ubooquity-3.0.0](https://github.com/truecharts/apps/compare/ubooquity-2.0.21...ubooquity-3.0.0) (2022-06-07)
-
-#### Chore
-
-* sync all apps persistence configuration and always default to PVC
