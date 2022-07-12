@@ -1,0 +1,58 @@
+image:
+  repository: tccr.io/truecharts/mkvtoolnix
+  tag: v1.64.0@sha256:76da3d584f8bcf38f0b5284a3a50c2977c63d51c5e7854598c9a99a7a23ed5e3
+  pullPolicy: IfNotPresent
+
+securityContext:
+  readOnlyRootFilesystem: false
+  runAsNonRoot: false
+
+podSecurityContext:
+  runAsUser: 0
+  runAsGroup: 0
+
+service:
+  main:
+    ports:
+      main:
+        port: 10236
+        targetPort: 5800
+  vnc:
+    enabled: true
+    ports:
+      vnc:
+        enabled: true
+        port: 10237
+        targetPort: 5900
+
+envFrom:
+  - configMapRef:
+      name: '{{ include "tc.common.names.fullname" . }}-mkvtoolnix'
+
+secretEnv:
+  VNC_PASSWORD: ""
+
+mkvtoolnix:
+  KEEP_APP_RUNNING: false
+  DISPLAY_WIDTH: 1280
+  DISPLAY_HEIGHT: 768
+  SECURE_CONNECTION: false
+  ENABLE_CJK_FONT: false
+
+configmap:
+  mkvtoolnix:
+    enabled: true
+    data:
+      ENABLE_CJK_FONT: "{{ ternary \"1\" \"0\" .Values.mkvtoolnix.ENABLE_CJK_FONT }}"
+      KEEP_APP_RUNNING: "{{ ternary \"1\" \"0\" .Values.mkvtoolnix.KEEP_APP_RUNNING }}"
+      SECURE_CONNECTION: "{{ ternary \"1\" \"0\" .Values.mkvtoolnix.SECURE_CONNECTION }}"
+      DISPLAY_WIDTH: "{{ .Values.mkvtoolnix.DISPLAY_WIDTH }}"
+      DISPLAY_HEIGHT: "{{ .Values.mkvtoolnix.DISPLAY_HEIGHT }}"
+
+persistence:
+  config:
+    enabled: true
+    mountPath: "/config"
+  storage:
+    enabled: true
+    mountPath: "/storage"

@@ -1,0 +1,31 @@
+image:
+  repository: tccr.io/truecharts/kopia
+  tag: v0.11.3@sha256:fdbd7a743365ab53e85045974d45d9b093bbc3e489f6add72c8903097187349d
+  pullPolicy: IfNotPresent
+
+extraArgs: ["server", "--address=http://0.0.0.0:10238", "--ui", "--insecure"]
+
+secretEnv:
+  KOPIA_PASSWORD: ""
+  KOPIA_SERVER_USERNAME: "user"
+  KOPIA_SERVER_PASSWORD: "password"
+
+service:
+  main:
+    ports:
+      main:
+        port: 10238
+
+persistence:
+  config:
+    enabled: true
+    mountPath: "/app/config"
+  cache:
+    enabled: true
+    mountPath: "/app/cache"
+  logs:
+    enabled: true
+    mountPath: "/app/logs"
+  rclone:
+    enabled: true
+    mountPath: "/app/rclone"
