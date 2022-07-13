@@ -1,6 +1,14 @@
 # Changelog
 
 
+## [mylar-6.0.15](https://github.com/truecharts/apps/compare/mylar-6.0.14...mylar-6.0.15) (2022-07-13)
+
+### Fix
+
+- make root fs writable on several LSIO apps ([#3168](https://github.com/truecharts/apps/issues/3168))
+
+
+
 ## [mylar-6.0.14](https://github.com/truecharts/apps/compare/mylar-6.0.12...mylar-6.0.14) (2022-07-12)
 
 ### Chore
@@ -89,11 +97,3 @@
 
 * update helm general non-major helm releases ([#2886](https://github.com/truecharts/apps/issues/2886))
 
-
-
-<a name="mylar-6.0.3"></a>
-### [mylar-6.0.3](https://github.com/truecharts/apps/compare/mylar-6.0.2...mylar-6.0.3) (2022-06-11)
-
-#### Chore
-
-* update helm general non-major helm releases ([#2854](https://github.com/truecharts/apps/issues/2854))

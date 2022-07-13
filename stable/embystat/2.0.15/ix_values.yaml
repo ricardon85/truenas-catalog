@@ -1,10 +1,11 @@
 image:
-  repository: tccr.io/truecharts/mylar3
-  tag: v0.6.8@sha256:eb2cd68e7dbcfadf47c17045a544a29ba271e6d3136ab792ede2ce5279304440
+  repository: tccr.io/truecharts/embystat
   pullPolicy: IfNotPresent
+  tag: v0.2.0
 
 securityContext:
   runAsNonRoot: false
+  readOnlyRootFilesystem: false
 
 podSecurityContext:
   runAsUser: 0
@@ -14,8 +15,8 @@ service:
   main:
     ports:
       main:
-        port: 8090
-        targetPort: 8090
+        targetPort: 6555
+        port: 6555
 
 persistence:
   config:
