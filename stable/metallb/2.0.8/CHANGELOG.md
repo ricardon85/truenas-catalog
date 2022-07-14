@@ -1,6 +1,14 @@
 # Changelog
 
 
+## [metallb-2.0.8](https://github.com/truecharts/apps/compare/metallb-2.0.7...metallb-2.0.8) (2022-07-14)
+
+### Fix
+
+- revert to pre-major update ([#3174](https://github.com/truecharts/apps/issues/3174))
+
+
+
 ## [metallb-2.0.7](https://github.com/truecharts/apps/compare/metallb-2.0.5...metallb-2.0.7) (2022-07-12)
 
 ### Chore
@@ -89,11 +97,3 @@
 
 #### Fix
 
-* correct mistake in renovate bump
-
-
-
-<a name="metallb-1.0.3"></a>
-### [metallb-1.0.3](https://github.com/truecharts/apps/compare/metallb-1.0.2...metallb-1.0.3) (2021-12-19)
-
-#### Chore
