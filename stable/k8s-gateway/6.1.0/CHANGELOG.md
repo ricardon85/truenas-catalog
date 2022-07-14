@@ -1,6 +1,14 @@
 # Changelog
 
 
+## [k8s-gateway-6.1.0](https://github.com/truecharts/apps/compare/k8s-gateway-6.0.16...k8s-gateway-6.1.0) (2022-07-14)
+
+### Feat
+
+- deploy k8s-gateway in HA mode ([#3163](https://github.com/truecharts/apps/issues/3163))
+
+
+
 ## [k8s-gateway-6.0.16](https://github.com/truecharts/apps/compare/k8s-gateway-6.0.14...k8s-gateway-6.0.16) (2022-07-14)
 
 ### Fix
@@ -87,13 +95,5 @@
 
 * update helm general non-major helm releases ([#2943](https://github.com/truecharts/apps/issues/2943))
 
-
-
-<a name="k8s-gateway-6.0.4"></a>
-### [k8s-gateway-6.0.4](https://github.com/truecharts/apps/compare/k8s-gateway-6.0.3...k8s-gateway-6.0.4) (2022-06-14)
-
-#### Chore
-
-* update helm general non-major helm releases ([#2886](https://github.com/truecharts/apps/issues/2886))
 
 
