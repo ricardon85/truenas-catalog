@@ -1,0 +1,48 @@
+image:
+  repository: tccr.io/truecharts/monica
+  tag: v3.7.0@sha256:0b0a818462bc93fe9fca60cf37f0a87c5001ca0f3a518d1c0bbf7de5a0edeaac
+  pullPolicy: IfNotPresent
+
+securityContext:
+  readOnlyRootFilesystem: false
+  runAsNonRoot: false
+
+podSecurityContext:
+  runAsUser: 0
+  runAsGroup: 0
+
+env:
+  APP_ENV: production
+  APP_URL: https://crm.k8s-at-home.com
+  DB_DATABASE: monica
+  DB_USERNAME: monica
+  DB_HOST:
+    secretKeyRef:
+      name: mariadbcreds
+      key: plainhost
+  DB_PASSWORD:
+    secretKeyRef:
+      name: mariadbcreds
+      key: mariadb-password
+  APP_KEY:
+    secretKeyRef:
+      name: appkey
+      key: appkey
+
+service:
+  main:
+    ports:
+      main:
+        port: 10119
+        targetPort: 80
+
+persistence:
+  config:
+    enabled: true
+    mountPath: "/var/www/html/storage"
+
+mariadb:
+  enabled: true
+  mariadbUsername: monica
+  mariadbDatabase: monica
+  existingSecret: "mariadbcreds"
