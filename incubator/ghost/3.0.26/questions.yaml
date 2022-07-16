@@ -190,7 +190,7 @@ questions:
           description: "Enter the URL that is used to access your publication"
           schema:
             type: string
-            default: "http://localhost:10165"
+            default: "http://localhost:10166"
         - variable: useMinFiles
           label: "useMinFiles"
           description: "Generate assets url with .min notation"
@@ -1638,34 +1638,6 @@ questions:
                         type: string
                         default: ""
                         required: true
-
-  - variable: security
-    label: "Container Security Settings"
-    group: "Security and Permissions"
-    schema:
-      type: dict
-      additional_attrs: true
-      attrs:
-        - variable: editsecurity
-          label: "Change PUID / UMASK values"
-          description: "By enabling this you override default set values."
-          schema:
-            type: boolean
-            default: false
-            show_subquestions_if: true
-            subquestions:
-              - variable: PUID
-                label: "Process User ID - PUID"
-                description: "When supported by the container, this sets the User ID running the Application Process. Not supported by all Apps"
-                schema:
-                  type: int
-                  default: 568
-              - variable: UMASK
-                label: "UMASK"
-                description: "When supported by the container, this sets the UMASK for tha App. Not supported by all Apps"
-                schema:
-                  type: string
-                  default: "002"
 
   - variable: security
     label: "Container Security Settings"

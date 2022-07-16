@@ -1,6 +1,14 @@
 # Changelog
 
 
+## [ghost-3.0.26](https://github.com/truecharts/apps/compare/ghost-3.0.25...ghost-3.0.26) (2022-07-16)
+
+### Chore
+
+- remove duplice gui entry ([#3194](https://github.com/truecharts/apps/issues/3194))
+
+
+
 ## [ghost-3.0.25](https://github.com/truecharts/apps/compare/ghost-3.0.24...ghost-3.0.25) (2022-07-15)
 
 ### Chore
@@ -89,11 +97,3 @@
 <a name="ghost-3.0.13"></a>
 ### [ghost-3.0.13](https://github.com/truecharts/apps/compare/ghost-3.0.12...ghost-3.0.13) (2022-07-06)
 
-#### Chore
-
-* update docker general non-major ([#3078](https://github.com/truecharts/apps/issues/3078))
-
-
-
-<a name="ghost-3.0.12"></a>
-### [ghost-3.0.12](https://github.com/truecharts/apps/compare/ghost-3.0.11...ghost-3.0.12) (2022-07-05)
