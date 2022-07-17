@@ -1,6 +1,18 @@
 # Changelog
 
 
+## [cloudflared-0.0.16](https://github.com/truecharts/apps/compare/cloudflareddns-0.0.15...cloudflared-0.0.16) (2022-07-17)
+
+### Chore
+
+- extend linter and apply lint ([#3200](https://github.com/truecharts/apps/issues/3200))
+
+### Feat
+
+- Add installation_notes for cloudflared ([#3196](https://github.com/truecharts/apps/issues/3196))
+
+
+
 ## [cloudflared-0.0.15](https://github.com/truecharts/apps/compare/cloudflareddns-0.0.14...cloudflared-0.0.15) (2022-07-14)
 
 ### Fix
@@ -85,15 +97,3 @@
 #### Chore
 
 * update docker general non-major ([#3089](https://github.com/truecharts/apps/issues/3089))
-
-
-
-<a name="cloudflared-0.0.3"></a>
-### [cloudflared-0.0.3](https://github.com/truecharts/apps/compare/cloudflareddns-0.0.4...cloudflared-0.0.3) (2022-07-06)
-
-#### Chore
-
-* update docker general non-major ([#3078](https://github.com/truecharts/apps/issues/3078))
-
-
-
