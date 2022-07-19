@@ -1,6 +1,19 @@
 # Changelog
 
 
+## [mosquitto-6.0.19](https://github.com/truecharts/apps/compare/mosquitto-6.0.17...mosquitto-6.0.19) (2022-07-19)
+
+### Feat
+
+- Create setup-guide.md ([#3212](https://github.com/truecharts/apps/issues/3212))
+
+### Fix
+
+- fixup ([#3209](https://github.com/truecharts/apps/issues/3209))
+- set password file when auth is enabled ([#3216](https://github.com/truecharts/apps/issues/3216))
+
+
+
 ## [mosquitto-6.0.17](https://github.com/truecharts/apps/compare/mosquitto-6.0.16...mosquitto-6.0.17) (2022-07-14)
 
 ### Fix
@@ -83,17 +96,4 @@
 ### [mosquitto-6.0.6](https://github.com/truecharts/apps/compare/mosquitto-6.0.5...mosquitto-6.0.6) (2022-06-22)
 
 #### Chore
-
-* update helm general non-major helm releases ([#2948](https://github.com/truecharts/apps/issues/2948))
-
-
-
-<a name="mosquitto-6.0.5"></a>
-### [mosquitto-6.0.5](https://github.com/truecharts/apps/compare/mosquitto-6.0.4...mosquitto-6.0.5) (2022-06-21)
-
-#### Chore
-
-* update helm general non-major helm releases ([#2943](https://github.com/truecharts/apps/issues/2943))
-
-
 
