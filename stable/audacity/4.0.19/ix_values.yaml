@@ -1,0 +1,26 @@
+image:
+  repository: tccr.io/truecharts/audacity
+  pullPolicy: IfNotPresent
+  tag: v3.0.2@sha256:ddd7dd0f07602b9dcd7d8b50145ac37c562ed97abedef83a3365aa8d6f6da21e
+
+securityContext:
+  readOnlyRootFilesystem: false
+  runAsNonRoot: false
+
+podSecurityContext:
+  runAsUser: 0
+  runAsGroup: 0
+
+service:
+  main:
+    ports:
+      main:
+        port: 10032
+        targetPort: 3000
+
+persistence:
+  config:
+    enabled: true
+    mountPath: "/config"
+  varrun:
+    enabled: true
