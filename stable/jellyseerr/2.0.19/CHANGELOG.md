@@ -1,6 +1,18 @@
 # Changelog
 
 
+## [jellyseerr-2.0.19](https://github.com/truecharts/apps/compare/jellyseerr-2.0.18...jellyseerr-2.0.19) (2022-07-21)
+
+
+
+## [jellyseerr-2.0.18](https://github.com/truecharts/apps/compare/jellyseerr-2.0.17...jellyseerr-2.0.18) (2022-07-19)
+
+### Chore
+
+- Update Readme and Description on SCALE
+
+
+
 ## [jellyseerr-2.0.17](https://github.com/truecharts/apps/compare/jellyseerr-2.0.16...jellyseerr-2.0.17) (2022-07-14)
 
 ### Fix
@@ -85,15 +97,3 @@
 #### Chore
 
 * update docker general non-major ([#2954](https://github.com/truecharts/apps/issues/2954))
-* update helm general non-major helm releases ([#2948](https://github.com/truecharts/apps/issues/2948))
-
-
-
-<a name="jellyseerr-2.0.5"></a>
-### [jellyseerr-2.0.5](https://github.com/truecharts/apps/compare/jellyseerr-2.0.4...jellyseerr-2.0.5) (2022-06-21)
-
-#### Chore
-
-* update helm general non-major helm releases ([#2943](https://github.com/truecharts/apps/issues/2943))
-
-
