@@ -1,20 +1,20 @@
-# solr
+# lancache-dns
 
-![Version: 0.0.15](https://img.shields.io/badge/Version-0.0.15-informational?style=flat-square) ![Type: application](https://img.shields.io/badge/Type-application-informational?style=flat-square) ![AppVersion: 9.0.0](https://img.shields.io/badge/AppVersion-9.0.0-informational?style=flat-square)
+![Version: 0.0.6](https://img.shields.io/badge/Version-0.0.6-informational?style=flat-square) ![Type: application](https://img.shields.io/badge/Type-application-informational?style=flat-square) ![AppVersion: latest](https://img.shields.io/badge/AppVersion-latest-informational?style=flat-square)
 
-Apache Solr
+DNS Docker service for a steamcache.
 
 TrueCharts can be installed as both *normal* Helm Charts or as Apps on TrueNAS SCALE.
 
 This readme is just an automatically generated general guide on installing our Helm Charts and Apps.
-For more information, please click here: [solr](https://truecharts.org/charts/stable/solr)
+For more information, please click here: [lancache-dns](https://truecharts.org/charts/stable/lancache-dns)
 
 **This chart is not maintained by the upstream project and any issues with the chart should be raised [here](https://github.com/truecharts/apps/issues/new/choose)**
 
 ## Source Code
 
-* <https://github.com/apache/solr>
-* <https://hub.docker.com/r/bitnami/solr/>
+* <https://hub.docker.com/r/lancachenet/lancache-dns>
+* <https://github.com/lancachenet/lancache-dns>
 
 ## Requirements
 
@@ -24,7 +24,7 @@ Kubernetes: `>=1.16.0-0`
 
 | Repository | Name | Version |
 |------------|------|---------|
-| https://library-charts.truecharts.org | common | 10.4.6 |
+| https://library-charts.truecharts.org | common | 10.4.4 |
 
 ## Installing the Chart
 
@@ -34,12 +34,12 @@ To install this App on TrueNAS SCALE check our [Quick-Start Guide](https://truec
 
 ### Helm
 
-To install the chart with the release name `solr`
+To install the chart with the release name `lancache-dns`
 
 ```console
 helm repo add TrueCharts https://helm.truecharts.org
 helm repo update
-helm install solr TrueCharts/solr
+helm install lancache-dns TrueCharts/lancache-dns
 ```
 
 ## Uninstall
@@ -52,10 +52,10 @@ To upgrade, rollback or delete this App from TrueNAS SCALE check our [Quick-Star
 
 ### Helm
 
-To uninstall the `solr` deployment
+To uninstall the `lancache-dns` deployment
 
 ```console
-helm uninstall solr
+helm uninstall lancache-dns
 ```
 
 ## Configuration
@@ -72,9 +72,9 @@ Other values may be used from the [values.yaml](https://github.com/truecharts/li
 Specify each parameter using the `--set key=value[,key=value]` argument to `helm install`.
 
 ```console
-helm install solr \
+helm install lancache-dns \
   --set env.TZ="America/New York" \
-    TrueCharts/solr
+    TrueCharts/lancache-dns
 ```
 
 #### Configure using a yaml file
@@ -82,7 +82,7 @@ helm install solr \
 Alternatively, a YAML file that specifies the values for the above parameters can be provided while installing the chart.
 
 ```console
-helm install solr TrueCharts/solr -f values.yaml
+helm install lancache-dns TrueCharts/lancache-dns -f values.yaml
 ```
 
 #### Connecting to other apps
