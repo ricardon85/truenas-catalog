@@ -6,6 +6,16 @@
 
 ### Chore
 
+- Auto-update chart README [skip ci]
+  - update helm general non-major helm releases ([#3280](https://github.com/truecharts/apps/issues/3280))
+
+
+
+
+## [nextpvr-2.0.21](https://github.com/truecharts/apps/compare/nextpvr-2.0.20...nextpvr-2.0.21) (2022-07-23)
+
+### Chore
+
 - update helm general non-major helm releases ([#3280](https://github.com/truecharts/apps/issues/3280))
 
 
@@ -85,15 +95,5 @@
 #### Chore
 
 * update helm general non-major helm releases ([#3113](https://github.com/truecharts/apps/issues/3113))
-
-
-
-<a name="nextpvr-2.0.8"></a>
-### [nextpvr-2.0.8](https://github.com/truecharts/apps/compare/nextpvr-2.0.7...nextpvr-2.0.8) (2022-07-04)
-
-#### Chore
-
-* update helm general non-major helm releases ([#3066](https://github.com/truecharts/apps/issues/3066))
-
 
 

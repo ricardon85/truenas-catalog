@@ -6,6 +6,16 @@
 
 ### Chore
 
+- Auto-update chart README [skip ci]
+  - update helm general non-major helm releases ([#3280](https://github.com/truecharts/apps/issues/3280))
+
+
+
+
+## [wger-0.0.30](https://github.com/truecharts/apps/compare/wger-0.0.29...wger-0.0.30) (2022-07-23)
+
+### Chore
+
 - update helm general non-major helm releases ([#3280](https://github.com/truecharts/apps/issues/3280))
 
 
@@ -87,13 +97,3 @@
 ### Fix
 
 - regenerate catalog and update template
-
-
-
-## [wger-0.0.21](https://github.com/truecharts/apps/compare/wger-0.0.19...wger-0.0.21) (2022-07-14)
-
-### Fix
-
-- bump to ensure .helmignore is present on all Charts
-
-

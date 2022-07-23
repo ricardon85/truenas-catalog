@@ -6,6 +6,16 @@
 
 ### Chore
 
+- Auto-update chart README [skip ci]
+  - update helm general non-major helm releases ([#3280](https://github.com/truecharts/apps/issues/3280))
+
+
+
+
+## [satisfactory-2.0.23](https://github.com/truecharts/apps/compare/satisfactory-2.0.22...satisfactory-2.0.23) (2022-07-23)
+
+### Chore
+
 - update helm general non-major helm releases ([#3280](https://github.com/truecharts/apps/issues/3280))
 
 
@@ -86,14 +96,4 @@
 #### Chore
 
 * update helm general non-major helm releases ([#3066](https://github.com/truecharts/apps/issues/3066))
-
-
-
-<a name="satisfactory-2.0.9"></a>
-### [satisfactory-2.0.9](https://github.com/truecharts/apps/compare/satisfactory-2.0.8...satisfactory-2.0.9) (2022-06-25)
-
-#### Chore
-
-* update helm general non-major helm releases ([#2977](https://github.com/truecharts/apps/issues/2977))
-
 

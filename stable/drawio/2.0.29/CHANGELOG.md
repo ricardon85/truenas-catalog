@@ -6,6 +6,16 @@
 
 ### Chore
 
+- Auto-update chart README [skip ci]
+  - update helm general non-major helm releases ([#3280](https://github.com/truecharts/apps/issues/3280))
+
+
+
+
+## [drawio-2.0.29](https://github.com/truecharts/apps/compare/drawio-2.0.28...drawio-2.0.29) (2022-07-23)
+
+### Chore
+
 - update helm general non-major helm releases ([#3280](https://github.com/truecharts/apps/issues/3280))
 
 
@@ -85,15 +95,5 @@
 #### Chore
 
 * update helm general non-major helm releases ([#3147](https://github.com/truecharts/apps/issues/3147))
-
-
-
-<a name="drawio-2.0.16"></a>
-### [drawio-2.0.16](https://github.com/truecharts/apps/compare/drawio-2.0.15...drawio-2.0.16) (2022-07-11)
-
-#### Chore
-
-* move icons into the apps folder ([#3139](https://github.com/truecharts/apps/issues/3139))
-
 
 

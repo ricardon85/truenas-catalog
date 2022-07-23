@@ -6,6 +6,16 @@
 
 ### Chore
 
+- Auto-update chart README [skip ci]
+  - update helm general non-major helm releases ([#3280](https://github.com/truecharts/apps/issues/3280))
+
+
+
+
+## [emulatorjs-2.0.25](https://github.com/truecharts/apps/compare/emulatorjs-2.0.24...emulatorjs-2.0.25) (2022-07-23)
+
+### Chore
+
 - update helm general non-major helm releases ([#3280](https://github.com/truecharts/apps/issues/3280))
 
 
@@ -85,15 +95,5 @@
 #### Chore
 
 * update helm general non-major helm releases ([#3113](https://github.com/truecharts/apps/issues/3113))
-
-
-
-<a name="emulatorjs-2.0.12"></a>
-### [emulatorjs-2.0.12](https://github.com/truecharts/apps/compare/emulatorjs-2.0.11...emulatorjs-2.0.12) (2022-07-07)
-
-#### Fix
-
-* add config persistence ([#3095](https://github.com/truecharts/apps/issues/3095))
-
 
 

@@ -6,6 +6,16 @@
 
 ### Chore
 
+- Auto-update chart README [skip ci]
+  - update helm general non-major helm releases ([#3280](https://github.com/truecharts/apps/issues/3280))
+
+
+
+
+## [cyberchef-2.0.44](https://github.com/truecharts/apps/compare/cyberchef-2.0.43...cyberchef-2.0.44) (2022-07-23)
+
+### Chore
+
 - update helm general non-major helm releases ([#3280](https://github.com/truecharts/apps/issues/3280))
 
 
@@ -87,13 +97,3 @@
 ## [cyberchef-2.0.32](https://github.com/truecharts/apps/compare/cyberchef-2.0.30...cyberchef-2.0.32) (2022-07-12)
 
 ### Chore
-
-- update icons ([#3156](https://github.com/truecharts/apps/issues/3156))
-- bump to cleanup old docs and use correct icon urls
-
-
-
-## [cyberchef-2.0.30](https://github.com/truecharts/apps/compare/cyberchef-2.0.29...cyberchef-2.0.30) (2022-07-12)
-
-### Chore
-

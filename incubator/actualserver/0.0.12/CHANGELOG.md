@@ -2,6 +2,16 @@
 
 
 
+## [actualserver-0.0.12](https://github.com/truecharts/apps/compare/actualserver-0.0.11...actualserver-0.0.12) (2022-07-23)
+
+### Chore
+
+- Auto-update chart README [skip ci]
+  - update helm general non-major helm releases ([#3280](https://github.com/truecharts/apps/issues/3280))
+
+
+
+
 ## [adguard-home-1.0.24](https://github.com/truecharts/apps/compare/adguard-home-1.0.23...adguard-home-1.0.24) (2022-07-23)
 
 ### Chore
@@ -84,16 +94,6 @@
 #### Chore
 
 * move icons into the apps folder ([#3139](https://github.com/truecharts/apps/issues/3139))
-
-
-
-<a name="ariang-0.0.2"></a>
-### [ariang-0.0.2](https://github.com/truecharts/apps/compare/ariang-0.0.1...ariang-0.0.2) (2022-07-09)
-
-#### Chore
-
-* Auto-update chart README [skip ci]
-* update helm general non-major helm releases ([#3113](https://github.com/truecharts/apps/issues/3113))
 
 
 

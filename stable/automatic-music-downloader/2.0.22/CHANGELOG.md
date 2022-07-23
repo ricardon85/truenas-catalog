@@ -6,6 +6,16 @@
 
 ### Chore
 
+- Auto-update chart README [skip ci]
+  - update helm general non-major helm releases ([#3280](https://github.com/truecharts/apps/issues/3280))
+
+
+
+
+## [automatic-music-downloader-2.0.22](https://github.com/truecharts/apps/compare/automatic-music-downloader-2.0.21...automatic-music-downloader-2.0.22) (2022-07-23)
+
+### Chore
+
 - update helm general non-major helm releases ([#3280](https://github.com/truecharts/apps/issues/3280))
 
 
@@ -85,15 +95,5 @@
 #### Chore
 
 * update helm general non-major helm releases ([#3113](https://github.com/truecharts/apps/issues/3113))
-
-
-
-<a name="automatic-music-downloader-2.0.9"></a>
-### [automatic-music-downloader-2.0.9](https://github.com/truecharts/apps/compare/automatic-music-downloader-2.0.8...automatic-music-downloader-2.0.9) (2022-07-04)
-
-#### Chore
-
-* update helm general non-major helm releases ([#3066](https://github.com/truecharts/apps/issues/3066))
-
 
 

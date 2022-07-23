@@ -6,6 +6,16 @@
 
 ### Chore
 
+- Auto-update chart README [skip ci]
+  - update helm general non-major helm releases ([#3280](https://github.com/truecharts/apps/issues/3280))
+
+
+
+
+## [self-service-password-1.0.25](https://github.com/truecharts/apps/compare/self-service-password-1.0.24...self-service-password-1.0.25) (2022-07-23)
+
+### Chore
+
 - update helm general non-major helm releases ([#3280](https://github.com/truecharts/apps/issues/3280))
 
 
@@ -85,15 +95,5 @@
 #### Chore
 
 * update helm general non-major helm releases ([#3113](https://github.com/truecharts/apps/issues/3113))
-
-
-
-<a name="self-service-password-1.0.12"></a>
-### [self-service-password-1.0.12](https://github.com/truecharts/apps/compare/self-service-password-1.0.11...self-service-password-1.0.12) (2022-07-07)
-
-#### Chore
-
-* update docker general non-major ([#3089](https://github.com/truecharts/apps/issues/3089))
-
 
 

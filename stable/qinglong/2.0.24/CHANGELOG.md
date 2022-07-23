@@ -6,6 +6,16 @@
 
 ### Chore
 
+- Auto-update chart README [skip ci]
+  - update helm general non-major helm releases ([#3280](https://github.com/truecharts/apps/issues/3280))
+
+
+
+
+## [qinglong-2.0.24](https://github.com/truecharts/apps/compare/qinglong-2.0.23...qinglong-2.0.24) (2022-07-23)
+
+### Chore
+
 - update helm general non-major helm releases ([#3280](https://github.com/truecharts/apps/issues/3280))
 
 
@@ -87,13 +97,3 @@
 
 
 <a name="qinglong-2.0.11"></a>
-### [qinglong-2.0.11](https://github.com/truecharts/apps/compare/qinglong-2.0.10...qinglong-2.0.11) (2022-07-11)
-
-#### Chore
-
-* move icons into the apps folder ([#3139](https://github.com/truecharts/apps/issues/3139))
-
-
-
-<a name="qinglong-2.0.10"></a>
-### [qinglong-2.0.10](https://github.com/truecharts/apps/compare/qinglong-2.0.9...qinglong-2.0.10) (2022-07-09)

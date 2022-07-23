@@ -6,6 +6,16 @@
 
 ### Chore
 
+- Auto-update chart README [skip ci]
+  - update helm general non-major helm releases ([#3280](https://github.com/truecharts/apps/issues/3280))
+
+
+
+
+## [recipes-8.0.28](https://github.com/truecharts/apps/compare/recipes-8.0.27...recipes-8.0.28) (2022-07-23)
+
+### Chore
+
 - update helm general non-major helm releases ([#3280](https://github.com/truecharts/apps/issues/3280))
 
 
@@ -87,13 +97,3 @@
 
 
 ## [recipes-8.0.15](https://github.com/truecharts/apps/compare/recipes-8.0.14...recipes-8.0.15) (2022-07-12)
-
-### Chore
-
-- bump to regenerate documentation
-
-
-
-<a name="recipes-8.0.14"></a>
-### [recipes-8.0.14](https://github.com/truecharts/apps/compare/recipes-8.0.13...recipes-8.0.14) (2022-07-12)
-

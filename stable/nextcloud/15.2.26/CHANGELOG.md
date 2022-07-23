@@ -6,6 +6,16 @@
 
 ### Chore
 
+- Auto-update chart README [skip ci]
+  - update helm general non-major helm releases ([#3280](https://github.com/truecharts/apps/issues/3280))
+
+
+
+
+## [nextcloud-15.2.26](https://github.com/truecharts/apps/compare/nextcloud-15.2.25...nextcloud-15.2.26) (2022-07-23)
+
+### Chore
+
 - update helm general non-major helm releases ([#3280](https://github.com/truecharts/apps/issues/3280))
 
 
@@ -86,14 +96,4 @@
 - regenerate catalog and update template
 
 
-
-## [nextcloud-15.2.15](https://github.com/truecharts/apps/compare/nextcloud-15.2.13...nextcloud-15.2.15) (2022-07-14)
-
-### Fix
-
-- bump to ensure .helmignore is present on all Charts
-
-
-
-## [nextcloud-15.2.13](https://github.com/truecharts/apps/compare/nextcloud-15.2.12...nextcloud-15.2.13) (2022-07-14)
 

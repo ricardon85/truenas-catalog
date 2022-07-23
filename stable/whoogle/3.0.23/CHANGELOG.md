@@ -6,6 +6,16 @@
 
 ### Chore
 
+- Auto-update chart README [skip ci]
+  - update helm general non-major helm releases ([#3280](https://github.com/truecharts/apps/issues/3280))
+
+
+
+
+## [whoogle-3.0.23](https://github.com/truecharts/apps/compare/whoogle-3.0.22...whoogle-3.0.23) (2022-07-23)
+
+### Chore
+
 - update helm general non-major helm releases ([#3280](https://github.com/truecharts/apps/issues/3280))
 
 
@@ -85,15 +95,5 @@
 #### Chore
 
 * update helm general non-major helm releases ([#3113](https://github.com/truecharts/apps/issues/3113))
-
-
-
-<a name="whoogle-3.0.10"></a>
-### [whoogle-3.0.10](https://github.com/truecharts/apps/compare/whoogle-3.0.9...whoogle-3.0.10) (2022-07-04)
-
-#### Chore
-
-* update helm general non-major helm releases ([#3066](https://github.com/truecharts/apps/issues/3066))
-
 
 

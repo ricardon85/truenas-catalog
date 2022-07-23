@@ -2,6 +2,16 @@
 
 
 
+## [adguard-home-1.0.24](https://github.com/truecharts/apps/compare/adguard-home-1.0.23...adguard-home-1.0.24) (2022-07-23)
+
+### Chore
+
+- Auto-update chart README [skip ci]
+  - update helm general non-major helm releases ([#3280](https://github.com/truecharts/apps/issues/3280))
+
+
+
+
 
 ## [adguard-home-1.0.23](https://github.com/truecharts/apps/compare/adguard-home-1.0.21...adguard-home-1.0.23) (2022-07-22)
 
@@ -86,14 +96,4 @@
 
 * Auto-update chart README [skip ci]
 * update helm general non-major helm releases ([#3113](https://github.com/truecharts/apps/issues/3113))
-
-
-
-<a name="ariang-0.0.1"></a>
-### ariang-0.0.1 (2022-07-08)
-
-#### Feat
-
-* add Ariang ([#3098](https://github.com/truecharts/apps/issues/3098))
-es/3119))
 

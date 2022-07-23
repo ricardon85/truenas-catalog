@@ -6,6 +6,16 @@
 
 ### Chore
 
+- Auto-update chart README [skip ci]
+  - update helm general non-major helm releases ([#3280](https://github.com/truecharts/apps/issues/3280))
+
+
+
+
+## [wireshark-2.0.21](https://github.com/truecharts/apps/compare/wireshark-2.0.20...wireshark-2.0.21) (2022-07-23)
+
+### Chore
+
 - update helm general non-major helm releases ([#3280](https://github.com/truecharts/apps/issues/3280))
 
 
@@ -87,13 +97,3 @@
 <a name="wireshark-2.0.9"></a>
 ### [wireshark-2.0.9](https://github.com/truecharts/apps/compare/wireshark-2.0.8...wireshark-2.0.9) (2022-07-09)
 
-#### Chore
-
-* update helm general non-major helm releases ([#3113](https://github.com/truecharts/apps/issues/3113))
-
-
-
-<a name="wireshark-2.0.8"></a>
-### [wireshark-2.0.8](https://github.com/truecharts/apps/compare/wireshark-2.0.7...wireshark-2.0.8) (2022-07-04)
-
-#### Chore

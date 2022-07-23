@@ -6,6 +6,16 @@
 
 ### Chore
 
+- Auto-update chart README [skip ci]
+  - update helm general non-major helm releases ([#3280](https://github.com/truecharts/apps/issues/3280))
+
+
+
+
+## [photoview-4.0.22](https://github.com/truecharts/apps/compare/photoview-4.0.21...photoview-4.0.22) (2022-07-23)
+
+### Chore
+
 - update helm general non-major helm releases ([#3280](https://github.com/truecharts/apps/issues/3280))
 
 
@@ -86,14 +96,4 @@
 #### Chore
 
 * update helm general non-major helm releases ([#3113](https://github.com/truecharts/apps/issues/3113))
-
-
-
-<a name="photoview-4.0.8"></a>
-### [photoview-4.0.8](https://github.com/truecharts/apps/compare/photoview-4.0.7...photoview-4.0.8) (2022-07-05)
-
-#### Chore
-
-* update helm general non-major helm releases ([#3075](https://github.com/truecharts/apps/issues/3075))
-
 

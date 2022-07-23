@@ -6,6 +6,16 @@
 
 ### Chore
 
+- Auto-update chart README [skip ci]
+  - update helm general non-major helm releases ([#3280](https://github.com/truecharts/apps/issues/3280))
+
+
+
+
+## [loki-5.0.26](https://github.com/truecharts/apps/compare/loki-5.0.25...loki-5.0.26) (2022-07-23)
+
+### Chore
+
 - update helm general non-major helm releases ([#3280](https://github.com/truecharts/apps/issues/3280))
 
 
@@ -87,13 +97,3 @@
 
 
 
-<a name="loki-5.0.13"></a>
-### [loki-5.0.13](https://github.com/truecharts/apps/compare/loki-5.0.12...loki-5.0.13) (2022-07-11)
-
-#### Chore
-
-* move icons into the apps folder ([#3139](https://github.com/truecharts/apps/issues/3139))
-
-
-
-<a name="loki-5.0.12"></a>

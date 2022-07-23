@@ -6,6 +6,16 @@
 
 ### Chore
 
+- Auto-update chart README [skip ci]
+  - update helm general non-major helm releases ([#3280](https://github.com/truecharts/apps/issues/3280))
+
+
+
+
+## [cups-server-1.0.26](https://github.com/truecharts/apps/compare/cups-server-1.0.25...cups-server-1.0.26) (2022-07-23)
+
+### Chore
+
 - update helm general non-major helm releases ([#3280](https://github.com/truecharts/apps/issues/3280))
 
 
@@ -87,13 +97,3 @@
 
 
 
-<a name="cups-server-1.0.13"></a>
-### [cups-server-1.0.13](https://github.com/truecharts/apps/compare/cups-server-1.0.12...cups-server-1.0.13) (2022-07-10)
-
-#### Chore
-
-* update docker general non-major ([#3115](https://github.com/truecharts/apps/issues/3115))
-
-
-
-<a name="cups-server-1.0.12"></a>

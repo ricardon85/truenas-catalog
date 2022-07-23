@@ -6,6 +6,16 @@
 
 ### Chore
 
+- Auto-update chart README [skip ci]
+  - update helm general non-major helm releases ([#3280](https://github.com/truecharts/apps/issues/3280))
+
+
+
+
+## [alist-2.0.22](https://github.com/truecharts/apps/compare/alist-2.0.21...alist-2.0.22) (2022-07-23)
+
+### Chore
+
 - update helm general non-major helm releases ([#3280](https://github.com/truecharts/apps/issues/3280))
 
 
@@ -86,14 +96,4 @@
 #### Chore
 
 * update helm general non-major helm releases ([#3113](https://github.com/truecharts/apps/issues/3113))
-
-
-
-<a name="alist-2.0.9"></a>
-### [alist-2.0.9](https://github.com/truecharts/apps/compare/alist-2.0.8...alist-2.0.9) (2022-07-04)
-
-#### Chore
-
-* update helm general non-major helm releases ([#3066](https://github.com/truecharts/apps/issues/3066))
-
 

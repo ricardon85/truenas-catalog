@@ -6,6 +6,16 @@
 
 ### Chore
 
+- Auto-update chart README [skip ci]
+  - update helm general non-major helm releases ([#3280](https://github.com/truecharts/apps/issues/3280))
+
+
+
+
+## [grocy-11.0.27](https://github.com/truecharts/apps/compare/grocy-11.0.26...grocy-11.0.27) (2022-07-23)
+
+### Chore
+
 - update helm general non-major helm releases ([#3280](https://github.com/truecharts/apps/issues/3280))
 
 
@@ -85,15 +95,5 @@
 #### Chore
 
 * move icons into the apps folder ([#3139](https://github.com/truecharts/apps/issues/3139))
-
-
-
-<a name="grocy-11.0.14"></a>
-### [grocy-11.0.14](https://github.com/truecharts/apps/compare/grocy-11.0.13...grocy-11.0.14) (2022-07-09)
-
-#### Chore
-
-* update helm general non-major helm releases ([#3113](https://github.com/truecharts/apps/issues/3113))
-
 
 

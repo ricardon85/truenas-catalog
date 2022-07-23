@@ -6,6 +6,16 @@
 
 ### Chore
 
+- Auto-update chart README [skip ci]
+  - update helm general non-major helm releases ([#3280](https://github.com/truecharts/apps/issues/3280))
+
+
+
+
+## [beets-4.0.23](https://github.com/truecharts/apps/compare/beets-4.0.22...beets-4.0.23) (2022-07-23)
+
+### Chore
+
 - update helm general non-major helm releases ([#3280](https://github.com/truecharts/apps/issues/3280))
 
 
@@ -86,14 +96,4 @@
 #### Chore
 
 * update helm general non-major helm releases ([#3113](https://github.com/truecharts/apps/issues/3113))
-
-
-
-<a name="beets-4.0.10"></a>
-### [beets-4.0.10](https://github.com/truecharts/apps/compare/beets-4.0.9...beets-4.0.10) (2022-07-07)
-
-#### Chore
-
-* update docker general non-major ([#3089](https://github.com/truecharts/apps/issues/3089))
-
 

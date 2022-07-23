@@ -6,6 +6,16 @@
 
 ### Chore
 
+- Auto-update chart README [skip ci]
+  - update helm general non-major helm releases ([#3280](https://github.com/truecharts/apps/issues/3280))
+
+
+
+
+## [stash-7.0.23](https://github.com/truecharts/apps/compare/stash-7.0.22...stash-7.0.23) (2022-07-23)
+
+### Chore
+
 - update helm general non-major helm releases ([#3280](https://github.com/truecharts/apps/issues/3280))
 
 
@@ -85,15 +95,5 @@
 #### Chore
 
 * update helm general non-major helm releases ([#3113](https://github.com/truecharts/apps/issues/3113))
-
-
-
-<a name="stash-7.0.10"></a>
-### [stash-7.0.10](https://github.com/truecharts/apps/compare/stash-7.0.9...stash-7.0.10) (2022-07-05)
-
-#### Chore
-
-* update docker general non-major ([#3071](https://github.com/truecharts/apps/issues/3071))
-
 
 

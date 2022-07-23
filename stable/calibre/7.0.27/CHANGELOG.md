@@ -6,6 +6,16 @@
 
 ### Chore
 
+- Auto-update chart README [skip ci]
+  - update helm general non-major helm releases ([#3280](https://github.com/truecharts/apps/issues/3280))
+
+
+
+
+## [calibre-7.0.27](https://github.com/truecharts/apps/compare/calibre-web-11.0.25...calibre-7.0.27) (2022-07-23)
+
+### Chore
+
 - update helm general non-major helm releases ([#3280](https://github.com/truecharts/apps/issues/3280))
 
 
@@ -85,15 +95,5 @@
 #### Chore
 
 * move icons into the apps folder ([#3139](https://github.com/truecharts/apps/issues/3139))
-
-
-
-<a name="calibre-7.0.14"></a>
-### [calibre-7.0.14](https://github.com/truecharts/apps/compare/calibre-7.0.13...calibre-7.0.14) (2022-07-10)
-
-#### Chore
-
-* update docker general non-major ([#3115](https://github.com/truecharts/apps/issues/3115))
-
 
 

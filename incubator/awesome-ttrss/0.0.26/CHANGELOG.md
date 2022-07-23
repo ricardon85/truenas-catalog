@@ -6,6 +6,16 @@
 
 ### Chore
 
+- Auto-update chart README [skip ci]
+  - update helm general non-major helm releases ([#3280](https://github.com/truecharts/apps/issues/3280))
+
+
+
+
+## [awesome-ttrss-0.0.26](https://github.com/truecharts/apps/compare/awesome-ttrss-0.0.25...awesome-ttrss-0.0.26) (2022-07-23)
+
+### Chore
+
 - update helm general non-major helm releases ([#3280](https://github.com/truecharts/apps/issues/3280))
 
 
@@ -85,15 +95,5 @@
 ### Fix
 
 - bump to ensure .helmignore is present on all Charts
-
-
-
-## [awesome-ttrss-0.0.16](https://github.com/truecharts/apps/compare/awesome-ttrss-0.0.14...awesome-ttrss-0.0.16) (2022-07-12)
-
-### Chore
-
-- update icons ([#3156](https://github.com/truecharts/apps/issues/3156))
-- bump to cleanup old docs and use correct icon urls
-
 
 

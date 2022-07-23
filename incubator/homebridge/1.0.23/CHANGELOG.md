@@ -6,6 +6,16 @@
 
 ### Chore
 
+- Auto-update chart README [skip ci]
+  - update helm general non-major helm releases ([#3280](https://github.com/truecharts/apps/issues/3280))
+
+
+
+
+## [homebridge-1.0.23](https://github.com/truecharts/apps/compare/homebridge-1.0.22...homebridge-1.0.23) (2022-07-23)
+
+### Chore
+
 - update helm general non-major helm releases ([#3280](https://github.com/truecharts/apps/issues/3280))
 
 
@@ -85,15 +95,5 @@
 #### Chore
 
 * update helm general non-major helm releases ([#3113](https://github.com/truecharts/apps/issues/3113))
-
-
-
-<a name="homebridge-1.0.10"></a>
-### [homebridge-1.0.10](https://github.com/truecharts/apps/compare/homebridge-1.0.9...homebridge-1.0.10) (2022-07-09)
-
-#### Chore
-
-* combine some ports ([#3096](https://github.com/truecharts/apps/issues/3096))
-
 
 

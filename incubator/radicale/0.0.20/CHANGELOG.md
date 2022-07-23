@@ -6,6 +6,16 @@
 
 ### Chore
 
+- Auto-update chart README [skip ci]
+  - update helm general non-major helm releases ([#3280](https://github.com/truecharts/apps/issues/3280))
+
+
+
+
+## [radicale-0.0.20](https://github.com/truecharts/apps/compare/radicale-0.0.19...radicale-0.0.20) (2022-07-23)
+
+### Chore
+
 - update helm general non-major helm releases ([#3280](https://github.com/truecharts/apps/issues/3280))
 
 
@@ -87,13 +97,3 @@
 
 
 
-<a name="radicale-0.0.7"></a>
-### [radicale-0.0.7](https://github.com/truecharts/apps/compare/radicale-0.0.6...radicale-0.0.7) (2022-07-11)
-
-#### Chore
-
-* update image refs ([#3135](https://github.com/truecharts/apps/issues/3135))
-
-
-
-<a name="radicale-0.0.6"></a>

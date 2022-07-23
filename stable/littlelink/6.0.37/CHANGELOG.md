@@ -6,6 +6,16 @@
 
 ### Chore
 
+- Auto-update chart README [skip ci]
+  - update helm general non-major helm releases ([#3280](https://github.com/truecharts/apps/issues/3280))
+
+
+
+
+## [littlelink-6.0.37](https://github.com/truecharts/apps/compare/littlelink-6.0.36...littlelink-6.0.37) (2022-07-23)
+
+### Chore
+
 - update helm general non-major helm releases ([#3280](https://github.com/truecharts/apps/issues/3280))
 
 
@@ -87,13 +97,3 @@
 
 
 
-<a name="littlelink-6.0.24"></a>
-### [littlelink-6.0.24](https://github.com/truecharts/apps/compare/littlelink-6.0.23...littlelink-6.0.24) (2022-07-11)
-
-#### Chore
-
-* move icons into the apps folder ([#3139](https://github.com/truecharts/apps/issues/3139))
-
-
-
-<a name="littlelink-6.0.23"></a>

@@ -6,6 +6,16 @@
 
 ### Chore
 
+- Auto-update chart README [skip ci]
+  - update helm general non-major helm releases ([#3280](https://github.com/truecharts/apps/issues/3280))
+
+
+
+
+## [trilium-notes-5.0.22](https://github.com/truecharts/apps/compare/trilium-notes-5.0.21...trilium-notes-5.0.22) (2022-07-23)
+
+### Chore
+
 - update helm general non-major helm releases ([#3280](https://github.com/truecharts/apps/issues/3280))
 
 
@@ -85,15 +95,5 @@
 #### Chore
 
 * update helm general non-major helm releases ([#3113](https://github.com/truecharts/apps/issues/3113))
-
-
-
-<a name="trilium-notes-5.0.9"></a>
-### [trilium-notes-5.0.9](https://github.com/truecharts/apps/compare/trilium-notes-5.0.8...trilium-notes-5.0.9) (2022-07-09)
-
-#### Chore
-
-* update docker general non-major ([#3106](https://github.com/truecharts/apps/issues/3106))
-
 
 

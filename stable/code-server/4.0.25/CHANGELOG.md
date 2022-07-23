@@ -6,6 +6,16 @@
 
 ### Chore
 
+- Auto-update chart README [skip ci]
+  - update helm general non-major helm releases ([#3280](https://github.com/truecharts/apps/issues/3280))
+
+
+
+
+## [code-server-4.0.25](https://github.com/truecharts/apps/compare/code-server-4.0.24...code-server-4.0.25) (2022-07-23)
+
+### Chore
+
 - update helm general non-major helm releases ([#3280](https://github.com/truecharts/apps/issues/3280))
 
 
@@ -87,13 +97,3 @@
 
 
 <a name="collabora-online-12.1.6"></a>
-### [collabora-online-12.1.6](https://github.com/truecharts/apps/compare/collabora-online-12.1.5...collabora-online-12.1.6) (2022-07-11)
-
-#### Chore
-
-* add markdownlint and cpell config files (and apply some linting) ([#3140](https://github.com/truecharts/apps/issues/3140))
-
-
-
-<a name="collabora-online-12.1.5"></a>
-### [collabora-online-12.1.5](https://github.com/truecharts/apps/compare/collabora-online-12.1.4...collabora-online-12.1.5) (2022-07-11)

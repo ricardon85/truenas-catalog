@@ -6,6 +6,16 @@
 
 ### Chore
 
+- Auto-update chart README [skip ci]
+  - update helm general non-major helm releases ([#3280](https://github.com/truecharts/apps/issues/3280))
+
+
+
+
+## [appsmith-2.0.29](https://github.com/truecharts/apps/compare/appsmith-2.0.28...appsmith-2.0.29) (2022-07-23)
+
+### Chore
+
 - update helm general non-major helm releases ([#3280](https://github.com/truecharts/apps/issues/3280))
 
 
@@ -84,16 +94,6 @@
 ### Chore
 
 - bump to regenerate documentation
-
-
-
-<a name="appsmith-2.0.16"></a>
-### [appsmith-2.0.16](https://github.com/truecharts/apps/compare/appsmith-2.0.15...appsmith-2.0.16) (2022-07-12)
-
-#### Chore
-
-* update helm general non-major helm releases ([#3147](https://github.com/truecharts/apps/issues/3147))
-* update docker general non-major ([#3150](https://github.com/truecharts/apps/issues/3150))
 
 
 

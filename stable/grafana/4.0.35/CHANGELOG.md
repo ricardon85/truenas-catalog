@@ -6,6 +6,16 @@
 
 ### Chore
 
+- Auto-update chart README [skip ci]
+  - update helm general non-major helm releases ([#3280](https://github.com/truecharts/apps/issues/3280))
+
+
+
+
+## [grafana-4.0.35](https://github.com/truecharts/apps/compare/grafana-4.0.34...grafana-4.0.35) (2022-07-23)
+
+### Chore
+
 - update helm general non-major helm releases ([#3280](https://github.com/truecharts/apps/issues/3280))
 
 
@@ -85,15 +95,5 @@
 ### Fix
 
 - bump to ensure .helmignore is present on all Charts
-
-
-
-## [grafana-4.0.25](https://github.com/truecharts/apps/compare/grafana-4.0.23...grafana-4.0.25) (2022-07-12)
-
-### Chore
-
-- update icons ([#3156](https://github.com/truecharts/apps/issues/3156))
-- bump to cleanup old docs and use correct icon urls
-
 
 

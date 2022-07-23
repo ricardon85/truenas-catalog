@@ -6,6 +6,16 @@
 
 ### Chore
 
+- Auto-update chart README [skip ci]
+  - update docker general non-major ([#3279](https://github.com/truecharts/apps/issues/3279))
+
+
+
+
+## [postgresql-8.0.46](https://github.com/truecharts/apps/compare/postgresql-8.0.45...postgresql-8.0.46) (2022-07-23)
+
+### Chore
+
 - update docker general non-major ([#3279](https://github.com/truecharts/apps/issues/3279))
 
 
@@ -87,13 +97,3 @@
 
 
 ## [postgresql-8.0.39](https://github.com/truecharts/apps/compare/postgresql-8.0.38...postgresql-8.0.39) (2022-07-19)
-
-### Chore
-
-- Update Readme and Description on SCALE
-
-
-
-## [postgresql-8.0.38](https://github.com/truecharts/apps/compare/postgresql-8.0.37...postgresql-8.0.38) (2022-07-17)
-
-### Chore

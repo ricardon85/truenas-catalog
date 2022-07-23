@@ -6,6 +6,16 @@
 
 ### Chore
 
+- Auto-update chart README [skip ci]
+  - update helm general non-major helm releases ([#3280](https://github.com/truecharts/apps/issues/3280))
+
+
+
+
+## [medusa-3.0.26](https://github.com/truecharts/apps/compare/medusa-3.0.25...medusa-3.0.26) (2022-07-23)
+
+### Chore
+
 - update helm general non-major helm releases ([#3280](https://github.com/truecharts/apps/issues/3280))
 
 
@@ -87,13 +97,3 @@
 
 
 
-<a name="mealie-8.0.10"></a>
-### [mealie-8.0.10](https://github.com/truecharts/apps/compare/mealie-8.0.9...mealie-8.0.10) (2022-07-09)
-
-#### Chore
-
-* update helm general non-major helm releases ([#3113](https://github.com/truecharts/apps/issues/3113))
-
-
-
-<a name="mealie-8.0.9"></a>

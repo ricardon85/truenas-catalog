@@ -6,6 +6,16 @@
 
 ### Chore
 
+- Auto-update chart README [skip ci]
+  - update helm general non-major helm releases ([#3280](https://github.com/truecharts/apps/issues/3280))
+
+
+
+
+## [handbrake-13.0.23](https://github.com/truecharts/apps/compare/handbrake-13.0.22...handbrake-13.0.23) (2022-07-23)
+
+### Chore
+
 - update helm general non-major helm releases ([#3280](https://github.com/truecharts/apps/issues/3280))
 
 
@@ -86,14 +96,4 @@
 #### Chore
 
 * update helm general non-major helm releases ([#3113](https://github.com/truecharts/apps/issues/3113))
-
-
-
-<a name="handbrake-13.0.10"></a>
-### [handbrake-13.0.10](https://github.com/truecharts/apps/compare/handbrake-13.0.9...handbrake-13.0.10) (2022-07-05)
-
-#### Feat
-
-* add 8 apps (jlesage apps) ([#3070](https://github.com/truecharts/apps/issues/3070))
-
 

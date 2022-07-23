@@ -6,6 +6,17 @@
 
 ### Chore
 
+- Auto-update chart README [skip ci]
+  - update helm general non-major helm releases ([#3280](https://github.com/truecharts/apps/issues/3280))
+  - update docker general non-major ([#3279](https://github.com/truecharts/apps/issues/3279))
+
+
+
+
+## [openvscode-server-2.0.25](https://github.com/truecharts/apps/compare/openvscode-server-2.0.24...openvscode-server-2.0.25) (2022-07-23)
+
+### Chore
+
 - update helm general non-major helm releases ([#3280](https://github.com/truecharts/apps/issues/3280))
   - update docker general non-major ([#3279](https://github.com/truecharts/apps/issues/3279))
 
@@ -85,15 +96,4 @@
 #### Chore
 
 * move icons into the apps folder ([#3139](https://github.com/truecharts/apps/issues/3139))
-
-
-
-<a name="openvscode-server-2.0.12"></a>
-### [openvscode-server-2.0.12](https://github.com/truecharts/apps/compare/openvscode-server-2.0.11...openvscode-server-2.0.12) (2022-07-09)
-
-#### Chore
-
-* update helm general non-major helm releases ([#3113](https://github.com/truecharts/apps/issues/3113))
-
-
 

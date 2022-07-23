@@ -6,6 +6,16 @@
 
 ### Chore
 
+- Auto-update chart README [skip ci]
+  - update helm general non-major helm releases ([#3280](https://github.com/truecharts/apps/issues/3280))
+
+
+
+
+## [kopia-2.0.29](https://github.com/truecharts/apps/compare/kopia-2.0.28...kopia-2.0.29) (2022-07-23)
+
+### Chore
+
 - update helm general non-major helm releases ([#3280](https://github.com/truecharts/apps/issues/3280))
 
 
@@ -86,14 +96,4 @@
 #### Chore
 
 * update helm general non-major helm releases ([#3113](https://github.com/truecharts/apps/issues/3113))
-
-
-
-<a name="kopia-2.0.16"></a>
-### [kopia-2.0.16](https://github.com/truecharts/apps/compare/kopia-2.0.15...kopia-2.0.16) (2022-07-07)
-
-#### Chore
-
-* update docker general non-major ([#3089](https://github.com/truecharts/apps/issues/3089))
-
 

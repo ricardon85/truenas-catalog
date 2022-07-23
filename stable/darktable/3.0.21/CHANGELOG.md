@@ -6,6 +6,16 @@
 
 ### Chore
 
+- Auto-update chart README [skip ci]
+  - update helm general non-major helm releases ([#3280](https://github.com/truecharts/apps/issues/3280))
+
+
+
+
+## [darktable-3.0.21](https://github.com/truecharts/apps/compare/darktable-3.0.20...darktable-3.0.21) (2022-07-23)
+
+### Chore
+
 - update helm general non-major helm releases ([#3280](https://github.com/truecharts/apps/issues/3280))
 
 
@@ -86,14 +96,4 @@
 #### Chore
 
 * update helm general non-major helm releases ([#3066](https://github.com/truecharts/apps/issues/3066))
-
-
-
-<a name="darktable-3.0.7"></a>
-### [darktable-3.0.7](https://github.com/truecharts/apps/compare/darktable-3.0.6...darktable-3.0.7) (2022-06-25)
-
-#### Chore
-
-* update helm general non-major helm releases ([#2977](https://github.com/truecharts/apps/issues/2977))
-
 

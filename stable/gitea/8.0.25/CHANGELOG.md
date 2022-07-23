@@ -6,6 +6,16 @@
 
 ### Chore
 
+- Auto-update chart README [skip ci]
+  - update helm general non-major helm releases ([#3280](https://github.com/truecharts/apps/issues/3280))
+
+
+
+
+## [gitea-8.0.25](https://github.com/truecharts/apps/compare/gitea-8.0.24...gitea-8.0.25) (2022-07-23)
+
+### Chore
+
 - update helm general non-major helm releases ([#3280](https://github.com/truecharts/apps/issues/3280))
 
 
@@ -87,13 +97,3 @@
 
 
 
-<a name="gitea-8.0.12"></a>
-### [gitea-8.0.12](https://github.com/truecharts/apps/compare/gitea-8.0.11...gitea-8.0.12) (2022-07-11)
-
-#### Chore
-
-* move icons into the apps folder ([#3139](https://github.com/truecharts/apps/issues/3139))
-
-
-
-<a name="gitea-8.0.11"></a>

@@ -6,6 +6,16 @@
 
 ### Chore
 
+- Auto-update chart README [skip ci]
+  - update helm general non-major helm releases ([#3280](https://github.com/truecharts/apps/issues/3280))
+
+
+
+
+## [youtubedl-material-0.0.21](https://github.com/truecharts/apps/compare/youtubedl-material-0.0.20...youtubedl-material-0.0.21) (2022-07-23)
+
+### Chore
+
 - update helm general non-major helm releases ([#3280](https://github.com/truecharts/apps/issues/3280))
 
 
@@ -85,15 +95,5 @@
 #### Chore
 
 * move icons into the apps folder ([#3139](https://github.com/truecharts/apps/issues/3139))
-
-
-
-<a name="youtubedl-material-0.0.8"></a>
-### [youtubedl-material-0.0.8](https://github.com/truecharts/apps/compare/youtubedl-material-0.0.7...youtubedl-material-0.0.8) (2022-07-09)
-
-#### Chore
-
-* update helm general non-major helm releases ([#3113](https://github.com/truecharts/apps/issues/3113))
-
 
 

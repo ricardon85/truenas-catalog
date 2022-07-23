@@ -6,6 +6,16 @@
 
 ### Chore
 
+- Auto-update chart README [skip ci]
+  - update helm general non-major helm releases ([#3280](https://github.com/truecharts/apps/issues/3280))
+
+
+
+
+## [plex-10.0.25](https://github.com/truecharts/apps/compare/plex-auto-languages-0.0.11...plex-10.0.25) (2022-07-23)
+
+### Chore
+
 - update helm general non-major helm releases ([#3280](https://github.com/truecharts/apps/issues/3280))
 
 
@@ -85,15 +95,5 @@
 #### Chore
 
 * update helm general non-major helm releases ([#3113](https://github.com/truecharts/apps/issues/3113))
-
-
-
-<a name="plex-10.0.12"></a>
-### [plex-10.0.12](https://github.com/truecharts/apps/compare/plex-10.0.11...plex-10.0.12) (2022-07-06)
-
-#### Chore
-
-* update docker general non-major ([#3078](https://github.com/truecharts/apps/issues/3078))
-
 
 

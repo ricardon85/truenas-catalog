@@ -6,6 +6,16 @@
 
 ### Chore
 
+- Auto-update chart README [skip ci]
+  - update helm general non-major helm releases ([#3280](https://github.com/truecharts/apps/issues/3280))
+
+
+
+
+## [zwavejs2mqtt-11.0.24](https://github.com/truecharts/apps/compare/zwavejs2mqtt-11.0.23...zwavejs2mqtt-11.0.24) (2022-07-23)
+
+### Chore
+
 - update helm general non-major helm releases ([#3280](https://github.com/truecharts/apps/issues/3280))
 
 
@@ -86,14 +96,4 @@
 #### Chore
 
 * update helm general non-major helm releases ([#3113](https://github.com/truecharts/apps/issues/3113))
-
-
-
-<a name="zwavejs2mqtt-11.0.11"></a>
-### [zwavejs2mqtt-11.0.11](https://github.com/truecharts/apps/compare/zwavejs2mqtt-11.0.10...zwavejs2mqtt-11.0.11) (2022-07-04)
-
-#### Chore
-
-* update helm general non-major helm releases ([#3066](https://github.com/truecharts/apps/issues/3066))
-
 

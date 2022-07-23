@@ -6,6 +6,16 @@
 
 ### Chore
 
+- Auto-update chart README [skip ci]
+  - update helm general non-major helm releases ([#3280](https://github.com/truecharts/apps/issues/3280))
+
+
+
+
+## [flexget-2.0.28](https://github.com/truecharts/apps/compare/flexget-2.0.27...flexget-2.0.28) (2022-07-23)
+
+### Chore
+
 - update helm general non-major helm releases ([#3280](https://github.com/truecharts/apps/issues/3280))
 
 
@@ -87,13 +97,3 @@
 
 
 
-<a name="flexget-2.0.15"></a>
-### [flexget-2.0.15](https://github.com/truecharts/apps/compare/flexget-2.0.14...flexget-2.0.15) (2022-07-11)
-
-#### Chore
-
-* move icons into the apps folder ([#3139](https://github.com/truecharts/apps/issues/3139))
-
-
-
-<a name="flexget-2.0.14"></a>

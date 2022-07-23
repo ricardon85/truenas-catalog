@@ -6,6 +6,16 @@
 
 ### Chore
 
+- Auto-update chart README [skip ci]
+  - update helm general non-major helm releases ([#3280](https://github.com/truecharts/apps/issues/3280))
+
+
+
+
+## [authelia-11.0.28](https://github.com/truecharts/apps/compare/authelia-11.0.27...authelia-11.0.28) (2022-07-23)
+
+### Chore
+
 - update helm general non-major helm releases ([#3280](https://github.com/truecharts/apps/issues/3280))
 
 
@@ -87,13 +97,3 @@
 
 
 
-<a name="authelia-11.0.15"></a>
-### [authelia-11.0.15](https://github.com/truecharts/apps/compare/authelia-11.0.14...authelia-11.0.15) (2022-07-12)
-
-#### Chore
-
-* update helm general non-major helm releases ([#3147](https://github.com/truecharts/apps/issues/3147))
-
-
-
-<a name="authelia-11.0.14"></a>

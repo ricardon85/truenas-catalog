@@ -6,6 +6,16 @@
 
 ### Chore
 
+- Auto-update chart README [skip ci]
+  - update helm general non-major helm releases ([#3280](https://github.com/truecharts/apps/issues/3280))
+
+
+
+
+## [guacamole-client-4.0.24](https://github.com/truecharts/apps/compare/guacamole-client-4.0.23...guacamole-client-4.0.24) (2022-07-23)
+
+### Chore
+
 - update helm general non-major helm releases ([#3280](https://github.com/truecharts/apps/issues/3280))
 
 
@@ -87,13 +97,3 @@
 
 
 
-<a name="guacamole-client-4.0.11"></a>
-### [guacamole-client-4.0.11](https://github.com/truecharts/apps/compare/guacamole-client-4.0.10...guacamole-client-4.0.11) (2022-07-11)
-
-#### Chore
-
-* move icons into the apps folder ([#3139](https://github.com/truecharts/apps/issues/3139))
-
-
-
-<a name="guacamole-client-4.0.10"></a>

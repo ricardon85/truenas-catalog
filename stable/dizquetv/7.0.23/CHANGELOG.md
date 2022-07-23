@@ -6,6 +6,16 @@
 
 ### Chore
 
+- Auto-update chart README [skip ci]
+  - update helm general non-major helm releases ([#3280](https://github.com/truecharts/apps/issues/3280))
+
+
+
+
+## [dizquetv-7.0.23](https://github.com/truecharts/apps/compare/dizquetv-7.0.22...dizquetv-7.0.23) (2022-07-23)
+
+### Chore
+
 - update helm general non-major helm releases ([#3280](https://github.com/truecharts/apps/issues/3280))
 
 
@@ -87,13 +97,3 @@
 
 
 
-<a name="dizquetv-7.0.10"></a>
-### [dizquetv-7.0.10](https://github.com/truecharts/apps/compare/dizquetv-7.0.9...dizquetv-7.0.10) (2022-07-09)
-
-#### Chore
-
-* update helm general non-major helm releases ([#3113](https://github.com/truecharts/apps/issues/3113))
-
-
-
-<a name="dizquetv-7.0.9"></a>
