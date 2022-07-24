@@ -7,6 +7,17 @@
 ### Chore
 
 - Auto-update chart README [skip ci]
+  - Auto-update chart README [skip ci]
+  - update helm general non-major helm releases ([#3280](https://github.com/truecharts/apps/issues/3280))
+
+
+
+
+## [babybuddy-8.0.30](https://github.com/truecharts/apps/compare/babybuddy-8.0.29...babybuddy-8.0.30) (2022-07-23)
+
+### Chore
+
+- Auto-update chart README [skip ci]
   - update helm general non-major helm releases ([#3280](https://github.com/truecharts/apps/issues/3280))
 
 
@@ -85,15 +96,4 @@
 ### Chore
 
 - bump to regenerate documentation
-
-
-
-<a name="babybuddy-8.0.18"></a>
-### [babybuddy-8.0.18](https://github.com/truecharts/apps/compare/babybuddy-8.0.17...babybuddy-8.0.18) (2022-07-12)
-
-#### Chore
-
-* update helm general non-major helm releases ([#3147](https://github.com/truecharts/apps/issues/3147))
-
-
 

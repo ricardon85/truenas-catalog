@@ -7,6 +7,17 @@
 ### Chore
 
 - Auto-update chart README [skip ci]
+  - Auto-update chart README [skip ci]
+  - update helm general non-major helm releases ([#3280](https://github.com/truecharts/apps/issues/3280))
+
+
+
+
+## [fluidd-2.0.23](https://github.com/truecharts/apps/compare/fluidd-2.0.22...fluidd-2.0.23) (2022-07-23)
+
+### Chore
+
+- Auto-update chart README [skip ci]
   - update helm general non-major helm releases ([#3280](https://github.com/truecharts/apps/issues/3280))
 
 
@@ -86,14 +97,3 @@
 #### Chore
 
 * move icons into the apps folder ([#3139](https://github.com/truecharts/apps/issues/3139))
-
-
-
-<a name="fluidd-2.0.11"></a>
-### [fluidd-2.0.11](https://github.com/truecharts/apps/compare/fluidd-2.0.10...fluidd-2.0.11) (2022-07-11)
-
-#### Chore
-
-* update docker general non-major ([#3128](https://github.com/truecharts/apps/issues/3128))
-
-

@@ -7,6 +7,17 @@
 ### Chore
 
 - Auto-update chart README [skip ci]
+  - Auto-update chart README [skip ci]
+  - update helm general non-major helm releases ([#3280](https://github.com/truecharts/apps/issues/3280))
+
+
+
+
+## [deluge-11.0.23](https://github.com/truecharts/apps/compare/deluge-11.0.22...deluge-11.0.23) (2022-07-23)
+
+### Chore
+
+- Auto-update chart README [skip ci]
   - update helm general non-major helm releases ([#3280](https://github.com/truecharts/apps/issues/3280))
 
 
@@ -86,14 +97,3 @@
 #### Chore
 
 * move icons into the apps folder ([#3139](https://github.com/truecharts/apps/issues/3139))
-
-
-
-<a name="deluge-11.0.11"></a>
-### [deluge-11.0.11](https://github.com/truecharts/apps/compare/deluge-11.0.10...deluge-11.0.11) (2022-07-10)
-
-#### Fix
-
-* revert combine ports ([#3119](https://github.com/truecharts/apps/issues/3119))
-
-

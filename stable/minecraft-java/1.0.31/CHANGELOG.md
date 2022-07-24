@@ -7,6 +7,17 @@
 ### Chore
 
 - Auto-update chart README [skip ci]
+  - Auto-update chart README [skip ci]
+  - update helm general non-major helm releases ([#3280](https://github.com/truecharts/apps/issues/3280))
+
+
+
+
+## [minecraft-java-1.0.31](https://github.com/truecharts/apps/compare/minecraft-java-1.0.30...minecraft-java-1.0.31) (2022-07-23)
+
+### Chore
+
+- Auto-update chart README [skip ci]
   - update helm general non-major helm releases ([#3280](https://github.com/truecharts/apps/issues/3280))
 
 
@@ -86,14 +97,3 @@
 
 - update icons ([#3156](https://github.com/truecharts/apps/issues/3156))
 - bump to cleanup old docs and use correct icon urls
-- fix rm on chart-release ([#3155](https://github.com/truecharts/apps/issues/3155))
-
-
-
-## [minecraft-java-1.0.19](https://github.com/truecharts/apps/compare/minecraft-java-1.0.18...minecraft-java-1.0.19) (2022-07-12)
-
-### Chore
-
-- bump to regenerate documentation
-
-

@@ -7,6 +7,17 @@
 ### Chore
 
 - Auto-update chart README [skip ci]
+  - Auto-update chart README [skip ci]
+  - update helm general non-major helm releases ([#3280](https://github.com/truecharts/apps/issues/3280))
+
+
+
+
+## [impostor-server-1.0.25](https://github.com/truecharts/apps/compare/impostor-server-1.0.24...impostor-server-1.0.25) (2022-07-23)
+
+### Chore
+
+- Auto-update chart README [skip ci]
   - update helm general non-major helm releases ([#3280](https://github.com/truecharts/apps/issues/3280))
 
 
@@ -86,14 +97,3 @@
 #### Chore
 
 * move icons into the apps folder ([#3139](https://github.com/truecharts/apps/issues/3139))
-
-
-
-<a name="impostor-server-1.0.13"></a>
-### [impostor-server-1.0.13](https://github.com/truecharts/apps/compare/impostor-server-1.0.12...impostor-server-1.0.13) (2022-07-09)
-
-#### Chore
-
-* update helm general non-major helm releases ([#3113](https://github.com/truecharts/apps/issues/3113))
-
-

@@ -7,6 +7,17 @@
 ### Chore
 
 - Auto-update chart README [skip ci]
+  - Auto-update chart README [skip ci]
+  - update helm general non-major helm releases ([#3280](https://github.com/truecharts/apps/issues/3280))
+
+
+
+
+## [cloudflareddns-1.0.7](https://github.com/truecharts/apps/compare/cloudflareddns-1.0.6...cloudflareddns-1.0.7) (2022-07-23)
+
+### Chore
+
+- Auto-update chart README [skip ci]
   - update helm general non-major helm releases ([#3280](https://github.com/truecharts/apps/issues/3280))
 
 
@@ -86,14 +97,3 @@
 
 ## [cloudflareddns-0.0.15](https://github.com/truecharts/apps/compare/cloudflareddns-0.0.14...cloudflareddns-0.0.15) (2022-07-14)
 
-### Fix
-
-- regenerate catalog and update template
-
-
-
-## [cloudflareddns-0.0.14](https://github.com/truecharts/apps/compare/cloudflareddns-0.0.12...cloudflareddns-0.0.14) (2022-07-14)
-
-### Fix
-
-- bump to ensure .helmignore is present on all Charts

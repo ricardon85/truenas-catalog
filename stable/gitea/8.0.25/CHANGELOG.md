@@ -7,6 +7,17 @@
 ### Chore
 
 - Auto-update chart README [skip ci]
+  - Auto-update chart README [skip ci]
+  - update helm general non-major helm releases ([#3280](https://github.com/truecharts/apps/issues/3280))
+
+
+
+
+## [gitea-8.0.25](https://github.com/truecharts/apps/compare/gitea-8.0.24...gitea-8.0.25) (2022-07-23)
+
+### Chore
+
+- Auto-update chart README [skip ci]
   - update helm general non-major helm releases ([#3280](https://github.com/truecharts/apps/issues/3280))
 
 
@@ -85,15 +96,4 @@
 ### Chore
 
 - bump to regenerate documentation
-
-
-
-<a name="gitea-8.0.13"></a>
-### [gitea-8.0.13](https://github.com/truecharts/apps/compare/gitea-8.0.12...gitea-8.0.13) (2022-07-12)
-
-#### Chore
-
-* update helm general non-major helm releases ([#3147](https://github.com/truecharts/apps/issues/3147))
-
-
 

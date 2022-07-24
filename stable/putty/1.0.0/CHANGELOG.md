@@ -4,6 +4,19 @@
 
 ## [putty-1.0.0](https://github.com/truecharts/apps/compare/putty-0.0.14...putty-1.0.0) (2022-07-23)
 
+### Chore
+
+- Auto-update chart README [skip ci]
+
+  ### Feat
+
+- move some apps to stable ([#3281](https://github.com/truecharts/apps/issues/3281))
+
+
+
+
+## [putty-1.0.0](https://github.com/truecharts/apps/compare/putty-0.0.14...putty-1.0.0) (2022-07-23)
+
 ### Feat
 
 - move some apps to stable ([#3281](https://github.com/truecharts/apps/issues/3281))
@@ -84,16 +97,3 @@
 
 
 <a name="putty-0.0.4"></a>
-### [putty-0.0.4](https://github.com/truecharts/apps/compare/putty-0.0.3...putty-0.0.4) (2022-07-11)
-
-#### Chore
-
-* move icons into the apps folder ([#3139](https://github.com/truecharts/apps/issues/3139))
-
-
-
-<a name="putty-0.0.3"></a>
-### [putty-0.0.3](https://github.com/truecharts/apps/compare/putty-0.0.2...putty-0.0.3) (2022-07-11)
-
-#### Chore
-

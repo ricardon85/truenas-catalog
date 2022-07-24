@@ -7,6 +7,18 @@
 ### Chore
 
 - Auto-update chart README [skip ci]
+  - Auto-update chart README [skip ci]
+  - update helm general non-major helm releases ([#3280](https://github.com/truecharts/apps/issues/3280))
+  - update docker general non-major ([#3279](https://github.com/truecharts/apps/issues/3279))
+
+
+
+
+## [minio-console-3.0.24](https://github.com/truecharts/apps/compare/minio-console-3.0.23...minio-console-3.0.24) (2022-07-23)
+
+### Chore
+
+- Auto-update chart README [skip ci]
   - update helm general non-major helm releases ([#3280](https://github.com/truecharts/apps/issues/3280))
   - update docker general non-major ([#3279](https://github.com/truecharts/apps/issues/3279))
 
@@ -85,15 +97,3 @@
 ### [minio-console-3.0.13](https://github.com/truecharts/apps/compare/minio-console-3.0.12...minio-console-3.0.13) (2022-07-12)
 
 #### Chore
-
-* update helm general non-major helm releases ([#3147](https://github.com/truecharts/apps/issues/3147))
-
-
-
-<a name="minio-console-3.0.12"></a>
-### [minio-console-3.0.12](https://github.com/truecharts/apps/compare/minio-console-3.0.11...minio-console-3.0.12) (2022-07-11)
-
-#### Chore
-
-* move icons into the apps folder ([#3139](https://github.com/truecharts/apps/issues/3139))
-

@@ -7,6 +7,17 @@
 ### Chore
 
 - Auto-update chart README [skip ci]
+  - Auto-update chart README [skip ci]
+  - update helm general non-major helm releases ([#3280](https://github.com/truecharts/apps/issues/3280))
+
+
+
+
+## [ispy-agent-dvr-2.0.29](https://github.com/truecharts/apps/compare/ispy-agent-dvr-2.0.28...ispy-agent-dvr-2.0.29) (2022-07-23)
+
+### Chore
+
+- Auto-update chart README [skip ci]
   - update helm general non-major helm releases ([#3280](https://github.com/truecharts/apps/issues/3280))
 
 
@@ -85,15 +96,4 @@
 ### Chore
 
 - bump to regenerate documentation
-
-
-
-<a name="ispy-agent-dvr-2.0.17"></a>
-### [ispy-agent-dvr-2.0.17](https://github.com/truecharts/apps/compare/ispy-agent-dvr-2.0.16...ispy-agent-dvr-2.0.17) (2022-07-12)
-
-#### Chore
-
-* update helm general non-major helm releases ([#3147](https://github.com/truecharts/apps/issues/3147))
-
-
 

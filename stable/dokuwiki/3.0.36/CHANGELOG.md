@@ -7,6 +7,17 @@
 ### Chore
 
 - Auto-update chart README [skip ci]
+  - Auto-update chart README [skip ci]
+  - update helm general non-major helm releases ([#3280](https://github.com/truecharts/apps/issues/3280))
+
+
+
+
+## [dokuwiki-3.0.36](https://github.com/truecharts/apps/compare/dokuwiki-3.0.35...dokuwiki-3.0.36) (2022-07-23)
+
+### Chore
+
+- Auto-update chart README [skip ci]
   - update helm general non-major helm releases ([#3280](https://github.com/truecharts/apps/issues/3280))
 
 
@@ -85,15 +96,4 @@
 - update docker general non-major ([#3157](https://github.com/truecharts/apps/issues/3157))
 
 
-
-## [dokuwiki-3.0.25](https://github.com/truecharts/apps/compare/dokuwiki-3.0.23...dokuwiki-3.0.25) (2022-07-12)
-
-### Chore
-
-- update icons ([#3156](https://github.com/truecharts/apps/issues/3156))
-- bump to cleanup old docs and use correct icon urls
-
-
-
-## [dokuwiki-3.0.23](https://github.com/truecharts/apps/compare/dokuwiki-3.0.22...dokuwiki-3.0.23) (2022-07-12)
 

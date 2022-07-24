@@ -7,6 +7,17 @@
 ### Chore
 
 - Auto-update chart README [skip ci]
+  - Auto-update chart README [skip ci]
+  - update helm general non-major helm releases ([#3280](https://github.com/truecharts/apps/issues/3280))
+
+
+
+
+## [xwiki-3.0.28](https://github.com/truecharts/apps/compare/xwiki-3.0.27...xwiki-3.0.28) (2022-07-23)
+
+### Chore
+
+- Auto-update chart README [skip ci]
   - update helm general non-major helm releases ([#3280](https://github.com/truecharts/apps/issues/3280))
 
 
@@ -86,14 +97,3 @@
 
 - update icons ([#3156](https://github.com/truecharts/apps/issues/3156))
 - bump to cleanup old docs and use correct icon urls
-
-
-
-## [xwiki-3.0.16](https://github.com/truecharts/apps/compare/xwiki-3.0.15...xwiki-3.0.16) (2022-07-12)
-
-### Chore
-
-- bump to regenerate documentation
-
-
-

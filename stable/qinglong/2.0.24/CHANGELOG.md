@@ -7,6 +7,17 @@
 ### Chore
 
 - Auto-update chart README [skip ci]
+  - Auto-update chart README [skip ci]
+  - update helm general non-major helm releases ([#3280](https://github.com/truecharts/apps/issues/3280))
+
+
+
+
+## [qinglong-2.0.24](https://github.com/truecharts/apps/compare/qinglong-2.0.23...qinglong-2.0.24) (2022-07-23)
+
+### Chore
+
+- Auto-update chart README [skip ci]
   - update helm general non-major helm releases ([#3280](https://github.com/truecharts/apps/issues/3280))
 
 
@@ -86,14 +97,3 @@
 - bump to regenerate documentation
 
 
-
-<a name="qinglong-2.0.12"></a>
-### [qinglong-2.0.12](https://github.com/truecharts/apps/compare/qinglong-2.0.11...qinglong-2.0.12) (2022-07-12)
-
-#### Chore
-
-* update helm general non-major helm releases ([#3147](https://github.com/truecharts/apps/issues/3147))
-
-
-
-<a name="qinglong-2.0.11"></a>

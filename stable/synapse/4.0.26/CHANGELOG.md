@@ -7,6 +7,17 @@
 ### Chore
 
 - Auto-update chart README [skip ci]
+  - Auto-update chart README [skip ci]
+  - update helm general non-major helm releases ([#3280](https://github.com/truecharts/apps/issues/3280))
+
+
+
+
+## [synapse-4.0.26](https://github.com/truecharts/apps/compare/synapse-4.0.25...synapse-4.0.26) (2022-07-23)
+
+### Chore
+
+- Auto-update chart README [skip ci]
   - update helm general non-major helm releases ([#3280](https://github.com/truecharts/apps/issues/3280))
 
 
@@ -86,14 +97,3 @@
 ### Chore
 
 - bump to regenerate documentation
-
-
-
-<a name="synapse-4.0.14"></a>
-### [synapse-4.0.14](https://github.com/truecharts/apps/compare/synapse-4.0.13...synapse-4.0.14) (2022-07-12)
-
-#### Chore
-
-* update helm general non-major helm releases ([#3147](https://github.com/truecharts/apps/issues/3147))
-
-

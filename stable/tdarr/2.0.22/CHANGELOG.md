@@ -7,6 +7,17 @@
 ### Chore
 
 - Auto-update chart README [skip ci]
+  - Auto-update chart README [skip ci]
+  - update helm general non-major helm releases ([#3280](https://github.com/truecharts/apps/issues/3280))
+
+
+
+
+## [tdarr-2.0.22](https://github.com/truecharts/apps/compare/tdarr-node-2.0.22...tdarr-2.0.22) (2022-07-23)
+
+### Chore
+
+- Auto-update chart README [skip ci]
   - update helm general non-major helm releases ([#3280](https://github.com/truecharts/apps/issues/3280))
 
 
@@ -85,15 +96,4 @@
 - bump to ensure .helmignore is present on all Charts
 - hotpatch to disable HPA and networkPolicy in SCALE interface, due to incompatible format.
 - remove malfunctioning SCALE migration script
-
-### Refactor
-
-- BREAKING CHANGE ([#2836](https://github.com/truecharts/apps/issues/2836))
-
-
-
-
-
-
-
 

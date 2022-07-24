@@ -7,6 +7,17 @@
 ### Chore
 
 - Auto-update chart README [skip ci]
+  - Auto-update chart README [skip ci]
+  - update helm general non-major helm releases ([#3280](https://github.com/truecharts/apps/issues/3280))
+
+
+
+
+## [ombi-11.0.24](https://github.com/truecharts/apps/compare/ombi-11.0.23...ombi-11.0.24) (2022-07-23)
+
+### Chore
+
+- Auto-update chart README [skip ci]
   - update helm general non-major helm releases ([#3280](https://github.com/truecharts/apps/issues/3280))
 
 
@@ -86,14 +97,3 @@
 #### Chore
 
 * update helm general non-major helm releases ([#3147](https://github.com/truecharts/apps/issues/3147))
-* update docker general non-major ([#3150](https://github.com/truecharts/apps/issues/3150))
-
-
-
-<a name="ombi-11.0.12"></a>
-### [ombi-11.0.12](https://github.com/truecharts/apps/compare/ombi-11.0.11...ombi-11.0.12) (2022-07-11)
-
-#### Chore
-
-* move icons into the apps folder ([#3139](https://github.com/truecharts/apps/issues/3139))
-

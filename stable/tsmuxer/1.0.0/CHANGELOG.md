@@ -4,6 +4,19 @@
 
 ## [tsmuxer-1.0.0](https://github.com/truecharts/apps/compare/tsmuxer-0.0.13...tsmuxer-1.0.0) (2022-07-23)
 
+### Chore
+
+- Auto-update chart README [skip ci]
+
+  ### Feat
+
+- move some apps to stable ([#3281](https://github.com/truecharts/apps/issues/3281))
+
+
+
+
+## [tsmuxer-1.0.0](https://github.com/truecharts/apps/compare/tsmuxer-0.0.13...tsmuxer-1.0.0) (2022-07-23)
+
 ### Feat
 
 - move some apps to stable ([#3281](https://github.com/truecharts/apps/issues/3281))
@@ -83,17 +96,4 @@
 ### [tsmuxer-0.0.3](https://github.com/truecharts/apps/compare/tsmuxer-0.0.2...tsmuxer-0.0.3) (2022-07-11)
 
 #### Chore
-
-* move icons into the apps folder ([#3139](https://github.com/truecharts/apps/issues/3139))
-* add markdownlint and cpell config files (and apply some linting) ([#3140](https://github.com/truecharts/apps/issues/3140))
-
-
-
-<a name="tsmuxer-0.0.2"></a>
-### [tsmuxer-0.0.2](https://github.com/truecharts/apps/compare/tsmuxer-0.0.1...tsmuxer-0.0.2) (2022-07-09)
-
-#### Chore
-
-* Auto-update chart README [skip ci]
-* update helm general non-major helm releases ([#3113](https://github.com/truecharts/apps/issues/3113))
 

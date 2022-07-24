@@ -7,6 +7,17 @@
 ### Chore
 
 - Auto-update chart README [skip ci]
+  - Auto-update chart README [skip ci]
+  - update helm general non-major helm releases ([#3280](https://github.com/truecharts/apps/issues/3280))
+
+
+
+
+## [nocodb-3.0.29](https://github.com/truecharts/apps/compare/nocodb-3.0.28...nocodb-3.0.29) (2022-07-23)
+
+### Chore
+
+- Auto-update chart README [skip ci]
   - update helm general non-major helm releases ([#3280](https://github.com/truecharts/apps/issues/3280))
 
 
@@ -85,15 +96,4 @@
 ### Chore
 
 - bump to regenerate documentation
-
-
-
-<a name="nocodb-3.0.17"></a>
-### [nocodb-3.0.17](https://github.com/truecharts/apps/compare/nocodb-3.0.16...nocodb-3.0.17) (2022-07-12)
-
-#### Chore
-
-* update helm general non-major helm releases ([#3147](https://github.com/truecharts/apps/issues/3147))
-
-
 

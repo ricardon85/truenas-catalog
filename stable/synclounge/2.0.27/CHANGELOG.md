@@ -7,6 +7,17 @@
 ### Chore
 
 - Auto-update chart README [skip ci]
+  - Auto-update chart README [skip ci]
+  - update helm general non-major helm releases ([#3280](https://github.com/truecharts/apps/issues/3280))
+
+
+
+
+## [synclounge-2.0.27](https://github.com/truecharts/apps/compare/synclounge-2.0.26...synclounge-2.0.27) (2022-07-23)
+
+### Chore
+
+- Auto-update chart README [skip ci]
   - update helm general non-major helm releases ([#3280](https://github.com/truecharts/apps/issues/3280))
 
 
@@ -85,15 +96,4 @@
 ### Chore
 
 - bump to regenerate documentation
-
-
-
-<a name="synclounge-2.0.15"></a>
-### [synclounge-2.0.15](https://github.com/truecharts/apps/compare/synclounge-2.0.14...synclounge-2.0.15) (2022-07-12)
-
-#### Chore
-
-* update helm general non-major helm releases ([#3147](https://github.com/truecharts/apps/issues/3147))
-
-
 

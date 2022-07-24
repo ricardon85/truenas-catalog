@@ -4,6 +4,19 @@
 
 ## [theme-park-2.0.0](https://github.com/truecharts/apps/compare/theme-park-1.0.23...theme-park-2.0.0) (2022-07-23)
 
+### Chore
+
+- Auto-update chart README [skip ci]
+
+  ### Feat
+
+- move some apps to stable ([#3281](https://github.com/truecharts/apps/issues/3281))
+
+
+
+
+## [theme-park-2.0.0](https://github.com/truecharts/apps/compare/theme-park-1.0.23...theme-park-2.0.0) (2022-07-23)
+
 ### Feat
 
 - move some apps to stable ([#3281](https://github.com/truecharts/apps/issues/3281))
@@ -83,17 +96,4 @@
 ### [theme-park-1.0.13](https://github.com/truecharts/apps/compare/theme-park-1.0.12...theme-park-1.0.13) (2022-07-12)
 
 #### Chore
-
-* update helm general non-major helm releases ([#3147](https://github.com/truecharts/apps/issues/3147))
-
-
-
-<a name="theme-park-1.0.12"></a>
-### [theme-park-1.0.12](https://github.com/truecharts/apps/compare/theme-park-1.0.11...theme-park-1.0.12) (2022-07-11)
-
-#### Chore
-
-* move icons into the apps folder ([#3139](https://github.com/truecharts/apps/issues/3139))
-
-
 

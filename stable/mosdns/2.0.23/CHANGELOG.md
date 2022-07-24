@@ -7,6 +7,17 @@
 ### Chore
 
 - Auto-update chart README [skip ci]
+  - Auto-update chart README [skip ci]
+  - update helm general non-major helm releases ([#3280](https://github.com/truecharts/apps/issues/3280))
+
+
+
+
+## [mosdns-2.0.23](https://github.com/truecharts/apps/compare/mosdns-2.0.22...mosdns-2.0.23) (2022-07-23)
+
+### Chore
+
+- Auto-update chart README [skip ci]
   - update helm general non-major helm releases ([#3280](https://github.com/truecharts/apps/issues/3280))
 
 
@@ -86,14 +97,3 @@
 #### Chore
 
 * move icons into the apps folder ([#3139](https://github.com/truecharts/apps/issues/3139))
-
-
-
-<a name="mosdns-2.0.11"></a>
-### [mosdns-2.0.11](https://github.com/truecharts/apps/compare/mosdns-2.0.10...mosdns-2.0.11) (2022-07-10)
-
-#### Chore
-
-* update container image tccr.io/truecharts/mosdns to v4.1.3 ([#3035](https://github.com/truecharts/apps/issues/3035))
-
-

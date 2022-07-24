@@ -9,6 +9,24 @@
 - Auto-update chart README [skip ci]
   - Auto-update chart README [skip ci]
   - Auto-update chart README [skip ci]
+  - Auto-update chart README [skip ci]
+  - Bump all charts to generate config and container references due to huge increase of repository
+  - update helm general non-major helm releases ([#3280](https://github.com/truecharts/apps/issues/3280))
+
+  ### Feat
+
+- move dev apps to incubator and remove bad content from dev
+
+
+
+
+## [avorion-0.0.12](https://github.com/truecharts/apps/compare/avorion-0.0.11...avorion-0.0.12) (2022-07-23)
+
+### Chore
+
+- Auto-update chart README [skip ci]
+  - Auto-update chart README [skip ci]
+  - Auto-update chart README [skip ci]
   - Bump all charts to generate config and container references due to huge increase of repository
   - update helm general non-major helm releases ([#3280](https://github.com/truecharts/apps/issues/3280))
 
@@ -79,6 +97,3 @@
 <a name="avorion-0.0.1"></a>
 ### avorion-0.0.1 (2022-04-08)
 
-#### Feat
-
-* Unraid Port - A ([#2438](https://github.com/truecharts/apps/issues/2438))

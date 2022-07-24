@@ -7,6 +7,17 @@
 ### Chore
 
 - Auto-update chart README [skip ci]
+  - Auto-update chart README [skip ci]
+  - update helm general non-major helm releases ([#3280](https://github.com/truecharts/apps/issues/3280))
+
+
+
+
+## [traefik-13.1.4](https://github.com/truecharts/apps/compare/traefik-13.1.3...traefik-13.1.4) (2022-07-23)
+
+### Chore
+
+- Auto-update chart README [skip ci]
   - update helm general non-major helm releases ([#3280](https://github.com/truecharts/apps/issues/3280))
 
 
@@ -85,15 +96,4 @@
 - disable HTTP probes temporarily ([#3173](https://github.com/truecharts/apps/issues/3173))
 
 
-
-## [traefik-12.0.18](https://github.com/truecharts/apps/compare/traefik-12.0.17...traefik-12.0.18) (2022-07-13)
-
-
-
-## [traefik-12.0.17](https://github.com/truecharts/apps/compare/traefik-12.0.15...traefik-12.0.17) (2022-07-12)
-
-### Chore
-
-- update icons ([#3156](https://github.com/truecharts/apps/issues/3156))
-- bump to cleanup old docs and use correct icon urls
 

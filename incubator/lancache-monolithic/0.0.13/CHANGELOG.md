@@ -7,6 +7,17 @@
 ### Chore
 
 - Auto-update chart README [skip ci]
+  - Auto-update chart README [skip ci]
+  - update helm general non-major helm releases ([#3280](https://github.com/truecharts/apps/issues/3280))
+
+
+
+
+## [lancache-monolithic-0.0.13](https://github.com/truecharts/apps/compare/lancache-monolithic-0.0.12...lancache-monolithic-0.0.13) (2022-07-23)
+
+### Chore
+
+- Auto-update chart README [skip ci]
   - update helm general non-major helm releases ([#3280](https://github.com/truecharts/apps/issues/3280))
 
 
@@ -86,11 +97,3 @@
 - Auto-update chart README [skip ci]
 - bump to regenerate documentation
 
-
-
-<a name="lancache-monolithic-0.0.1"></a>
-### lancache-monolithic-0.0.1 (2022-07-12)
-
-#### Feat
-
-* Add lancache-monolithic ([#3143](https://github.com/truecharts/apps/issues/3143))

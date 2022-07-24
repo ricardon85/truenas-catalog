@@ -2,6 +2,7 @@
 
 
 
+
 ## [medusa-3.0.26](https://github.com/truecharts/apps/compare/medusa-3.0.25...medusa-3.0.26) (2022-07-23)
 
 ### Chore
@@ -94,6 +95,5 @@
 #### Chore
 
 * move icons into the apps folder ([#3139](https://github.com/truecharts/apps/issues/3139))
-
 
 

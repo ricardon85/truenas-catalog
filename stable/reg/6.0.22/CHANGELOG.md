@@ -2,6 +2,7 @@
 
 
 
+
 ## [reg-6.0.22](https://github.com/truecharts/apps/compare/reg-6.0.21...reg-6.0.22) (2022-07-23)
 
 ### Chore
@@ -95,5 +96,4 @@
 #### Chore
 
 * update helm general non-major helm releases ([#3113](https://github.com/truecharts/apps/issues/3113))
-
 

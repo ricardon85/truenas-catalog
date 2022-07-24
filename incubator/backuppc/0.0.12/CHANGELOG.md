@@ -9,6 +9,24 @@
 - Auto-update chart README [skip ci]
   - Auto-update chart README [skip ci]
   - Auto-update chart README [skip ci]
+  - Auto-update chart README [skip ci]
+  - Bump all charts to generate config and container references due to huge increase of repository
+  - update helm general non-major helm releases ([#3280](https://github.com/truecharts/apps/issues/3280))
+
+  ### Feat
+
+- move dev apps to incubator and remove bad content from dev
+
+
+
+
+## [backuppc-0.0.12](https://github.com/truecharts/apps/compare/backuppc-0.0.11...backuppc-0.0.12) (2022-07-23)
+
+### Chore
+
+- Auto-update chart README [skip ci]
+  - Auto-update chart README [skip ci]
+  - Auto-update chart README [skip ci]
   - Bump all charts to generate config and container references due to huge increase of repository
   - update helm general non-major helm releases ([#3280](https://github.com/truecharts/apps/issues/3280))
 
@@ -79,10 +97,3 @@
 * ensure ghcr is used when running tests ([#2449](https://github.com/truecharts/apps/issues/2449))
 
 
-
-<a name="backuppc-0.0.1"></a>
-### backuppc-0.0.1 (2022-04-07)
-
-#### Feat
-
-* Unraid Port - B ([#2440](https://github.com/truecharts/apps/issues/2440))

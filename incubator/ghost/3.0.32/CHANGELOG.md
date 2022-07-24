@@ -7,6 +7,17 @@
 ### Chore
 
 - Auto-update chart README [skip ci]
+  - Auto-update chart README [skip ci]
+  - update helm general non-major helm releases ([#3280](https://github.com/truecharts/apps/issues/3280))
+
+
+
+
+## [ghost-3.0.32](https://github.com/truecharts/apps/compare/ghost-3.0.31...ghost-3.0.32) (2022-07-23)
+
+### Chore
+
+- Auto-update chart README [skip ci]
   - update helm general non-major helm releases ([#3280](https://github.com/truecharts/apps/issues/3280))
 
 
@@ -86,14 +97,3 @@
 
 
 ## [ghost-3.0.23](https://github.com/truecharts/apps/compare/ghost-3.0.21...ghost-3.0.23) (2022-07-14)
-
-### Fix
-
-- bump to ensure .helmignore is present on all Charts
-
-
-
-## [ghost-3.0.21](https://github.com/truecharts/apps/compare/ghost-3.0.20...ghost-3.0.21) (2022-07-14)
-
-### Chore
-

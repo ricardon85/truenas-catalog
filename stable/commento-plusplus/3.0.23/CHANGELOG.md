@@ -7,6 +7,17 @@
 ### Chore
 
 - Auto-update chart README [skip ci]
+  - Auto-update chart README [skip ci]
+  - update helm general non-major helm releases ([#3280](https://github.com/truecharts/apps/issues/3280))
+
+
+
+
+## [commento-plusplus-3.0.23](https://github.com/truecharts/apps/compare/commento-plusplus-3.0.22...commento-plusplus-3.0.23) (2022-07-23)
+
+### Chore
+
+- Auto-update chart README [skip ci]
   - update helm general non-major helm releases ([#3280](https://github.com/truecharts/apps/issues/3280))
 
 
@@ -85,15 +96,4 @@
 ### [commento-plusplus-3.0.11](https://github.com/truecharts/apps/compare/commento-plusplus-3.0.10...commento-plusplus-3.0.11) (2022-07-11)
 
 #### Chore
-
-* move icons into the apps folder ([#3139](https://github.com/truecharts/apps/issues/3139))
-
-
-
-<a name="commento-plusplus-3.0.10"></a>
-### [commento-plusplus-3.0.10](https://github.com/truecharts/apps/compare/commento-plusplus-3.0.9...commento-plusplus-3.0.10) (2022-07-09)
-
-#### Chore
-
-* update helm general non-major helm releases ([#3113](https://github.com/truecharts/apps/issues/3113))
 

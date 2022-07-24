@@ -7,6 +7,17 @@
 ### Chore
 
 - Auto-update chart README [skip ci]
+  - Auto-update chart README [skip ci]
+  - update helm general non-major helm releases ([#3280](https://github.com/truecharts/apps/issues/3280))
+
+
+
+
+## [rsshub-3.0.49](https://github.com/truecharts/apps/compare/rsshub-3.0.48...rsshub-3.0.49) (2022-07-23)
+
+### Chore
+
+- Auto-update chart README [skip ci]
   - update helm general non-major helm releases ([#3280](https://github.com/truecharts/apps/issues/3280))
 
 
@@ -86,14 +97,3 @@
 ### Chore
 
 - update docker general non-major ([#3184](https://github.com/truecharts/apps/issues/3184))
-
-
-
-## [rsshub-3.0.39](https://github.com/truecharts/apps/compare/rsshub-3.0.38...rsshub-3.0.39) (2022-07-14)
-
-### Fix
-
-- regenerate catalog and update template
-
-
-

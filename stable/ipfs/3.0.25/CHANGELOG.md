@@ -7,6 +7,17 @@
 ### Chore
 
 - Auto-update chart README [skip ci]
+  - Auto-update chart README [skip ci]
+  - update helm general non-major helm releases ([#3280](https://github.com/truecharts/apps/issues/3280))
+
+
+
+
+## [ipfs-3.0.25](https://github.com/truecharts/apps/compare/ipfs-3.0.24...ipfs-3.0.25) (2022-07-23)
+
+### Chore
+
+- Auto-update chart README [skip ci]
   - update helm general non-major helm releases ([#3280](https://github.com/truecharts/apps/issues/3280))
 
 
@@ -85,15 +96,4 @@
 ### [ipfs-3.0.14](https://github.com/truecharts/apps/compare/ipfs-3.0.13...ipfs-3.0.14) (2022-07-11)
 
 #### Chore
-
-* move icons into the apps folder ([#3139](https://github.com/truecharts/apps/issues/3139))
-
-
-
-<a name="ipfs-3.0.13"></a>
-### [ipfs-3.0.13](https://github.com/truecharts/apps/compare/ipfs-3.0.12...ipfs-3.0.13) (2022-07-10)
-
-#### Fix
-
-* revert combine ports ([#3119](https://github.com/truecharts/apps/issues/3119))
 

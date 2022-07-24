@@ -7,6 +7,17 @@
 ### Chore
 
 - Auto-update chart README [skip ci]
+  - Auto-update chart README [skip ci]
+  - update helm general non-major helm releases ([#3280](https://github.com/truecharts/apps/issues/3280))
+
+
+
+
+## [anonaddy-9.0.29](https://github.com/truecharts/apps/compare/anonaddy-9.0.28...anonaddy-9.0.29) (2022-07-23)
+
+### Chore
+
+- Auto-update chart README [skip ci]
   - update helm general non-major helm releases ([#3280](https://github.com/truecharts/apps/issues/3280))
 
 
@@ -86,14 +97,3 @@
 - update docker general non-major ([#3171](https://github.com/truecharts/apps/issues/3171))
 
 
-
-## [anonaddy-9.0.18](https://github.com/truecharts/apps/compare/anonaddy-9.0.16...anonaddy-9.0.18) (2022-07-12)
-
-### Chore
-
-- update icons ([#3156](https://github.com/truecharts/apps/issues/3156))
-- bump to cleanup old docs and use correct icon urls
-
-
-
-## [anonaddy-9.0.16](https://github.com/truecharts/apps/compare/anonaddy-9.0.15...anonaddy-9.0.16) (2022-07-12)

@@ -7,6 +7,17 @@
 ### Chore
 
 - Auto-update chart README [skip ci]
+  - Auto-update chart README [skip ci]
+  - update docker general non-major ([#3279](https://github.com/truecharts/apps/issues/3279))
+
+
+
+
+## [postgresql-8.0.46](https://github.com/truecharts/apps/compare/postgresql-8.0.45...postgresql-8.0.46) (2022-07-23)
+
+### Chore
+
+- Auto-update chart README [skip ci]
   - update docker general non-major ([#3279](https://github.com/truecharts/apps/issues/3279))
 
 
@@ -86,14 +97,3 @@
 
 - force the use of TCCR in CI ([#3226](https://github.com/truecharts/apps/issues/3226))
 
-
-
-## [postgresql-8.0.40](https://github.com/truecharts/apps/compare/postgresql-8.0.39...postgresql-8.0.40) (2022-07-20)
-
-### Chore
-
-- update docker general non-major ([#3222](https://github.com/truecharts/apps/issues/3222))
-
-
-
-## [postgresql-8.0.39](https://github.com/truecharts/apps/compare/postgresql-8.0.38...postgresql-8.0.39) (2022-07-19)

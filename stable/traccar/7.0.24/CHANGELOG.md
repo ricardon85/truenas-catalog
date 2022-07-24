@@ -7,6 +7,17 @@
 ### Chore
 
 - Auto-update chart README [skip ci]
+  - Auto-update chart README [skip ci]
+  - update helm general non-major helm releases ([#3280](https://github.com/truecharts/apps/issues/3280))
+
+
+
+
+## [traccar-7.0.24](https://github.com/truecharts/apps/compare/traccar-7.0.23...traccar-7.0.24) (2022-07-23)
+
+### Chore
+
+- Auto-update chart README [skip ci]
   - update helm general non-major helm releases ([#3280](https://github.com/truecharts/apps/issues/3280))
 
 
@@ -86,14 +97,3 @@
 ### [traccar-7.0.12](https://github.com/truecharts/apps/compare/traccar-7.0.11...traccar-7.0.12) (2022-07-11)
 
 #### Chore
-
-* move icons into the apps folder ([#3139](https://github.com/truecharts/apps/issues/3139))
-
-
-
-<a name="traccar-7.0.11"></a>
-### [traccar-7.0.11](https://github.com/truecharts/apps/compare/traccar-7.0.10...traccar-7.0.11) (2022-07-11)
-
-#### Chore
-
-* update docker general non-major ([#3128](https://github.com/truecharts/apps/issues/3128))

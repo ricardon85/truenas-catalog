@@ -7,6 +7,17 @@
 ### Chore
 
 - Auto-update chart README [skip ci]
+  - Auto-update chart README [skip ci]
+  - update helm general non-major helm releases ([#3280](https://github.com/truecharts/apps/issues/3280))
+
+
+
+
+## [plausible-1.0.4](https://github.com/truecharts/apps/compare/plausible-1.0.3...plausible-1.0.4) (2022-07-23)
+
+### Chore
+
+- Auto-update chart README [skip ci]
   - update helm general non-major helm releases ([#3280](https://github.com/truecharts/apps/issues/3280))
 
 
@@ -86,13 +97,3 @@
 
 #### Chore
 
-* update helm general non-major helm releases ([#3147](https://github.com/truecharts/apps/issues/3147))
-
-
-
-<a name="plausible-0.0.1"></a>
-### plausible-0.0.1 (2022-07-12)
-
-#### Feat
-
-* Add Plausible Analytics ([#3055](https://github.com/truecharts/apps/issues/3055))
