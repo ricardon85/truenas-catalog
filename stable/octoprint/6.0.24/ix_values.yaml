@@ -1,0 +1,30 @@
+image:
+  repository: tccr.io/truecharts/octoprint
+  tag: v1.8.1@sha256:25a48e4a195288d6183d7ac7589cd31324d744a10ebb7aa0c44f0d6e7628f50c
+  pullPolicy: IfNotPresent
+
+securityContext:
+  runAsNonRoot: false
+
+podSecurityContext:
+  runAsUser: 0
+  runAsGroup: 0
+
+env:
+  ENABLE_MJPG_STREAMER: "true"
+  MJPG_STREAMER_INPUT: # "-y -n -r 640x480"
+  CAMERA_DEV: # /dev/video0
+
+service:
+  main:
+    ports:
+      main:
+        port: 10021
+        targetPort: 80
+
+persistence:
+  data:
+    enabled: true
+    mountPath: "/octoprint"
+  varrun:
+    enabled: true

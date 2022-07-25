@@ -1,0 +1,16 @@
+image:
+  repository: tccr.io/truecharts/theme-park
+  pullPolicy: IfNotPresent
+  tag: 1.9.9@sha256:ba1c6c87ccabb8228bd069fc8f2c0f813002776d0727975309fc74fb8a8de221
+
+service:
+  main:
+    ports:
+      main:
+        port: 10244
+        targetPort: 8080
+
+persistence:
+  config:
+    enabled: true
+    mountPath: "/config"
