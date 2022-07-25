@@ -1,4 +1,0 @@
-image:
-  repository: tccr.io/truecharts/impostor-server-nightly
-  pullPolicy: IfNotPresent
-  tag: vnightly@sha256:a9ac4d9322c4616b131197faa5b4ec4eb95526a486976826a5f07af4852f00c9
