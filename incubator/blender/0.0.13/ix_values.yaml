@@ -1,0 +1,27 @@
+env:
+  KEYBOARD: ""
+  SUBFOLDER: ""
+  UMASK: ""
+image:
+  pullPolicy: IfNotPresent
+  repository: tccr.io/truecharts/blender
+  tag: latest@sha256:fa04890c23ea23844a56bf45fe82a8d24296356282bb6e3efc976b403876fe9b
+persistence:
+  config:
+    enabled: true
+    mountPath: /config
+podSecurityContext:
+  runAsGroup: 0
+  runAsUser: 0
+securityContext:
+  readOnlyRootFilesystem: false
+  runAsNonRoot: false
+service:
+  main:
+    enabled: true
+    ports:
+      main:
+        enabled: true
+        port: 3000
+        protocol: TCP
+        targetPort: 3000

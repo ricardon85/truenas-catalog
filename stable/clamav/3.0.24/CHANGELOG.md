@@ -6,6 +6,16 @@
 
 ### Chore
 
+- Auto-update chart README [skip ci]
+  - update docker general non-major ([#3295](https://github.com/truecharts/apps/issues/3295))
+
+
+
+
+## [clamav-3.0.24](https://github.com/truecharts/apps/compare/clamav-3.0.23...clamav-3.0.24) (2022-07-25)
+
+### Chore
+
 - update docker general non-major ([#3295](https://github.com/truecharts/apps/issues/3295))
 
 
@@ -87,13 +97,3 @@
 - bump to cleanup old docs and use correct icon urls
 
 
-
-## [clamav-3.0.14](https://github.com/truecharts/apps/compare/clamav-3.0.13...clamav-3.0.14) (2022-07-12)
-
-### Chore
-
-- bump to regenerate documentation
-
-
-
-<a name="clamav-3.0.13"></a>

@@ -6,6 +6,16 @@
 
 ### Chore
 
+- Auto-update chart README [skip ci]
+  - update docker general non-major ([#3295](https://github.com/truecharts/apps/issues/3295))
+
+
+
+
+## [recipes-8.0.30](https://github.com/truecharts/apps/compare/recipes-8.0.29...recipes-8.0.30) (2022-07-25)
+
+### Chore
+
 - update docker general non-major ([#3295](https://github.com/truecharts/apps/issues/3295))
 
 
@@ -87,13 +97,3 @@
 ## [recipes-8.0.21](https://github.com/truecharts/apps/compare/recipes-8.0.19...recipes-8.0.21) (2022-07-14)
 
 ### Fix
-
-- bump to ensure .helmignore is present on all Charts
-
-
-
-## [recipes-8.0.19](https://github.com/truecharts/apps/compare/recipes-8.0.18...recipes-8.0.19) (2022-07-14)
-
-### Chore
-
-- update docker general non-major ([#3171](https://github.com/truecharts/apps/issues/3171))

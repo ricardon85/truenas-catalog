@@ -6,6 +6,16 @@
 
 ### Chore
 
+- Auto-update chart README [skip ci]
+  - update docker general non-major ([#3295](https://github.com/truecharts/apps/issues/3295))
+
+
+
+
+## [n8n-4.0.33](https://github.com/truecharts/apps/compare/n8n-4.0.32...n8n-4.0.33) (2022-07-25)
+
+### Chore
+
 - update docker general non-major ([#3295](https://github.com/truecharts/apps/issues/3295))
 
 
@@ -87,13 +97,3 @@
 ## [n8n-4.0.25](https://github.com/truecharts/apps/compare/n8n-4.0.23...n8n-4.0.25) (2022-07-14)
 
 ### Fix
-
-- bump to ensure .helmignore is present on all Charts
-
-
-
-## [n8n-4.0.23](https://github.com/truecharts/apps/compare/n8n-4.0.22...n8n-4.0.23) (2022-07-14)
-
-### Chore
-
-- update docker general non-major ([#3171](https://github.com/truecharts/apps/issues/3171))

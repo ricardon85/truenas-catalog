@@ -6,6 +6,16 @@
 
 ### Chore
 
+- Auto-update chart README [skip ci]
+  - update docker general non-major ([#3295](https://github.com/truecharts/apps/issues/3295))
+
+
+
+
+## [ariang-0.0.16](https://github.com/truecharts/apps/compare/ariang-0.0.15...ariang-0.0.16) (2022-07-25)
+
+### Chore
+
 - update docker general non-major ([#3295](https://github.com/truecharts/apps/issues/3295))
 
 
@@ -87,13 +97,3 @@
 ## [ariang-0.0.5](https://github.com/truecharts/apps/compare/ariang-0.0.4...ariang-0.0.5) (2022-07-12)
 
 ### Chore
-
-- bump to regenerate documentation
-
-
-
-<a name="ariang-0.0.4"></a>
-### [ariang-0.0.4](https://github.com/truecharts/apps/compare/ariang-0.0.3...ariang-0.0.4) (2022-07-12)
-
-#### Chore
-

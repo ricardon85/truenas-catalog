@@ -6,6 +6,16 @@
 
 ### Chore
 
+- Auto-update chart README [skip ci]
+  - update docker general non-major ([#3295](https://github.com/truecharts/apps/issues/3295))
+
+
+
+
+## [mineos-0.0.14](https://github.com/truecharts/apps/compare/mineos-0.0.13...mineos-0.0.14) (2022-07-25)
+
+### Chore
+
 - update docker general non-major ([#3295](https://github.com/truecharts/apps/issues/3295))
 
 
@@ -87,13 +97,3 @@
 
 ### Chore
 
-- bump to regenerate documentation
-
-
-
-<a name="mineos-0.0.3"></a>
-### [mineos-0.0.3](https://github.com/truecharts/apps/compare/mineos-0.0.2...mineos-0.0.3) (2022-07-12)
-
-#### Chore
-
-* update helm general non-major helm releases ([#3147](https://github.com/truecharts/apps/issues/3147))

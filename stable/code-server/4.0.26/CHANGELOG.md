@@ -6,6 +6,16 @@
 
 ### Chore
 
+- Auto-update chart README [skip ci]
+  - update docker general non-major ([#3295](https://github.com/truecharts/apps/issues/3295))
+
+
+
+
+## [code-server-4.0.26](https://github.com/truecharts/apps/compare/code-server-4.0.25...code-server-4.0.26) (2022-07-25)
+
+### Chore
+
 - update docker general non-major ([#3295](https://github.com/truecharts/apps/issues/3295))
 
 
@@ -87,13 +97,3 @@
 ### Chore
 
 - update some last icons ([#3160](https://github.com/truecharts/apps/issues/3160))
-
-
-
-## [collabora-online-12.1.11](https://github.com/truecharts/apps/compare/collabora-online-12.1.8...collabora-online-12.1.11) (2022-07-12)
-
-### Chore
-
-- update icons ([#3156](https://github.com/truecharts/apps/issues/3156))
-- bump to cleanup old docs and use correct icon urls
-

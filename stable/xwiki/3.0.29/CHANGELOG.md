@@ -6,6 +6,16 @@
 
 ### Chore
 
+- Auto-update chart README [skip ci]
+  - update docker general non-major ([#3295](https://github.com/truecharts/apps/issues/3295))
+
+
+
+
+## [xwiki-3.0.29](https://github.com/truecharts/apps/compare/xwiki-3.0.28...xwiki-3.0.29) (2022-07-25)
+
+### Chore
+
 - update docker general non-major ([#3295](https://github.com/truecharts/apps/issues/3295))
 
 
@@ -87,13 +97,3 @@
 ## [xwiki-3.0.20](https://github.com/truecharts/apps/compare/xwiki-3.0.19...xwiki-3.0.20) (2022-07-14)
 
 ### Chore
-
-- update docker general non-major ([#3171](https://github.com/truecharts/apps/issues/3171))
-
-
-
-## [xwiki-3.0.19](https://github.com/truecharts/apps/compare/xwiki-3.0.18...xwiki-3.0.19) (2022-07-13)
-
-### Chore
-
-- update docker general non-major ([#3157](https://github.com/truecharts/apps/issues/3157))

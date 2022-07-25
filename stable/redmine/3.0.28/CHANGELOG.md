@@ -6,6 +6,16 @@
 
 ### Chore
 
+- Auto-update chart README [skip ci]
+  - update docker general non-major ([#3295](https://github.com/truecharts/apps/issues/3295))
+
+
+
+
+## [redmine-3.0.28](https://github.com/truecharts/apps/compare/redmine-3.0.27...redmine-3.0.28) (2022-07-25)
+
+### Chore
+
 - update docker general non-major ([#3295](https://github.com/truecharts/apps/issues/3295))
 
 
@@ -86,14 +96,4 @@
 ## [redmine-3.0.19](https://github.com/truecharts/apps/compare/redmine-3.0.18...redmine-3.0.19) (2022-07-14)
 
 ### Chore
-
-- update docker general non-major ([#3171](https://github.com/truecharts/apps/issues/3171))
-
-
-
-## [redmine-3.0.18](https://github.com/truecharts/apps/compare/redmine-3.0.17...redmine-3.0.18) (2022-07-13)
-
-### Chore
-
-- update docker general non-major ([#3157](https://github.com/truecharts/apps/issues/3157))
 

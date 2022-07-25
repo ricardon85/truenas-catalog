@@ -6,6 +6,16 @@
 
 ### Chore
 
+- Auto-update chart README [skip ci]
+  - update docker general non-major ([#3295](https://github.com/truecharts/apps/issues/3295))
+
+
+
+
+## [zwavejs2mqtt-11.0.25](https://github.com/truecharts/apps/compare/zwavejs2mqtt-11.0.24...zwavejs2mqtt-11.0.25) (2022-07-25)
+
+### Chore
+
 - update docker general non-major ([#3295](https://github.com/truecharts/apps/issues/3295))
 
 
@@ -87,13 +97,3 @@
 ## [zwavejs2mqtt-11.0.15](https://github.com/truecharts/apps/compare/zwavejs2mqtt-11.0.14...zwavejs2mqtt-11.0.15) (2022-07-12)
 
 ### Chore
-
-- bump to regenerate documentation
-
-
-
-<a name="zwavejs2mqtt-11.0.14"></a>
-### [zwavejs2mqtt-11.0.14](https://github.com/truecharts/apps/compare/zwavejs2mqtt-11.0.13...zwavejs2mqtt-11.0.14) (2022-07-12)
-
-#### Chore
-

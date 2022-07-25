@@ -6,6 +6,16 @@
 
 ### Chore
 
+- Auto-update chart README [skip ci]
+  - update docker general non-major ([#3295](https://github.com/truecharts/apps/issues/3295))
+
+
+
+
+## [linkace-4.0.31](https://github.com/truecharts/apps/compare/linkace-4.0.30...linkace-4.0.31) (2022-07-25)
+
+### Chore
+
 - update docker general non-major ([#3295](https://github.com/truecharts/apps/issues/3295))
 
 
@@ -87,13 +97,3 @@
 
 ### Chore
 
-- update icons ([#3156](https://github.com/truecharts/apps/issues/3156))
-- bump to cleanup old docs and use correct icon urls
-
-
-
-## [linkace-4.0.20](https://github.com/truecharts/apps/compare/linkace-4.0.19...linkace-4.0.20) (2022-07-12)
-
-### Chore
-
-- bump to regenerate documentation

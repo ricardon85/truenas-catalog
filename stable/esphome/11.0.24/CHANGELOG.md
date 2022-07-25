@@ -6,6 +6,16 @@
 
 ### Chore
 
+- Auto-update chart README [skip ci]
+  - update docker general non-major ([#3295](https://github.com/truecharts/apps/issues/3295))
+
+
+
+
+## [esphome-11.0.24](https://github.com/truecharts/apps/compare/esphome-11.0.23...esphome-11.0.24) (2022-07-25)
+
+### Chore
+
 - update docker general non-major ([#3295](https://github.com/truecharts/apps/issues/3295))
 
 
@@ -87,13 +97,3 @@
 
 ### Chore
 
-- bump to regenerate documentation
-
-
-
-<a name="endlessh-2.0.11"></a>
-### [endlessh-2.0.11](https://github.com/truecharts/apps/compare/endlessh-2.0.10...endlessh-2.0.11) (2022-07-12)
-
-#### Chore
-
-* update helm general non-major helm releases ([#3147](https://github.com/truecharts/apps/issues/3147))

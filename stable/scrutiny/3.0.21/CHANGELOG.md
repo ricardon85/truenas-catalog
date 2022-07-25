@@ -6,6 +6,16 @@
 
 ### Chore
 
+- Auto-update chart README [skip ci]
+  - update docker general non-major ([#3295](https://github.com/truecharts/apps/issues/3295))
+
+
+
+
+## [scrutiny-3.0.21](https://github.com/truecharts/apps/compare/scrutiny-3.0.20...scrutiny-3.0.21) (2022-07-25)
+
+### Chore
+
 - update docker general non-major ([#3295](https://github.com/truecharts/apps/issues/3295))
 
 
@@ -87,13 +97,3 @@
 ### Chore
 
 - update icons ([#3156](https://github.com/truecharts/apps/issues/3156))
-- bump to cleanup old docs and use correct icon urls
-
-
-
-## [scrutiny-3.0.10](https://github.com/truecharts/apps/compare/scrutiny-3.0.9...scrutiny-3.0.10) (2022-07-12)
-
-### Chore
-
-- bump to regenerate documentation
-

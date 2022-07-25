@@ -6,6 +6,16 @@
 
 ### Chore
 
+- Auto-update chart README [skip ci]
+  - update docker general non-major ([#3295](https://github.com/truecharts/apps/issues/3295))
+
+
+
+
+## [nocodb-3.0.30](https://github.com/truecharts/apps/compare/nocodb-3.0.29...nocodb-3.0.30) (2022-07-25)
+
+### Chore
+
 - update docker general non-major ([#3295](https://github.com/truecharts/apps/issues/3295))
 
 
@@ -87,13 +97,3 @@
 
 ### Fix
 
-- bump to ensure .helmignore is present on all Charts
-
-
-
-## [nocodb-3.0.20](https://github.com/truecharts/apps/compare/nocodb-3.0.18...nocodb-3.0.20) (2022-07-12)
-
-### Chore
-
-- update icons ([#3156](https://github.com/truecharts/apps/issues/3156))
-- bump to cleanup old docs and use correct icon urls

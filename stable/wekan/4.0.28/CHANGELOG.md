@@ -6,6 +6,16 @@
 
 ### Chore
 
+- Auto-update chart README [skip ci]
+  - update docker general non-major ([#3295](https://github.com/truecharts/apps/issues/3295))
+
+
+
+
+## [wekan-4.0.28](https://github.com/truecharts/apps/compare/wekan-4.0.27...wekan-4.0.28) (2022-07-25)
+
+### Chore
+
 - update docker general non-major ([#3295](https://github.com/truecharts/apps/issues/3295))
 
 
@@ -87,13 +97,3 @@
 
 ### Chore
 
-- update icons ([#3156](https://github.com/truecharts/apps/issues/3156))
-- bump to cleanup old docs and use correct icon urls
-
-
-
-## [wekan-4.0.17](https://github.com/truecharts/apps/compare/wekan-4.0.16...wekan-4.0.17) (2022-07-12)
-
-### Chore
-
-- bump to regenerate documentation

@@ -6,6 +6,16 @@
 
 ### Chore
 
+- Auto-update chart README [skip ci]
+  - update docker general non-major ([#3295](https://github.com/truecharts/apps/issues/3295))
+
+
+
+
+## [firefox-syncserver-9.0.24](https://github.com/truecharts/apps/compare/firefox-syncserver-9.0.23...firefox-syncserver-9.0.24) (2022-07-25)
+
+### Chore
+
 - update docker general non-major ([#3295](https://github.com/truecharts/apps/issues/3295))
 
 
@@ -87,13 +97,3 @@
 
 ### Fix
 
-- bump to ensure .helmignore is present on all Charts
-
-
-
-## [firefox-syncserver-9.0.14](https://github.com/truecharts/apps/compare/firefox-syncserver-9.0.12...firefox-syncserver-9.0.14) (2022-07-12)
-
-### Chore
-
-- update icons ([#3156](https://github.com/truecharts/apps/issues/3156))
-- bump to cleanup old docs and use correct icon urls

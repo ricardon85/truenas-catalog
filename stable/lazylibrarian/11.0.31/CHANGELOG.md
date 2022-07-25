@@ -6,6 +6,16 @@
 
 ### Chore
 
+- Auto-update chart README [skip ci]
+  - update docker general non-major ([#3295](https://github.com/truecharts/apps/issues/3295))
+
+
+
+
+## [lazylibrarian-11.0.31](https://github.com/truecharts/apps/compare/lazylibrarian-11.0.30...lazylibrarian-11.0.31) (2022-07-25)
+
+### Chore
+
 - update docker general non-major ([#3295](https://github.com/truecharts/apps/issues/3295))
 
 
@@ -87,13 +97,3 @@
 ## [lazylibrarian-11.0.23](https://github.com/truecharts/apps/compare/lazylibrarian-11.0.21...lazylibrarian-11.0.23) (2022-07-14)
 
 ### Fix
-
-- bump to ensure .helmignore is present on all Charts
-
-
-
-## [lazylibrarian-11.0.21](https://github.com/truecharts/apps/compare/lazylibrarian-11.0.20...lazylibrarian-11.0.21) (2022-07-13)
-
-### Fix
-
-- make root fs writable on several LSIO apps ([#3168](https://github.com/truecharts/apps/issues/3168))

@@ -6,6 +6,16 @@
 
 ### Chore
 
+- Auto-update chart README [skip ci]
+  - update docker general non-major ([#3295](https://github.com/truecharts/apps/issues/3295))
+
+
+
+
+## [youtubedl-material-0.0.22](https://github.com/truecharts/apps/compare/youtubedl-material-0.0.21...youtubedl-material-0.0.22) (2022-07-25)
+
+### Chore
+
 - update docker general non-major ([#3295](https://github.com/truecharts/apps/issues/3295))
 
 
@@ -87,13 +97,3 @@
 
 ### Chore
 
-- update icons ([#3156](https://github.com/truecharts/apps/issues/3156))
-- bump to cleanup old docs and use correct icon urls
-
-
-
-## [youtubedl-material-0.0.11](https://github.com/truecharts/apps/compare/youtubedl-material-0.0.10...youtubedl-material-0.0.11) (2022-07-12)
-
-### Chore
-
-- bump to regenerate documentation

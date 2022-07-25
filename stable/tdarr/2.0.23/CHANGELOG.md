@@ -6,6 +6,16 @@
 
 ### Chore
 
+- Auto-update chart README [skip ci]
+  - update docker general non-major ([#3295](https://github.com/truecharts/apps/issues/3295))
+
+
+
+
+## [tdarr-2.0.23](https://github.com/truecharts/apps/compare/tdarr-2.0.22...tdarr-2.0.23) (2022-07-25)
+
+### Chore
+
 - update docker general non-major ([#3295](https://github.com/truecharts/apps/issues/3295))
 
 
@@ -87,13 +97,3 @@
 - Auto-update chart README [skip ci]
 - move icons into the apps folder ([#3139](https://github.com/truecharts/apps/issues/3139))
 - update icons ([#3156](https://github.com/truecharts/apps/issues/3156))
-- remove UI leftovers ([#2914](https://github.com/truecharts/apps/issues/2914))
-- bump to regenerate documentation
-- bump to cleanup old docs and use correct icon urls
-- sync all apps persistence configuration and always default to PVC
-- update helm general non-major helm releases ([#2943](https://github.com/truecharts/apps/issues/2943))
-- update helm general non-major helm releases ([#2886](https://github.com/truecharts/apps/issues/2886))
-- update helm general non-major helm releases ([#2948](https://github.com/truecharts/apps/issues/2948))
-- update helm general non-major helm releases ([#2854](https://github.com/truecharts/apps/issues/2854))
-- update helm general non-major helm releases ([#3066](https://github.com/truecharts/apps/issues/3066))
-- update helm general non-major helm releases ([#3113](https://github.com/truecharts/apps/issues/3113))

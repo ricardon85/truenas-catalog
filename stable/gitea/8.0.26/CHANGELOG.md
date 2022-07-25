@@ -6,6 +6,16 @@
 
 ### Chore
 
+- Auto-update chart README [skip ci]
+  - update docker general non-major ([#3295](https://github.com/truecharts/apps/issues/3295))
+
+
+
+
+## [gitea-8.0.26](https://github.com/truecharts/apps/compare/gitea-8.0.25...gitea-8.0.26) (2022-07-25)
+
+### Chore
+
 - update docker general non-major ([#3295](https://github.com/truecharts/apps/issues/3295))
 
 
@@ -87,13 +97,3 @@
 
 ### Chore
 
-- update docker general non-major ([#3157](https://github.com/truecharts/apps/issues/3157))
-
-
-
-## [gitea-8.0.16](https://github.com/truecharts/apps/compare/gitea-8.0.14...gitea-8.0.16) (2022-07-12)
-
-### Chore
-
-- update icons ([#3156](https://github.com/truecharts/apps/issues/3156))
-- bump to cleanup old docs and use correct icon urls

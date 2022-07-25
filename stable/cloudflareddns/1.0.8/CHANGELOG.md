@@ -6,6 +6,16 @@
 
 ### Chore
 
+- Auto-update chart README [skip ci]
+  - update docker general non-major ([#3295](https://github.com/truecharts/apps/issues/3295))
+
+
+
+
+## [cloudflareddns-1.0.8](https://github.com/truecharts/apps/compare/cloudflareddns-1.0.7...cloudflareddns-1.0.8) (2022-07-25)
+
+### Chore
+
 - update docker general non-major ([#3295](https://github.com/truecharts/apps/issues/3295))
 
 
@@ -87,13 +97,3 @@
 
 ### Feat
 
-- Moving cloudflareddns to stable ([#3205](https://github.com/truecharts/apps/issues/3205))
-
-
-
-## [cloudflareddns-0.0.16](https://github.com/truecharts/apps/compare/cloudflareddns-0.0.15...cloudflareddns-0.0.16) (2022-07-17)
-
-### Chore
-
-- Auto-update chart README [skip ci]
-- extend linter and apply lint ([#3200](https://github.com/truecharts/apps/issues/3200))

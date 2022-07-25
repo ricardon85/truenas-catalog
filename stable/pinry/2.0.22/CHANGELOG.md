@@ -6,6 +6,16 @@
 
 ### Chore
 
+- Auto-update chart README [skip ci]
+  - update docker general non-major ([#3295](https://github.com/truecharts/apps/issues/3295))
+
+
+
+
+## [pinry-2.0.22](https://github.com/truecharts/apps/compare/pinry-2.0.21...pinry-2.0.22) (2022-07-25)
+
+### Chore
+
 - update docker general non-major ([#3295](https://github.com/truecharts/apps/issues/3295))
 
 
@@ -87,13 +97,3 @@
 <a name="pinry-2.0.11"></a>
 ### [pinry-2.0.11](https://github.com/truecharts/apps/compare/pinry-2.0.10...pinry-2.0.11) (2022-07-12)
 
-#### Chore
-
-* update helm general non-major helm releases ([#3147](https://github.com/truecharts/apps/issues/3147))
-
-
-
-<a name="pinry-2.0.10"></a>
-### [pinry-2.0.10](https://github.com/truecharts/apps/compare/pinry-2.0.9...pinry-2.0.10) (2022-07-11)
-
-#### Chore

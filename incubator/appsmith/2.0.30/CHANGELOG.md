@@ -6,6 +6,16 @@
 
 ### Chore
 
+- Auto-update chart README [skip ci]
+  - update docker general non-major ([#3295](https://github.com/truecharts/apps/issues/3295))
+
+
+
+
+## [appsmith-2.0.30](https://github.com/truecharts/apps/compare/appsmith-2.0.29...appsmith-2.0.30) (2022-07-25)
+
+### Chore
+
 - update docker general non-major ([#3295](https://github.com/truecharts/apps/issues/3295))
 
 
@@ -87,13 +97,3 @@
 ## [appsmith-2.0.22](https://github.com/truecharts/apps/compare/appsmith-2.0.20...appsmith-2.0.22) (2022-07-14)
 
 ### Fix
-
-- bump to ensure .helmignore is present on all Charts
-
-
-
-## [appsmith-2.0.20](https://github.com/truecharts/apps/compare/appsmith-2.0.19...appsmith-2.0.20) (2022-07-14)
-
-### Chore
-
-- update docker general non-major ([#3171](https://github.com/truecharts/apps/issues/3171))

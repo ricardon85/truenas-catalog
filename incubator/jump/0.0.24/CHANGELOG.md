@@ -6,6 +6,16 @@
 
 ### Chore
 
+- Auto-update chart README [skip ci]
+  - update docker general non-major ([#3295](https://github.com/truecharts/apps/issues/3295))
+
+
+
+
+## [jump-0.0.24](https://github.com/truecharts/apps/compare/jump-0.0.23...jump-0.0.24) (2022-07-25)
+
+### Chore
+
 - update docker general non-major ([#3295](https://github.com/truecharts/apps/issues/3295))
 
 
@@ -87,13 +97,3 @@
 ### Chore
 
 - update icons ([#3156](https://github.com/truecharts/apps/issues/3156))
-- bump to cleanup old docs and use correct icon urls
-
-
-
-## [jump-0.0.13](https://github.com/truecharts/apps/compare/jump-0.0.12...jump-0.0.13) (2022-07-12)
-
-### Chore
-
-- bump to regenerate documentation
-

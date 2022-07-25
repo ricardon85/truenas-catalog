@@ -6,6 +6,16 @@
 
 ### Chore
 
+- Auto-update chart README [skip ci]
+  - update docker general non-major ([#3295](https://github.com/truecharts/apps/issues/3295))
+
+
+
+
+## [cloudflared-1.0.4](https://github.com/truecharts/apps/compare/cloudflareddns-1.0.7...cloudflared-1.0.4) (2022-07-25)
+
+### Chore
+
 - update docker general non-major ([#3295](https://github.com/truecharts/apps/issues/3295))
 
 
@@ -86,14 +96,4 @@
 ## [cloudflared-0.0.17](https://github.com/truecharts/apps/compare/cloudflareddns-1.0.2...cloudflared-0.0.17) (2022-07-19)
 
 ### Chore
-
-- Update Readme and Description on SCALE
-
-
-
-## [cloudflared-0.0.16](https://github.com/truecharts/apps/compare/cloudflareddns-0.0.15...cloudflared-0.0.16) (2022-07-17)
-
-### Chore
-
-- extend linter and apply lint ([#3200](https://github.com/truecharts/apps/issues/3200))
 

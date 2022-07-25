@@ -6,6 +6,16 @@
 
 ### Chore
 
+- Auto-update chart README [skip ci]
+  - update docker general non-major ([#3295](https://github.com/truecharts/apps/issues/3295))
+
+
+
+
+## [traefik-13.1.5](https://github.com/truecharts/apps/compare/traefik-13.1.4...traefik-13.1.5) (2022-07-25)
+
+### Chore
+
 - update docker general non-major ([#3295](https://github.com/truecharts/apps/issues/3295))
 
 
@@ -85,15 +95,5 @@
 ### Fix
 
 - don't set xrobots header on default middleware ([#3211](https://github.com/truecharts/apps/issues/3211))
-
-
-
-## [traefik-12.0.22](https://github.com/truecharts/apps/compare/traefik-12.0.20...traefik-12.0.22) (2022-07-14)
-
-### Fix
-
-- regenerate catalog and update template
-- don't set xrobots header by default ([#3183](https://github.com/truecharts/apps/issues/3183))
-
 
 

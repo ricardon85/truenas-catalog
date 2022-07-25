@@ -6,6 +6,16 @@
 
 ### Chore
 
+- Auto-update chart README [skip ci]
+  - update docker general non-major ([#3295](https://github.com/truecharts/apps/issues/3295))
+
+
+
+
+## [xbackbone-3.0.26](https://github.com/truecharts/apps/compare/xbackbone-3.0.25...xbackbone-3.0.26) (2022-07-25)
+
+### Chore
+
 - update docker general non-major ([#3295](https://github.com/truecharts/apps/issues/3295))
 
 
@@ -87,13 +97,3 @@
 
 ### Fix
 
-- bump to ensure .helmignore is present on all Charts
-
-
-
-## [xbackbone-3.0.16](https://github.com/truecharts/apps/compare/xbackbone-3.0.14...xbackbone-3.0.16) (2022-07-12)
-
-### Chore
-
-- update icons ([#3156](https://github.com/truecharts/apps/issues/3156))
-- bump to cleanup old docs and use correct icon urls

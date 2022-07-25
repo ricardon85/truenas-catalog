@@ -6,6 +6,16 @@
 
 ### Chore
 
+- Auto-update chart README [skip ci]
+  - update docker general non-major ([#3295](https://github.com/truecharts/apps/issues/3295))
+
+
+
+
+## [netdata-2.0.24](https://github.com/truecharts/apps/compare/netdata-2.0.23...netdata-2.0.24) (2022-07-25)
+
+### Chore
+
 - update docker general non-major ([#3295](https://github.com/truecharts/apps/issues/3295))
 
 
@@ -87,13 +97,3 @@
 
 ### Chore
 
-- bump to regenerate documentation
-
-
-
-<a name="netdata-2.0.13"></a>
-### [netdata-2.0.13](https://github.com/truecharts/apps/compare/netdata-2.0.12...netdata-2.0.13) (2022-07-12)
-
-#### Chore
-
-* update helm general non-major helm releases ([#3147](https://github.com/truecharts/apps/issues/3147))

@@ -6,6 +6,16 @@
 
 ### Chore
 
+- Auto-update chart README [skip ci]
+  - update docker general non-major ([#3295](https://github.com/truecharts/apps/issues/3295))
+
+
+
+
+## [mosquitto-6.0.26](https://github.com/truecharts/apps/compare/mosquitto-6.0.25...mosquitto-6.0.26) (2022-07-25)
+
+### Chore
+
 - update docker general non-major ([#3295](https://github.com/truecharts/apps/issues/3295))
 
 
@@ -86,14 +96,4 @@
 
 
 ## [mosquitto-6.0.16](https://github.com/truecharts/apps/compare/mosquitto-6.0.14...mosquitto-6.0.16) (2022-07-14)
-
-### Fix
-
-- bump to ensure .helmignore is present on all Charts
-
-
-
-## [mosquitto-6.0.14](https://github.com/truecharts/apps/compare/mosquitto-6.0.12...mosquitto-6.0.14) (2022-07-12)
-
-### Chore
 

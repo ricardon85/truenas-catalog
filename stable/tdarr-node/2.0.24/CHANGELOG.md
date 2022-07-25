@@ -6,6 +6,16 @@
 
 ### Chore
 
+- Auto-update chart README [skip ci]
+  - update docker general non-major ([#3295](https://github.com/truecharts/apps/issues/3295))
+
+
+
+
+## [tdarr-node-2.0.24](https://github.com/truecharts/apps/compare/tdarr-node-2.0.23...tdarr-node-2.0.24) (2022-07-25)
+
+### Chore
+
 - update docker general non-major ([#3295](https://github.com/truecharts/apps/issues/3295))
 
 
@@ -87,13 +97,3 @@
 - Auto-update chart README [skip ci]
 - Auto-update chart README [skip ci]
 - Auto-update chart README [skip ci]
-- Auto-update chart README [skip ci]
-- Auto-update chart README [skip ci]
-- Auto-update chart README [skip ci]
-- Auto-update chart README [skip ci]
-- Auto-update chart README [skip ci]
-- Auto-update chart README [skip ci]
-- move icons into the apps folder ([#3139](https://github.com/truecharts/apps/issues/3139))
-- update icons ([#3156](https://github.com/truecharts/apps/issues/3156))
-- remove UI leftovers ([#2914](https://github.com/truecharts/apps/issues/2914))
-- bump to regenerate documentation

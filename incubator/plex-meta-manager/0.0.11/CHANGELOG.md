@@ -6,6 +6,16 @@
 
 ### Chore
 
+- Auto-update chart README [skip ci]
+  - update docker general non-major ([#3295](https://github.com/truecharts/apps/issues/3295))
+
+
+
+
+## [plex-meta-manager-0.0.11](https://github.com/truecharts/apps/compare/plex-meta-manager-0.0.10...plex-meta-manager-0.0.11) (2022-07-25)
+
+### Chore
+
 - update docker general non-major ([#3295](https://github.com/truecharts/apps/issues/3295))
 
 
@@ -87,12 +97,3 @@
 
 ### Fix
 
-- bump to ensure .helmignore is present on all Charts
-
-
-
-## [plex-meta-manager-0.0.1]plex-meta-manager-0.0.1 (2022-07-14)
-
-### Feat
-
-- Add plex-meta-manager ([#3172](https://github.com/truecharts/apps/issues/3172))

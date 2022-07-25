@@ -6,6 +6,16 @@
 
 ### Chore
 
+- Auto-update chart README [skip ci]
+  - update docker general non-major ([#3295](https://github.com/truecharts/apps/issues/3295))
+
+
+
+
+## [unmanic-3.0.22](https://github.com/truecharts/apps/compare/unmanic-3.0.21...unmanic-3.0.22) (2022-07-25)
+
+### Chore
+
 - update docker general non-major ([#3295](https://github.com/truecharts/apps/issues/3295))
 
 
@@ -87,13 +97,3 @@
 
 ### Chore
 
-- bump to regenerate documentation
-
-
-
-<a name="unmanic-3.0.11"></a>
-### [unmanic-3.0.11](https://github.com/truecharts/apps/compare/unmanic-3.0.10...unmanic-3.0.11) (2022-07-12)
-
-#### Chore
-
-* update helm general non-major helm releases ([#3147](https://github.com/truecharts/apps/issues/3147))

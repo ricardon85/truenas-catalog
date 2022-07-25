@@ -6,6 +6,16 @@
 
 ### Chore
 
+- Auto-update chart README [skip ci]
+  - update docker general non-major ([#3295](https://github.com/truecharts/apps/issues/3295))
+
+
+
+
+## [minio-3.0.35](https://github.com/truecharts/apps/compare/minio-3.0.34...minio-3.0.35) (2022-07-25)
+
+### Chore
+
 - update docker general non-major ([#3295](https://github.com/truecharts/apps/issues/3295))
 
 
@@ -87,13 +97,3 @@
 ### Fix
 
 - regenerate catalog and update template
-
-
-
-## [minio-3.0.26](https://github.com/truecharts/apps/compare/minio-3.0.24...minio-3.0.26) (2022-07-14)
-
-### Fix
-
-- bump to ensure .helmignore is present on all Charts
-
-

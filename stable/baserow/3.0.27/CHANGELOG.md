@@ -6,6 +6,16 @@
 
 ### Chore
 
+- Auto-update chart README [skip ci]
+  - update docker general non-major ([#3295](https://github.com/truecharts/apps/issues/3295))
+
+
+
+
+## [baserow-3.0.27](https://github.com/truecharts/apps/compare/baserow-3.0.26...baserow-3.0.27) (2022-07-25)
+
+### Chore
+
 - update docker general non-major ([#3295](https://github.com/truecharts/apps/issues/3295))
 
 
@@ -87,13 +97,3 @@
 
 ### Chore
 
-- update icons ([#3156](https://github.com/truecharts/apps/issues/3156))
-- bump to cleanup old docs and use correct icon urls
-
-
-
-## [baserow-3.0.16](https://github.com/truecharts/apps/compare/baserow-3.0.15...baserow-3.0.16) (2022-07-12)
-
-### Chore
-
-- bump to regenerate documentation

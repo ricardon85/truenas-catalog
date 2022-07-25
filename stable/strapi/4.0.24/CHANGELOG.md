@@ -6,6 +6,16 @@
 
 ### Chore
 
+- Auto-update chart README [skip ci]
+  - update docker general non-major ([#3295](https://github.com/truecharts/apps/issues/3295))
+
+
+
+
+## [strapi-4.0.24](https://github.com/truecharts/apps/compare/strapi-4.0.23...strapi-4.0.24) (2022-07-25)
+
+### Chore
+
 - update docker general non-major ([#3295](https://github.com/truecharts/apps/issues/3295))
 
 
@@ -87,13 +97,3 @@
 - regenerate catalog and update template
 
 
-
-## [strapi-4.0.16](https://github.com/truecharts/apps/compare/strapi-4.0.14...strapi-4.0.16) (2022-07-14)
-
-### Fix
-
-- bump to ensure .helmignore is present on all Charts
-
-
-
-## [strapi-4.0.14](https://github.com/truecharts/apps/compare/strapi-4.0.12...strapi-4.0.14) (2022-07-12)

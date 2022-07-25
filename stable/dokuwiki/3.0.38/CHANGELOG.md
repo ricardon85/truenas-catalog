@@ -6,6 +6,16 @@
 
 ### Chore
 
+- Auto-update chart README [skip ci]
+  - update docker general non-major ([#3295](https://github.com/truecharts/apps/issues/3295))
+
+
+
+
+## [dokuwiki-3.0.38](https://github.com/truecharts/apps/compare/dokuwiki-3.0.37...dokuwiki-3.0.38) (2022-07-25)
+
+### Chore
+
 - update docker general non-major ([#3295](https://github.com/truecharts/apps/issues/3295))
 
 
@@ -86,14 +96,4 @@
 ## [dokuwiki-3.0.30](https://github.com/truecharts/apps/compare/dokuwiki-3.0.29...dokuwiki-3.0.30) (2022-07-16)
 
 ### Chore
-
-- update docker general non-major ([#3192](https://github.com/truecharts/apps/issues/3192))
-
-
-
-## [dokuwiki-3.0.29](https://github.com/truecharts/apps/compare/dokuwiki-3.0.28...dokuwiki-3.0.29) (2022-07-14)
-
-### Fix
-
-- regenerate catalog and update template
 

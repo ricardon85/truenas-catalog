@@ -6,6 +6,16 @@
 
 ### Chore
 
+- Auto-update chart README [skip ci]
+  - update docker general non-major ([#3295](https://github.com/truecharts/apps/issues/3295))
+
+
+
+
+## [ghost-3.0.33](https://github.com/truecharts/apps/compare/ghost-3.0.32...ghost-3.0.33) (2022-07-25)
+
+### Chore
+
 - update docker general non-major ([#3295](https://github.com/truecharts/apps/issues/3295))
 
 
@@ -86,14 +96,4 @@
 ### Chore
 
 - remove duplice gui entry ([#3194](https://github.com/truecharts/apps/issues/3194))
-
-
-
-## [ghost-3.0.25](https://github.com/truecharts/apps/compare/ghost-3.0.24...ghost-3.0.25) (2022-07-15)
-
-### Chore
-
-- update docker general non-major ([#3184](https://github.com/truecharts/apps/issues/3184))
-
-
 

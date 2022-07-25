@@ -6,6 +6,16 @@
 
 ### Chore
 
+- Auto-update chart README [skip ci]
+  - update docker general non-major ([#3295](https://github.com/truecharts/apps/issues/3295))
+
+
+
+
+## [czkawka-1.0.1](https://github.com/truecharts/apps/compare/czkawka-1.0.0...czkawka-1.0.1) (2022-07-25)
+
+### Chore
+
 - update docker general non-major ([#3295](https://github.com/truecharts/apps/issues/3295))
 
 
@@ -87,13 +97,3 @@
 - bump to cleanup old docs and use correct icon urls
 
 
-
-## [czkawka-0.0.7](https://github.com/truecharts/apps/compare/czkawka-0.0.6...czkawka-0.0.7) (2022-07-12)
-
-### Chore
-
-- bump to regenerate documentation
-
-
-
-<a name="czkawka-0.0.6"></a>

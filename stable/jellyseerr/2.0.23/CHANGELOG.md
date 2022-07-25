@@ -6,6 +6,16 @@
 
 ### Chore
 
+- Auto-update chart README [skip ci]
+  - update docker general non-major ([#3295](https://github.com/truecharts/apps/issues/3295))
+
+
+
+
+## [jellyseerr-2.0.23](https://github.com/truecharts/apps/compare/jellyseerr-2.0.22...jellyseerr-2.0.23) (2022-07-25)
+
+### Chore
+
 - update docker general non-major ([#3295](https://github.com/truecharts/apps/issues/3295))
 
 
@@ -87,13 +97,3 @@
 
 
 
-## [jellyseerr-2.0.12](https://github.com/truecharts/apps/compare/jellyseerr-2.0.11...jellyseerr-2.0.12) (2022-07-12)
-
-### Chore
-
-- bump to regenerate documentation
-
-
-
-<a name="jellyseerr-2.0.11"></a>
-### [jellyseerr-2.0.11](https://github.com/truecharts/apps/compare/jellyseerr-2.0.10...jellyseerr-2.0.11) (2022-07-12)

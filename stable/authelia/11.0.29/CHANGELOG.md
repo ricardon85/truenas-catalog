@@ -6,6 +6,16 @@
 
 ### Chore
 
+- Auto-update chart README [skip ci]
+  - update docker general non-major ([#3295](https://github.com/truecharts/apps/issues/3295))
+
+
+
+
+## [authelia-11.0.29](https://github.com/truecharts/apps/compare/authelia-11.0.28...authelia-11.0.29) (2022-07-25)
+
+### Chore
+
 - update docker general non-major ([#3295](https://github.com/truecharts/apps/issues/3295))
 
 
@@ -87,13 +97,3 @@
 ## [authelia-11.0.21](https://github.com/truecharts/apps/compare/authelia-11.0.19...authelia-11.0.21) (2022-07-14)
 
 ### Fix
-
-- bump to ensure .helmignore is present on all Charts
-
-
-
-## [authelia-11.0.19](https://github.com/truecharts/apps/compare/authelia-11.0.18...authelia-11.0.19) (2022-07-14)
-
-### Fix
-
-- disable HTTP probes temporarily ([#3173](https://github.com/truecharts/apps/issues/3173))

@@ -6,6 +6,16 @@
 
 ### Chore
 
+- Auto-update chart README [skip ci]
+  - update docker general non-major ([#3295](https://github.com/truecharts/apps/issues/3295))
+
+
+
+
+## [synapse-4.0.27](https://github.com/truecharts/apps/compare/synapse-4.0.26...synapse-4.0.27) (2022-07-25)
+
+### Chore
+
 - update docker general non-major ([#3295](https://github.com/truecharts/apps/issues/3295))
 
 
@@ -87,13 +97,3 @@
 ## [synapse-4.0.19](https://github.com/truecharts/apps/compare/synapse-4.0.17...synapse-4.0.19) (2022-07-14)
 
 ### Fix
-
-- bump to ensure .helmignore is present on all Charts
-
-
-
-## [synapse-4.0.17](https://github.com/truecharts/apps/compare/synapse-4.0.15...synapse-4.0.17) (2022-07-12)
-
-### Chore
-
-- update icons ([#3156](https://github.com/truecharts/apps/issues/3156))

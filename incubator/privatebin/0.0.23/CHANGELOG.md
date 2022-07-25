@@ -6,6 +6,16 @@
 
 ### Chore
 
+- Auto-update chart README [skip ci]
+  - update docker general non-major ([#3295](https://github.com/truecharts/apps/issues/3295))
+
+
+
+
+## [privatebin-0.0.23](https://github.com/truecharts/apps/compare/privatebin-0.0.22...privatebin-0.0.23) (2022-07-25)
+
+### Chore
+
 - update docker general non-major ([#3295](https://github.com/truecharts/apps/issues/3295))
 
 
@@ -87,13 +97,3 @@
 ## [privatebin-0.0.14](https://github.com/truecharts/apps/compare/privatebin-0.0.12...privatebin-0.0.14) (2022-07-12)
 
 ### Chore
-
-- update icons ([#3156](https://github.com/truecharts/apps/issues/3156))
-- bump to cleanup old docs and use correct icon urls
-
-
-
-## [privatebin-0.0.12](https://github.com/truecharts/apps/compare/privatebin-0.0.11...privatebin-0.0.12) (2022-07-12)
-
-### Chore
-

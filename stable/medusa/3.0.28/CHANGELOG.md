@@ -6,6 +6,16 @@
 
 ### Chore
 
+- Auto-update chart README [skip ci]
+  - update docker general non-major ([#3295](https://github.com/truecharts/apps/issues/3295))
+
+
+
+
+## [medusa-3.0.28](https://github.com/truecharts/apps/compare/medusa-3.0.27...medusa-3.0.28) (2022-07-25)
+
+### Chore
+
 - update docker general non-major ([#3295](https://github.com/truecharts/apps/issues/3295))
 
 
@@ -87,13 +97,3 @@
 
 - update icons ([#3156](https://github.com/truecharts/apps/issues/3156))
 - bump to cleanup old docs and use correct icon urls
-
-
-
-## [mealie-8.0.13](https://github.com/truecharts/apps/compare/mealie-8.0.12...mealie-8.0.13) (2022-07-12)
-
-### Chore
-
-- bump to regenerate documentation
-
-
