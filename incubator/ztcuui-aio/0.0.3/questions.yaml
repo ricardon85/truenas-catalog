@@ -168,9 +168,9 @@ questions:
                             label: "Value"
                             schema:
                               type: string
-  - variable: env
+  - variable: secretEnv
     group: "Container Configuration"
-    label: "Image Environment"
+    label: "Image Secrets"
     schema:
       additional_attrs: true
       type: dict
@@ -181,7 +181,20 @@ questions:
           schema:
             type: string
             private: true
-            default: "CHANGEME"
+            default: ""
+  - variable: env
+    group: "Container Configuration"
+    label: "Image Environment"
+    schema:
+      additional_attrs: true
+      type: dict
+      attrs:
+        - variable: MYDOMAIN
+          label: "MYDOMAIN"
+          description: "MYDOMAIN"
+          schema:
+            type: string
+            default: ""
   - variable: TZ
     label: "Timezone"
     group: "Container Configuration"
@@ -401,7 +414,7 @@ questions:
                                   label: "Port Type"
                                   schema:
                                     type: string
-                                    default: "HTTPS"
+                                    default: "HTTP"
                                     enum:
                                       - value: HTTP
                                         description: "HTTP"
@@ -1914,7 +1927,7 @@ questions:
                 label: "ReadOnly Root Filesystem"
                 schema:
                   type: boolean
-                  default: true
+                  default: false
               - variable: allowPrivilegeEscalation
                 label: "Allow Privilege Escalation"
                 schema:
@@ -1924,7 +1937,7 @@ questions:
                 label: "runAsNonRoot"
                 schema:
                   type: boolean
-                  default: true
+                  default: false
               - variable: capabilities
                 label: "Capabilities"
                 schema:
@@ -1964,13 +1977,13 @@ questions:
           description: "The UserID of the user running the application"
           schema:
             type: int
-            default: 568
+            default: 0
         - variable: runAsGroup
           label: "runAsGroup"
           description: "The groupID this App of the user running the application"
           schema:
             type: int
-            default: 568
+            default: 0
         - variable: fsGroup
           label: "fsGroup"
           description: "The group that should own ALL storage."
