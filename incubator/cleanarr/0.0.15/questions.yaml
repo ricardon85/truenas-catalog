@@ -177,31 +177,37 @@ questions:
       additional_attrs: true
       type: dict
       attrs:
-
         - variable: PLEX_BASE_URL
           label: 'PLEX_BASE_URL'
-          description: "(required) Plex Server Address (e.g. http192.169.1.10032400)"
+          description: "Plex Server Address (e.g. http://192.169.1.100:32400)"
           schema:
             type: string
             default: ""
         - variable: PLEX_TOKEN
           label: 'PLEX_TOKEN'
-          description: "(required) A valid Plex token for your Plex Server "
+          description: "A valid Plex token for your Plex Server "
           schema:
             type: string
+            private: true
             default: ""
         - variable: LIBRARY_NAMES
           label: 'LIBRARY_NAMES'
-          description: "(optional) Name(s) of your Plex Libraries to search. Separate multiple library names with "
+          description: "Name(s) of your Plex Libraries to search. Separate multiple library names with semi-colon *;*"
           schema:
             type: string
             default: ""
-        - variable: BYPASS_SSL_VERIFY
+        - variable: PAGE_SIZE
+          label: 'PAGE_SIZE'
+          description: "To avoid plex timeouts, results are loaded in pages (or chunks)"
+          schema:
+            type: int
+            default: 50
+        - variable: BYPASS_SSL_VERIFY_BOOL
           label: 'BYPASS_SSL_VERIFY'
-          description: "(optional) Disable SSL certificate verification. Use this if your Plex Server has "
+          description: "Disable SSL certificate verification."
           schema:
-            type: string
-            default: ""
+            type: boolean
+            default: false
 
   - variable: TZ
     label: "Timezone"
@@ -409,7 +415,7 @@ questions:
                             description: "This port exposes the container port on the service"
                             schema:
                               type: int
-                              default: 5000
+                              default: 10247
                               required: true
                           - variable: advanced
                             label: "Show Advanced settings"
@@ -445,8 +451,6 @@ questions:
                                   schema:
                                     type: int
                                     default: 80
-
-
 
   - variable: serviceexpert
     group: "Networking and Services"
@@ -727,7 +731,6 @@ questions:
       additional_attrs: true
       type: dict
       attrs:
-
         - variable: config
           label: "config Storage"
           description: "Container Path frontend"
@@ -905,7 +908,6 @@ questions:
                                   label: "Value"
                                   schema:
                                     type: string
-
 
   - variable: persistenceList
     label: "Additional app storage"
@@ -1109,7 +1111,6 @@ questions:
                                   label: "Value"
                                   schema:
                                     type: string
-
 
   - variable: ingress
     label: ""
@@ -1596,7 +1597,6 @@ questions:
                 label: "supplemental Group"
                 schema:
                   type: int
-
 
 
   - variable: advancedresources
