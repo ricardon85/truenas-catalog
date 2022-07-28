@@ -192,114 +192,6 @@ questions:
             required: true
             default: 4822
 
-  - variable: TZ
-    label: "Timezone"
-    group: "Container Configuration"
-    schema:
-      type: string
-      default: "Etc/UTC"
-      $ref:
-        - "definitions/timezone"
-
-  - variable: envList
-    label: "Image environment"
-    group: "Container Configuration"
-    schema:
-      type: list
-      default: []
-      items:
-        - variable: envItem
-          label: "Environment Variable"
-          schema:
-            additional_attrs: true
-            type: dict
-            attrs:
-              - variable: name
-                label: "Name"
-                schema:
-                  type: string
-              - variable: value
-                label: "Value"
-                schema:
-                  type: string
-
-  - variable: expertpodconf
-    group: "Container Configuration"
-    label: "Show Expert Config"
-    schema:
-      type: boolean
-      default: false
-      show_subquestions_if: true
-      subquestions:
-        - variable: tty
-          label: "Enable TTY"
-          description: "Determines whether containers in a pod runs with TTY enabled. By default pod has it disabled."
-          group: "Workload Details"
-          schema:
-            type: boolean
-            default: false
-        - variable: stdin
-          label: "Enable STDIN"
-          description: "Determines whether containers in a pod runs with stdin enabled. By default pod has it disabled."
-          group: "Workload Details"
-          schema:
-            type: boolean
-            default: false
-        - variable: termination
-          group: "Container Configuration"
-          label: "Termination settings"
-          schema:
-            additional_attrs: true
-            type: dict
-            attrs:
-              - variable: gracePeriodSeconds
-                label: "Grace Period Seconds"
-                schema:
-                  type: int
-                  default: 10
-        - variable: podLabelsList
-          group: "Container Configuration"
-          label: "Pod Labels"
-          schema:
-            type: list
-            default: []
-            items:
-              - variable: podLabelItem
-                label: "Label"
-                schema:
-                  additional_attrs: true
-                  type: dict
-                  attrs:
-                    - variable: name
-                      label: "Name"
-                      schema:
-                        type: string
-                    - variable: value
-                      label: "Value"
-                      schema:
-                        type: string
-
-        - variable: podAnnotationsList
-          group: "Container Configuration"
-          label: "Pod Annotations"
-          schema:
-            type: list
-            default: []
-            items:
-              - variable: podAnnotationItem
-                label: "Label"
-                schema:
-                  additional_attrs: true
-                  type: dict
-                  attrs:
-                    - variable: name
-                      label: "Name"
-                      schema:
-                        type: string
-                    - variable: value
-                      label: "Value"
-                      schema:
-                        type: string
   - variable: general
     group: "App Configuration"
     label: "General Configuration"
@@ -921,7 +813,148 @@ questions:
                 schema:
                   type: string
                   default: ""
+  - variable: proxy
+    group: "App Configuration"
+    label: "Proxy Configuration"
+    schema:
+      additional_attrs: true
+      type: dict
+      attrs:
+        - variable: REMOTE_IP_VALVE_ENABLED
+          label: "Enable Proxy"
+          schema:
+            type: boolean
+            default: false
+            show_subquestions_if: true
+            subquestions:
+              - variable: PROXY_BY_HEADER
+                label: "Proxy by Header (Leave empty for default)"
+                schema:
+                  type: string
+                  default: ""
+              - variable: PROXY_PROTOCOL_HEADER
+                label: "Proxy Protocol Header (Leave empty for default)"
+                schema:
+                  type: string
+                  default: ""
+              - variable: PROXY_IP_HEADER
+                label: "Proxy IP Header (Leave empty for default)"
+                schema:
+                  type: string
+                  default: ""
+              - variable: PROXY_ALLOWED_IPS_REGEX
+                label: "Proxy Allowed IP Regex (Leave empty for default)"
+                schema:
+                  type: string
+                  default: ""
+  - variable: TZ
+    label: "Timezone"
+    group: "Container Configuration"
+    schema:
+      type: string
+      default: "Etc/UTC"
+      $ref:
+        - "definitions/timezone"
 
+  - variable: envList
+    label: "Image environment"
+    group: "Container Configuration"
+    schema:
+      type: list
+      default: []
+      items:
+        - variable: envItem
+          label: "Environment Variable"
+          schema:
+            additional_attrs: true
+            type: dict
+            attrs:
+              - variable: name
+                label: "Name"
+                schema:
+                  type: string
+              - variable: value
+                label: "Value"
+                schema:
+                  type: string
+
+  - variable: expertpodconf
+    group: "Container Configuration"
+    label: "Show Expert Config"
+    schema:
+      type: boolean
+      default: false
+      show_subquestions_if: true
+      subquestions:
+        - variable: tty
+          label: "Enable TTY"
+          description: "Determines whether containers in a pod runs with TTY enabled. By default pod has it disabled."
+          group: "Workload Details"
+          schema:
+            type: boolean
+            default: false
+        - variable: stdin
+          label: "Enable STDIN"
+          description: "Determines whether containers in a pod runs with stdin enabled. By default pod has it disabled."
+          group: "Workload Details"
+          schema:
+            type: boolean
+            default: false
+        - variable: termination
+          group: "Container Configuration"
+          label: "Termination settings"
+          schema:
+            additional_attrs: true
+            type: dict
+            attrs:
+              - variable: gracePeriodSeconds
+                label: "Grace Period Seconds"
+                schema:
+                  type: int
+                  default: 10
+        - variable: podLabelsList
+          group: "Container Configuration"
+          label: "Pod Labels"
+          schema:
+            type: list
+            default: []
+            items:
+              - variable: podLabelItem
+                label: "Label"
+                schema:
+                  additional_attrs: true
+                  type: dict
+                  attrs:
+                    - variable: name
+                      label: "Name"
+                      schema:
+                        type: string
+                    - variable: value
+                      label: "Value"
+                      schema:
+                        type: string
+
+        - variable: podAnnotationsList
+          group: "Container Configuration"
+          label: "Pod Annotations"
+          schema:
+            type: list
+            default: []
+            items:
+              - variable: podAnnotationItem
+                label: "Label"
+                schema:
+                  additional_attrs: true
+                  type: dict
+                  attrs:
+                    - variable: name
+                      label: "Name"
+                      schema:
+                        type: string
+                    - variable: value
+                      label: "Value"
+                      schema:
+                        type: string
   - variable: service
     group: "Networking and Services"
     label: "Configure Service(s)"

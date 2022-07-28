@@ -2,6 +2,15 @@
 
 
 
+## [guacamole-client-4.0.27](https://github.com/truecharts/apps/compare/guacamole-client-4.0.26...guacamole-client-4.0.27) (2022-07-28)
+
+### Chore
+
+- prepare env's for next update and add proxy options ([#3329](https://github.com/truecharts/apps/issues/3329))
+
+
+
+
 ## [guacamole-client-4.0.26](https://github.com/truecharts/apps/compare/guacamole-client-4.0.25...guacamole-client-4.0.26) (2022-07-26)
 
 ### Chore
@@ -88,12 +97,3 @@
 
 
 ## [guacamole-client-4.0.19](https://github.com/truecharts/apps/compare/guacamole-client-4.0.18...guacamole-client-4.0.19) (2022-07-19)
-
-### Chore
-
-- Update Readme and Description on SCALE
-
-
-
-## [guacamole-client-4.0.18](https://github.com/truecharts/apps/compare/guacamole-client-4.0.17...guacamole-client-4.0.18) (2022-07-14)
-
