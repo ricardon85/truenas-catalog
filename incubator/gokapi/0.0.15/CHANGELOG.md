@@ -2,6 +2,15 @@
 
 
 
+## [gokapi-0.0.15](https://github.com/truecharts/apps/compare/gokapi-0.0.14...gokapi-0.0.15) (2022-07-29)
+
+### Fix
+
+- cleanup ([#3344](https://github.com/truecharts/apps/issues/3344))
+
+
+
+
 ## [gokapi-0.0.14](https://github.com/truecharts/apps/compare/gokapi-0.0.13...gokapi-0.0.14) (2022-07-26)
 
 ### Chore
@@ -85,15 +94,6 @@
 
 
 ## [gokapi-0.0.10]gokapi-0.0.10 (2022-07-21)
-
-### Chore
-
-- Auto-update chart README [skip ci]
-- Auto-update chart README [skip ci]
-
-
-
-## [gokapi-0.0.10]gokapi-0.0.10 (2022-07-20)
 
 ### Chore
 
