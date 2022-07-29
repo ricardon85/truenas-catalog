@@ -1,5 +1,4 @@
-Fireshare allows you to easily share your media whether that be game clips, screen records, or movies through a unique publically accessible link. 
-
+Share your game clips, videos, or other media via unique links.
 
 This App is supplied by TrueCharts, for more information visit the manual: https://truecharts.org/charts/incubator/fireshare
 
