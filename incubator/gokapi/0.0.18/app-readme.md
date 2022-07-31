@@ -1,6 +1,6 @@
 Gokapi is a lightweight server to share files, which expire after a set amount of downloads or days.
 
-This App is supplied by TrueCharts, for more information visit the manual: https://truecharts.org/charts/incubator/gokapi
+This App is supplied by TrueCharts, for more information visit the manual: [https://truecharts.org/docs/charts/incubator/gokapi](https://truecharts.org/docs/charts/incubator/gokapi)
 
 ---
 
