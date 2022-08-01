@@ -1,6 +1,6 @@
 OpenProject is a web-based project management system for location-independent team collaboration.
 
-This App is supplied by TrueCharts, for more information visit the manual: https://truecharts.org/charts/incubator/openproject
+This App is supplied by TrueCharts, for more information visit the manual: [https://truecharts.org/docs/charts/incubator/openproject](https://truecharts.org/docs/charts/incubator/openproject)
 
 ---
 
