@@ -1,6 +1,6 @@
 Automatically obtain your public network IPv4 or IPv6 address and resolve it to the corresponding domain name service
 
-This App is supplied by TrueCharts, for more information visit the manual: https://truecharts.org/charts/stable/ddns-go
+This App is supplied by TrueCharts, for more information visit the manual: [https://truecharts.org/docs/charts/stable/ddns-go](https://truecharts.org/docs/charts/stable/ddns-go)
 
 ---
 
