@@ -33,6 +33,7 @@ portals:
       - "$kubernetes-resource_configmap_portal_host"
     ports:
       - "$kubernetes-resource_configmap_portal_port"
+    path: "/vnc.html?autoconnect=true"
 questions:
   - variable: portal
     group: "Container Image"
@@ -62,7 +63,6 @@ questions:
             type: boolean
             default: true
             hidden: true
-
   - variable: controller
     group: "Controller"
     label: ""
@@ -169,7 +169,6 @@ questions:
                             label: "Value"
                             schema:
                               type: string
-
   - variable: env
     group: "Container Configuration"
     label: "Image Environment"
@@ -177,44 +176,36 @@ questions:
       additional_attrs: true
       type: dict
       attrs:
-
         - variable: THUNDERBIRD_V
-          label: 'THUNDERBIRD_V'
-          description: "Enter your preferred version or latest (without quotes) to grab the latest version."
+          label: "THUNDERBIRD_V"
+          description: "Enter your preferred version or latest to grab the latest version."
           schema:
             type: string
             default: "latest"
         - variable: THUNDERBIRD_LANG
-          label: 'THUNDERBIRD_LANG'
-          description: "Enter your preferred language here (eg en-US, de, fr, enUK,... you can get a full list here httpsarchive.mozilla.orgpubthunderbirdreleaseslatestREADME.txt)"
+          label: "THUNDERBIRD_LANG"
+          description: "Enter your preferred language here (eg en-US, you can get a full list here https://archive.mozilla.org/pub/thunderbird/releases/latest/README.txt)"
           schema:
             type: string
             default: "en-US"
         - variable: CUSTOM_RES_W
-          label: 'CUSTOM_RES_W'
-          description: "Minimum screen width 1000 pixels"
+          label: "CUSTOM_RES_W"
+          description: "Enter your preferred screen width"
           schema:
-            type: string
-            default: "1280"
+            type: int
+            default: 1280
         - variable: CUSTOM_RES_H
-          label: 'CUSTOM_RES_H'
-          description: "Minimum screen hight 880 pixels"
+          label: "CUSTOM_RES_H"
+          description: "Enter your preferred screen height"
           schema:
-            type: string
-            default: "768"
-        - variable: EXTRA_PARAMETERS
-          label: 'EXTRA_PARAMETERS'
-          description: "If needed enter extra startup parameters here otherwise leave empty."
+            type: int
+            default: 768
+        - variable: DATA_PERM
+          label: "DATA_PERM"
+          description: "Data permissions for /thunderbird folder"
           schema:
-            type: string
-            default: ""
-        - variable: UMASK
-          label: 'UMASK'
-          description: "Container Variable UMASK"
-          schema:
-            type: string
-            default: "000"
-
+            type: int
+            default: 770
   - variable: TZ
     label: "Timezone"
     group: "Container Configuration"
@@ -323,7 +314,6 @@ questions:
                       label: "Value"
                       schema:
                         type: string
-
   - variable: service
     group: "Networking and Services"
     label: "Configure Service(s)"
@@ -421,7 +411,7 @@ questions:
                             description: "This port exposes the container port on the service"
                             schema:
                               type: int
-                              default: 8080
+                              default: 10291
                               required: true
                           - variable: advanced
                             label: "Show Advanced settings"
@@ -434,7 +424,7 @@ questions:
                                   label: "Port Type"
                                   schema:
                                     type: string
-                                    default: TCP
+                                    default: "TCP"
                                     enum:
                                       - value: HTTP
                                         description: "HTTP"
@@ -457,9 +447,6 @@ questions:
                                   schema:
                                     type: int
                                     default: 8080
-
-
-
   - variable: serviceexpert
     group: "Networking and Services"
     label: "Show Expert Config"
@@ -474,7 +461,6 @@ questions:
           schema:
             type: boolean
             default: false
-
         - variable: externalInterfaces
           description: "Add External Interfaces"
           label: "Add external Interfaces"
@@ -616,7 +602,6 @@ questions:
                       label: "Search Entry"
                       schema:
                         type: string
-
         - variable: serviceList
           label: "Add Manual Custom Services"
           group: "Networking and Services"
@@ -730,7 +715,6 @@ questions:
                                     type: int
                                     min: 9000
                                     max: 65535
-
   - variable: persistence
     label: "Integrated Persistent Storage"
     description: "Integrated Persistent Storage"
@@ -739,10 +723,9 @@ questions:
       additional_attrs: true
       type: dict
       attrs:
-
-        - variable: datadir
-          label: "datadir Storage"
-          description: "Data Path"
+        - variable: data
+          label: "App Data Storage"
+          description: "Stores the Application Data."
           schema:
             additional_attrs: true
             type: dict
@@ -917,8 +900,6 @@ questions:
                                   label: "Value"
                                   schema:
                                     type: string
-
-
   - variable: persistenceList
     label: "Additional app storage"
     group: "Storage and Persistence"
@@ -1121,8 +1102,6 @@ questions:
                                   label: "Value"
                                   schema:
                                     type: string
-
-
   - variable: ingress
     label: ""
     group: "Ingress"
@@ -1185,7 +1164,6 @@ questions:
                                                 type: string
                                                 required: true
                                                 default: "Prefix"
-
                     - variable: tls
                       label: "TLS-Settings"
                       schema:
@@ -1216,7 +1194,6 @@ questions:
                                     type: int
                                     $ref:
                                       - "definitions/certificate"
-
                     - variable: entrypoint
                       label: "(Advanced) Traefik Entrypoint"
                       description: "Entrypoint used by Traefik when using Traefik as Ingress Provider"
@@ -1237,7 +1214,6 @@ questions:
                               type: string
                               default: ""
                               required: true
-
               - variable: expert
                 label: "Show Expert Configuration Options"
                 schema:
@@ -1296,7 +1272,6 @@ questions:
                                   label: "Value"
                                   schema:
                                     type: string
-
   - variable: ingressList
     label: "Add Manual Custom Ingresses"
     group: "Ingress"
@@ -1473,7 +1448,6 @@ questions:
                         type: string
                         default: ""
                         required: true
-
   - variable: security
     label: "Container Security Settings"
     group: "Security and Permissions"
@@ -1501,7 +1475,6 @@ questions:
                 schema:
                   type: string
                   default: "002"
-
   - variable: advancedSecurity
     label: "Show Advanced Security Settings"
     group: "Security and Permissions"
@@ -1562,7 +1535,6 @@ questions:
                             label: ""
                             schema:
                               type: string
-
   - variable: podSecurityContext
     group: "Security and Permissions"
     label: "Pod Security Context"
@@ -1578,7 +1550,7 @@ questions:
             default: 0
         - variable: runAsGroup
           label: "runAsGroup"
-          description: The groupID this App of the user running the application"
+          description: "The groupID this App of the user running the application"
           schema:
             type: int
             default: 0
@@ -1608,8 +1580,6 @@ questions:
                 label: "supplemental Group"
                 schema:
                   type: int
-
-
 
   - variable: advancedresources
     label: "Set Custom Resource Limits/Requests (Advanced)"
@@ -1717,7 +1687,6 @@ questions:
       $ref:
         - "definitions/gpuConfiguration"
       attrs: []
-
 #  - variable: autoscaling
 #    group: "Advanced"
 #    label: "(Advanced) Horizontal Pod Autoscaler"
@@ -2124,7 +2093,6 @@ questions:
 #                                              description: "UDP"
 #                                            - value: "SCTP"
 #                                              description: "SCTP"
-
 
   - variable: addons
     group: "Addons"
