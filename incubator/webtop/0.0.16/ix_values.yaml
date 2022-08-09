@@ -1,0 +1,33 @@
+env:
+  KEYBOARD: ""
+  SUBFOLDER: ""
+  UMASK: ""
+image:
+  pullPolicy: IfNotPresent
+  repository: tccr.io/truecharts/webtop
+  tag: latest@sha256:d58c21da17b3ec8391b8de792ddfc7c964f3c541362f2532244dde0ecbbb6424
+persistence:
+  config:
+    enabled: true
+    mountPath: /config
+  pathvarrundocker-sock:
+    enabled: true
+    mountPath: /var/run/docker.sock
+podSecurityContext:
+  runAsGroup: 0
+  runAsUser: 0
+securityContext:
+  readOnlyRootFilesystem: false
+  runAsNonRoot: false
+service:
+  main:
+    enabled: true
+    ports:
+      main:
+        enabled: true
+        port: 3000
+        protocol: TCP
+        targetPort: 3000
+
+portal:
+  enabled: true

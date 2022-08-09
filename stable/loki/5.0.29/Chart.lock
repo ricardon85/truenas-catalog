@@ -1,0 +1,9 @@
+dependencies:
+- name: common
+  repository: https://library-charts.truecharts.org
+  version: 10.4.9
+- name: promtail
+  repository: https://charts.truecharts.org
+  version: 3.0.37
+digest: sha256:2b0923863155c3264e7c797ab920eb1765d3848c45e2e561f8bfd28011322e94
+generated: "2022-08-08T22:55:44.035156272Z"
