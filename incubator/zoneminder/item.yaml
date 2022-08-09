@@ -1,7 +1,5 @@
 icon_url: https://truecharts.org/img/hotlink-ok/chart-icons/zoneminder.png
 categories:
-- HomeAutomation
-- MediaApp-Video
-- MediaServer-Video
-- Tools-Utilities
+- utilities
+- cctv
 

@@ -1,0 +1,39 @@
+env:
+  APP_BRANCH: ""
+  BLACKLIST: ""
+  DELAY: ""
+  NOSEARCH: ""
+  NOTIFICATIONS: ""
+  RUNNOW: ""
+  SKIPUPDATE: ""
+  SORT: ""
+image:
+  pullPolicy: IfNotPresent
+  repository: tccr.io/truecharts/traktarr
+  tag: latest@sha256:f96c733ca7d30be08f6230d99ce1473608a2c784777802de3e9c9bf0f5cd8222
+persistence:
+  config:
+    enabled: true
+    mountPath: /config
+podSecurityContext:
+  runAsGroup: 0
+  runAsUser: 0
+probes:
+  liveness:
+    enabled: false
+  readiness:
+    enabled: false
+  startup:
+    enabled: false
+securityContext:
+  readOnlyRootFilesystem: false
+  runAsNonRoot: false
+service:
+  main:
+    enabled: false
+    ports:
+      main:
+        enabled: false
+
+portal:
+  enabled: false
