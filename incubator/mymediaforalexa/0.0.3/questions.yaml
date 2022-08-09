@@ -355,7 +355,7 @@ questions:
                             description: "This port exposes the container port on the service"
                             schema:
                               type: int
-                              default: 52050
+                              default: 52051
                               required: true
                           - variable: advanced
                             label: Show Advanced Settings
@@ -396,7 +396,7 @@ questions:
                                   description: "The internal(!) port on the container the Application runs on"
                                   schema:
                                     type: int
-                                    default: 52050
+                                    default: 52051
         - variable: sub
           label: "Sub Service"
           description: "The Primary service on which the healthcheck runs, often the webUI"
@@ -487,7 +487,7 @@ questions:
                             description: "This port exposes the container port on the service"
                             schema:
                               type: int
-                              default: 52051
+                              default: 52050
                               required: true
                           - variable: advanced
                             label: Show Advanced Settings
@@ -528,7 +528,7 @@ questions:
                                   description: "The internal(!) port on the container the Application runs on"
                                   schema:
                                     type: int
-                                    default: 52051
+                                    default: 52050
   - variable: serviceexpert
     group: Networking and Services
     label: Show Expert Config
