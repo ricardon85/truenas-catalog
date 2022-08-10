@@ -2,6 +2,15 @@
 
 
 
+## [authentik-3.0.1](https://github.com/truecharts/charts/compare/authentik-3.0.0...authentik-3.0.1) (2022-08-10)
+
+### Fix
+
+- enable services/ports and disable geoip by default ([#3424](https://github.com/truecharts/charts/issues/3424))
+
+
+
+
 ## [authentik-3.0.0](https://github.com/truecharts/charts/compare/authentik-2.0.32...authentik-3.0.0) (2022-08-09)
 
 ### Feat
@@ -85,15 +94,6 @@
 
 - Auto-update chart README [skip ci]
   - update helm general non-major helm releases ([#3280](https://github.com/truecharts/apps/issues/3280))
-
-
-
-
-## [authentik-2.0.27](https://github.com/truecharts/apps/compare/authentik-2.0.26...authentik-2.0.27) (2022-07-23)
-
-### Chore
-
-- update helm general non-major helm releases ([#3280](https://github.com/truecharts/apps/issues/3280))
 
 
 
