@@ -2,6 +2,15 @@
 
 
 
+## [authentik-3.0.2](https://github.com/truecharts/charts/compare/authentik-3.0.1...authentik-3.0.2) (2022-08-10)
+
+### Fix
+
+- only set ints when are defined ([#3432](https://github.com/truecharts/charts/issues/3432))
+
+
+
+
 ## [authentik-3.0.1](https://github.com/truecharts/charts/compare/authentik-3.0.0...authentik-3.0.1) (2022-08-10)
 
 ### Fix
@@ -85,15 +94,6 @@
   - Auto-update chart README [skip ci]
   - update helm general non-major helm releases ([#3280](https://github.com/truecharts/apps/issues/3280))
 
-
-
-
-## [authentik-2.0.27](https://github.com/truecharts/apps/compare/authentik-2.0.26...authentik-2.0.27) (2022-07-23)
-
-### Chore
-
-- Auto-update chart README [skip ci]
-  - update helm general non-major helm releases ([#3280](https://github.com/truecharts/apps/issues/3280))
 
 
 
