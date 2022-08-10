@@ -2,6 +2,15 @@
 
 
 
+## [authentik-3.0.3](https://github.com/truecharts/charts/compare/authentik-3.0.2...authentik-3.0.3) (2022-08-10)
+
+### Fix
+
+- fix ldap outpost settings not showing, and make mail port an int ([#3433](https://github.com/truecharts/charts/issues/3433))
+
+
+
+
 ## [authentik-3.0.2](https://github.com/truecharts/charts/compare/authentik-3.0.1...authentik-3.0.2) (2022-08-10)
 
 ### Fix
@@ -87,13 +96,4 @@
 
 
 ## [authentik-2.0.27](https://github.com/truecharts/apps/compare/authentik-2.0.26...authentik-2.0.27) (2022-07-23)
-
-### Chore
-
-- Auto-update chart README [skip ci]
-  - Auto-update chart README [skip ci]
-  - update helm general non-major helm releases ([#3280](https://github.com/truecharts/apps/issues/3280))
-
-
-
 
