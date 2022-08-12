@@ -25,6 +25,8 @@ groups:
     description: Addon Configuration
   - name: Advanced
     description: Advanced Configuration
+  - name: Documentation
+    description: Documentation
 portals:
   open:
     protocols:
@@ -103,16 +105,6 @@ questions:
             default: false
             show_subquestions_if: true
             subquestions:
-              - variable: extraArgs
-                label: Extra Args
-                schema:
-                  type: list
-                  default: []
-                  items:
-                    - variable: arg
-                      label: Arg
-                      schema:
-                        type: string
               - variable: labelsList
                 label: Controller Labels
                 schema:
@@ -153,6 +145,25 @@ questions:
                             label: Value
                             schema:
                               type: string
+  - variable: customextraargs
+    group: Controller
+    label: "Extra Args"
+    description: "Do not click this unless you know what you are doing"
+    schema:
+      type: boolean
+      default: false
+      show_subquestions_if: true
+      subquestions:
+        - variable: extraArgs
+          label: Extra Args
+          schema:
+            type: list
+            default: []
+            items:
+              - variable: arg
+                label: Arg
+                schema:
+                  type: string
   - variable: authentik
     group: "Container Configuration"
     label: "Authentik Configuration"
@@ -1567,7 +1578,7 @@ questions:
                   type: boolean
                   default: true
               - variable: readOnly
-                label: Read Only"
+                label: Read Only
                 schema:
                   type: boolean
                   default: false
@@ -1744,7 +1755,7 @@ questions:
                   type: boolean
                   default: true
               - variable: readOnly
-                label: Read Only"
+                label: Read Only
                 schema:
                   type: boolean
                   default: false
@@ -1921,7 +1932,7 @@ questions:
                   type: boolean
                   default: true
               - variable: readOnly
-                label: Read Only"
+                label: Read Only
                 schema:
                   type: boolean
                   default: false
@@ -2098,7 +2109,7 @@ questions:
                   type: boolean
                   default: true
               - variable: readOnly
-                label: Read Only"
+                label: Read Only
                 schema:
                   type: boolean
                   default: false
@@ -3763,3 +3774,27 @@ questions:
                                   schema:
                                     type: string
                                     required: true
+  - variable: docs
+    group: Documentation
+    label: 'Please read the documentation at https://truecharts.org'
+    schema:
+      additional_attrs: true
+      type: dict
+      attrs:
+        - variable: confirmDocs
+          label: 'I have checked the documentation'
+          schema:
+            type: boolean
+            default: true
+#  - variable: donate
+#    group: Documentation
+#    label: 'Please consider supporting TrueCharts, see: https://truecharts.org/docs/about/sponsor'
+#    schema:
+#      additional_attrs: true
+#      type: dict
+#      attrs:
+#        - variable: confirmDonate
+#          label: 'I have considered supporting the project'
+#          schema:
+#            type: boolean
+#            default: true
