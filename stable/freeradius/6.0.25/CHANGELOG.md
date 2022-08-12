@@ -2,6 +2,15 @@
 
 
 
+## [freeradius-6.0.25](https://github.com/truecharts/charts/compare/freeradius-6.0.24...freeradius-6.0.25) (2022-08-12)
+
+### Chore
+
+- update docker general non-major ([#3434](https://github.com/truecharts/charts/issues/3434))
+
+
+
+
 ## [freeradius-6.0.24](https://github.com/truecharts/charts/compare/freeradius-6.0.23...freeradius-6.0.24) (2022-08-08)
 
 ### Chore
@@ -86,14 +95,5 @@
 
 
 ## [freeradius-6.0.15](https://github.com/truecharts/apps/compare/freeradius-6.0.13...freeradius-6.0.15) (2022-07-12)
-
-### Chore
-
-- update icons ([#3156](https://github.com/truecharts/apps/issues/3156))
-- bump to cleanup old docs and use correct icon urls
-
-
-
-## [freeradius-6.0.13](https://github.com/truecharts/apps/compare/freeradius-6.0.12...freeradius-6.0.13) (2022-07-12)
 
 ### Chore
