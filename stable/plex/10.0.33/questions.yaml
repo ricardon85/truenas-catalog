@@ -33,38 +33,8 @@ portals:
       - "$kubernetes-resource_configmap_portal_host"
     ports:
       - "$kubernetes-resource_configmap_portal_port"
+    path: "/web"
 questions:
-  - variable: image
-    group: "Container Image"
-    label: "Container"
-    schema:
-      additional_attrs: true
-      type: dict
-      attrs:
-        - variable: repository
-          label: "Container Repository"
-          schema:
-            type: string
-            default: "ghcr.io/k8s-at-home/jackett"
-            required: true
-        - variable: tag
-          label: "Container Tag"
-          schema:
-            type: string
-            default: "v0.18.616"
-            required: true
-        - variable: pullPolicy
-          label: "Container Pullpolicy"
-          schema:
-            type: string
-            default: "IfNotPresent"
-            enum:
-              - value: "IfNotPresent"
-                description: "IfNotPresent"
-              - value: "Always"
-                description: "Always"
-              - value: "Never"
-                description: "Never"
   - variable: global
     label: Global Settings
     group: Controller
@@ -127,23 +97,6 @@ questions:
                     - value: OnDelete
                       description: "(Legacy) OnDelete: ignore .spec.template changes"
                   default: Recreate
-        - variable: customcommand
-          label: Show Custom Command Options
-          schema:
-            type: boolean
-            default: false
-            show_subquestions_if: true
-            subquestions:
-              - variable: command
-                label: Command
-                schema:
-                  type: list
-                  default: []
-                  items:
-                    - variable: param
-                      label: Param
-                      schema:
-                        type: string
         - variable: expert
           label: Show Expert Configuration Options
           schema:
@@ -151,16 +104,6 @@ questions:
             default: false
             show_subquestions_if: true
             subquestions:
-              - variable: extraArgs
-                label: Extra Args
-                schema:
-                  type: list
-                  default: []
-                  items:
-                    - variable: arg
-                      label: Arg
-                      schema:
-                        type: string
               - variable: labelsList
                 label: Controller Labels
                 schema:
@@ -201,6 +144,51 @@ questions:
                             label: Value
                             schema:
                               type: string
+  - variable: customextraargs
+    group: Controller
+    label: "Extra Args"
+    description: "Do not click this unless you know what you are doing"
+    schema:
+      type: boolean
+      default: false
+      show_subquestions_if: true
+      subquestions:
+        - variable: extraArgs
+          label: Extra Args
+          schema:
+            type: list
+            default: []
+            items:
+              - variable: arg
+                label: Arg
+                schema:
+                  type: string
+  - variable: env
+    group: "Container Configuration"
+    label: "Image Environment"
+    schema:
+      additional_attrs: true
+      type: dict
+      attrs:
+        - variable: ADVERTISE_IP
+          label: "Advertise IP"
+          description: "IP to advertise to Plex, Change SERVER_IP to your actual server IP"
+          schema:
+            type: string
+            valid_chars: '^$|^(http(s)?:\/\/([a-zA-Z0-9.-]*)(:\d{0,5})?,?)*$'
+            default: "http://SERVER_IP:32400"
+        - variable: ALLOWED_NETWORKS
+          label: "Allowed Networks"
+          description: "Networks allowed to connect to plex. Add your local network IP to this list"
+          schema:
+            type: string
+            default: "172.16.0.0/12,10.0.0.0/8,192.168.0.0/16"
+        - variable: PLEX_CLAIM
+          label: "Plex Claim Token"
+          description: "Claim token to use to register the plex server (Max. 4 minutes old!). You can obtain a claim token to login your server to your plex account by visiting https://www.plex.tv/claim."
+          schema:
+            type: string
+            default: ""
   - variable: TZ
     label: Timezone
     group: Container Configuration
@@ -306,115 +294,6 @@ questions:
                       label: Value
                       schema:
                         type: string
-  - variable: probes
-    group: "Container Configuration"
-    label: "Healthcheck Probes"
-    schema:
-      additional_attrs: true
-      type: dict
-      attrs:
-        - variable: liveness
-          label: "Liveness"
-          description: "Liveness Probe"
-          schema:
-            additional_attrs: true
-            type: dict
-            attrs:
-              - variable: enabled
-                label: "Enable Probe"
-                description: "Enables the probe"
-                schema:
-                  type: boolean
-                  default: true
-                  show_subquestions_if: true
-                  subquestions:
-                    - variable: type
-                      label: "Probe Type"
-                      description: "Probe Type"
-                      schema:
-                        type: string
-                        default: "TCP"
-                        enum:
-                          - value: "TCP"
-                            description: "TCP"
-                          - value: "HTTP"
-                            description: "HTTP"
-                          - value: "HTTPS"
-                            description: "HTTPS"
-                    - variable: path
-                      label: "Probe Path"
-                      description: "Probe Path"
-                      schema:
-                        type: string
-                        default: "/"
-        - variable: readiness
-          label: "Readiness"
-          description: "Readiness Probe"
-          schema:
-            additional_attrs: true
-            type: dict
-            attrs:
-              - variable: enabled
-                label: "Enable Probe"
-                description: "Enables the probe"
-                schema:
-                  type: boolean
-                  default: true
-                  show_subquestions_if: true
-                  subquestions:
-                    - variable: type
-                      label: "Probe Type"
-                      description: "Probe Type"
-                      schema:
-                        type: string
-                        default: "TCP"
-                        enum:
-                          - value: "TCP"
-                            description: "TCP"
-                          - value: "HTTP"
-                            description: "HTTP"
-                          - value: "HTTPS"
-                            description: "HTTPS"
-                    - variable: path
-                      label: "Probe Path"
-                      description: "Probe Path"
-                      schema:
-                        type: string
-                        default: "/"
-        - variable: startup
-          label: "Startup"
-          description: "Startup Probe"
-          schema:
-            additional_attrs: true
-            type: dict
-            attrs:
-              - variable: enabled
-                label: "Enable Probe"
-                description: "Enables the probe"
-                schema:
-                  type: boolean
-                  default: true
-                  show_subquestions_if: true
-                  subquestions:
-                    - variable: type
-                      label: "Probe Type"
-                      description: "Probe Type"
-                      schema:
-                        type: string
-                        default: "TCP"
-                        enum:
-                          - value: "TCP"
-                            description: "TCP"
-                          - value: "HTTP"
-                            description: "HTTP"
-                          - value: "HTTPS"
-                            description: "HTTPS"
-                    - variable: path
-                      label: "Probe Path"
-                      description: "Probe Path"
-                      schema:
-                        type: string
-                        default: "/"
   - variable: service
     group: Networking and Services
     label: Configure Service(s)
@@ -507,87 +386,53 @@ questions:
                         additional_attrs: true
                         type: dict
                         attrs:
-                          - variable: enabled
-                            label: "Enable the port"
-                            schema:
-                              type: boolean
-                              default: true
-                              hidden: true
-                          - variable: protocol
-                            label: "Port Type"
-                            schema:
-                              type: string
-                              default: "HTTP"
-                              enum:
-                                - value: HTTP
-                                  description: "HTTP"
-                                - value: "HTTPS"
-                                  description: "HTTPS"
-                                - value: TCP
-                                  description: "TCP"
-                                - value: "UDP"
-                                  description: "UDP"
-                          - variable: targetPort
-                            label: "Target Port"
-                            description: "This port exposes the container port on the service"
-                            schema:
-                              type: int
-                              required: true
                           - variable: port
                             label: "Port"
                             description: "This port exposes the container port on the service"
                             schema:
                               type: int
+                              default: 32400
                               required: true
-              - variable: portsList
-                label: "Additional Service Ports"
-                schema:
-                  type: list
-                  default: []
-                  items:
-                    - variable: portsListEntry
-                      label: "Custom ports"
-                      schema:
-                        additional_attrs: true
-                        type: dict
-                        attrs:
-                          - variable: enabled
-                            label: "Enable the port"
+                          - variable: advanced
+                            label: Show Advanced Settings
                             schema:
                               type: boolean
-                              default: true
-                              hidden: true
-                          - variable: name
-                            label: "Port Name"
-                            schema:
-                              type: string
-                              default: ""
-                          - variable: protocol
-                            label: "Port Type"
-                            schema:
-                              type: string
-                              default: "TCP"
-                              enum:
-                                - value: HTTP
-                                  description: "HTTP"
-                                - value: "HTTPS"
-                                  description: "HTTPS"
-                                - value: TCP
-                                  description: "TCP"
-                                - value: "UDP"
-                                  description: "UDP"
-                          - variable: targetPort
-                            label: "Target Port"
-                            description: "This port exposes the container port on the service"
-                            schema:
-                              type: int
-                              required: true
-                          - variable: port
-                            label: "Port"
-                            description: "This port exposes the container port on the service"
-                            schema:
-                              type: int
-                              required: true
+                              default: false
+                              show_subquestions_if: true
+                              subquestions:
+                                - variable: enabled
+                                  label: Enable the Port
+                                  schema:
+                                    type: boolean
+                                    hidden: true
+                                    default: true
+                                - variable: protocol
+                                  label: Port Type
+                                  schema:
+                                    type: string
+                                    default: HTTP
+                                    enum:
+                                      - value: HTTP
+                                        description: HTTP
+                                      - value: HTTPS
+                                        description: HTTPS
+                                      - value: TCP
+                                        description: TCP
+                                      - value: UDP
+                                        description: UDP
+                                - variable: nodePort
+                                  label: Node Port (Optional)
+                                  description: This port gets exposed to the node. Only considered when service type is NodePort, Simple or LoadBalancer
+                                  schema:
+                                    type: int
+                                    min: 9000
+                                    max: 65535
+                                - variable: targetPort
+                                  label: "Target Port"
+                                  description: "The internal(!) port on the container the Application runs on"
+                                  schema:
+                                    type: int
+                                    default: 32400
   - variable: serviceexpert
     group: Networking and Services
     label: Show Expert Config
@@ -854,6 +699,191 @@ questions:
                                     type: int
                                     min: 9000
                                     max: 65535
+  - variable: persistence
+    label: Integrated Persistent Storage
+    description: Integrated Persistent Storage
+    group: Storage and Persistence
+    schema:
+      additional_attrs: true
+      type: dict
+      attrs:
+        - variable: config
+          label: "App Config Storage"
+          description: "Stores the Application Configuration."
+          schema:
+            additional_attrs: true
+            type: dict
+            attrs:
+              - variable: type
+                label: Type of Storage
+                description: Sets the persistence type, Anything other than PVC could break rollback!
+                schema:
+                  type: string
+                  default: simplePVC
+                  enum:
+                    - value: simplePVC
+                      description: PVC (simple)
+                    - value: simpleHP
+                      description: Host Path (simple)
+                    - value: emptyDir
+                      description: emptyDir
+                    - value: pvc
+                      description: PVC
+                    - value: hostPath
+                      description: Host Path
+                    - value: nfs
+                      description: NFS Share
+              - variable: server
+                label: NFS Server
+                schema:
+                  show_if: [["type", "=", "nfs"]]
+                  type: string
+                  default: ""
+              - variable: path
+                label: Path on NFS Server
+                schema:
+                  show_if: [["type", "=", "nfs"]]
+                  type: string
+                  default: ""
+              - variable: setPermissionsSimple
+                label: Automatic Permissions
+                description: Automatically set permissions on install
+                schema:
+                  show_if: [["type", "=", "simpleHP"]]
+                  type: boolean
+                  default: true
+              - variable: setPermissions
+                label: Automatic Permissions
+                description: Automatically set permissions on install
+                schema:
+                  show_if: [["type", "=", "hostPath"]]
+                  type: boolean
+                  default: true
+              - variable: readOnly
+                label: Read Only
+                schema:
+                  type: boolean
+                  default: false
+              - variable: hostPathSimple
+                label: Host Path
+                description: Path inside the container the storage is mounted
+                schema:
+                  show_if: [["type", "=", "simpleHP"]]
+                  type: hostpath
+              - variable: hostPath
+                label: Host Path
+                description: Path inside the container the storage is mounted
+                schema:
+                  show_if: [["type", "=", "hostPath"]]
+                  type: hostpath
+              - variable: medium
+                label: EmptyDir Medium
+                schema:
+                  show_if: [["type", "=", "emptyDir"]]
+                  type: string
+                  default: ""
+                  enum:
+                    - value: ""
+                      description: Default
+                    - value: Memory
+                      description: Memory
+              - variable: size
+                label: Size quotum of Storage
+                schema:
+                  show_if: [["type", "=", "pvc"]]
+                  type: string
+                  default: 999Gi
+              - variable: hostPathType
+                label: (Advanced) hostPath Type
+                schema:
+                  show_if: [["type", "=", "hostPath"]]
+                  type: string
+                  default: ""
+                  enum:
+                    - value: ""
+                      description: Default
+                    - value: DirectoryOrCreate
+                      description: DirectoryOrCreate
+                    - value: Directory
+                      description: Directory
+                    - value: FileOrCreate
+                      description: FileOrCreate
+                    - value: File
+                      description: File
+                    - value: Socket
+                      description: Socket
+                    - value: CharDevice
+                      description: CharDevice
+                    - value: BlockDevice
+                      description: BlockDevice
+              - variable: storageClass
+                label: (Advanced) storageClass
+                description: "Warning: Anything other than SCALE-ZFS or empty will break rollback!"
+                schema:
+                  show_if: [["type", "=", "pvc"]]
+                  type: string
+                  default: SCALE-ZFS
+              - variable: accessMode
+                label: (Advanced) Access Mode
+                description: Allow or disallow multiple PVC's writhing to the same PV
+                schema:
+                  show_if: [["type", "=", "pvc"]]
+                  type: string
+                  default: ReadWriteOnce
+                  enum:
+                    - value: ReadWriteOnce
+                      description: ReadWriteOnce
+                    - value: ReadOnlyMany
+                      description: ReadOnlyMany
+                    - value: ReadWriteMany
+                      description: ReadWriteMany
+              - variable: advanced
+                label: Show Advanced Options
+                schema:
+                  type: boolean
+                  default: false
+                  show_subquestions_if: true
+                  subquestions:
+                    - variable: labelsList
+                      label: Labels
+                      schema:
+                        type: list
+                        default: []
+                        items:
+                          - variable: labelItem
+                            label: Label
+                            schema:
+                              additional_attrs: true
+                              type: dict
+                              attrs:
+                                - variable: name
+                                  label: Name
+                                  schema:
+                                    type: string
+                                - variable: value
+                                  label: Value
+                                  schema:
+                                    type: string
+                    - variable: annotationsList
+                      label: Annotations
+                      schema:
+                        type: list
+                        default: []
+                        items:
+                          - variable: annotationItem
+                            label: Label
+                            schema:
+                              additional_attrs: true
+                              type: dict
+                              attrs:
+                                - variable: name
+                                  label: Name
+                                  schema:
+                                    type: string
+                                - variable: value
+                                  label: Value
+                                  schema:
+                                    type: string
   - variable: persistenceList
     label: Additional App Storage
     group: Storage and Persistence
@@ -1452,7 +1482,7 @@ questions:
                 label: "ReadOnly Root Filesystem"
                 schema:
                   type: boolean
-                  default: false
+                  default: true
               - variable: allowPrivilegeEscalation
                 label: "Allow Privilege Escalation"
                 schema:
