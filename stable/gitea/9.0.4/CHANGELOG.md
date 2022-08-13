@@ -2,6 +2,15 @@
 
 
 
+## [gitea-9.0.4](https://github.com/truecharts/charts/compare/gitea-9.0.3...gitea-9.0.4) (2022-08-13)
+
+### Fix
+
+- Add WebHook config ([#3463](https://github.com/truecharts/charts/issues/3463))
+
+
+
+
 ## [gitea-9.0.3](https://github.com/truecharts/charts/compare/gitea-9.0.2...gitea-9.0.3) (2022-08-12)
 
 ### Chore
@@ -87,13 +96,4 @@
 
 
 ## [gitea-8.0.25](https://github.com/truecharts/apps/compare/gitea-8.0.24...gitea-8.0.25) (2022-07-23)
-
-### Chore
-
-- update helm general non-major helm releases ([#3280](https://github.com/truecharts/apps/issues/3280))
-
-
-
-
-## [gitea-8.0.24](https://github.com/truecharts/apps/compare/gitea-8.0.23...gitea-8.0.24) (2022-07-23)
 
