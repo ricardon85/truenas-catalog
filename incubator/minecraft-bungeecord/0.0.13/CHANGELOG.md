@@ -2,6 +2,15 @@
 
 
 
+## [minecraft-bungeecord-0.0.13](https://github.com/truecharts/charts/compare/minecraft-bungeecord-0.0.12...minecraft-bungeecord-0.0.13) (2022-08-14)
+
+### Fix
+
+- fix identation on services ([#3474](https://github.com/truecharts/charts/issues/3474))
+
+
+
+
 ## [minecraft-bungeecord-0.0.12](https://github.com/truecharts/charts/compare/minecraft-bungeecord-0.0.10...minecraft-bungeecord-0.0.12) (2022-08-12)
 
 ### Chore
@@ -85,15 +94,6 @@
 
 
 ## [minecraft-bungeecord-0.0.5](https://github.com/truecharts/apps/compare/minecraft-bungeecord-0.0.4...minecraft-bungeecord-0.0.5) (2022-07-23)
-
-### Chore
-
-- update docker general non-major ([#3276](https://github.com/truecharts/apps/issues/3276))
-
-
-
-
-## [minecraft-bungeecord-0.0.4](https://github.com/truecharts/apps/compare/minecraft-bungeecord-0.0.2...minecraft-bungeecord-0.0.4) (2022-07-22)
 
 ### Chore
 
