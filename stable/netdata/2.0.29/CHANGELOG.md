@@ -2,6 +2,15 @@
 
 
 
+## [netdata-2.0.29](https://github.com/truecharts/charts/compare/netdata-2.0.28...netdata-2.0.29) (2022-08-14)
+
+### Chore
+
+- add some more default confs ([#3473](https://github.com/truecharts/charts/issues/3473))
+
+
+
+
 ## [netdata-2.0.28](https://github.com/truecharts/charts/compare/netdata-2.0.27...netdata-2.0.28) (2022-08-14)
 
 ### Chore
@@ -86,14 +95,5 @@
 
 
 ## [netdata-2.0.23](https://github.com/truecharts/apps/compare/netdata-2.0.22...netdata-2.0.23) (2022-07-23)
-
-### Chore
-
-- update helm general non-major helm releases ([#3280](https://github.com/truecharts/apps/issues/3280))
-
-
-
-
-## [netdata-2.0.22](https://github.com/truecharts/apps/compare/netdata-2.0.20...netdata-2.0.22) (2022-07-22)
 
 ### Chore
