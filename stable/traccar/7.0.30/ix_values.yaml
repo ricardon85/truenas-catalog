@@ -1,0 +1,39 @@
+image:
+  repository: tccr.io/truecharts/traccar
+  tag: 5.3@sha256:2e5c94a13a5458b6220a27cd43e7a2eae5b267fc1649d023550b4892e806128e
+  pullPolicy: IfNotPresent
+
+env:
+  CONFIG_USE_ENVIRONMENT_VARIABLES: true
+  LOGGER_CONSOLE: true
+  DATABASE_DRIVER: "org.postgresql.Driver"
+  DATABASE_USER: "{{ .Values.postgresql.postgresqlUsername }}"
+  DATABASE_PASSWORD:
+    secretKeyRef:
+      name: dbcreds
+      key: postgresql-password
+  DATABASE_URL:
+    secretKeyRef:
+      name: dbcreds
+      key: jdbc
+
+service:
+  main:
+    ports:
+      main:
+        port: 8082
+        targetPort: 8082
+
+persistence:
+  data:
+    enabled: true
+    mountPath: "/opt/traccar/data"
+
+postgresql:
+  enabled: true
+  existingSecret: "dbcreds"
+  postgresqlUsername: traccar
+  postgresqlDatabase: traccar
+
+portal:
+  enabled: true
