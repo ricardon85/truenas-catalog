@@ -4,13 +4,13 @@ image:
   tag: 12.0@sha256:1cbf35e0dc8ca4b89a14b84a800906b5284061ea7a94a32db55315f1a24aa881
 
 env:
-  USER: "{{ .Values.postgresql.postgresqlUsername }}"
-  PORT: 5432
-  PASSWORD:
+  PG_USER: "{{ .Values.postgresql.postgresqlUsername }}"
+  PG_PORT: 5432
+  PG_PASSWORD:
     secretKeyRef:
       name: dbcreds
       key: postgresql-password
-  HOST:
+  PG_HOST:
     secretKeyRef:
       name: dbcreds
       key: plainhost
