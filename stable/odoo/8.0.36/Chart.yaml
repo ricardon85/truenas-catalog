@@ -1,5 +1,5 @@
 apiVersion: v2
-appVersion: "15.0"
+appVersion: "12.0"
 version: 8.0.36
 kubeVersion: ">=1.16.0-0"
 name: odoo
@@ -18,7 +18,7 @@ keywords:
 sources:
   - https://github.com/truecharts/charts/tree/master/charts/stable/odoo
   - https://www.odoo.com/
-  - https://hub.docker.com/repository/docker/nicholaswilde/odoo
+  - https://hub.docker.com/repository/docker/ricardon85/odoo-nzl-trustcode
 dependencies:
   - name: common
     repository: https://library-charts.truecharts.org
